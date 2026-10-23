@@ -1,44 +1,34 @@
-// Archive location and the app-owned register files. The archive is canonical;
-// the app only ever appends to the three app-owned registers listed below.
+// Archive location and the app-owned registers the local board may append to.
+// Deployed builds are read-only: the canonical archive is only ever changed through Git.
+import "server-only";
 import path from "node:path";
 import fs from "node:fs";
+import type { CaseBundle } from "./types";
 
-export const ARCHIVE_ROOT = path.resolve(
-  process.env.CASE_ARCHIVE_ROOT ?? path.join(process.cwd(), "..", ".."),
-);
+export const ARCHIVE_ROOT = path.resolve(process.env.CASE_ARCHIVE_ROOT ?? path.join(process.cwd(), "..", ".."));
 export const REGISTER_DIR = path.join(ARCHIVE_ROOT, "00_ADMIN", "data_registers");
-export const DB_PATH = path.resolve(
-  process.env.CASE_DB_PATH ?? path.join(process.cwd(), "data", "case-index.sqlite"),
-);
 
-// App-owned, append-only registers (schema additions; see DATA_DICTIONARY.md).
-export const ASSETS_CSV = path.join(REGISTER_DIR, "assets.csv");
 export const RESEARCHER_LINKS_CSV = path.join(REGISTER_DIR, "researcher_links.csv");
 export const REVIEW_DECISIONS_CSV = path.join(REGISTER_DIR, "review_decisions.csv");
 
-export const ASSET_HEADERS = [
-  "asset_id", "type", "local_path", "original_url", "caption", "alt_text", "source_id",
-  "related_entity_ids", "status", "availability", "identity_basis", "discovered_in", "notes",
-  "created_at", "updated_at",
-];
 export const RESEARCHER_LINK_HEADERS = [
-  "researcher_link_id", "from_record_id", "to_record_id", "label", "note", "created_by",
-  "created_at", "status",
+  "researcher_link_id", "from_record_id", "to_record_id", "label", "note", "created_by", "created_at", "status",
 ];
 export const REVIEW_DECISION_HEADERS = [
-  "decision_id", "item_id", "item_kind", "decision", "note", "decided_by", "decided_at",
-  "entity_ids", "source_ids",
+  "decision_id", "item_id", "item_kind", "decision", "note", "decided_by", "decided_at", "entity_ids", "source_ids",
 ];
 
-/** Resolve an archive-relative POSIX path, refusing anything that escapes the archive. */
-export function resolveArchivePath(rel: string): string | null {
-  if (!rel || rel.includes("\0") || path.isAbsolute(rel)) return null;
-  const abs = path.resolve(ARCHIVE_ROOT, rel);
-  if (abs !== ARCHIVE_ROOT && !abs.startsWith(ARCHIVE_ROOT + path.sep)) return null;
-  return abs;
-}
+/** True on Vercel or when CASE_READONLY=1: the deployment must never write archive files. */
+export const isReadOnly = () => !!process.env.VERCEL || process.env.CASE_READONLY === "1" || !fs.existsSync(REGISTER_DIR);
 
-export function archiveFileExists(rel: string): boolean {
-  const abs = resolveArchivePath(rel);
-  return !!abs && fs.existsSync(abs) && fs.statSync(abs).isFile();
+export const readOnlyResponse = () =>
+  Response.json({ error: "This deployment is read-only. Record decisions and researcher links in the local board; they reach the site through Git." }, { status: 409 });
+
+/** The generated bundle (public/data), used to validate IDs sent to the write endpoints. */
+export function loadGeneratedBundle(): CaseBundle | null {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "public", "data", "case-bundle.json"), "utf8"));
+  } catch {
+    return null;
+  }
 }

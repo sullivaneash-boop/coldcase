@@ -96,6 +96,8 @@ export interface SourceFile {
   derivedFromFileId: string | null;
   transformation: string | null;
   exists: number;
+  /** True when the file is copied into the deployment (public/archive). */
+  published: boolean;
 }
 
 export interface Asset {
@@ -112,6 +114,8 @@ export interface Asset {
   identityBasis: string | null;
   discoveredIn: string | null;
   notes: string | null;
+  /** True when localPath is copied into the deployment. */
+  published?: boolean;
 }
 
 export interface InboxItem {
@@ -166,6 +170,35 @@ export interface WantedSource {
   notes: string | null;
 }
 
+export type IssueLevel = "ERROR" | "WARNING";
+export interface Issue {
+  level: IssueLevel;
+  code: string;
+  message: string;
+  file?: string;
+  recordId?: string;
+}
+
+export interface TimelineWindow {
+  label: string;
+  start: string; // ISO date, inclusive
+  end: string; // ISO date, exclusive
+  hourly?: boolean;
+}
+
+export interface BoardConfig {
+  title: string;
+  subtitle?: string;
+  timelineWindows: TimelineWindow[];
+}
+
+export interface ResearchStatus {
+  lastRun: { id: string; at: string | null; file: string } | null;
+  registersChangedAt: string | null;
+  latestSource: { id: string; title: string; at: string | null } | null;
+  latestFinding: { text: string; origin: string; recordIds: string[] } | null;
+}
+
 export interface CaseBundle {
   entities: Entity[];
   edges: CaseEdge[];
@@ -180,10 +213,30 @@ export interface CaseBundle {
   wanted: WantedSource[];
   meta: {
     syncedAt: string | null;
-    archiveRoot: string | null;
+    /** Hash of the generated data; changes only when case data changes. */
+    dataVersion: string;
+    readOnly: boolean;
+    config: BoardConfig;
+    research: ResearchStatus;
+    validation: { errors: number; warnings: number };
     warnings: string[];
     openQuestionFiles: number;
   };
+}
+
+/** Per-source reading payload: public/data/sources/<SRC>.json */
+export interface SourceRendition {
+  key: string;
+  label: string;
+  path: string;
+  kind: "markdown" | "text" | "image" | "pdf";
+  role: string;
+  published: boolean;
+}
+export interface SourceDoc {
+  renditions: SourceRendition[];
+  contents: Record<string, string>;
+  truncated: Record<string, boolean>;
 }
 
 export const CLAIM_STATUSES = [

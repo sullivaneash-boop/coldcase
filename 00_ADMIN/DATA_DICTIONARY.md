@@ -145,7 +145,7 @@ Claim attribution types added: SECONDARY_ATTRIBUTED_REPORT, SAVED_PAGE_ASSERTION
 
 ## Research board registers (tools/research_board)
 
-The local research board (`tools/research_board/`) keeps a rebuildable SQLite index; it is not a case database. It writes only to three append-only registers below. It never edits other registers, source files or batch artifacts. Rebuild with `npm run case` inside `tools/research_board/`.
+The research board (`tools/research_board/`) is a generated, read-only projection of this archive (static JSON under `public/data`, archived file copies under `public/archive`, both git-ignored). It is not a case database. Only the local board writes to the three append-only registers below, and it never edits other registers, source files or batch artifacts. Regenerate with `npm run case:sync` inside `tools/research_board/`. `00_ADMIN/board_config.json` holds display settings only: `title` and `timelineWindows` (each with `label`, `start`, `end` as ISO dates with `end` exclusive, and optional `hourly`). See `AUTOMATED_RESEARCH_DEPLOYMENT.md`.
 
 ### `assets.csv` — `AST-`
 

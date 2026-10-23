@@ -6,53 +6,15 @@ import type { Entity, EventTime } from "@/lib/types";
 import { StatusBadge, Tag } from "./bits";
 import { useBoard } from "./context";
 import { ids, inSources, timeGroups, uniq } from "./graph";
+import { MONTHS, clockMinutes as minutes, parseDay, timeText } from "@/lib/time";
 
 // Clock values are source-local readings. They are formatted, never converted or completed.
-type Window = "OCT_22_23" | "OCT_NOV" | "ALL";
-const WINDOWS: { key: Window; label: string }[] = [
-  { key: "OCT_22_23", label: "Oct 22–23" },
-  { key: "OCT_NOV", label: "Oct–Nov 1997" },
-  { key: "ALL", label: "All" },
-];
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-function parseDay(s: string | null) {
-  const m = s?.match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/);
-  if (!m) return null;
-  return { y: +m[1], mo: m[2] ? +m[2] : null, d: m[3] ? +m[3] : null, ms: Date.UTC(+m[1], (m[2] ? +m[2] : 1) - 1, m[3] ? +m[3] : 1) };
-}
-const minutes = (t: string | null) => {
-  const m = t?.match(/^(\d{1,2}):(\d{2})/);
-  return m ? +m[1] * 60 + +m[2] : null;
-};
-function clock12(t: string) {
-  const m = minutes(t)!;
-  const h = Math.floor(m / 60), mm = m % 60;
-  return `${((h + 11) % 12) + 1}:${String(mm).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`;
-}
+// Windows come from 00_ADMIN/board_config.json (timelineWindows), plus "All".
 function dayLabel(ms: number, prec: "DAY" | "MONTH" | "YEAR") {
   const d = new Date(ms);
   if (prec === "YEAR") return `${d.getUTCFullYear()} (year only)`;
   if (prec === "MONTH") return `${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()} (month only)`;
   return `${["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][d.getUTCDay()]} ${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
-}
-
-/** Display string for one attributed time assertion. */
-export function timeText(t: EventTime): string {
-  const s = parseDay(t.startAt);
-  if (!s) return "?";
-  if (!s.d) return s.mo ? `${MONTHS[s.mo - 1]} ${s.y} — month only` : `${s.y} — year only`;
-  const approx = t.timeStatus === "APPROXIMATE" ? "~" : "";
-  const e = parseDay(t.endAt);
-  const crossDay = e && e.ms !== s.ms;
-  if (t.localStartTime && t.localEndTime) {
-    return crossDay
-      ? `${approx}${clock12(t.localStartTime)} ${MONTHS[s.mo! - 1]} ${s.d} → ${clock12(t.localEndTime)} ${MONTHS[e!.mo! - 1]} ${e!.d}`
-      : `${approx}${clock12(t.localStartTime)} – ${clock12(t.localEndTime)}`;
-  }
-  if (t.localStartTime) return `${approx}${clock12(t.localStartTime)}`;
-  if (crossDay) return `${MONTHS[s.mo! - 1]} ${s.d} – ${MONTHS[e!.mo! - 1]} ${e!.d}, time not stated`;
-  return "Time not stated";
 }
 
 interface Row {
@@ -122,7 +84,8 @@ function EventCard({ r }: { r: Row }) {
 
 export function MobileTimeline() {
   const { idx } = useBoard();
-  const [win, setWin] = useState<Window>("OCT_22_23");
+  const windows = idx.bundle.meta.config.timelineWindows;
+  const [win, setWin] = useState<number>(windows.length ? 0 : -1); // -1 = all
   const rows = useMemo<Row[]>(() => idx.bundle.entities.filter((e) => e.type === "EVENT").map((ev) => {
     const times = [...(idx.eventTimesByEvent.get(ev.id) ?? [])].sort((a, b) =>
       (a.startAt ?? "9999").localeCompare(b.startAt ?? "9999") || (minutes(a.localStartTime) ?? -1) - (minutes(b.localStartTime) ?? -1));
@@ -138,9 +101,9 @@ export function MobileTimeline() {
   }), [idx]);
 
   const inWindow = (r: Row) => {
-    if (win === "ALL") return true;
+    if (win < 0) return true;
     if (!r.day) return false;
-    const [lo, hi] = win === "OCT_22_23" ? [Date.UTC(1997, 9, 22), Date.UTC(1997, 9, 24)] : [Date.UTC(1997, 9, 1), Date.UTC(1997, 11, 1)];
+    const lo = parseDay(windows[win].start)?.ms ?? -Infinity, hi = parseDay(windows[win].end)?.ms ?? Infinity;
     return r.times.some((t) => { const d = parseDay(t.startAt); return d && d.ms >= lo && d.ms < hi; });
   };
   const dated = rows.filter((r) => r.day && inWindow(r))
@@ -159,7 +122,7 @@ export function MobileTimeline() {
   return (
     <div className="pb-6">
       <div className="sticky top-0 z-10 flex gap-2 overflow-x-auto border-b border-zinc-800 bg-zinc-950/95 px-4 py-2 backdrop-blur">
-        {WINDOWS.map((w) => (
+        {[...windows.map((w, i) => ({ key: i, label: w.label })), { key: -1, label: "All" }].map((w) => (
           <button key={w.key} type="button" onClick={() => setWin(w.key)} className={cn("min-h-11 shrink-0 rounded-full border px-4 text-[14px]", win === w.key ? "border-zinc-300 bg-zinc-100 text-zinc-900" : "border-zinc-700 text-zinc-300")}>
             {w.label}
           </button>
@@ -192,7 +155,7 @@ export function MobileTimeline() {
           </ol>
         </section>
       ))}
-      {(win === "ALL" || undated.length > 0) && undated.length > 0 && (
+      {undated.length > 0 && (
         <section className="px-4 pt-4">
           <h3 className="mb-2 text-[13px] font-semibold uppercase tracking-wider text-zinc-400">? Undated / date not established</h3>
           <div className="flex flex-col gap-3">{undated.map((r) => <EventCard key={r.ev.id} r={r} />)}</div>

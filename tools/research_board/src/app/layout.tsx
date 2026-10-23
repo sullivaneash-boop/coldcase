@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Levi Frady — Research Board",
-  description: "Local investigative research board over the Levi Frady case archive",
+  title: "Research board",
+  description: "Investigative research board generated from the case archive",
 };
 
 export const viewport: Viewport = {

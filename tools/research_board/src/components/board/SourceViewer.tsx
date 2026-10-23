@@ -5,14 +5,13 @@ import remarkGfm from "remark-gfm";
 import { ChevronDown, ExternalLink, FileWarning, ImageOff, Locate } from "lucide-react";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
-import type { Asset } from "@/lib/types";
+import type { Asset, SourceDoc, SourceRendition } from "@/lib/types";
 import { ChipList, EntityChip, Field, Section, Tag, fileUrl } from "./bits";
 import { useBoard, type SourceViewRequest } from "./context";
 import { AssetGallery } from "./Inspector";
 import { inSources, outTargets, uniq } from "./graph";
 
-type Rendition = { key: string; label: string; path: string; kind: "markdown" | "text" | "image" | "pdf"; role: string };
-type Payload = { renditions: Rendition[]; chosen: string | null; content: string | null; truncated: boolean };
+type Payload = { renditions: SourceRendition[]; chosen: string | null; content: string | null; truncated: boolean };
 
 const norm = (s: string) => s.replace(/[“”"‘’']/g, "").replace(/\s+/g, " ").trim().toLowerCase();
 
@@ -31,19 +30,26 @@ function highlightAnchor(root: HTMLElement, anchor: string): boolean {
   return false;
 }
 
+/** Loads the generated per-source payload (public/data/sources/<SRC>.json) once per source. */
 function useSourcePayload(req: SourceViewRequest) {
-  const [data, setData] = useState<Payload | null>(null);
+  const [doc, setDoc] = useState<SourceDoc | null | "missing">(null);
   const [rendition, setRendition] = useState<string | null>(null);
   useEffect(() => {
-    setRendition(null);
-    setData(null);
-  }, [req.sourceId]);
-  useEffect(() => {
-    const q = rendition ? `?rendition=${encodeURIComponent(rendition)}` : "";
     let live = true;
-    fetch(`/api/source/${req.sourceId}${q}`).then((r) => r.json()).then((d) => live && setData(d)).catch(() => live && setData(null));
+    setDoc(null);
+    setRendition(null);
+    fetch(`/data/sources/${encodeURIComponent(req.sourceId)}.json`)
+      .then((r) => (r.ok ? r.json() : "missing"))
+      .then((d) => live && setDoc(d))
+      .catch(() => live && setDoc("missing"));
     return () => { live = false; };
-  }, [req.sourceId, rendition]);
+  }, [req.sourceId]);
+  let data: Payload | null = null;
+  if (doc === "missing") data = { renditions: [], chosen: null, content: null, truncated: false };
+  else if (doc) {
+    const key = rendition ?? doc.renditions.find((r) => r.kind === "markdown" || r.kind === "text")?.key ?? null;
+    data = { renditions: doc.renditions, chosen: key, content: key ? doc.contents[key] ?? null : null, truncated: key ? !!doc.truncated[key] : false };
+  }
   return { data, setRendition };
 }
 
@@ -139,7 +145,7 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
   const viewLocal = (path: string, alt: string) => {
     const i = sourceAssets.findIndex((a) => a.localPath === path);
     if (i >= 0) return openImage(sourceAssets, i);
-    const temp: Asset = { id: path, type: "IMAGE", localPath: path, originalUrl: null, caption: null, altText: alt, sourceId: src.id, relatedEntityIds: [], status: "NOT_INDEXED", availability: "LOCAL", identityBasis: null, discoveredIn: null, notes: null };
+    const temp: Asset = { id: path, type: "IMAGE", localPath: path, originalUrl: null, caption: null, altText: alt, sourceId: src.id, relatedEntityIds: [], status: "NOT_INDEXED", availability: "LOCAL", identityBasis: null, discoveredIn: null, notes: null, published: true };
     openImage([temp], 0);
   };
 
@@ -149,13 +155,17 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
         {data?.renditions.map((x) =>
           x.kind === "markdown" || x.kind === "text" ? (
             <button key={x.key} type="button" onClick={() => setRendition(x.key)} className={cn("shrink-0 rounded px-2 py-0.5 text-[11px] touchui:min-h-11 touchui:px-3 touchui:text-[13px]", data.chosen === x.key ? "bg-zinc-700 text-zinc-100" : "text-zinc-400 hover:bg-zinc-800")}>{x.label}</button>
-          ) : (
+          ) : x.published ? (
             <a key={x.key} href={fileUrl(x.path)} target="_blank" rel="noreferrer" className="inline-flex shrink-0 items-center gap-1 rounded px-2 py-0.5 text-[11px] text-zinc-400 hover:bg-zinc-800 touchui:min-h-11 touchui:px-3 touchui:text-[13px]">
               {x.label} <ExternalLink className="size-3" />
             </a>
+          ) : (
+            <span key={x.key} title="Archived locally but not included in this deployment" className="inline-flex shrink-0 items-center rounded px-2 py-0.5 text-[11px] text-zinc-600 touchui:min-h-11 touchui:px-3 touchui:text-[13px]">
+              {x.label} (not in this deployment)
+            </span>
           ),
         )}
-        {data && data.renditions.length === 0 && <span className="text-[11px] text-zinc-500">No local renditions archived for this source.</span>}
+        {data && data.renditions.length === 0 && <span className="text-[11px] text-zinc-500 touchui:text-[13px]">No archived rendition is available for this source. Use the original URL if listed.</span>}
       </div>
       {req.locator && (
         <div className="flex items-start gap-1.5 border-b border-zinc-800 bg-sky-950/30 px-3 py-1.5 text-[11px] text-sky-200 touchui:px-4 touchui:py-2.5 touchui:text-[13px]">
@@ -213,7 +223,7 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
         {data?.content && chosen?.kind === "text" && <pre className="wrap-anywhere whitespace-pre-wrap font-mono text-[12px] leading-relaxed text-zinc-300 touchui:text-[14px]">{data.content}</pre>}
         {data && !data.content && data.renditions.some((x) => x.kind === "image") && (
           <div className="flex flex-col gap-3">
-            {data.renditions.filter((x) => x.kind === "image").map((x) => (
+            {data.renditions.filter((x) => x.kind === "image" && x.published).map((x) => (
               <figure key={x.key}>
                 <button type="button" onClick={() => viewLocal(x.path, x.label)} className="block">
                   {/* eslint-disable-next-line @next/next/no-img-element */}

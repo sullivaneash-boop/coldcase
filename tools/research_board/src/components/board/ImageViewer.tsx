@@ -30,7 +30,7 @@ export function ImageViewer({ assets, index, onIndex, onClose }: {
     return () => window.removeEventListener("keydown", onKey);
   });
   if (!a) return null;
-  const local = a.availability === "LOCAL" && a.localPath;
+  const local = a.published && a.localPath;
 
   return (
     <div className="fixed inset-0 z-[70] flex flex-col bg-black/95 pt-safe" role="dialog" aria-label="Image viewer">
@@ -60,7 +60,7 @@ export function ImageViewer({ assets, index, onIndex, onClose }: {
         ) : (
           <div className="flex max-w-sm flex-col items-center gap-2 p-6 text-center text-[14px] text-zinc-400">
             <ImageOff className="size-8" />
-            {a.availability === "REMOTE_ONLY" ? "This image is referenced remotely; its bytes are not archived." : a.availability === "EMBEDDED_IN_SOURCE" ? "Embedded inside an archived capture; open the source to view it." : `Availability: ${a.availability}`}
+            {a.availability === "REMOTE_ONLY" ? "This image is referenced remotely; its bytes are not archived." : a.availability === "EMBEDDED_IN_SOURCE" ? "Embedded inside an archived capture; open the source to view it." : a.availability === "MISSING" ? "The archive registers this image but the file is missing. Reported as a validation warning." : "This image file is not included in this deployment."}
             {a.originalUrl && (
               <a href={a.originalUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center gap-1 underline">
                 Open original URL <ExternalLink className="size-3.5" />

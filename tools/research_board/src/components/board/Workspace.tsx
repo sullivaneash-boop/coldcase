@@ -17,6 +17,7 @@ import { ImageViewer } from "./ImageViewer";
 import { FilterControls } from "./FilterControls";
 import { MobileShell } from "./MobileShell";
 import { useBoardFilters, useBoardView } from "./useBoardView";
+import { ResearchStatus } from "./ResearchStatus";
 
 // Below this width the app switches to the phone/tablet layout (bottom tabs + detail stack).
 const MOBILE_QUERY = "(max-width: 1023px)";
@@ -110,8 +111,8 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
       <div className="flex h-screen flex-col bg-zinc-950 text-zinc-200">
         <header className="flex items-center gap-3 border-b border-zinc-800 px-3 py-1.5">
           <div className="shrink-0">
-            <div className="text-[13px] font-semibold tracking-tight text-zinc-100">Levi Frady case — research board</div>
-            <div className="text-[10px] text-zinc-500">Index of the canonical archive · synced {bundle.meta.syncedAt?.replace("T", " ").slice(0, 16)} UTC</div>
+            <div className="text-[13px] font-semibold tracking-tight text-zinc-100">{bundle.meta.config.title} — research board</div>
+            <div className="text-[10px] text-zinc-500">Generated from the canonical archive · {bundle.meta.syncedAt?.replace("T", " ").slice(0, 16)} UTC{bundle.meta.readOnly && " · read-only"}</div>
           </div>
           <div className="flex min-w-0 flex-1 items-stretch gap-1 overflow-x-auto">
             {stats.map((s) => (
@@ -123,7 +124,7 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
           </div>
           {bundle.meta.warnings.length > 0 && (
             <button type="button" onClick={() => setWarningsOpen(!warningsOpen)} className="flex shrink-0 items-center gap-1 rounded border border-amber-800 px-2 py-1 text-[11px] text-amber-300">
-              <TriangleAlert className="size-3" /> {bundle.meta.warnings.length} sync warning{bundle.meta.warnings.length > 1 && "s"}
+              <TriangleAlert className="size-3" /> {bundle.meta.validation.errors} error(s) · {bundle.meta.validation.warnings} warning(s)
             </button>
           )}
           <div className="flex shrink-0 rounded border border-zinc-800 p-0.5">
@@ -134,6 +135,7 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
             <Search className="size-3.5" /> Search <kbd className="rounded bg-zinc-800 px-1 font-mono text-[10px]">⌘K</kbd>
           </button>
         </header>
+        <ResearchStatus variant="bar" />
         {warningsOpen && (
           <div className="max-h-40 overflow-y-auto border-b border-amber-900/60 bg-amber-950/20 px-4 py-2 font-mono text-[11px] text-amber-200">
             {bundle.meta.warnings.map((w) => <div key={w}>! {w}</div>)}

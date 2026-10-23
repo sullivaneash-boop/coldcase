@@ -7,3 +7,7 @@ When new Markdown sources are provided or the user says “Ingest my new markdow
 ## Autonomous research
 
 For PROJECT LEVI hourly research, follow `00_ADMIN/AUTONOMOUS_RESEARCH_PROTOCOL.md`. Read current queue/registers and prior logs first. Archive root is `/Users/sullyeash/Documents/LEVI-FRADY-CASE`; do not recreate the obsolete saved project path. Preserve provenance and unchanged sources, avoid unsupported claims/identity merges, log failed searches, validate, and use the established board sync after meaningful updates.
+
+## Research board boundary
+
+The research board (`tools/research_board`) is data-driven. New sources, claims, events, people, locations, evidence, statements, contradictions, assets and relationships appear on it through `npm run case:sync`. Never edit React/Next.js code to add case information. See `00_ADMIN/AUTOMATED_RESEARCH_DEPLOYMENT.md` for the commands, the files research runs may and may not change, Vercel settings and recovery. Application limitations go into `15_AI_WORKSPACE/development_requests/`, not code changes.

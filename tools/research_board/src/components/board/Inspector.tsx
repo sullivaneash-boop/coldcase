@@ -17,13 +17,13 @@ export function AssetGallery({ assets, empty = "No images recorded." }: { assets
       {assets.map((a, i) => (
         <figure key={a.id} className="min-w-0 overflow-hidden rounded border border-zinc-800 bg-zinc-950">
           <button type="button" onClick={() => openImage(assets, i)} className="block w-full" aria-label={`View image ${i + 1} of ${assets.length}`}>
-            {a.availability === "LOCAL" && a.localPath ? (
+            {a.published && a.localPath ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img src={fileUrl(a.localPath)} alt={a.altText || a.caption || ""} loading="lazy" className="h-28 w-full bg-black object-contain touchui:h-36" />
             ) : (
               <div className="flex h-28 flex-col items-center justify-center gap-1 bg-zinc-900 p-2 text-center text-[10px] text-zinc-500 touchui:h-36 touchui:text-[12px]">
                 <ImageOff className="size-4" />
-                {a.availability === "REMOTE_ONLY" ? "Remote image — bytes not archived" : a.availability === "EMBEDDED_IN_SOURCE" ? "Embedded in archived capture" : a.availability}
+                {a.availability === "REMOTE_ONLY" ? "Remote image — bytes not archived" : a.availability === "EMBEDDED_IN_SOURCE" ? "Embedded in archived capture" : a.availability === "MISSING" ? "File missing from archive" : "Not included in this deployment"}
               </div>
             )}
           </button>
@@ -491,9 +491,9 @@ export function Inspector() {
           <button type="button" onClick={() => (isMobile ? focusRelationships(e.id) : select(e.id, { focus: true }))} className="inline-flex items-center gap-1 rounded bg-zinc-800 px-2 py-0.5 text-[11px] text-zinc-200 hover:bg-zinc-700 touchui:min-h-11 touchui:justify-center touchui:text-[14px]">
             {isMobile ? <Share2 className="size-4" /> : <Crosshair className="size-3" />} {isMobile ? "Focus relationships" : "Focus on board"}
           </button>
-          <button type="button" onClick={() => addResearcherLink(e.id)} className="inline-flex items-center gap-1 rounded border border-dashed border-amber-600/60 px-2 py-0.5 text-[11px] text-amber-300 hover:bg-amber-950/40 touchui:min-h-11 touchui:justify-center touchui:text-[14px]">
+          {!idx.bundle.meta.readOnly && <button type="button" onClick={() => addResearcherLink(e.id)} className="inline-flex items-center gap-1 rounded border border-dashed border-amber-600/60 px-2 py-0.5 text-[11px] text-amber-300 hover:bg-amber-950/40 touchui:min-h-11 touchui:justify-center touchui:text-[14px]">
             <Link2 className="size-3 touchui:size-4" /> Researcher link
-          </button>
+          </button>}
         </div>
       </div>
       <div className="pt-2"><Body e={e} /></div>

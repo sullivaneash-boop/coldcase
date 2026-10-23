@@ -19,6 +19,7 @@ import { FilterControls } from "./FilterControls";
 import { useBoardFilters, useBoardView } from "./useBoardView";
 import { useEntitySearch } from "./SearchDialog";
 import { StatusBadge, Tag, TypeIcon } from "./bits";
+import { ResearchStatus } from "./ResearchStatus";
 
 type Tab = "board" | "timeline" | "search" | "sources" | "more";
 type Route =
@@ -185,12 +186,13 @@ function MoreScreen({ push, awaiting, conCount }: { push: (r: Route) => void; aw
   const items: { label: string; detail: string; icon: typeof Gauge; route: Route; warn?: boolean }[] = [
     { label: "Discovery Inbox", detail: `${awaiting} awaiting a decision`, icon: InboxIcon, route: { kind: "inbox" } },
     { label: "Contradictions", detail: `${conCount} recorded`, icon: GitCompareArrows, route: { kind: "contradictions" } },
-    { label: "Case status", detail: `Live counts · ${idx.bundle.meta.warnings.length} sync warning(s)`, icon: Gauge, route: { kind: "status" }, warn: idx.bundle.meta.warnings.length > 0 },
+    { label: "Case status", detail: `Live counts · ${idx.bundle.meta.validation.errors} error(s), ${idx.bundle.meta.validation.warnings} warning(s)`, icon: Gauge, route: { kind: "status" }, warn: idx.bundle.meta.warnings.length > 0 },
     { label: "Research rules", detail: "How statuses and links should be read", icon: ShieldCheck, route: { kind: "about" } },
   ];
   return (
     <div>
-      <TabHeader title="More" />
+      <TabHeader title={idx.bundle.meta.config.title} />
+      <div className="px-4 pt-3"><ResearchStatus variant="card" /></div>
       <ul className="px-2 pt-2">
         {items.map((it) => (
           <li key={it.label}>
@@ -205,7 +207,7 @@ function MoreScreen({ push, awaiting, conCount }: { push: (r: Route) => void; aw
           </li>
         ))}
       </ul>
-      <p className="px-5 pt-4 text-[12px] text-zinc-600">Synced {idx.bundle.meta.syncedAt?.replace("T", " ").slice(0, 16)} UTC. Run <span className="font-mono">npm run case</span> on the computer to refresh.</p>
+      <p className="px-5 pb-6 pt-4 text-[12px] text-zinc-600">Generated {idx.bundle.meta.syncedAt?.replace("T", " ").slice(0, 16)} UTC from the archive · data {idx.bundle.meta.dataVersion}{idx.bundle.meta.readOnly ? " · read-only deployment" : ""}.</p>
     </div>
   );
 }
@@ -259,7 +261,7 @@ function StatusScreen({ awaiting }: { awaiting: number }) {
       <p className="mt-3 text-[13px] text-zinc-500">Counts come from the indexed archive registers. People are provisional records; inclusion implies no role or culpability.</p>
       {idx.bundle.meta.warnings.length > 0 && (
         <div className="mt-4 rounded-lg border border-amber-800 bg-amber-950/20 p-3">
-          <div className="flex items-center gap-2 text-[14px] text-amber-300"><TriangleAlert className="size-4" />Sync warnings</div>
+          <div className="flex items-center gap-2 text-[14px] text-amber-300"><TriangleAlert className="size-4" />Validation issues</div>
           {idx.bundle.meta.warnings.map((w) => <p key={w} className="wrap-anywhere mt-2 font-mono text-[12px] text-amber-200">{w}</p>)}
         </div>
       )}

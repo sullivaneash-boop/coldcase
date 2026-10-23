@@ -94,4 +94,5 @@ export function Field({ label, value, mono }: { label: string; value: React.Reac
   );
 }
 
-export const fileUrl = (p: string) => `/api/file?path=${encodeURIComponent(p)}`;
+/** URL of an archive file published into the deployment (public/archive). */
+export const fileUrl = (p: string) => `/archive/${p.split("/").map(encodeURIComponent).join("/")}`;

@@ -39,4 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-data/
+
+# generated from the archive by `npm run case:sync` / `npm run build` (never committed)
+/public/data/
+/public/archive/
+/generated/
+/.next-release/

@@ -6,7 +6,7 @@ import type { InboxDecision, InboxItem } from "@/lib/types";
 import { DECISION_LABEL, INBOX_KIND_LABEL, TERMINAL_DECISIONS } from "./constants";
 import { EntityChip, Tag, fileUrl } from "./bits";
 import { useBoard } from "./context";
-import { timeText } from "./MobileTimeline";
+import { timeText } from "@/lib/time";
 
 const ACTIONS: { d: InboxDecision; label: string; icon: typeof Check; cls: string }[] = [
   { d: "IN_REVIEW", label: "Review", icon: Eye, cls: "text-sky-300 hover:bg-sky-950/50" },
@@ -19,6 +19,7 @@ const PRIORITY_RANK: Record<string, number> = { HIGH: 0, MEDIUM: 1, LOW: 2 };
 
 function ItemCard({ item, onDecide }: { item: InboxItem; onDecide: (item: InboxItem, d: InboxDecision, note: string) => Promise<void> }) {
   const { idx } = useBoard();
+  const readOnly = idx.bundle.meta.readOnly;
   const [note, setNote] = useState("");
   const [busy, setBusy] = useState(false);
   const asset = item.kind === "UNASSIGNED_IMAGE" ? idx.bundle.assets.find((a) => a.id === item.entityIds[0]) : null;
@@ -36,7 +37,7 @@ function ItemCard({ item, onDecide }: { item: InboxItem; onDecide: (item: InboxI
       {item.description && <p className="wrap-anywhere mt-0.5 text-[12px] leading-snug text-zinc-400 touchui:mt-1 touchui:text-[14px] touchui:leading-relaxed">{item.description}</p>}
       {asset && (
         <div className="mt-1.5 flex items-center gap-2">
-          {asset.availability === "LOCAL" && asset.localPath ? (
+          {asset.published && asset.localPath ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={fileUrl(asset.localPath)} alt={asset.altText ?? ""} className="h-20 rounded border border-zinc-800 bg-black object-contain" />
           ) : asset.originalUrl ? (
@@ -68,17 +69,21 @@ function ItemCard({ item, onDecide }: { item: InboxItem; onDecide: (item: InboxI
       )}
       <div className="wrap-anywhere mt-1 text-[10px] text-zinc-600 touchui:text-[12px]">From {item.origin}{item.originRef && item.originRef !== item.id ? ` · ${item.originRef}` : ""}</div>
       {item.decisionNote && <div className="mt-1 text-[11px] text-sky-300/80">Note: {item.decisionNote} <span className="text-zinc-600">({item.decidedBy}, {item.decidedAt?.slice(0, 16)})</span></div>}
+      {readOnly ? (
+        <p className="mt-2 text-[11px] text-zinc-500 touchui:text-[13px]">Read-only deployment — record decisions in the local board.</p>
+      ) : (
       <div className="mt-2 flex flex-wrap items-center gap-1 touchui:mt-3 touchui:grid touchui:grid-cols-2 touchui:gap-2">
-        <input value={note} onChange={(e) => setNote(e.target.value)} placeholder="Decision note (recommended)" className="h-6 min-w-40 flex-1 rounded border border-zinc-800 bg-zinc-950 px-1.5 text-[11px] text-zinc-200 outline-none focus:border-zinc-600 touchui:col-span-2 touchui:h-11 touchui:text-[16px]" />
-        {ACTIONS.filter((a) => a.d !== "MERGE_REQUESTED" || item.kind === "POSSIBLE_DUPLICATE_PERSON").map((a) => (
-          <button key={a.d} type="button" disabled={busy || item.status === a.d}
-            onClick={async () => { setBusy(true); await onDecide(item, a.d, note); setNote(""); setBusy(false); }}
-            className={cn("inline-flex h-6 items-center gap-1 rounded border border-zinc-800 px-1.5 text-[11px] disabled:opacity-40 touchui:h-11 touchui:justify-center touchui:text-[15px] touchui:last:col-span-2", a.cls)}
-            title={a.d === "MERGE_REQUESTED" ? "Records a merge request only. No records are merged." : undefined}>
-            <a.icon className="size-3" /> {a.label}
-          </button>
-        ))}
-      </div>
+          <input value={note} onChange={(e) => setNote(e.target.value)} placeholder="Decision note (recommended)" className="h-6 min-w-40 flex-1 rounded border border-zinc-800 bg-zinc-950 px-1.5 text-[11px] text-zinc-200 outline-none focus:border-zinc-600 touchui:col-span-2 touchui:h-11 touchui:text-[16px]" />
+          {ACTIONS.filter((a) => a.d !== "MERGE_REQUESTED" || item.kind === "POSSIBLE_DUPLICATE_PERSON").map((a) => (
+            <button key={a.d} type="button" disabled={busy || item.status === a.d}
+              onClick={async () => { setBusy(true); await onDecide(item, a.d, note); setNote(""); setBusy(false); }}
+              className={cn("inline-flex h-6 items-center gap-1 rounded border border-zinc-800 px-1.5 text-[11px] disabled:opacity-40 touchui:h-11 touchui:justify-center touchui:text-[15px] touchui:last:col-span-2", a.cls)}
+              title={a.d === "MERGE_REQUESTED" ? "Records a merge request only. No records are merged." : undefined}>
+              <a.icon className="size-3" /> {a.label}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

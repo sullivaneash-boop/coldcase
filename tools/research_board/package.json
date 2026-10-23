@@ -4,21 +4,24 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3977",
-    "build": "next build",
+    "build": "tsx scripts/case.ts sync --readonly && next build",
     "start": "next start -p 3977",
     "lint": "eslint",
-    "case": "tsx scripts/sync.ts",
-    "case:dry": "tsx scripts/sync.ts --dry-run"
+    "case": "tsx scripts/release.ts",
+    "case:sync": "tsx scripts/case.ts sync",
+    "case:validate": "tsx scripts/case.ts validate",
+    "predev": "tsx scripts/case.ts sync --quiet || true",
+    "test": "node --import tsx --test \"tests/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "case:release-check": "tsx scripts/release.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
     "@xyflow/react": "^12.12.0",
-    "better-sqlite3": "^13.0.3",
     "class-variance-authority": "^0.7.1",
     "cmdk": "^1.1.1",
     "cn": "^0.5.0",
     "csv-parse": "^7.0.3",
-    "drizzle-orm": "^0.45.4",
     "fuse.js": "^7.5.0",
     "lucide-react": "^1.61.0",
     "next": "15.5.28",
@@ -34,15 +37,16 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "drizzle-kit": "^0.31.11",
     "eslint": "^9",
     "eslint-config-next": "15.5.28",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

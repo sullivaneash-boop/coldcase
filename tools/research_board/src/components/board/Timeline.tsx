@@ -11,12 +11,8 @@ import { timeGroups } from "./graph";
 const H = 3600_000;
 const D = 24 * H;
 
-type Mode = "DAYS_22_23" | "OCT_NOV_1997" | "ALL";
-const MODES: { key: Mode; label: string }[] = [
-  { key: "DAYS_22_23", label: "Oct 22–23, 1997 (hours)" },
-  { key: "OCT_NOV_1997", label: "Oct–Nov 1997" },
-  { key: "ALL", label: "All dated events" },
-];
+// Windows come from 00_ADMIN/board_config.json (timelineWindows), plus "All dated events".
+type Scale = "HOURS" | "DAYS" | "YEARS";
 
 interface Mark {
   t: EventTime;
@@ -67,7 +63,8 @@ function toMark(t: EventTime): Mark | null {
 
 export function Timeline() {
   const { idx, select, selectedId } = useBoard();
-  const [mode, setMode] = useState<Mode>("DAYS_22_23");
+  const windows = idx.bundle.meta.config.timelineWindows;
+  const [mode, setMode] = useState<number>(windows.length ? 0 : -1); // -1 = all dated events
   const wrap = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(900);
   useEffect(() => {
@@ -84,15 +81,17 @@ export function Timeline() {
     return { ev, marks, undated: times.filter((t) => !parseDate(t.startAt)), conflicting: timeGroups(times).length > 1 };
   }), [events, idx]);
 
+  const win = mode >= 0 ? windows[mode] : null;
   const [lo, hi] = useMemo(() => {
-    if (mode === "DAYS_22_23") return [Date.UTC(1997, 9, 22, 12), Date.UTC(1997, 9, 24)];
-    if (mode === "OCT_NOV_1997") return [Date.UTC(1997, 9, 20), Date.UTC(1997, 10, 16)];
+    const a0 = parseDate(win?.start ?? null), b0 = parseDate(win?.end ?? null);
+    if (win && a0 && b0 && b0.ms > a0.ms) return [a0.ms, b0.ms];
     const all = rows.flatMap((r) => r.marks.flatMap((m) => [m.start, m.end]));
     if (!all.length) return [0, 1];
     const a = Math.min(...all), b = Math.max(...all);
     const pad = (b - a) * 0.03 || D;
     return [a - pad, b + pad];
-  }, [mode, rows]);
+  }, [win, rows]);
+  const scale: Scale = win?.hourly || hi - lo <= 3 * D ? "HOURS" : hi - lo <= 120 * D ? "DAYS" : "YEARS";
 
   const LABEL_W = 210;
   const plotW = Math.max(200, width - LABEL_W - 16);
@@ -104,14 +103,14 @@ export function Timeline() {
 
   const ticks = useMemo(() => {
     const out: { ms: number; label: string; major: boolean }[] = [];
-    if (mode === "DAYS_22_23") {
-      for (let t = lo; t <= hi; t += 3 * H) {
+    if (scale === "HOURS") {
+      for (let t = Math.ceil(lo / (3 * H)) * 3 * H; t <= hi; t += 3 * H) {
         const d = new Date(t);
         const hh = d.getUTCHours();
         out.push({ ms: t, label: hh === 0 ? `${d.getUTCMonth() + 1}/${d.getUTCDate()}` : `${String(hh).padStart(2, "0")}:00`, major: hh === 0 });
       }
-    } else if (mode === "OCT_NOV_1997") {
-      for (let t = lo; t <= hi; t += D) {
+    } else if (scale === "DAYS") {
+      for (let t = Math.ceil(lo / D) * D; t <= hi; t += D) {
         const d = new Date(t);
         out.push({ ms: t, label: `${d.getUTCMonth() + 1}/${d.getUTCDate()}`, major: d.getUTCDay() === 0 });
       }
@@ -121,7 +120,7 @@ export function Timeline() {
       for (let y = y0; y <= y1 + 1; y += step) out.push({ ms: Date.UTC(y, 0, 1), label: String(y), major: true });
     }
     return out.filter((t) => t.ms >= lo && t.ms <= hi);
-  }, [mode, lo, hi]);
+  }, [scale, lo, hi]);
 
   const ROW = 17;
   const height = 22 + visible.length * ROW + 6;
@@ -130,8 +129,8 @@ export function Timeline() {
     <div className="flex h-full flex-col">
       <div className="flex items-center gap-2 border-b border-zinc-800 px-3 py-1">
         <span className="text-[11px] font-semibold uppercase tracking-wider text-zinc-400">Timeline</span>
-        {MODES.map((m) => (
-          <button key={m.key} type="button" onClick={() => setMode(m.key)} className={cn("rounded px-1.5 py-0.5 text-[11px]", mode === m.key ? "bg-zinc-700 text-zinc-100" : "text-zinc-400 hover:bg-zinc-800")}>
+        {[...windows.map((w, i) => ({ i, label: w.label })), { i: -1, label: "All dated events" }].map((m) => (
+          <button key={m.i} type="button" onClick={() => setMode(m.i)} className={cn("rounded px-1.5 py-0.5 text-[11px]", mode === m.i ? "bg-zinc-700 text-zinc-100" : "text-zinc-400 hover:bg-zinc-800")}>
             {m.label}
           </button>
         ))}
@@ -184,7 +183,7 @@ export function Timeline() {
                         return (
                           <g key={m.t.id}>
                             <circle cx={x(m.start)} cy={y + 7} r={4} fill={m.approximate ? "none" : stroke} stroke={stroke} strokeWidth={1.4} strokeDasharray={m.approximate ? "2 1.5" : undefined} />
-                            {mode === "DAYS_22_23" && <text x={x(m.start) + 7} y={y + 10.5} fontSize="9" fill="#a1a1aa">{m.label.slice(0, 40)}</text>}
+                            {scale === "HOURS" && <text x={x(m.start) + 7} y={y + 10.5} fontSize="9" fill="#a1a1aa">{m.label.slice(0, 40)}</text>}
                             <title>{tip}</title>
                           </g>
                         );
@@ -195,7 +194,7 @@ export function Timeline() {
                           <rect x={x1} y={y + 3} width={Math.max(3, x2 - x1)} height={8} rx={1.5}
                             fill={m.kind === "range" ? stroke : "url(#hatch)"} fillOpacity={m.kind === "range" ? 0.5 : 1}
                             stroke={m.kind === "range" ? stroke : "#71717a"} strokeWidth={0.6} strokeDasharray={m.approximate && m.kind === "range" ? "3 2" : undefined} />
-                          {mode === "DAYS_22_23" && <text x={x1 + 3} y={y + 10} fontSize="8.5" fill="#d4d4d8">{m.label.slice(0, 48)}</text>}
+                          {scale === "HOURS" && <text x={x1 + 3} y={y + 10} fontSize="8.5" fill="#d4d4d8">{m.label.slice(0, 48)}</text>}
                           <title>{tip}</title>
                         </g>
                       );

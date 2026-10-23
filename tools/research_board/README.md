@@ -1,31 +1,28 @@
-# Levi Frady research board
+# Research board
 
-Local-only investigative research board over the case archive. The archive (`00_ADMIN/data_registers/`, `09_SOURCE_LIBRARY/`, batch folders) is canonical. `data/case-index.sqlite` is a disposable index.
+A read-only investigative board generated from the case archive. The archive at the repository root is canonical. This app contains no case facts: everything it shows is generated from the archive by the pipeline.
 
 ```bash
-npm install
-npm run case        # rebuild the index from the archive (appends new rows to assets.csv)
-npm run case:dry    # same, but writes nothing to the archive
-npm run dev         # http://localhost:3977
+npm ci
+npm run case:sync           # archive → validated board data (public/data, public/archive)
+npm run case:validate       # validation only (ERROR blocks deployment, WARNING allows it)
+npm run case:release-check  # sync + validation + tests + typecheck + production build (alias: npm run case)
+npm run dev                 # http://localhost:3977
 ```
-
-## What sync reads
-
-- All registers in `00_ADMIN/data_registers/`, including the app-owned `assets.csv`, `researcher_links.csv` and `review_decisions.csv`
-- Per batch: `human_review_queue.csv`, `NEW_LEADS_FROM_BATCH.md`, `wanted_sources.csv`, `source_chain.csv`
-- Registered Markdown sources (for image references) and `_INGEST/` (to flag files that are not yet registered)
-
-Sync also checks for duplicate IDs, unresolved references, claim and claim_sources mismatches, missing files and SHA-256 mismatches. It reports per-register changes since the last sync.
-
-## What the app writes
-
-The app writes only by appending to `assets.csv` (sync), `researcher_links.csv` (Add researcher link) and `review_decisions.csv` (Inbox actions). These files are documented in `00_ADMIN/DATA_DICTIONARY.md`. Inbox decisions record judgment only and never edit registers.
 
 ## Layout
 
-- `scripts/sync.ts`: the ingestion and rebuild command
-- `src/db/`: Drizzle schema and DDL for the index
-- `src/app/api/`: read-only file and source access, plus the two append endpoints
-- `src/components/board/`: the workspace (board, inspector, provenance, timeline, search, source viewer, inbox)
+| Path | What |
+| --- | --- |
+| `pipeline/` | `registers.ts` (load), `validate.ts` (ERROR/WARNING rules), `build.ts` (bundle, provenance, inbox, assets, research status), `outputs.ts` (write generated files) |
+| `scripts/case.ts` | `sync` / `validate` CLI; exits 1 on validation errors |
+| `scripts/release.ts` | release check |
+| `tests/` | pipeline and time-formatting tests against synthetic fixture archives |
+| `src/components/board/` | UI: desktop workspace and mobile shell |
+| `src/app/api/` | local-only write endpoints (inbox decisions, researcher links); 409 on read-only deployments |
 
-Environment overrides: `CASE_ARCHIVE_ROOT`, `CASE_DB_PATH`, `RESEARCHER_NAME` (recorded as `decided_by` / `created_by`).
+Generated and git-ignored: `public/data/`, `public/archive/`, `generated/`, `.next*`.
+
+Environment variables: `CASE_ARCHIVE_ROOT` (default `../..`), `CASE_READONLY=1` (implied on Vercel), `RESEARCHER_NAME` (recorded on local decisions and links).
+
+The full automation, deployment and recovery guide is in `00_ADMIN/AUTOMATED_RESEARCH_DEPLOYMENT.md`.
