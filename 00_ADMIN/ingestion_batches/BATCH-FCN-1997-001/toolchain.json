@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "pdfplumber": "0.11.9",
+  "pypdf": "6.10.0",
+  "extraction": "existing embedded OCR only; no new OCR",
+  "render_command": "pdftoppm -r 85 -singlefile -png <input> <preview>",
+  "ocr_threshold_limitation": "Text length is only an initial fallback signal; visual review is mandatory for garbled but long embedded text.",
+  "poppler": "pdfinfo version 26.05.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+}

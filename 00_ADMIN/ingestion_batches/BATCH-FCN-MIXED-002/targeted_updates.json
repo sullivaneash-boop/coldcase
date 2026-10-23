@@ -1,0 +1,178 @@
+[
+  {
+    "table": "claims",
+    "id": "CLM-20f39d6d-4e9a-538d-9657-8fa6beaf1b6a",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+      "event_ids": "EVT-dc8aca45-5980-532b-bc4b-61ffa04e9791"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-dc8aca45-5980-532b-bc4b-61ffa04e9791"
+    }
+  },
+  {
+    "table": "claims",
+    "id": "CLM-b17157f7-e4fd-5d5b-8e53-0bc68912daf6",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+      "event_ids": "EVT-551061c3-93bc-53cd-994d-0b4f40d3cf27"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-551061c3-93bc-53cd-994d-0b4f40d3cf27"
+    }
+  },
+  {
+    "table": "claims",
+    "id": "CLM-ad779f54-b52c-55cb-97a8-18751471027d",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9",
+      "event_ids": "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899"
+    }
+  },
+  {
+    "table": "claims",
+    "id": "CLM-a79cfa0c-9a12-5a7e-b563-1575561d2205",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+      "event_ids": "EVT-e80dffba-4610-5889-9405-2e23c7ef4f81"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-e80dffba-4610-5889-9405-2e23c7ef4f81"
+    }
+  },
+  {
+    "table": "claims",
+    "id": "CLM-a09c9f26-1c15-563c-a4a7-5ee4f5e81496",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+      "event_ids": "EVT-6c0d950a-0c81-506c-9b36-bdc8f1e91969"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-6c0d950a-0c81-506c-9b36-bdc8f1e91969"
+    }
+  },
+  {
+    "table": "claims",
+    "id": "CLM-8ee91c34-bdf2-5a25-b5b1-19dca273a46b",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+      "event_ids": "EVT-6a0f5aa6-11dd-5ec3-aec2-142e118a10f6"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-6a0f5aa6-11dd-5ec3-aec2-142e118a10f6"
+    }
+  },
+  {
+    "table": "claims",
+    "id": "CLM-bf4ae2ca-1195-5e16-90f6-1483bdd7efe7",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+      "event_ids": "EVT-455419a5-c86e-555e-ab87-11166bb68040"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "event_ids": "EVT-455419a5-c86e-555e-ab87-11166bb68040"
+    }
+  },
+  {
+    "table": "contradictions",
+    "id": "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42",
+    "before": {
+      "claim_ids": "CLM-895e038d-bfc6-5ce9-bb69-ef4d30aad068;CLM-db3e396b-d102-571f-aff1-bfbb76d243f3",
+      "notes": "BATCH-MD-001; primary-source review required; no conclusion or deception inference."
+    },
+    "after": {
+      "claim_ids": "CLM-895e038d-bfc6-5ce9-bb69-ef4d30aad068;CLM-db3e396b-d102-571f-aff1-bfbb76d243f3;CLM-0ec82fc5-1cb1-5207-9c73-b4ef0c749bd0;CLM-d66acecb-ed68-5367-857a-e0090b7cb957",
+      "notes": "BATCH-MD-001; primary-source review required; no conclusion or deception inference.; BATCH-FCN-MIXED-002 adds a 2004 newspaper timeline with several distinct sighting/handling stages. Original underlying record still wanted; status remains UNRESOLVED, no preferred version selected."
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-2af952ea-7a07-58e3-b0a8-6ff67cb3c054",
+    "before": {
+      "source_ids": "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53"
+    },
+    "after": {
+      "source_ids": "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-dc8aca45-5980-532b-bc4b-61ffa04e9791",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-551061c3-93bc-53cd-994d-0b4f40d3cf27",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-e80dffba-4610-5889-9405-2e23c7ef4f81",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-6c0d950a-0c81-506c-9b36-bdc8f1e91969",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-6a0f5aa6-11dd-5ec3-aec2-142e118a10f6",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  },
+  {
+    "table": "events",
+    "id": "EVT-455419a5-c86e-555e-ab87-11166bb68040",
+    "before": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-e7748f0d-eb79-5bea-bf6f-02004548465f"
+    },
+    "after": {
+      "source_ids": "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a;SRC-e7748f0d-eb79-5bea-bf6f-02004548465f;SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+    }
+  }
+]

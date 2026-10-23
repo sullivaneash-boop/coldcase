@@ -1,0 +1,220 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261023-001",
+  "review_state": "MACHINE_REVIEWED_HUMAN_VERIFICATION_PENDING",
+  "register_rows": {
+    "sources": [
+      {
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "title": "GBI FY2002 administration report section — Public Affairs",
+        "author": "Georgia Bureau of Investigation (corporate)",
+        "publisher": "Georgia Bureau of Investigation",
+        "publication_date": "",
+        "publication_date_precision": "UNKNOWN",
+        "underlying_event_start": "2002-01",
+        "underlying_event_end": "",
+        "underlying_event_date_precision": "MONTH",
+        "source_type": "DOCUMENT",
+        "original_url": "https://gbi.georgia.gov/document/document/88545895administrationfy02pdf/download",
+        "archive_url": "",
+        "local_file": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/originals/gbi-fy2002-administration.pdf",
+        "date_accessed": "2026-10-23",
+        "acquired_at": "2026-10-23T19:58:57.968776+00:00",
+        "acquired_by": "Codex; authorized initial autonomous research loop",
+        "reliability_class": "A",
+        "primary_or_secondary": "PRIMARY",
+        "knowledge_basis": "DIRECT",
+        "people_mentioned": "",
+        "locations_mentioned": "",
+        "sha256": "fc0e317bffaffad69410ee9d1404a90308693d6c28926f2cca031bc8388db469",
+        "mime_type": "application/pdf",
+        "language": "en",
+        "access_restriction": "PUBLIC",
+        "rights_notes": "Publicly accessible official government document; reuse rights not independently assessed.",
+        "notes": "BATCH-RESEARCH-20261023-001; relevance R2. Descriptive catalog title, FY2002 report period. Publication date unknown; metadata timestamp 2003-05-23 is not asserted as publication. Only relevant program-history account extracted; not original case investigative evidence. PDF page 7 visually checked. Poppler parser warnings; PDFium rendering succeeded.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00"
+      }
+    ],
+    "source_files": [
+      {
+        "source_file_id": "FIL-eab13ff3-5cea-501c-b137-3f73e19226a0",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "file_role": "ORIGINAL",
+        "local_file": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/originals/gbi-fy2002-administration.pdf",
+        "sha256": "fc0e317bffaffad69410ee9d1404a90308693d6c28926f2cca031bc8388db469",
+        "mime_type": "application/pdf",
+        "byte_size": "301450",
+        "derived_from_file_id": "",
+        "transformation_description": "Public official URL; unchanged response body.",
+        "created_by": "Codex; user-authorized acquisition",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "notes": "BATCH-RESEARCH-20261023-001; preserved source vs derivative distinction explicit."
+      },
+      {
+        "source_file_id": "FIL-a6008b69-33a4-50b8-b988-a9557cda65f2",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "file_role": "OTHER_DERIVATIVE",
+        "local_file": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/retrieval-response-headers.txt",
+        "sha256": "9db26591b594ac48187050cb24a26a9324729c10829a0cc7d9414e1df3370b4d",
+        "mime_type": "text/plain",
+        "byte_size": "1000",
+        "derived_from_file_id": "FIL-eab13ff3-5cea-501c-b137-3f73e19226a0",
+        "transformation_description": "HTTP response headers captured by curl with system TLS verification.",
+        "created_by": "Codex; user-authorized acquisition",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "notes": "BATCH-RESEARCH-20261023-001; preserved source vs derivative distinction explicit."
+      },
+      {
+        "source_file_id": "FIL-9f4b22f4-b004-5f8a-a504-7f904d4bec10",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "file_role": "OCR_TEXT",
+        "local_file": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/raw_embedded_text.txt",
+        "sha256": "ef5d2ac8ef9a41f76d12a71641dc1b609e83c050153b9929c8f8a732d38db84e",
+        "mime_type": "text/plain",
+        "byte_size": "61865",
+        "derived_from_file_id": "FIL-eab13ff3-5cea-501c-b137-3f73e19226a0",
+        "transformation_description": "pdfplumber extraction of embedded text from all 10 PDF pages; uncorrected extraction, no OCR run.",
+        "created_by": "Codex; user-authorized acquisition",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "notes": "BATCH-RESEARCH-20261023-001; preserved source vs derivative distinction explicit."
+      },
+      {
+        "source_file_id": "FIL-184dcdc7-38e9-5301-a327-4862f8a5074a",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "file_role": "OTHER_DERIVATIVE",
+        "local_file": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/pdf-page-007-preview.png",
+        "sha256": "63e37c7f84b78f2a274b8de47a9aec35546466de4d412d043cf2cb3f65168d14",
+        "mime_type": "image/png",
+        "byte_size": "466464",
+        "derived_from_file_id": "FIL-eab13ff3-5cea-501c-b137-3f73e19226a0",
+        "transformation_description": "PDFium render of PDF page 7; source page preview, no independent evidence.",
+        "created_by": "Codex; user-authorized acquisition",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "notes": "BATCH-RESEARCH-20261023-001; preserved source vs derivative distinction explicit."
+      },
+      {
+        "source_file_id": "FIL-ff7fcdb4-b348-5d92-a137-a683b6798d34",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "file_role": "OTHER_DERIVATIVE",
+        "local_file": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc__gbi-fy2002__public-affairs__reading-v01.md",
+        "sha256": "1b6e0af256e8698c4743322595f96fb1a6cc0c1951bf086a9171658e1b052cd0",
+        "mime_type": "text/markdown",
+        "byte_size": "2179",
+        "derived_from_file_id": "FIL-eab13ff3-5cea-501c-b137-3f73e19226a0",
+        "transformation_description": "Selected paraphrase and provenance/limitations; not a full verbatim reading transcription.",
+        "created_by": "Codex; user-authorized acquisition",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "notes": "BATCH-RESEARCH-20261023-001; preserved source vs derivative distinction explicit."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLM-1f0c9e70-a044-56e0-b89a-03959abfedab",
+        "claim": "The GBI FY2002 administration report says the GBI partnered with broadcasters and emergency management in January 2002 to establish Georgia’s abducted-child alert, named Levi’s Call, and credits its Public Affairs Office with research and development.",
+        "status": "REPORTED",
+        "confidence": "HIGH",
+        "source_ids": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "contradicting_source_ids": "",
+        "people_ids": "",
+        "event_ids": "EVT-c175f6c1-715b-554b-9dc4-6a596b9a85c6",
+        "location_ids": "",
+        "evidence_ids": "",
+        "assessment_rationale": "Direct agency account of its own program history; high confidence in attribution, not blanket verification of case assertions. Human verification pending.",
+        "reviewed_by": "",
+        "reviewed_at": "",
+        "notes": "BATCH-RESEARCH-20261023-001; month precision only; no day/time, first-use date or individual alert activation inferred.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00"
+      }
+    ],
+    "claim_sources": [
+      {
+        "claim_source_id": "CSL-9b57fcbb-2bf5-5a82-9a0d-edc2d85565c5",
+        "claim_id": "CLM-1f0c9e70-a044-56e0-b89a-03959abfedab",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "relationship": "SUPPORTS",
+        "source_locator": "PDF page 7 of 10, PUBLIC Affairs, lower-left paragraph beginning In January of 2002; unchanged official PDF",
+        "excerpt": "",
+        "knowledge_basis": "DIRECT",
+        "notes": "Agency account supports establishment date/history, not the truth of every later news report. No automatic status/confidence upgrade.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00",
+        "speaker_person_id": "",
+        "assertion_type": "ATTRIBUTED_AGENCY_REPORT"
+      },
+      {
+        "claim_source_id": "CSL-1c638dc1-0fc9-5c14-850a-7bb40381b3d5",
+        "claim_id": "CLM-b5d73310-c272-5f65-b731-316276424d92",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "relationship": "SUPPORTS",
+        "source_locator": "PDF page 7 of 10, PUBLIC Affairs, lower-left paragraph beginning In January of 2002; unchanged official PDF",
+        "excerpt": "",
+        "knowledge_basis": "DIRECT",
+        "notes": "Agency account supports establishment date/history, not the truth of every later news report. No automatic status/confidence upgrade.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00",
+        "speaker_person_id": "",
+        "assertion_type": "ATTRIBUTED_AGENCY_REPORT"
+      },
+      {
+        "claim_source_id": "CSL-146f5367-aa79-5bd1-bc7e-a55c8eec0007",
+        "claim_id": "CLM-895e038d-bfc6-5ce9-bb69-ef4d30aad068",
+        "source_id": "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+        "relationship": "CONTRADICTS",
+        "source_locator": "Missing 11-year-old boy found dead, FCN 1997-10-26 pp.1A/2A, reading P008-P009 (Thursday search context and Laci bicycle discovery)",
+        "excerpt": "",
+        "knowledge_basis": "HEARSAY",
+        "notes": "Repairs a missing junction for the pre-existing contradicting_source_ids summary. Contrasts only a possible Wednesday-night discovery interpretation, not the existence/wording of the blog. Different acts or ambiguous secondary wording may explain it. Existing CON remains UNRESOLVED; no new conflict or verdict.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00",
+        "speaker_person_id": "",
+        "assertion_type": "NEWSPAPER_REPORT"
+      }
+    ],
+    "event_times": [
+      {
+        "event_time_id": "ETM-966d9706-ef49-5064-90e6-a2a33c8f608d",
+        "event_id": "EVT-c175f6c1-715b-554b-9dc4-6a596b9a85c6",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "source_locator": "PDF page 7 of 10, PUBLIC Affairs, lower-left paragraph beginning In January of 2002; unchanged official PDF",
+        "time_status": "EXACT",
+        "start_at": "2002-01",
+        "end_at": "",
+        "timezone": "",
+        "time_precision": "MONTH",
+        "original_time_text": "In January of 2002",
+        "confidence": "HIGH",
+        "notes": "Exact reported month only; not an exact day, clock time, first-use or incident activation date. Existing year-only event summary retained.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00",
+        "local_start_time": "",
+        "local_end_time": "",
+        "date_precision": "MONTH"
+      }
+    ],
+    "relationships": [
+      {
+        "relationship_id": "REL-fb598c6a-536e-5f72-8e93-89383cb49730",
+        "from_record_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "relationship_type": "PUBLISHED_BY",
+        "to_record_id": "ORG-e5c99f06-7df5-5db0-8c6a-b94684fd218e",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "source_locator": "Official gbi.georgia.gov download URL and report agency context",
+        "notes": "Corporate source; not individual interview attribution.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00"
+      },
+      {
+        "relationship_id": "REL-a56edb19-a427-5a03-8813-04adbebb13a4",
+        "from_record_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "relationship_type": "MENTIONS",
+        "to_record_id": "PER-b0771eca-0316-52da-9070-eae66b5bfe5e",
+        "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+        "source_locator": "PDF p.7, labeled portrait John Bankhead, Director, PUBLIC Affairs",
+        "notes": "Source label only; does not make every report paragraph an individual quotation.",
+        "created_at": "2026-10-23T19:58:57.968776+00:00",
+        "updated_at": "2026-10-23T19:58:57.968776+00:00"
+      }
+    ]
+  }
+}

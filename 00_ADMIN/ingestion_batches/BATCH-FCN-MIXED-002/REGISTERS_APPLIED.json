@@ -1,0 +1,18 @@
+{
+  "batch_id": "BATCH-FCN-MIXED-002",
+  "counts": {
+    "sources": 22,
+    "source_files": 62,
+    "claims": 57,
+    "claim_sources": 64,
+    "people": 13,
+    "organizations": 9,
+    "locations": 2,
+    "events": 29,
+    "event_times": 37,
+    "witness_statements": 15,
+    "evidence": 1,
+    "contradiction_versions": 1,
+    "relationships": 98
+  }
+}

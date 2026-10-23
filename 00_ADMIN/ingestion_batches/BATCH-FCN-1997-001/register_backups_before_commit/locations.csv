@@ -1,0 +1,1 @@
+location_id,name,location_type,parent_location_id,address,latitude,longitude,coordinate_reference_system,coordinate_precision_meters,coordinate_source_ids,profile_file,access_restriction,notes,created_at,updated_at

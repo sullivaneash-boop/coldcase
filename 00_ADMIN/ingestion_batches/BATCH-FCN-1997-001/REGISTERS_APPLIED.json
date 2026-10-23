@@ -1,0 +1,19 @@
+{
+  "batch_id": "BATCH-FCN-1997-001",
+  "counts": {
+    "sources": 25,
+    "source_files": 76,
+    "people": 28,
+    "organizations": 14,
+    "locations": 14,
+    "relationships": 168,
+    "claims": 48,
+    "claim_sources": 52,
+    "events": 17,
+    "event_times": 21,
+    "witness_statements": 9,
+    "evidence": 3,
+    "contradictions": 1,
+    "contradiction_versions": 3
+  }
+}

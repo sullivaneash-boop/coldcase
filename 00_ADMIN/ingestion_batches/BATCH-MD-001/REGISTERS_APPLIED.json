@@ -1,0 +1,19 @@
+{
+  "batch_id": "BATCH-MD-001",
+  "counts": {
+    "sources": 9,
+    "source_files": 25,
+    "people": 19,
+    "organizations": 6,
+    "locations": 2,
+    "claims": 36,
+    "claim_sources": 41,
+    "events": 11,
+    "event_times": 12,
+    "witness_statements": 7,
+    "evidence": 4,
+    "contradictions": 2,
+    "contradiction_versions": 4,
+    "relationships": 61
+  }
+}

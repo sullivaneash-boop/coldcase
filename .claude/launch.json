@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "research-board",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "tools/research_board", "run", "dev"],
+      "port": 3977
+    }
+  ]
+}

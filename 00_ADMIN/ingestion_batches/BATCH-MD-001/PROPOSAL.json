@@ -1,0 +1,122 @@
+[
+  {
+    "filename": "11alive-2026.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/11alive-2026.md",
+    "bytes": 1564804,
+    "sha256": "4cadc8e0b2c1adb4c0709638bb1ae60e9e71e97ac6190277e3aee028afc520e3",
+    "original_url": "",
+    "article_body_sha256": "4cadc8e0b2c1adb4c0709638bb1ae60e9e71e97ac6190277e3aee028afc520e3",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Nearly 30 years ago, the Georgia boy who inspired Levi's Call went missing. The GBI is still seeking leads in the case."
+  },
+  {
+    "filename": "page-2026-10-23-19-07-16.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-07-16.md",
+    "bytes": 17595,
+    "sha256": "ce0fac7104cfe73cbbe495f4d51e7251818db1e1bdd3c9f7d93db826edcc6b1d",
+    "original_url": "https://levifrady.com/2016/05/25/gbi-timeline-confirms-murdered-boys-bicycle-was-moved-by-family-members/",
+    "article_body_sha256": "14134148d30bef569b2d9e10d41815760ba919f4ca7c12aa6c8fee4c97032e9f",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "GBI timeline confirms murdered boy\u2019s bicycle was moved by family members \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-07-44.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-07-44.md",
+    "bytes": 20072,
+    "sha256": "9bafac8f19351ff6fc25518b208373f1c88c9f40f17a61a010d8386168b40eff",
+    "original_url": "https://levifrady.com/2016/06/08/levi-frady-crime-scene-photos-polygraphs-withheld-from-local-law-enforcement/",
+    "article_body_sha256": "f2f1b7a1f2fcab0339ab407343431be5de729d17b8a9d06859aa5433f7221a5a",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Levi Frady crime scene photos, polygraphs withheld from local law enforcement \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-07-52.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-07-52.md",
+    "bytes": 25287,
+    "sha256": "f20126e26a83e3aa97204e05b87da127912f7397f28ff6609bb6c6bd166a116f",
+    "original_url": "https://levifrady.com/2016/03/05/revisiting-levis-last-day-oct-22-1997/",
+    "article_body_sha256": "277a12180b276e480c6c2e984ed1d4432e49f29572301fba50af77752c236002",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Revisiting Levi Frady\u2019s last day, Oct. 22, 1997 \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-08-00.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-08-00.md",
+    "bytes": 23667,
+    "sha256": "a6aa7e90bd2dcb268d9dd9ad31deb5642c572e615d8a67aa837895c0683e93b2",
+    "original_url": "https://levifrady.com/2016/03/24/jailed-man-says-he-knows-about-levi-frady-murder-weapon/",
+    "article_body_sha256": "7e00eae7e02890185ef92db1c8b86fb211edb4112080553f61566e330211cae0",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Jailed man says he knows about Levi Frady murder weapon \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-10-35.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-10-35.md",
+    "bytes": 23808,
+    "sha256": "5433b5b30428611a229622720e066582caaada61e05f74be37c8c7c1acb239a7",
+    "original_url": "https://levifrady.com/2016/03/24/jailed-man-says-he-knows-about-levi-frady-murder-weapon/",
+    "article_body_sha256": "7e00eae7e02890185ef92db1c8b86fb211edb4112080553f61566e330211cae0",
+    "status": "SAME_ARTICLE_CAPTURE_SKIP_EXTRACTION",
+    "existing_source_ids": [],
+    "same_article_as": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-08-00.md",
+    "title": "Jailed man says he knows about Levi Frady murder weapon \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-10-43.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-10-43.md",
+    "bytes": 16293,
+    "sha256": "0a82cdf5fa82566289ee7a366aee2d253ede127279247f4cd59d3800e290079e",
+    "original_url": "https://levifrady.com/2020/10/23/gbi-searches-local-mans-home-for-weapon-possibly-used-in-boys-murder/",
+    "article_body_sha256": "8d2d6b277ce109860e16098506b366ef614fa86182bf95f439db383411277a58",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "GBI Searches Local Man\u2019s Home For Possible Weapon Used in Boy\u2019s Murder \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-11-03.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-11-03.md",
+    "bytes": 17821,
+    "sha256": "570317388d84f04a6f2e694fed019ee3df494020c6170ad3b98d6b03e536fc21",
+    "original_url": "https://levifrady.com/2016/04/13/forsyth-county-1997-sex-drugs-and-the-murder-of-levi-frady/",
+    "article_body_sha256": "429a3dfc4c3d48e6b850c7de84792a4023fb374d55f40dd5f0bbe33806a08ac0",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Forsyth County 1997: Sex, drugs and the murder of Levi Frady \u2013 levifrady.com"
+  },
+  {
+    "filename": "page-2026-10-23-19-11-53.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-11-53.md",
+    "bytes": 30150,
+    "sha256": "0984833458839fa79e898ea2bfcbb1825b327731f2aa9f6a81f1c5e38da27c07",
+    "original_url": "",
+    "article_body_sha256": "e7de9013135355027c692de9b3128f02e611a0fb5feb8bf976db99eb7d527e7b",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Cold case TV series to revisit Levi Frady case - Dawson County News"
+  },
+  {
+    "filename": "page-2026-10-23-19-12-06.md",
+    "input_path": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/_INGEST/MARKDOWN/page-2026-10-23-19-12-06.md",
+    "bytes": 14862,
+    "sha256": "e5482e5709e68e8066b00e99705cd5381ce5adff39ce5a73bb6741e9e3f9d67d",
+    "original_url": "",
+    "article_body_sha256": "e5482e5709e68e8066b00e99705cd5381ce5adff39ce5a73bb6741e9e3f9d67d",
+    "status": "NEW_REVIEW_REQUIRED",
+    "existing_source_ids": [],
+    "same_article_as": "",
+    "title": "Levi Frady's killing remains a mystery"
+  }
+]

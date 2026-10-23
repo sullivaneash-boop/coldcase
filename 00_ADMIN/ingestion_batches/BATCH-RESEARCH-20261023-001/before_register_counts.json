@@ -1,0 +1,20 @@
+{
+  "evidence": 8,
+  "people": 60,
+  "assets": 88,
+  "contradiction_versions": 8,
+  "records_requests": 0,
+  "claim_sources": 157,
+  "claims": 141,
+  "source_files": 172,
+  "organizations": 29,
+  "locations": 18,
+  "event_times": 70,
+  "newspaper_articles": 25,
+  "events": 57,
+  "interviews": 0,
+  "witness_statements": 31,
+  "relationships": 330,
+  "contradictions": 3,
+  "sources": 62
+}

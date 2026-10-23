@@ -1,0 +1,6 @@
+{
+  "markdown_inbox": "_INGEST/MARKDOWN",
+  "pdf_inbox": "_INGEST/PDF",
+  "markdown_protocol": "00_ADMIN/MARKDOWN_SOURCE_INGESTION_PROTOCOL.md",
+  "wanted_sources": "09_SOURCE_LIBRARY/WANTED_SOURCES.md"
+}

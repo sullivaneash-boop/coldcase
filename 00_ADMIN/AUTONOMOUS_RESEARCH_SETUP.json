@@ -1,0 +1,17 @@
+{
+  "automation_id": "project-levi-hourly-research",
+  "status": "ACTIVE",
+  "kind": "heartbeat",
+  "schedule_description": "Every hour",
+  "timezone": "America/New_York",
+  "target_thread_id": "01a169ff-d370-7fa3-bb51-ba8a6cc5d25b",
+  "execution": "Local existing-chat heartbeat",
+  "actual_archive": "/Users/sullyeash/Documents/LEVI-FRADY-CASE",
+  "saved_project_path": "/Users/sullyeash/Documents/ChatGPT/LEVI-FRADY",
+  "saved_project_path_stale": true,
+  "run_logs": "/Users/sullyeash/Documents/LEVI-FRADY-CASE/15_AI_WORKSPACE/research_runs",
+  "required_availability": "Computer awake, desktop app running, local archive available, internet available for research.",
+  "permissions": "No permissions weakened. Existing workspace/network policies apply; actual archive lies outside current saved project writable path and unattended operations may fail. Select actual archive as the project folder to address this path mismatch. First scheduled firing not yet observed.",
+  "official_documentation": "https://learn.chatgpt.com/docs/automations",
+  "initial_run_id": "RUN-20261023T195857Z"
+}

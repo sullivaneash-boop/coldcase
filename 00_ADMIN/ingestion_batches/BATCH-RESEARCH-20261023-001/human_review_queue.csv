@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-aa4d326c-cb81-5f9e-8ffe-270710e3f8a0,TRANSCRIPTION_BOUNDARIES,"Independently verify GBI report PDF page 7 wording and report/publication dates. Embedded text has column mixing; Poppler warns on source streams, PDFium preview succeeded. Keep establishment distinct from activation/first use.",SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc,MEDIUM,OPEN

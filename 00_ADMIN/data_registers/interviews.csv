@@ -1,0 +1,1 @@
+interview_id,interviewee_person_id,interviewer_person_ids,scheduled_at,started_at,ended_at,timezone,status,consent_status,consent_file,usage_restrictions,recording_source_ids,transcript_source_ids,statement_ids,planning_file,notes,created_at,updated_at

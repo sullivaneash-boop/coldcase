@@ -1,0 +1,56 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261023-001",
+  "run_id": "RUN-20261023T195857Z",
+  "created_at": "2026-10-23T19:58:57.968776+00:00",
+  "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+  "requested_url": "https://gbi.georgia.gov/document/document/88545895administrationfy02pdf/download",
+  "acquisition_method": "curl with system TLS verification; HTTP response headers preserved",
+  "pages": 10,
+  "case_relevance": "R2",
+  "publication_date": null,
+  "report_period": "FY2002",
+  "metadata_dates_are_not_publication_dates": true,
+  "files": [
+    {
+      "path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/originals/gbi-fy2002-administration.pdf",
+      "sha256": "fc0e317bffaffad69410ee9d1404a90308693d6c28926f2cca031bc8388db469",
+      "bytes": 301450,
+      "role": "ORIGINAL"
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/retrieval-response-headers.txt",
+      "sha256": "9db26591b594ac48187050cb24a26a9324729c10829a0cc7d9414e1df3370b4d",
+      "bytes": 1000,
+      "role": "OTHER_DERIVATIVE"
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/raw_embedded_text.txt",
+      "sha256": "ef5d2ac8ef9a41f76d12a71641dc1b609e83c050153b9929c8f8a732d38db84e",
+      "bytes": 61865,
+      "role": "OCR_TEXT"
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/pdf-page-007-preview.png",
+      "sha256": "63e37c7f84b78f2a274b8de47a9aec35546466de4d412d043cf2cb3f65168d14",
+      "bytes": 466464,
+      "role": "OTHER_DERIVATIVE"
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc__gbi-fy2002__public-affairs__reading-v01.md",
+      "sha256": "1b6e0af256e8698c4743322595f96fb1a6cc0c1951bf086a9171658e1b052cd0",
+      "bytes": 2179,
+      "role": "OTHER_DERIVATIVE"
+    }
+  ],
+  "register_counts": {
+    "sources": 1,
+    "source_files": 5,
+    "claims": 1,
+    "claim_sources": 3,
+    "event_times": 1,
+    "relationships": 2
+  },
+  "existing_records_updated": 2,
+  "status": "INGESTED_PENDING_HUMAN_REVIEW",
+  "human_review": "Verify program-history wording/page and publication metadata; no operational activation/first-use date established."
+}
