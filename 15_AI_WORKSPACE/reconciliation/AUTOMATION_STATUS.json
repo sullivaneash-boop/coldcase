@@ -1,0 +1,10 @@
+{
+  "id": "project-levi-hourly-research",
+  "status": "DELETED",
+  "rrule": "FREQ=HOURLY;INTERVAL=1",
+  "same_thread": "01a169ff-d370-7fa3-bb51-ba8a6cc5d25b",
+  "updated_at": 1792861519282,
+  "changes": "Existing hourly automation deleted through automation_update; no replacement created.",
+  "cancelled_at": "2026-10-24T17:07:03.261068+00:00",
+  "cancellation": "Explicit user request: Cancel automation and make sure git is up to date"
+}
