@@ -9,3 +9,8 @@ Observed pipeline behavior: pipeline/build.ts lines68–73 adds existing source_
 Before registering a restricted packet for the public board, a developer/human must establish approved handling: source metadata may be cataloged without private content being mirrored, and raw/OCR/preview derivatives must share the exclusion. Tests should verify restricted files cannot enter publish outputs, with explicit reviewer decisions for any sanitized derivative. Preserve originals and provenance internally. Do not remove restrictions or alter evidence to pass a release gate. Review which portions may legitimately be cataloged/published before source registration. No independent record requests/outreach authorized.
 
 Acceptance: documented metadata-only/restricted-source behavior, applicable tests, no private bytes in public/archive or source renderers, reviewed derivative policy, and safe separate ingestion. Existing extra-register-copy and production-target/protected-commit review items also remain open.
+
+
+## Reconciliation correction
+
+Hold files were already tracked by priorcommit1207ae7. Removed only from the next Git tree with git rm --cached and ignored locally; raw files/hashes remain. No history rewrite. No raw/OCR/previews registered in public source_files/assets, and generated publish set must be verified clear. Human review of prior repository visibility/history remains HIGH.

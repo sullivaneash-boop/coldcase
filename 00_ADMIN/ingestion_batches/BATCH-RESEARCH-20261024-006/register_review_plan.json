@@ -1,0 +1,204 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261024-006",
+  "register_rows": {
+    "sources": [
+      {
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "title": "Sheriffs team up to catch killer / TEAMWORK: Dawson, Forsyth sheriffs investigate murder",
+        "author": "James Budd",
+        "publisher": "The Forsyth Herald; photograph hosted by levifrady.com",
+        "publication_date": "2000-04-19",
+        "publication_date_precision": "DAY",
+        "source_type": "NEWS_ARTICLE",
+        "original_url": "https://levifrady.com/wp-content/uploads/2016/04/img_20160420_160528.jpg?w=768",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan.jpg",
+        "date_accessed": "2026-10-24",
+        "acquired_at": "2026-10-24T12:35:32.027529+00:00",
+        "acquired_by": "RUN-20261024T120918Z",
+        "reliability_class": "C",
+        "primary_or_secondary": "SECONDARY",
+        "knowledge_basis": "MIXED",
+        "people_mentioned": "PER-13fef263-951e-55c1-b4e5-f9d528870a53;PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "sha256": "f96156cb0b1356f1237da098ac41c565e7008951c2e61b77d3fa9a6542f89967",
+        "mime_type": "image/jpeg",
+        "language": "en",
+        "access_restriction": "PUBLIC",
+        "rights_notes": "Copyright newspaper/photographer; third-party reproduction preserved for research; no full derivative transcript or permission inferred.",
+        "notes": "BATCH-RESEARCH-20261024-006; R4. Printed p4masthead/date anchors publication; composite opening/p4clippings, not authenticated fullissue. Contemporary journalism classC does not authenticate photograph or confirm individual statements. Editor/byline visible. Proposed participation and prospective arrangements, not verified final roster.",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "updated_at": "2026-10-24T12:35:32.027529+00:00"
+      }
+    ],
+    "source_files": [
+      {
+        "source_file_id": "FIL-06764fa0-8736-532a-9027-3e417c2c3591",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/page-retrieval.json",
+        "sha256": "c42e2f38c518e44d4747e0bd3a7940433206bc1d21b4504edc1fc46e4b754c9a",
+        "mime_type": "application/json",
+        "byte_size": "179",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      },
+      {
+        "source_file_id": "FIL-b370a130-a68b-55ca-a080-1f5d34e75de5",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/page.html",
+        "sha256": "66e32a9800d6b1662b9ec5c61acf7fade2a97fda63fec80548af49c1c9e15cd9",
+        "mime_type": "text/html",
+        "byte_size": "80228",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      },
+      {
+        "source_file_id": "FIL-2823ff09-e4d7-5216-9755-35b2b6151e62",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "READING_COPY",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/reading-note.md",
+        "sha256": "9c43e2180a42fd31f961ceff35052181abf247bc3577ee92fd36c8aca49d4247",
+        "mime_type": "text/markdown",
+        "byte_size": "964",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      },
+      {
+        "source_file_id": "FIL-7ad3d79b-a49a-5858-adbc-e4d989d3aeae",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan-headers.txt",
+        "sha256": "0578b454ace33e3f5aa983cd07bee83db206cd5bbd9ead04749ae06820ba4527",
+        "mime_type": "text/plain",
+        "byte_size": "490",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      },
+      {
+        "source_file_id": "FIL-3bbf74b0-94c0-51d5-9da6-16a48befa6c8",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan-retrieval.json",
+        "sha256": "8d9dd450278419014b577ce9fb7a7ab828d79808b228156793b8f5de4d69b65a",
+        "mime_type": "application/json",
+        "byte_size": "320",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      },
+      {
+        "source_file_id": "FIL-924770db-4209-5c45-9621-aca2655a360a",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "ORIGINAL",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan.jpg",
+        "sha256": "f96156cb0b1356f1237da098ac41c565e7008951c2e61b77d3fa9a6542f89967",
+        "mime_type": "image/jpeg",
+        "byte_size": "240247",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      },
+      {
+        "source_file_id": "FIL-95336181-00b1-5622-a763-f2e8978da88d",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/source-chain.json",
+        "sha256": "acd9e4517362d2748ddc6656e5df72654671a326a4a95f21c7147c67fc23f554",
+        "mime_type": "application/json",
+        "byte_size": "613",
+        "transformation_description": "Unchanged acquisition bytes or separately labeled selected analyst note/chain metadata",
+        "created_by": "RUN-20261024T120918Z",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "notes": "BATCH-RESEARCH-20261024-006; underlying newspaper issue not locally held."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLM-b07e28b9-cce2-5930-9380-79b5165fdd69",
+        "claim": "The April19,2000 newspaper continuation reports GBI declined the proposed task force and Carlisle said at least one Dawson officer would join; arrangements were still to be worked out.",
+        "status": "REPORTED",
+        "confidence": "MEDIUM",
+        "source_ids": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "people_ids": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "assessment_rationale": "Source-attributed reporting in readable photograph; original issue and underlying agency records not authenticated.",
+        "notes": "BATCH-RESEARCH-20261024-006; no guilt/identity inference or implementation claim; human review pending.",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "updated_at": "2026-10-24T12:35:32.027529+00:00"
+      },
+      {
+        "claim_id": "CLM-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d",
+        "claim": "The newspaper paraphrases Hendrix saying the sheriff\u2019s office received an anonymous letter weeks earlier; it reports a request for the same writer to write again. The underlying letter is not held.",
+        "status": "REPORTED",
+        "confidence": "MEDIUM",
+        "source_ids": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "people_ids": "PER-13fef263-951e-55c1-b4e5-f9d528870a53",
+        "assessment_rationale": "Source-attributed reporting in readable photograph; original issue and underlying agency records not authenticated.",
+        "notes": "BATCH-RESEARCH-20261024-006; no guilt/identity inference or implementation claim; human review pending.",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "updated_at": "2026-10-24T12:35:32.027529+00:00"
+      }
+    ],
+    "claim_sources": [
+      {
+        "claim_source_id": "CSL-b07e28b9-cce2-5930-9380-79b5165fdd69",
+        "claim_id": "CLM-b07e28b9-cce2-5930-9380-79b5165fdd69",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "relationship": "SUPPORTS",
+        "source_locator": "scan.jpg; Page4continuation, left column paragraphs2\u20134 and right-column opening",
+        "excerpt": "",
+        "knowledge_basis": "MIXED",
+        "speaker_person_id": "",
+        "assertion_type": "NEWSPAPER_REPORT",
+        "notes": "Newspaper reports attributable account; no direct interview recording or underlying letter held.",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "updated_at": "2026-10-24T12:35:32.027529+00:00"
+      },
+      {
+        "claim_source_id": "CSL-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d",
+        "claim_id": "CLM-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "relationship": "SUPPORTS",
+        "source_locator": "scan.jpg; Page4continuation, right column beginning Sheriff Hendrix said the writer",
+        "excerpt": "",
+        "knowledge_basis": "MIXED",
+        "speaker_person_id": "PER-13fef263-951e-55c1-b4e5-f9d528870a53",
+        "assertion_type": "ATTRIBUTED_OFFICIAL_STATEMENT",
+        "notes": "Newspaper reports attributable account; no direct interview recording or underlying letter held.",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "updated_at": "2026-10-24T12:35:32.027529+00:00"
+      }
+    ],
+    "witness_statements": [
+      {
+        "statement_id": "WIT-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d",
+        "statement_series_id": "WSE-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d",
+        "version_number": "1",
+        "witness_person_id": "PER-13fef263-951e-55c1-b4e5-f9d528870a53",
+        "statement_date": "2000-04-19",
+        "statement_date_precision": "DAY",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "source_locator": "scan.jpg; Page4continuation, right column beginning Sheriff Hendrix said the writer",
+        "knowledge_basis": "MIXED",
+        "representation_type": "PARAPHRASE",
+        "language": "en",
+        "access_restriction": "PUBLIC",
+        "statement_text": "Newspaper attributes anonymous-letter receipt and a request for further contact from its writer to Hendrix.",
+        "confidence": "MEDIUM",
+        "limitations": "Publication date only; interview/letter receipt dates unknown. Firsthand receipt attributed by journalist; not an acquired direct witness recording or actual letter.",
+        "notes": "BATCH-RESEARCH-20261024-006; actual writer not identified; no supersession of later accounts.",
+        "created_at": "2026-10-24T12:35:32.027529+00:00",
+        "updated_at": "2026-10-24T12:35:32.027529+00:00"
+      }
+    ]
+  }
+}

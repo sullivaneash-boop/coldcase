@@ -1,0 +1,75 @@
+{
+  "batch_id": "BATCH-RECONCILIATION-20261024-001",
+  "register_rows": {
+    "assets": [
+      {
+        "asset_id": "AST-65313608-cdc6-547d-b449-bc97ebde767f",
+        "type": "IMAGE",
+        "local_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/task-force/SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69/release-scan.jpg",
+        "original_url": "https://levifrady.com/wp-content/uploads/2016/04/img_20160424_1823591.jpg?w=768",
+        "caption": "Forsyth and Dawson County sheriffs join together to organize task force \u2014 photographed press release",
+        "alt_text": "Photographed documentary source; see source record for date and completeness limitations.",
+        "source_id": "SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69",
+        "related_entity_ids": "",
+        "status": "DOCUMENT_INDEXED",
+        "availability": "LOCAL",
+        "identity_basis": "Whole document label only; no facial recognition or inferred portrait identity.",
+        "discovered_in": "https://levifrady.com/wp-content/uploads/2016/04/img_20160424_1823591.jpg?w=768",
+        "notes": "BATCH-RECONCILIATION-20261024-001; captions inside the document remain source content; no subject identity assigned.",
+        "created_at": "2026-10-24T16:45:09.161305+00:00",
+        "updated_at": "2026-10-24T16:45:09.161305+00:00"
+      },
+      {
+        "asset_id": "AST-bb8a48b9-bb65-5efa-9124-5d114165b591",
+        "type": "IMAGE",
+        "local_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan.jpg",
+        "original_url": "https://levifrady.com/wp-content/uploads/2016/04/img_20160420_160528.jpg?w=768",
+        "caption": "Sheriffs team up to catch killer / TEAMWORK: Dawson, Forsyth sheriffs investigate murder",
+        "alt_text": "Photographed documentary source; see source record for date and completeness limitations.",
+        "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "related_entity_ids": "",
+        "status": "DOCUMENT_INDEXED",
+        "availability": "LOCAL",
+        "identity_basis": "Whole document label only; no facial recognition or inferred portrait identity.",
+        "discovered_in": "https://levifrady.com/wp-content/uploads/2016/04/img_20160420_160528.jpg?w=768",
+        "notes": "BATCH-RECONCILIATION-20261024-001; captions inside the document remain source content; no subject identity assigned.",
+        "created_at": "2026-10-24T16:45:09.161305+00:00",
+        "updated_at": "2026-10-24T16:45:09.161305+00:00"
+      },
+      {
+        "asset_id": "AST-86f670ac-1c18-58c1-bd1a-e6b0eeebc0bb",
+        "type": "IMAGE",
+        "local_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/scan.jpg",
+        "original_url": "https://levifrady.com/wp-content/uploads/2016/04/img_20160419_164350.jpg?w=768",
+        "caption": "GBI: Jurisdiction rests with Dawson \u2014 photographed clipping",
+        "alt_text": "Photographed documentary source; see source record for date and completeness limitations.",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "related_entity_ids": "",
+        "status": "DOCUMENT_INDEXED",
+        "availability": "LOCAL",
+        "identity_basis": "Whole document label only; no facial recognition or inferred portrait identity.",
+        "discovered_in": "https://levifrady.com/wp-content/uploads/2016/04/img_20160419_164350.jpg?w=768",
+        "notes": "BATCH-RECONCILIATION-20261024-001; captions inside the document remain source content; no subject identity assigned.",
+        "created_at": "2026-10-24T16:45:09.161305+00:00",
+        "updated_at": "2026-10-24T16:45:09.161305+00:00"
+      },
+      {
+        "asset_id": "AST-a65f6f52-3fb2-5440-91e8-5199e8af1bc4",
+        "type": "IMAGE",
+        "local_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d/scan.jpg",
+        "original_url": "https://levifrady.com/wp-content/uploads/2016/04/img_20160424_170054.jpg",
+        "caption": "Fate of Frady task force uncertain \u2014 photographed opening",
+        "alt_text": "Photographed documentary source; see source record for date and completeness limitations.",
+        "source_id": "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d",
+        "related_entity_ids": "",
+        "status": "DOCUMENT_INDEXED",
+        "availability": "LOCAL",
+        "identity_basis": "Whole document label only; no facial recognition or inferred portrait identity.",
+        "discovered_in": "https://levifrady.com/wp-content/uploads/2016/04/img_20160424_170054.jpg",
+        "notes": "BATCH-RECONCILIATION-20261024-001; captions inside the document remain source content; no subject identity assigned.",
+        "created_at": "2026-10-24T16:45:09.161305+00:00",
+        "updated_at": "2026-10-24T16:45:09.161305+00:00"
+      }
+    ]
+  }
+}

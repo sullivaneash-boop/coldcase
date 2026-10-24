@@ -1,0 +1,109 @@
+{
+  "plans": [
+    {
+      "batch": "BATCH-RESEARCH-20261023-001",
+      "tables": {
+        "sources": 1,
+        "source_files": 5,
+        "claims": 1,
+        "claim_sources": 3,
+        "event_times": 1,
+        "relationships": 2
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261023-002",
+      "tables": {
+        "sources": 1,
+        "source_files": 11,
+        "assets": 2,
+        "claims": 2,
+        "claim_sources": 8,
+        "relationships": 1
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261023-003",
+      "tables": {
+        "people": 5,
+        "organizations": 1,
+        "source_files": 20,
+        "sources": 2,
+        "assets": 1,
+        "claims": 7,
+        "claim_sources": 11,
+        "events": 3,
+        "event_times": 5,
+        "contradictions": 2,
+        "contradiction_versions": 4,
+        "witness_statements": 2,
+        "relationships": 7
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-002",
+      "tables": {
+        "source_files": 4
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-003",
+      "tables": {
+        "source_files": 7,
+        "claims": 1,
+        "claim_sources": 1,
+        "event_times": 1
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-004",
+      "tables": {
+        "sources": 1,
+        "source_files": 7,
+        "claim_sources": 3
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-005",
+      "tables": {
+        "sources": 1,
+        "source_files": 7,
+        "claims": 1,
+        "claim_sources": 1
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-006",
+      "tables": {
+        "sources": 1,
+        "source_files": 7,
+        "claims": 2,
+        "claim_sources": 2,
+        "witness_statements": 1
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-007",
+      "tables": {
+        "sources": 1,
+        "source_files": 7,
+        "claims": 2,
+        "claim_sources": 2,
+        "witness_statements": 1
+      }
+    },
+    {
+      "batch": "BATCH-RESEARCH-20261024-008",
+      "tables": {
+        "people": 1,
+        "sources": 1,
+        "source_files": 5,
+        "claims": 2,
+        "claim_sources": 2,
+        "witness_statements": 1
+      }
+    }
+  ],
+  "problems": [],
+  "held_files_verified": 27
+}

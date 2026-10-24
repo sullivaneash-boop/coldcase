@@ -3,3 +3,12 @@ node_modules/
 __pycache__/
 *.pyc
 .env*
+
+# Internal evidence-handling hold: preserve locally, never publish or stage.
+09_SOURCE_LIBRARY/review_pending/
+# Known older register subsets remain local pending provenance review.
+00_ADMIN/data_registers/* 2.csv
+
+# Read-only browser debugging artifacts, retained locally only.
+15_AI_WORKSPACE/research_runs/RUN-20261024T141544Z/*.html
+15_AI_WORKSPACE/research_runs/RUN-20261024T141544Z/*.js

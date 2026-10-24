@@ -1,0 +1,367 @@
+[
+  {
+    "path": "/private/tmp/levi-initial-run/public-affairs-page.png",
+    "bytes": 466464,
+    "sha256": "63e37c7f84b78f2a274b8de47a9aec35546466de4d412d043cf2cb3f65168d14",
+    "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+    "canonical_path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/pdf-page-007-preview.png",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-initial-run/gbi-fy2002-administration.pdf",
+    "bytes": 301450,
+    "sha256": "fc0e317bffaffad69410ee9d1404a90308693d6c28926f2cca031bc8388db469",
+    "source_id": "SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc",
+    "canonical_path": "09_SOURCE_LIBRARY/government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/originals/gbi-fy2002-administration.pdf",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-15.png",
+    "bytes": 191978,
+    "sha256": "df07b665b11a8a42d25e852c0fffbade67615d96529af43c65864895e43d5fc7",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-01.png",
+    "bytes": 248200,
+    "sha256": "de808bf13fa6a8dec6df003ac59b8ee265a1ef135934f1a39803c6c4aa64c35f",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-14.png",
+    "bytes": 203234,
+    "sha256": "833b0e6eeca54e52d062183c4cf1dcf8623c5ffb1f849552cadd34ecb8042544",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-02.png",
+    "bytes": 213108,
+    "sha256": "2917818a566c211af874da8714f215f01f91f0846fb714a676b90046e1cd5fd6",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-16.png",
+    "bytes": 177443,
+    "sha256": "517544002c878392f98647f36cde6a2d1fcec9e98e285e2720e53b349784a83a",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-17.png",
+    "bytes": 448788,
+    "sha256": "b7eb4fa43f83a8ce310ea1af89f7273c6976839b311f1d2b2529c42c841f5d48",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-03.png",
+    "bytes": 582285,
+    "sha256": "55af7e9b722d01c218a9471200838c10895d3ce12d860acac424ee01e8d33249",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-07.png",
+    "bytes": 293514,
+    "sha256": "1973fd8dcac6fd241cdfc6ea85264b70f3415d73f0a6a07a887cb52239b1edd8",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-13.png",
+    "bytes": 191865,
+    "sha256": "5b9dab60e7b922973f7c29a4b8315349dd81cdad70add6beac8235db6ce05150",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-12.png",
+    "bytes": 188522,
+    "sha256": "7c247738faf73c465c41d41911ff6f41dcc534b845ca06883b63dd8a47359dbc",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-06.png",
+    "bytes": 238271,
+    "sha256": "19940512c908ec8eda104aa973a871fb471d8e48d91f000cc1eefe635486b3f5",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-10.png",
+    "bytes": 193522,
+    "sha256": "8c09c51dd6013a61a42681a50333cd7ae9ee4e2ca2d9698aa7f6345b8448f0b4",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-04.png",
+    "bytes": 889382,
+    "sha256": "9419c9e0c021da8875f1175129a0d4c7f928b44d0d51bd121be6e3d8760e25be",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-05.png",
+    "bytes": 288542,
+    "sha256": "ccb977861e21965f15d925ceb2f08f8c15b567c6a3535bfff53748aead806165",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-11.png",
+    "bytes": 232871,
+    "sha256": "04b8ab8bc7acd421eddb0f02fd6b5506b2f3d34380f15a47dc11eb8c5622a21e",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/fax-detail.png",
+    "bytes": 877379,
+    "sha256": "7da0dc94cad5d28d7db4541ddf4e71fb76b70d51c5f617ba0d71900489e0d61b",
+    "source_id": "",
+    "canonical_path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/fax-detail.png",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/2-23.pdf",
+    "bytes": 2372152,
+    "sha256": "e58e8718b3bb0f1aba09030c4d9bb13b9b94ceb7ea7e9f95122ff5f0ce06b0dc",
+    "source_id": "",
+    "canonical_path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/originals/2-23.pdf",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-08.png",
+    "bytes": 290521,
+    "sha256": "33e5c0b8ee13f0771b9471e3326d7e7f9d6781f76ec4db9cb087a3d3f9dbf0d0",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/contact-sheet.jpg",
+    "bytes": 302610,
+    "sha256": "156ed3e80aa0106436070f3cd5fd1c84be1bff33e3b6755ca24b589fca1a4405",
+    "source_id": "",
+    "canonical_path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/contact-sheet.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-20.png",
+    "bytes": 457112,
+    "sha256": "a0689ecf650c7ba6b196f14468361edf9cd5f6e34e788a8b504a9239088635fd",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-21.png",
+    "bytes": 454900,
+    "sha256": "7ee38969666f47c5c67aac4c9d62826664afd7068484fd06f64065e546e5bd04",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-09.png",
+    "bytes": 226590,
+    "sha256": "735bc6afc4138f7db718577256230d56471d3eea279e80f2179cfca74c4c211a",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-19.png",
+    "bytes": 435149,
+    "sha256": "e01a9d513f67be2be098c0470a89d5f6800e5a9cec9e0e776c07053cd284304b",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0101/page-18.png",
+    "bytes": 449423,
+    "sha256": "f280d7adb74845a6080dc5cef5fe30fc44cb611e63b9837ac69f6b4d4cf84128",
+    "source_id": "",
+    "canonical_path": "",
+    "status": "REQUIRES_REVIEW",
+    "notes": "Reproducible held-packet preview, not new case source; stays internal in temp."
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2054/img_20160525_174637.jpg",
+    "bytes": 1928450,
+    "sha256": "8cba671de04db4ccf7dbe49d3a66a9986edc4e4c817159af31dcebfe24ac7b24",
+    "source_id": "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/img_20160525_174637.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2054/img_20160525_174917.jpg",
+    "bytes": 941584,
+    "sha256": "8b8b131926d7334988a022e2059d47790612a8db431b43cb54964f30d3331135",
+    "source_id": "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/img_20160525_174917.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-1209/scan.jpg",
+    "bytes": 240247,
+    "sha256": "f96156cb0b1356f1237da098ac41c565e7008951c2e61b77d3fa9a6542f89967",
+    "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-1524/scan.jpg",
+    "bytes": 1639771,
+    "sha256": "e36997caeaa3afbf2e418dd0546e392ff24956ff2465a95d0b62efc260b0ee6a",
+    "source_id": "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d/scan.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2156/img_20160607_104454.jpg",
+    "bytes": 1299035,
+    "sha256": "ec9832f9a11f4143c6ced8342440644d135f918bbf39911af45a012a44d57eb5",
+    "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104454.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2156/img_20160608_154358.jpg",
+    "bytes": 1590042,
+    "sha256": "d9cddc6ac6f368f824c503d282a27d305d352bf003a4a45d19719ba189039fab",
+    "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/originals/img_20160608_154358.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2156/img_20160607_104625.jpg",
+    "bytes": 1926334,
+    "sha256": "fb5d7174f1b5bca33989fa6e9e5dad8b06560925b2d52eceb2d457790854608c",
+    "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104625.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2156/img_20160607_104801.jpg",
+    "bytes": 1569446,
+    "sha256": "6b0f82fe616abcb82e1445188d51a058373c39d21fbcb3aa088074a478556226",
+    "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104801.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-2156/img_20160607_104834.jpg",
+    "bytes": 1924241,
+    "sha256": "efbe1e5400b54699b75029ff3f05bf7907ec033162981abb7382dc0714800a5c",
+    "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104834.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0505/portrait.jpg",
+    "bytes": 75594,
+    "sha256": "7de3c8c10ad268971a1a4dc849b8423d9debcd2092f6c73d5b85cafcad2663e9",
+    "source_id": "SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd",
+    "canonical_path": "09_SOURCE_LIBRARY/originals/SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd/SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd__levi-frady__portrait__original.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0505/witness-2.jpg",
+    "bytes": 5916,
+    "sha256": "d7ab202e6eafcc631e7ec4127f7b77887712a23f694ff6b19563f5bfc85ee4ea",
+    "source_id": "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce",
+    "canonical_path": "09_SOURCE_LIBRARY/originals/SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce/SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce__possible-witness-02__composite-sketch__original.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-0505/witness-1.jpg",
+    "bytes": 4782,
+    "sha256": "cbd2280781fa2ea2caa18651ccff64ba15d96098e6e1d08ce72f1e64147b1cca",
+    "source_id": "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef",
+    "canonical_path": "09_SOURCE_LIBRARY/originals/SRC-4271f9ca-1e65-465c-ac09-e971337d1fef/SRC-4271f9ca-1e65-465c-ac09-e971337d1fef__possible-witness-01__composite-sketch__original.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-frady-intake-20261023/Frady-Witness 1.jpg",
+    "bytes": 4782,
+    "sha256": "cbd2280781fa2ea2caa18651ccff64ba15d96098e6e1d08ce72f1e64147b1cca",
+    "source_id": "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef",
+    "canonical_path": "09_SOURCE_LIBRARY/originals/SRC-4271f9ca-1e65-465c-ac09-e971337d1fef/SRC-4271f9ca-1e65-465c-ac09-e971337d1fef__possible-witness-01__composite-sketch__original.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-frady-intake-20261023/Frady-Witness 2.jpg",
+    "bytes": 5916,
+    "sha256": "d7ab202e6eafcc631e7ec4127f7b77887712a23f694ff6b19563f5bfc85ee4ea",
+    "source_id": "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce",
+    "canonical_path": "09_SOURCE_LIBRARY/originals/SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce/SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce__possible-witness-02__composite-sketch__original.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-frady-intake-20261023/Levi Frady.jpg",
+    "bytes": 75594,
+    "sha256": "7de3c8c10ad268971a1a4dc849b8423d9debcd2092f6c73d5b85cafcad2663e9",
+    "source_id": "SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd",
+    "canonical_path": "09_SOURCE_LIBRARY/originals/SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd/SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd__levi-frady__portrait__original.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-1314/scan.jpg",
+    "bytes": 239756,
+    "sha256": "46d507938d2b5dcb3aeb33ed3df59d8bfb45222377a6df28cc27b8bc56fc77cc",
+    "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/scan.jpg",
+    "status": "DUPLICATE"
+  },
+  {
+    "path": "/private/tmp/levi-hourly-1110/release-scan.jpg",
+    "bytes": 178702,
+    "sha256": "5ad85df2ac1a41651f55dcc999e387c75347aa97a846e7b7916898ab98cb1b3a",
+    "source_id": "SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69",
+    "canonical_path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/task-force/SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69/release-scan.jpg",
+    "status": "DUPLICATE"
+  }
+]

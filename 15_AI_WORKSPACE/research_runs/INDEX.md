@@ -26,3 +26,18 @@ Concise logs of autonomous and manual validation runs. A manual initial loop doe
 - [RUN-20261024T070249Z](RUN-20261024T070249Z.md) — archived GBI program rendition acquired; reported Jan1,2002date added without replacing year/month; originalcase timeline stillwanted; validationPASS/releaseFAIL;no push.
 
 - [RUN-20261024T080519Z](RUN-20261024T080519Z.md) — archived AccessNorthGa chronology acquired;1source/3scoped links; validationPASS; build interrupted for concurrent developer gate; no push.
+
+- [RUN-20261024T090719Z](RUN-20261024T090719Z.md) — RQ-002 originals not located;226hashes/validation pass; exact AJC locator retained as discovery; no data change or deployment.
+
+- [RUN-20261024T100519Z](RUN-20261024T100519Z.md) — exact AJC index contains registration redirects; original not acquired;226hashes/validation pass; no deployment required.
+
+- [RUN-20261024T111019Z](RUN-20261024T111019Z.md) — April7,2000task-force release photograph acquired;1source/1claim;233hashes and fullrelease gatePASS; pushheldunverifiedVerceltarget.
+
+- [RUN-20261024T120918Z](RUN-20261024T120918Z.md) — April19,2000Herald clipping acquired;2claims/1paraphrased account;240hashes/fullgatePASS; pushheldunverifiedtarget.
+
+- [RUN-20261024T131435Z](RUN-20261024T131435Z.md) — agency-account clipping acquired; publicationdateunknown;2claims/1account/2reviews;247hashes/fullgatePASS; pushheldunverifiedtarget.
+
+- [RUN-20261024T141544Z](RUN-20261024T141544Z.md) — issue/version not authenticated; public library route identified but native browser unavailable/dateGETineffective;247hashes/validationPASS; no deployment.
+
+- [RUN-20261024T152433Z](RUN-20261024T152433Z.md) — recovered interrupted final audit; source already applied once, fullgatePASS; publication included in reconciliation.
+- [RUN-20261024T163841Z](RUN-20261024T163841Z.md) — recovery/consolidation; no new internet case research; see reconciliation manifest/pipeline state.

@@ -1,0 +1,22 @@
+{
+  "base": "http://localhost:3979",
+  "at": "2026-10-24T17:02:27.167Z",
+  "checks": {
+    "boardData": true,
+    "desktopSearchInspectorNewestSource": true,
+    "sourceViewer": true,
+    "newSourcePayload": true,
+    "fourNewAssetsResolve": true,
+    "mobileTimeline": true,
+    "mobileSearchSourcesInspector": true,
+    "mobileNoHorizontalOverflow": true
+  },
+  "errors": [],
+  "dataVersion": "0efe63583a05c6bd",
+  "counts": {
+    "entities": 453,
+    "sources": 71,
+    "assets": 96,
+    "events": 60
+  }
+}

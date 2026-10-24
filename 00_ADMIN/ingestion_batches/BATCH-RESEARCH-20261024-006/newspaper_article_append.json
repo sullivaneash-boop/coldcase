@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+    "batch_id": "BATCH-RESEARCH-20261024-006",
+    "publication": "The Forsyth Herald",
+    "publication_date": "2000-04-19",
+    "page": "1 (continuation pointer);4 (printed)",
+    "headline": "Sheriffs team up to catch killer",
+    "subhead": "Forsyth, Dawson Sheriffs combine efforts to catch killer of Frady boy",
+    "author": "James Budd",
+    "genre": "PHOTOGRAPHED_CONTEMPORARY_NEWSPAPER",
+    "reliability_class": "C",
+    "original_filenames": "img_20160420_160528.jpg?w=768",
+    "archived_files": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/scan.jpg",
+    "reading_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400/reading-note.md",
+    "ocr_quality": "VISUALLY_READ_SELECTED_PASSAGES_NO_OCR",
+    "case_relevance": "R4",
+    "people_ids": "PER-13fef263-951e-55c1-b4e5-f9d528870a53;PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+    "summary": "Task-force proposal/agency participation and reported anonymous-letter receipt.",
+    "completeness": "APPARENT_OPENING_AND_CONTINUATION_PAIR_UNAUTHENTICATED",
+    "notes": "Not fullissue or complete independently verified article. Captions retained in raw photo; no full transcript. Page1inferred from printed continuation pointer. Case facts remain source-reported."
+  }
+]

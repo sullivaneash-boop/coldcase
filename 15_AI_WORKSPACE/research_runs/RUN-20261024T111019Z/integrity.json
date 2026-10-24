@@ -1,0 +1,10 @@
+{
+  "verified": 233,
+  "failures": [],
+  "registers_changed": [
+    "claim_sources",
+    "claims",
+    "source_files",
+    "sources"
+  ]
+}

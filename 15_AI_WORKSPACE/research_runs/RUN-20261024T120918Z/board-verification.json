@@ -1,0 +1,53 @@
+{
+  "source": true,
+  "claims": 2,
+  "inbox": 2,
+  "source_files": 7,
+  "meta": {
+    "syncedAt": "2026-10-24T12:36:28.537Z",
+    "dataVersion": "606e4a510e931df2",
+    "readOnly": false,
+    "config": {
+      "title": "Levi Frady case",
+      "timelineWindows": [
+        {
+          "label": "Oct 22\u201323, 1997",
+          "start": "1997-10-22",
+          "end": "1997-10-24",
+          "hourly": true
+        },
+        {
+          "label": "Oct\u2013Nov 1997",
+          "start": "1997-10-20",
+          "end": "1997-11-16"
+        }
+      ]
+    },
+    "research": {
+      "lastRun": {
+        "id": "RUN-20261024T111019Z",
+        "at": "2026-10-24T11:10:19Z",
+        "file": "15_AI_WORKSPACE/research_runs/RUN-20261024T111019Z.md"
+      },
+      "registersChangedAt": "2026-10-24T12:35:32.027529+00:00",
+      "latestSource": {
+        "id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+        "title": "Sheriffs team up to catch killer / TEAMWORK: Dawson, Forsyth sheriffs investigate murder",
+        "at": "2026-10-24T12:35:32.027529+00:00"
+      },
+      "latestFinding": {
+        "text": "New REPORTED claim CLM-6b961194-de78-5a28-bcdb-502397713cea with exact image/headline/paragraph1\u20133 locator and reproduced agency attribution. It records an organizing announcement and prospective protocol, not actual operational participation, a signed agreement or a final roster. No new event time manufactured. Image manually inspected; key date/paragraphs readable; no OCR rerun. Human authentication review added.",
+        "origin": "RUN-20261024T111019Z research log (AI-written summary \u2014 not evidence)",
+        "recordIds": [
+          "CLM-6b961194-de78-5a28-bcdb-502397713cea"
+        ]
+      }
+    },
+    "validation": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "warnings": [],
+    "openQuestionFiles": 1
+  }
+}

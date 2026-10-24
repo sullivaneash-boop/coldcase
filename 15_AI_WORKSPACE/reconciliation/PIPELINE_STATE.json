@@ -1,0 +1,30 @@
+{
+  "task": "RECONCILIATION",
+  "status": "IN_PROGRESS",
+  "stage": "COMMIT",
+  "pipeline_stopped_at": null,
+  "new_research_allowed": false,
+  "target": {
+    "verified_project_id": "prj_9kocBQ5Vwt3e3EYIiORDORoZB4Xz",
+    "team_id": "team_DmkGw1i8EDsKyZset7xPxhoe",
+    "repository": "sullivaneash-boop/coldcase",
+    "remote": "https://github.com/sullivaneash-boop/coldcase.git",
+    "production_branch": "main",
+    "production_url": "https://coldcase-theta.vercel.app",
+    "evidence": "Vercel get_git_deployment_context confirms exact linked repo/project. Current READY source=git,target=production deployment dpl_EWAPdSvr2WzgqHfbp9bKmvc5zxBW reports githubCommitRef main and SHA1207ae7. Project updatedAt matches this deployment assignment; old saved project ID404 is stale. Production Branch settings field itself is not exposed by summary connector.",
+    "previous_stale_project_id": "prj_4BeeDRR0Ge81xE5RKUX7licH22Ye"
+  },
+  "last_successful_stage": "RELEASE CHECK",
+  "concurrent_ui_changes": false,
+  "release_scope": "Research/data/docs/Git exclusions only; unrelated UI changes excluded",
+  "validation": "PASS",
+  "release_check": "PASS",
+  "expected_data_version": "0efe63583a05c6bd",
+  "git_commit": null,
+  "git_push": "NOT ATTEMPTED",
+  "vercel": "NOT REQUIRED",
+  "production_updated": false,
+  "verified_at": "2026-10-24T16:59:29.685693+00:00",
+  "validated_base_commit": "c17816c3caa1bd8624f4e86393081e38917ed529",
+  "scope_blocker": "RESOLVED: separate developer independently pushed UI commit; origin/main and HEAD match; consolidation has no app changes."
+}

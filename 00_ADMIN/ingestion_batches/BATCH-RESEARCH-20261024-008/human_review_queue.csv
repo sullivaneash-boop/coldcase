@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-d536d53d-935d-560c-812c-ce0103c080d4,CONTINUATION_AND_STATUS_SCOPE,"Acquire p3A/fullissue; authenticate reproduction; compare agency/unit identity, observation vs administrative status and interview dates before creating conflict. Hamrick identity provisional.",SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d,HIGH,OPEN

@@ -1,0 +1,7 @@
+{
+  "url": "https://dawsoncounty.advantage-preservation.com/search?BrowsePublicationID=27453&BrowsePublicationName=Dawson+News+And+Advertiser&BrowseYear=2000&BrowseMonth=June&BrowseMonthIndex=6&BrowseDay=7&BrowseCurrentPageNumber=1&solrtype=4",
+  "exit": 0,
+  "result": "200\nhttps://dawsoncounty.advantage-preservation.com/search?BrowsePublicationID=27453&BrowsePublicationName=Dawson+News+And+Advertiser&BrowseYear=2000&BrowseMonth=June&BrowseMonthIndex=6&BrowseDay=7&BrowseCurrentPageNumber=1&solrtype=4",
+  "stderr": "",
+  "method": "GET read-only browse parameters from delivered native controls"
+}

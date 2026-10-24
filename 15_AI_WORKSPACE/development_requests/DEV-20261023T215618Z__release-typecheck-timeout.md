@@ -24,3 +24,8 @@ case:release-check exit1 after2.74s;17tests and sync/validation passed. Typechec
 ## RUN-20261024T080519Z — typecheck passes; concurrent build gate remains unsafe
 
 Live gate after pre-existing release.ts cleanup change passed typecheck1.2s and17tests. Do not preserve historicalTS2300 as an unresolved observed error for this state. Build compiled then was stopped after94.3s because another developer gate was using the same .next-release. lsof verified ownPIDs68858/68874 to this run log and developerPID68683 to Claude release5.log; only ownbuild/worker terminated. Runnerexit1; fullbuildnotvalidated. Acceptance: serialize all release gates against sharedoutput (or separately reviewed isolation/locking), rerun complete named gate to successful exit with no overlap, preserve research data. Research agent made no app fixes. See research_runs/RUN-20261024T080519Z/release.log. StatusOPEN for reliable complete gate.
+
+
+## RUN-20261024T111019Z successful complete gate
+
+Observed own sequentialgateexit0:17tests,typecheck1.4s,lint2.2s,productionbuild16.2s. No concurrentgate detected atstart. HistoricalTS2300/timeout/overlap is not a currentobservedblockingfailure; successful log inresearch_runs/RUN-20261024T111019Z/release.log. Routine researchmade noappchanges. Productiontarget verificationremains separatelyopen.

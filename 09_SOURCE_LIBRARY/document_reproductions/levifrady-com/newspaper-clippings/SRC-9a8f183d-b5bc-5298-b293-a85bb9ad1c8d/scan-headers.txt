@@ -1,0 +1,15 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 24 Oct 2026 16:22:23 GMT
+content-type: image/jpeg
+content-length: 1639771
+strict-transport-security: max-age=31536000
+last-modified: Sun, 24 Apr 2016 21:02:02 GMT
+expires: Wed, 18 Nov 2026 03:24:22 GMT
+x-orig-src: 01_mogdir
+accept-ranges: bytes
+x-ac: 33.atl _dfw MISS
+x-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>
+alt-svc: clear
+server-timing: a8c-cdn, dc;desc=atl, cache;desc=MISS;dur=68.0
+

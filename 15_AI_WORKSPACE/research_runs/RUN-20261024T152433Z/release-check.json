@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-24T16:37:59.157Z",
+  "deployable": true,
+  "failedStep": null,
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "steps": [
+    {
+      "step": "sync + validation",
+      "ok": true,
+      "seconds": 0.8
+    },
+    {
+      "step": "tests",
+      "ok": true,
+      "seconds": 0.2
+    },
+    {
+      "step": "typecheck",
+      "ok": true,
+      "seconds": 1.4
+    },
+    {
+      "step": "lint",
+      "ok": true,
+      "seconds": 2.4
+    },
+    {
+      "step": "production build",
+      "ok": true,
+      "seconds": 17.1
+    }
+  ]
+}

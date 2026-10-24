@@ -1,0 +1,3 @@
+[["urlkey","timestamp","original","mimetype","statuscode","digest","length"],
+["com,ajc)/metro/content/metro/northfulton/1004/22levi.html","20041027135117","http://www.ajc.com:80/metro/content/metro/northfulton/1004/22levi.html","text/html","302","2H2OZX2TOGGZJWNWGBV4LA5O256ZSBX6","949"],
+["com,ajc)/metro/content/metro/northfulton/1004/22levi.html","20041207210016","http://www.ajc.com:80/metro/content/metro/northfulton/1004/22levi.html","text/html","302","BOIMXYF5FPJOCRNJYMP6D33LJDYNOSKM","953"]]

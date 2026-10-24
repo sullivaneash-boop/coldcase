@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-RECONCILIATION-PRIVATE-HISTORY,PRIOR_GIT_HISTORY_HANDLING,Internal review-hold packet was tracked in prior commit1207ae7. Local originals preserved and removed only from next Git tree. Prior history unchanged; human should assess repository visibility/access and any authorized history remediation.,,HIGH,OPEN

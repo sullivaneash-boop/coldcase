@@ -1,0 +1,11 @@
+{
+  "batch": "BATCH-RESEARCH-20261024-008",
+  "source_id": "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d",
+  "claim_ids": [
+    "CLM-ad89bf95-7485-54a8-9461-506b175aeec4",
+    "CLM-52e2430c-7529-592a-b028-41fcbad1449e"
+  ],
+  "witness_id": "WIT-52e2430c-7529-592a-b028-41fcbad1449e",
+  "person_id": "PER-52e2430c-7529-592a-b028-41fcbad1449e",
+  "files": 5
+}

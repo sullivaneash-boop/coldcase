@@ -927,3 +927,23 @@ WNT-162e0804-58d4-548c-a275-c3c195bed7c1 remainsNOT_ACQUIRED. The exact historic
 ## RUN-20261024T080519Z — archived publisher chronology
 
 Acquired AccessNorthGa article85646 as SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2 through indexed capture20041031071328. Three scoped source links added to existing claims; no new case claims/events/witness identities. Shared investigative chronology, not independent corroboration. Original agency release remains wanted. Inverted time range and publication-date uncertainty are in BATCH-RESEARCH-20261024-004/human_review_queue.csv. Do not repeat acquisition; next compare the exact original agency release with publisher/clipping versions.
+
+
+## RUN-20261024T111019Z — task-force release rendition
+
+Acquired one photographed April7,2000release as SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69; one REPORTED claim CLM-6b961194-de78-5a28-bcdb-502397713cea. Printed date not independent issuance proof; classG pending authentication. Announcement/prospective protocol is not operational participation. Original release/transmittal, charter/roster and later agency responses remain wanted. No contradiction resolved; compare existing May2000editorial at its own date. Wanted link WNT-ffd78280-2f6c-54d3-a2ea-3efd1a22f2b4 followed through laterarticle to release attachment; this does not authenticate the laterarticle or close an original-record request. Human review and acquisition lead in BATCH-RESEARCH-20261024-005.
+
+
+## RUN-20261024T120918Z — contemporary task-force reporting
+
+Acquired Forsyth Herald April19,2000 opening/p4clipping photograph as SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400. Two REPORTED claims and one publication-dated paraphrased Hendrix statement; no underlying letter held. Newspaper reports proposed participation/GBIdecline; compare April7release at different stage, no automatic contradiction. Original issue, letter/receipt and actual roster remain wanted; review in BATCH-RESEARCH-20261024-006.
+
+
+## RUN-20261024T131435Z — agency-account clipping
+
+Acquired SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7, GBI: Jurisdiction rests with Dawson, Charles Duncan/printed DawsonNews&Advertiser credit. HandwrittenJune7,2000/1Aunverified; publication date blank. TwoREPORTEDclaims and one newspaper-paraphrased Carlisle account; underlying exchange records unheld. Date/provenance and source-version reviews queued; noCONor Aprilaccount supersession. Original issue and actual information transmittals remain wanted.
+
+
+## RUN-20261024T152433Z — January2001status report
+
+Acquired partial FCNJan21,2001opening as SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d; twoREPORTED attributed status claims, one paraphrased Hamrick account and source-scoped provisional person PER-52e2430c-7529-592a-b028-41fcbad1449e. P3Acontinuation/fullissue and administrative records remain wanted. No dissolution date, identity merge or contradiction inferred. Review/lead in BATCH-RESEARCH-20261024-008. Prior library/quoted-version routes remain parked.

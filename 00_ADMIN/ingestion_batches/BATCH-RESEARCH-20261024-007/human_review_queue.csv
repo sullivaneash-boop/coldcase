@@ -1,0 +1,3 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-1b67d55f-0b38-5712-a208-786b1f02dbab,DATE_PROVENANCE,"Authenticate issue/date/page; handwritten June7,2000/1A is not verified publication metadata. Review clipping boundaries.",SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7,HIGH,OPEN
+REV-cbe1df53-c9fd-5e73-bad8-b18bf1e89200,SOURCE_VERSION,Later article quotations about duplication/one-time letter exchange absent from visible clipping; find exact underlying version before assigning those words here or creating conflict.,SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7,HIGH,OPEN

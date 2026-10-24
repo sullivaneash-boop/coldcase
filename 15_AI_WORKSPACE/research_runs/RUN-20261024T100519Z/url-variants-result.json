@@ -1,0 +1,6 @@
+{
+  "request_url": "https://web.archive.org/cdx/search/cdx?url=%2A.ajc.com%2Fmetro%2Fcontent%2Fmetro%2Fnorthfulton%2F1004%2F22levi.html%2A&output=json&collapse=digest",
+  "exit_code": 28,
+  "result": "200\nhttps://web.archive.org/cdx/search/cdx?url=%2A.ajc.com%2Fmetro%2Fcontent%2Fmetro%2Fnorthfulton%2F1004%2F22levi.html%2A&output=json&collapse=digest",
+  "stderr": "curl: (28) Operation timed out after 40000 milliseconds with 124256728 bytes received\n"
+}

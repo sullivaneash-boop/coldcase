@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-5f52d09f-7036-53d9-b566-2bc8ef5d7b64,CLIPPING_AUTHENTICITY_AND_BOUNDARIES,"Authenticate April19,2000issue, opening/p4pair and smalltext/captions; distinguish proposed agency assignments from later operational participation. Actual letter and interview dates unknown.",SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400,HIGH,OPEN

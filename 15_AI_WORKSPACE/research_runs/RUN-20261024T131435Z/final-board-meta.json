@@ -1,0 +1,49 @@
+{
+  "syncedAt": "2026-10-24T13:52:33.064Z",
+  "dataVersion": "97db211c33200b89",
+  "readOnly": false,
+  "config": {
+    "title": "Levi Frady case",
+    "timelineWindows": [
+      {
+        "label": "Oct 22\u201323, 1997",
+        "start": "1997-10-22",
+        "end": "1997-10-24",
+        "hourly": true
+      },
+      {
+        "label": "Oct\u2013Nov 1997",
+        "start": "1997-10-20",
+        "end": "1997-11-16"
+      }
+    ]
+  },
+  "research": {
+    "lastRun": {
+      "id": "RUN-20261024T131435Z",
+      "at": "2026-10-24T13:14:35Z",
+      "file": "15_AI_WORKSPACE/research_runs/RUN-20261024T131435Z.md"
+    },
+    "registersChangedAt": "2026-10-24T13:33:15.959332+00:00",
+    "latestSource": {
+      "id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+      "title": "GBI: Jurisdiction rests with Dawson \u2014 photographed clipping",
+      "at": "2026-10-24T13:33:15.959332+00:00"
+    },
+    "latestFinding": {
+      "text": "Two REPORTED claims CLM-fcbeedfd-790b-5388-9d6f-8b7f626f9720;CLM-c9c24821-48f0-5a98-8aa1-d40522391fca preserve newspaper-attributed Carlisle accounts. Paraphrased account WIT-f2ac652b-a167-5c7a-965e-6922a41d5ba4 has UNKNOWN statement date; handwritten date not substituted for publication or interview date. Underlying communication records not acquired and complaint not independently proved. No anonymous writer ide\u2026",
+      "origin": "RUN-20261024T131435Z research log (AI-written summary \u2014 not evidence)",
+      "recordIds": [
+        "CLM-fcbeedfd-790b-5388-9d6f-8b7f626f9720",
+        "CLM-c9c24821-48f0-5a98-8aa1-d40522391fca",
+        "WIT-f2ac652b-a167-5c7a-965e-6922a41d5ba4"
+      ]
+    }
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "warnings": [],
+  "openQuestionFiles": 1
+}

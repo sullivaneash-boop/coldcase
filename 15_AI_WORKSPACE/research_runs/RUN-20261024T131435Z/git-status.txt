@@ -1,0 +1,36 @@
+ M 00_ADMIN/data_registers/claim_sources.csv
+ M 00_ADMIN/data_registers/claims.csv
+ M 00_ADMIN/data_registers/newspaper_articles.csv
+ M 00_ADMIN/data_registers/source_files.csv
+ M 00_ADMIN/data_registers/sources.csv
+ M 00_ADMIN/data_registers/witness_statements.csv
+ M 01_MASTER_CASE/research_questions/OPEN_QUESTIONS.md
+ M 09_SOURCE_LIBRARY/README.md
+ M 09_SOURCE_LIBRARY/WANTED_SOURCES.md
+ M 15_AI_WORKSPACE/development_requests/DEV-20261023T202545Z__research-release-prerequisites.md
+ M 15_AI_WORKSPACE/development_requests/DEV-20261023T215618Z__release-typecheck-timeout.md
+ M 15_AI_WORKSPACE/failed_searches/search_log.csv
+ M 15_AI_WORKSPACE/research_queue.md
+ M 15_AI_WORKSPACE/research_runs/INDEX.md
+?? 00_ADMIN/change_log/RUN-20261024T111019Z.md
+?? 00_ADMIN/change_log/RUN-20261024T120918Z.md
+?? 00_ADMIN/change_log/RUN-20261024T131435Z.md
+?? "00_ADMIN/data_registers/contradiction_versions 2.csv"
+?? "00_ADMIN/data_registers/contradictions 2.csv"
+?? "00_ADMIN/data_registers/event_times 2.csv"
+?? "00_ADMIN/data_registers/people 2.csv"
+?? "00_ADMIN/data_registers/relationships 2.csv"
+?? "00_ADMIN/data_registers/witness_statements 2.csv"
+?? 00_ADMIN/ingestion_batches/BATCH-RESEARCH-20261024-005/
+?? 00_ADMIN/ingestion_batches/BATCH-RESEARCH-20261024-006/
+?? 00_ADMIN/ingestion_batches/BATCH-RESEARCH-20261024-007/
+?? 09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/
+?? 09_SOURCE_LIBRARY/document_reproductions/levifrady-com/task-force/
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T090719Z.md
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T090719Z/
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T100519Z.md
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T100519Z/
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T111019Z.md
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T111019Z/
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T120918Z.md
+?? 15_AI_WORKSPACE/research_runs/RUN-20261024T120918Z/

@@ -1,0 +1,6 @@
+{
+  "request_url": "https://web.archive.org/cdx/search/cdx?url=www.ajc.com%2Fmetro%2Fcontent%2Fmetro%2Fnorthfulton%2F1004%2F22levi.html&output=json&filter=statuscode%3A200&collapse=digest&from=2004&to=2010",
+  "exit_code": 0,
+  "result": "200\nhttps://web.archive.org/cdx/search/cdx?url=www.ajc.com%2Fmetro%2Fcontent%2Fmetro%2Fnorthfulton%2F1004%2F22levi.html&output=json&filter=statuscode%3A200&collapse=digest&from=2004&to=2010",
+  "stderr": ""
+}

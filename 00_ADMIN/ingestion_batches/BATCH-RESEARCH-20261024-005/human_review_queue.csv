@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-2f7c2791-ae7b-53cd-9842-a0bf5991642c,DOCUMENT_AUTHENTICITY_AND_IMPLEMENTATION,"Authenticate original April7,2000release, date/transmission and intended vs operational participation; photo/file annotation not provenance. Obtain signed charter/roster and later responses before interpreting differences.",SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69,HIGH,OPEN

@@ -1,0 +1,11 @@
+{
+  "secret_signature_matches": [],
+  "application_paths_staged": [],
+  "scope": "Explicit recovery research/docs only; other developer UI excluded",
+  "restricted_packet": "Index removals only; local originals retained; history review OPEN",
+  "checks": "Isolated staged snapshot, all required gates PASS",
+  "validated_base_commit": "c17816c3caa1bd8624f4e86393081e38917ed529",
+  "remote_ahead": 0,
+  "local_ahead": 0,
+  "previous_scope_blocker": "Separate developer independently published c17816c; final staged snapshot revalidated against it."
+}

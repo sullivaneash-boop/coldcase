@@ -1,0 +1,49 @@
+{
+  "syncedAt": "2026-10-24T12:50:28.761Z",
+  "dataVersion": "e6e6c56dbd9031ee",
+  "readOnly": false,
+  "config": {
+    "title": "Levi Frady case",
+    "timelineWindows": [
+      {
+        "label": "Oct 22\u201323, 1997",
+        "start": "1997-10-22",
+        "end": "1997-10-24",
+        "hourly": true
+      },
+      {
+        "label": "Oct\u2013Nov 1997",
+        "start": "1997-10-20",
+        "end": "1997-11-16"
+      }
+    ]
+  },
+  "research": {
+    "lastRun": {
+      "id": "RUN-20261024T120918Z",
+      "at": "2026-10-24T12:09:18Z",
+      "file": "15_AI_WORKSPACE/research_runs/RUN-20261024T120918Z.md"
+    },
+    "registersChangedAt": "2026-10-24T12:35:32.027529+00:00",
+    "latestSource": {
+      "id": "SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400",
+      "title": "Sheriffs team up to catch killer / TEAMWORK: Dawson, Forsyth sheriffs investigate murder",
+      "at": "2026-10-24T12:35:32.027529+00:00"
+    },
+    "latestFinding": {
+      "text": "Two source-reported claims: CLM-b07e28b9-cce2-5930-9380-79b5165fdd69;CLM-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d. One paraphrased publication-dated witness account WIT-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d attributes letter receipt/contact request to Hendrix through the newspaper. Neither actual letter nor direct interview recording is held; author, receipt/interview date and content remain unknown. No claim automatic\u2026",
+      "origin": "RUN-20261024T120918Z research log (AI-written summary \u2014 not evidence)",
+      "recordIds": [
+        "CLM-b07e28b9-cce2-5930-9380-79b5165fdd69",
+        "CLM-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d",
+        "WIT-24eeeeed-3b8a-5c7b-8452-5f6c2fd4034d"
+      ]
+    }
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "warnings": [],
+  "openQuestionFiles": 1
+}

@@ -1,0 +1,16 @@
+[
+  "tools/research_board/src/components/board/CaseBoard.tsx",
+  "tools/research_board/src/components/board/Inbox.tsx",
+  "tools/research_board/src/components/board/Inspector.tsx",
+  "tools/research_board/src/components/board/Lists.tsx",
+  "tools/research_board/src/components/board/MobileShell.tsx",
+  "tools/research_board/src/components/board/Overview.tsx",
+  "tools/research_board/src/components/board/SearchDialog.tsx",
+  "tools/research_board/src/components/board/ViewPicker.tsx",
+  "tools/research_board/src/components/board/Workspace.tsx",
+  "tools/research_board/src/components/board/bits.tsx",
+  "tools/research_board/src/components/board/context.tsx",
+  "tools/research_board/src/components/board/prefs.tsx",
+  "tools/research_board/src/components/board/useBoardView.ts",
+  "tools/research_board/src/lib/labels.ts"
+]

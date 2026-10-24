@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d",
+    "batch_id": "BATCH-RESEARCH-20261024-008",
+    "publication": "Forsyth County News",
+    "publication_date": "2001-01-21",
+    "page": "1A (frontpage inference);3A (continuation pointer, unheld)",
+    "headline": "Fate of Frady task force uncertain",
+    "author": "Colby Jones",
+    "genre": "PHOTOGRAPHED_NEWSPAPER_OPENING",
+    "reliability_class": "C",
+    "original_filenames": "img_20160424_170054.jpg",
+    "archived_files": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d/scan.jpg",
+    "reading_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d/reading-note.md",
+    "ocr_quality": "VISUAL_SELECTED_PASSAGES_NO_OCR",
+    "case_relevance": "R4",
+    "people_ids": "PER-13fef263-951e-55c1-b4e5-f9d528870a53;PER-52e2430c-7529-592a-b028-41fcbad1449e",
+    "summary": "Different attributed accounts of task-force status, no dissolution finding.",
+    "completeness": "CONTINUATION_MISSING_P3A",
+    "notes": "Printed masthead/date; partial reproduction, no full transcript. Actual interview dates/administrative status not inferred."
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261024-007",
+  "register_rows": {
+    "sources": [
+      {
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "title": "GBI: Jurisdiction rests with Dawson \u2014 photographed clipping",
+        "author": "Charles Duncan",
+        "publisher": "Dawson News & Advertiser (printed attribution); photograph hosted by levifrady.com",
+        "publication_date": "",
+        "publication_date_precision": "UNKNOWN",
+        "source_type": "NEWS_ARTICLE",
+        "original_url": "https://levifrady.com/wp-content/uploads/2016/04/img_20160419_164350.jpg?w=768",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/scan.jpg",
+        "date_accessed": "2026-10-24",
+        "acquired_at": "2026-10-24T13:33:15.959332+00:00",
+        "acquired_by": "RUN-20261024T131435Z",
+        "reliability_class": "G",
+        "primary_or_secondary": "SECONDARY",
+        "knowledge_basis": "MIXED",
+        "people_mentioned": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "sha256": "46d507938d2b5dcb3aeb33ed3df59d8bfb45222377a6df28cc27b8bc56fc77cc",
+        "mime_type": "image/jpeg",
+        "language": "en",
+        "access_restriction": "PUBLIC",
+        "rights_notes": "Copyright publisher/photographer; third-party photograph preserved for research, no full derivative transcript or permission inferred.",
+        "notes": "BATCH-RESEARCH-20261024-007; R4. Printed author/publisher, but date/page only handwritten June7,2000/1A; not normalized to publication date. G pending issue/provenance authentication, not a conclusion all journalism is unreliable. Apparent two-column clipping; original issue/completeness not authenticated.",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "updated_at": "2026-10-24T13:33:15.959332+00:00"
+      }
+    ],
+    "source_files": [
+      {
+        "source_file_id": "FIL-000cf3e6-b0d0-52eb-9aa5-557a014701ab",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/page-retrieval.json",
+        "sha256": "87f1bd5b924d0be06f2eb56b5e030f65ad23e240601596765cbe467344f03e00",
+        "mime_type": "application/json",
+        "byte_size": "179",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      },
+      {
+        "source_file_id": "FIL-fcf4af9f-9c69-5862-aa08-836c02eb522b",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/page.html",
+        "sha256": "e29a1ceda0fe9efd20c5428bcd579a7ab5d4fa16a991ea7dfef0986d8da4031a",
+        "mime_type": "text/html",
+        "byte_size": "80220",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      },
+      {
+        "source_file_id": "FIL-d3c55809-950c-5d49-97ac-fde978b38c8f",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "READING_COPY",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/reading-note.md",
+        "sha256": "6464c79bb8d57c8af5592795db53b501cfd53a4ddf8068273a9193398bfbec93",
+        "mime_type": "text/markdown",
+        "byte_size": "902",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      },
+      {
+        "source_file_id": "FIL-5842aea3-da21-5485-8225-5c6c602903d8",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/scan-headers.txt",
+        "sha256": "3935755df70c5ed597f04fc2549abc93d8861825bb0fceeb75ab04fddb36c604",
+        "mime_type": "text/plain",
+        "byte_size": "490",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      },
+      {
+        "source_file_id": "FIL-15e233a2-c338-514d-9bd5-64720936cbf6",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/scan-retrieval.json",
+        "sha256": "73b8756e708cb46883ba048c77d30949a93066d64e8dc33ba6752035ac7a48bb",
+        "mime_type": "application/json",
+        "byte_size": "320",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      },
+      {
+        "source_file_id": "FIL-d1f1d1b1-4a1d-56c3-af40-9c412d12e18e",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "ORIGINAL",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/scan.jpg",
+        "sha256": "46d507938d2b5dcb3aeb33ed3df59d8bfb45222377a6df28cc27b8bc56fc77cc",
+        "mime_type": "image/jpeg",
+        "byte_size": "239756",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      },
+      {
+        "source_file_id": "FIL-329e05c7-a6a9-5542-acb5-589f42334c69",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/newspaper-clippings/SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7/source-chain.json",
+        "sha256": "56f5a4ca89059bfd8c85b417d6b8c2ae290c527f7178fb9b7f0ce74d7cdc8999",
+        "mime_type": "application/json",
+        "byte_size": "563",
+        "transformation_description": "Unchanged acquired bytes or separately labeled analyst note/provenance metadata",
+        "created_by": "RUN-20261024T131435Z",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "notes": "BATCH-RESEARCH-20261024-007; original issue remains unheld."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLM-fcbeedfd-790b-5388-9d6f-8b7f626f9720",
+        "claim": "The clipping attributes Carlisle\u2019s decision not to involve his department in Forsyth\u2019s task force to concern that it would fragment the existing Dawson/GBI investigation.",
+        "status": "REPORTED",
+        "confidence": "MEDIUM",
+        "source_ids": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "people_ids": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "assessment_rationale": "Visually readable clipping attribution; publication date/provenance and underlying communication records unverified.",
+        "notes": "BATCH-RESEARCH-20261024-007; no guilt inference or adjudication of cooperation dispute.",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "updated_at": "2026-10-24T13:33:15.959332+00:00"
+      },
+      {
+        "claim_id": "CLM-c9c24821-48f0-5a98-8aa1-d40522391fca",
+        "claim": "The clipping reports Carlisle saying Forsyth had not shared new information with his department; this is an attributed complaint, not independently established evidence handling.",
+        "status": "REPORTED",
+        "confidence": "MEDIUM",
+        "source_ids": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "people_ids": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "assessment_rationale": "Visually readable clipping attribution; publication date/provenance and underlying communication records unverified.",
+        "notes": "BATCH-RESEARCH-20261024-007; no guilt inference or adjudication of cooperation dispute.",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "updated_at": "2026-10-24T13:33:15.959332+00:00"
+      }
+    ],
+    "claim_sources": [
+      {
+        "claim_source_id": "CSL-fcbeedfd-790b-5388-9d6f-8b7f626f9720",
+        "claim_id": "CLM-fcbeedfd-790b-5388-9d6f-8b7f626f9720",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "relationship": "SUPPORTS",
+        "source_locator": "scan.jpg; Left column final paragraph continued at top of right column",
+        "excerpt": "",
+        "knowledge_basis": "MIXED",
+        "speaker_person_id": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "assertion_type": "NEWSPAPER_PARAPHRASES_OFFICIAL",
+        "notes": "Carlisle account mediated by newspaper; original interview/correspondence not held.",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "updated_at": "2026-10-24T13:33:15.959332+00:00"
+      },
+      {
+        "claim_source_id": "CSL-c9c24821-48f0-5a98-8aa1-d40522391fca",
+        "claim_id": "CLM-c9c24821-48f0-5a98-8aa1-d40522391fca",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "relationship": "SUPPORTS",
+        "source_locator": "scan.jpg; Right column first paragraph, final two sentences",
+        "excerpt": "",
+        "knowledge_basis": "MIXED",
+        "speaker_person_id": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "assertion_type": "NEWSPAPER_PARAPHRASES_OFFICIAL",
+        "notes": "Carlisle account mediated by newspaper; original interview/correspondence not held.",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "updated_at": "2026-10-24T13:33:15.959332+00:00"
+      }
+    ],
+    "witness_statements": [
+      {
+        "statement_id": "WIT-f2ac652b-a167-5c7a-965e-6922a41d5ba4",
+        "statement_series_id": "WSE-f2ac652b-a167-5c7a-965e-6922a41d5ba4",
+        "version_number": "1",
+        "witness_person_id": "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "statement_date": "",
+        "statement_date_precision": "UNKNOWN",
+        "source_id": "SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7",
+        "source_locator": "scan.jpg; left final paragraph into right first paragraph",
+        "knowledge_basis": "MIXED",
+        "representation_type": "PARAPHRASE",
+        "language": "en",
+        "access_restriction": "PUBLIC",
+        "statement_text": "Newspaper attributes task-force nonparticipation and an information-sharing complaint to Carlisle.",
+        "confidence": "MEDIUM",
+        "limitations": "Publication/interview dates unknown; handwritten date not adopted. Not direct recording, independent custody verification or proof another agency withheld records.",
+        "notes": "BATCH-RESEARCH-20261024-007; prior April reporting retained; no supersession or deception inference.",
+        "created_at": "2026-10-24T13:33:15.959332+00:00",
+        "updated_at": "2026-10-24T13:33:15.959332+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "table": "claim_sources",
+    "row": {
+      "claim_source_id": "CSL-375bce7a-03c8-5466-bde3-3086fed4c57d",
+      "claim_id": "CLM-99124f8a-6a6b-58cf-a7b6-5550b7884d62",
+      "source_id": "SRC-805e7eb1-ba85-53cd-8b5e-544a16f20f05",
+      "relationship": "SUPPORTS",
+      "source_locator": "FCN 2000-05-25, printed p.9A, PDF page 1; Frady reward offers glimmer of hope for new information; recently formed a new task force",
+      "excerpt": "",
+      "knowledge_basis": "HEARSAY",
+      "notes": "Supports this source-attributed report, not automatic verification of underlying facts. No precise establishment date inferred from recently.",
+      "created_at": "2026-10-23T19:44:51.414767+00:00",
+      "updated_at": "2026-10-23T19:44:51.414767+00:00",
+      "speaker_person_id": "PER-13fef263-951e-55c1-b4e5-f9d528870a53",
+      "assertion_type": "NEWSPAPER_REPORT"
+    }
+  },
+  {
+    "table": "claims",
+    "row": {
+      "claim_id": "CLM-99124f8a-6a6b-58cf-a7b6-5550b7884d62",
+      "claim": "The editorial says Hendrix recently formed a new task force to investigate Levi\u2019s death; no charter or participant roster is supplied.",
+      "status": "REPORTED",
+      "confidence": "MEDIUM",
+      "source_ids": "SRC-805e7eb1-ba85-53cd-8b5e-544a16f20f05",
+      "contradicting_source_ids": "",
+      "people_ids": "",
+      "event_ids": "",
+      "location_ids": "",
+      "evidence_ids": "",
+      "assessment_rationale": "Source attribution visually checked by assistant; underlying assertion not independently verified. Independent human review pending.",
+      "reviewed_by": "",
+      "reviewed_at": "",
+      "notes": "BATCH-FCN-MIXED-002; No precise establishment date inferred from recently.",
+      "created_at": "2026-10-23T19:44:51.414767+00:00",
+      "updated_at": "2026-10-23T19:44:51.414767+00:00"
+    }
+  }
+]

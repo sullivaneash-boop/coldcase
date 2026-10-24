@@ -1,0 +1,8 @@
+{
+  "request_url": "https://web.archive.org/web/20041027135117id_/http://www.ajc.com:80/metro/content/metro/northfulton/1004/22levi.html",
+  "http_status": 302,
+  "curl_exit": 0,
+  "redirect_target_path": "https://www.ajc.com/metro/userreg/ursignup/login_signup_init.jsp",
+  "assessment": "Historical registration/login redirect, not article. Not followed; no auth attempted. Session/query/cookie values omitted. Raw response remains only in temporary working files.",
+  "article_acquired": false
+}

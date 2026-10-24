@@ -1,0 +1,107 @@
+
+> research_board@0.1.0 case:release-check
+> tsx scripts/release.ts
+
+
+━━ sync + validation ━━
+
+Archive: /Users/sullyeash/Documents/LEVI-FRADY-CASE
+  sources                  68
+  claims                   153
+  claim_sources            184
+  contradictions           5
+  contradiction_versions   12
+  people                   65
+  organizations            30
+  locations                18
+  events                   60
+  event_times              77
+  evidence                 8
+  witness_statements       33
+  relationships            340
+  source_files             233
+  records_requests         0
+  interviews               0
+  newspaper_articles       26
+  assets                   92
+  researcher_links         0
+  review_decisions         0
+
+  440 records · 981 links · 92 assets (0 newly discovered, appended to assets.csv) · 309 inbox items
+  57 archive files published (0 copied this run) · data version 8c3bb3c9dccf9c6f
+
+No register changes since last sync.
+
+Sync finished in 0.5s: 0 error(s), 0 warning(s). Report: tools/research_board/generated/validation-report.md
+
+━━ tests ━━
+✔ a valid archive builds with no errors and exposes records, provenance and timeline data (11.779666ms)
+✔ never infers relationships from co-mention in the same source (4.261958ms)
+✔ duplicate stable IDs are errors (3.002416ms)
+✔ malformed IDs and records are errors (2.901875ms)
+✔ claims without sources are errors (2.765916ms)
+✔ broken, impossible and unresolved-source references are errors and are never drawn (3.569667ms)
+✔ invalid dates, clock times and impossible ranges are errors (3.023792ms)
+✔ invalid claim status is an error; malformed and duplicate URLs are warnings (2.7665ms)
+✔ missing assets are warnings, are not published, and do not fail the build (3.737166ms)
+✔ unsafe absolute paths are errors; a modified original is an error (3.726125ms)
+✔ local images are published and identities come only from explicit source labels (6.599208ms)
+✔ tolerates incomplete research: untitled source, unknown date, unnamed person (3.829459ms)
+✔ latest finding is derived from the newest research run log (3.174291ms)
+✔ data version is deterministic for identical archives (2.949041ms)
+✔ never manufactures precision (0.592958ms)
+✔ marks approximate and range readings (0.175334ms)
+✔ date validation rejects impossible calendar dates (1.023292ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 197.583917
+
+━━ typecheck ━━
+
+━━ lint ━━
+
+━━ production build ━━
+   ▲ Next.js 15.5.28
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 6.2s
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                     205 kB         308 kB
+├ ○ /_not-found                            993 B         104 kB
+├ ƒ /api/inbox                             127 B         103 kB
+└ ƒ /api/links                             127 B         103 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/255-b1e2483a7e02feee.js       46.6 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.91 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+━━ Release check ━━
+  ✔ sync + validation    0.6s
+  ✔ tests                0.2s
+  ✔ typecheck            1.4s
+  ✔ lint                 2.2s
+  ✔ production build     16.2s
+  validation: 0 error(s), 0 warning(s)
+
+✔ DEPLOYABLE — commit and push to update production.

@@ -1,0 +1,10 @@
+{
+  "verified_project_id": "prj_9kocBQ5Vwt3e3EYIiORDORoZB4Xz",
+  "team_id": "team_DmkGw1i8EDsKyZset7xPxhoe",
+  "repository": "sullivaneash-boop/coldcase",
+  "remote": "https://github.com/sullivaneash-boop/coldcase.git",
+  "production_branch": "main",
+  "production_url": "https://coldcase-theta.vercel.app",
+  "evidence": "Vercel get_git_deployment_context confirms exact linked repo/project. Current READY source=git,target=production deployment dpl_EWAPdSvr2WzgqHfbp9bKmvc5zxBW reports githubCommitRef main and SHA1207ae7. Project updatedAt matches this deployment assignment; old saved project ID404 is stale. Production Branch settings field itself is not exposed by summary connector.",
+  "previous_stale_project_id": "prj_4BeeDRR0Ge81xE5RKUX7licH22Ye"
+}

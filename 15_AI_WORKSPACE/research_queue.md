@@ -10,14 +10,14 @@ Research targets only; priority is acquisition value, not evidentiary weight. Re
 ## P1 — high-value accessible source chains
 
 - **RQ-003 — Complete existing newspaper articles.** OPEN. GHN FCN Nov. 16, 1997 p.2A; Nov.28,1997 p.1A; Dec.21,1997 p.1A; Oct.20,2002 p.1A; Nov.7,2004 p.1A; Oct.21,2007 p.1A. Exact existing requests in BATCH-FCN-MIXED-002. Obtain verified archive pages/URLs before extending existing logical articles; avoid creating duplicate article SRCs. Current GHN fetch failure must be logged as access failure, not absence.
-- **RQ-004 — 1998 Hendrix–Nix correspondence.** OPEN. Existing WNT IDs and secondary scans/quotations; locate complete source originals/verified reproductions, keep authenticity limits. Not the same as the acquired May 3, 1998 public letter.
+- **RQ-004 — 1998 Hendrix–Nix correspondence.** REPRODUCTIONS_ACQUIRED_AUTHENTICATION_OPEN. Existing WNT IDs and secondary scans/quotations; locate complete source originals/verified reproductions, keep authenticity limits. Not the same as the acquired May 3, 1998 public letter.
 - **RQ-005 — Bicycle chronology conflict.** OPEN. Obtain Oct.24,1997 AJC original and underlying firsthand records. Different sighting, movement, retrieval and custody stages may explain differences. Existing CON remains UNRESOLVED.
 - **RQ-006 — Funeral date conflict.** OPEN. Obtain service program/funeral-home record or contemporaneous independent notice for Oct.26 vs Nov.2. No preferred version or deception inference.
 
 ## P2 — supporting primary provenance and assets
 
 - **RQ-007 — Official Levi’s Call establishment/activation/first-use history.** PARTIAL_PRIMARY_ACQUIRED. Compare original FY2002 GBI report with 2002 newspaper and later year-only accounts. Keep milestones distinct; original dated launch/activation memo still a separate possible target.
-- **RQ-008 — Official source/image provenance.** OPEN. Verify supplied GBI capture/image origin against official URLs and hashes, preserving revisions. Do not download remote images merely to bypass display restrictions; acquisition for research must retain provenance and rights limitations.
+- **RQ-008 — Official source/image provenance.** HASH_VERIFIED_ORIGIN_PARTIAL. Verify supplied GBI capture/image origin against official URLs and hashes, preserving revisions. Do not download remote images merely to bypass display restrictions; acquisition for research must retain provenance and rights limitations.
 - **RQ-009 — Source bookkeeping / board warnings.** JUNCTION_REPAIRED_SYNC_VERIFIED. One existing claim summary lists an FCN source without a claim_sources row (`CLM-895e038d-bfc6-5ce9-bb69-ef4d30aad068`). Read the original and claim scope before adding any locator or revising support. Never invent support to silence a warning.
 
 ## P3 — low-priority discovery
@@ -52,3 +52,43 @@ RQ-001 exact legacyURL resolved to a program page, not the original case timelin
 ## RUN-20261024T080519Z — archived publisher chronology
 
 Acquired AccessNorthGa article85646 as SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2 through indexed capture20041031071328. Three scoped source links added to existing claims; no new case claims/events/witness identities. Shared investigative chronology, not independent corroboration. Original agency release remains wanted. Inverted time range and publication-date uncertainty are in BATCH-RESEARCH-20261024-004/human_review_queue.csv. Do not repeat acquisition; next compare the exact original agency release with publisher/clipping versions.
+
+
+## RUN-20261024T090719Z — RQ-002 search bookkeeping
+
+No new original or case fact. Casing inventory/lab and scene/cadet operation searches parked; exact sought records, likely custodians and acquisition basis in run log. Do not repeat generalqueries. Next bounded lead: public archive index for original AJC legacyURL http://www.ajc.com/metro/content/metro/northfulton/1004/22levi.html discovered through forum reproduction; verify publisher identity/content before ingestion. No underlying assertions adopted.
+
+
+## RUN-20261024T100519Z — exact AJC route parked
+
+Exact22levi.html public CDX index returns302captures, inspected first redirects to registration/login. No article acquired. Do not repeat known capture or broad wildcard/title searches. Authorized publisher/library archive access or supplied original required; no request sent. Next run should choose another productive exactsourcechain. Full search/access audit in research_runs/RUN-20261024T100519Z.md.
+
+
+## RUN-20261024T111019Z — task-force release rendition
+
+Acquired one photographed April7,2000release as SRC-e001fd16-aa2d-51b6-bd8f-fe583244be69; one REPORTED claim CLM-6b961194-de78-5a28-bcdb-502397713cea. Printed date not independent issuance proof; classG pending authentication. Announcement/prospective protocol is not operational participation. Original release/transmittal, charter/roster and later agency responses remain wanted. No contradiction resolved; compare existing May2000editorial at its own date. Wanted link WNT-ffd78280-2f6c-54d3-a2ea-3efd1a22f2b4 followed through laterarticle to release attachment; this does not authenticate the laterarticle or close an original-record request. Human review and acquisition lead in BATCH-RESEARCH-20261024-005.
+
+
+## RUN-20261024T120918Z — contemporary task-force reporting
+
+Acquired Forsyth Herald April19,2000 opening/p4clipping photograph as SRC-e9032338-3ff7-56ae-b8d2-0420f0dd5400. Two REPORTED claims and one publication-dated paraphrased Hendrix statement; no underlying letter held. Newspaper reports proposed participation/GBIdecline; compare April7release at different stage, no automatic contradiction. Original issue, letter/receipt and actual roster remain wanted; review in BATCH-RESEARCH-20261024-006.
+
+
+## RUN-20261024T131435Z — agency-account clipping
+
+Acquired SRC-8bc43196-5ed4-5f1b-a226-7f890d5869a7, GBI: Jurisdiction rests with Dawson, Charles Duncan/printed DawsonNews&Advertiser credit. HandwrittenJune7,2000/1Aunverified; publication date blank. TwoREPORTEDclaims and one newspaper-paraphrased Carlisle account; underlying exchange records unheld. Date/provenance and source-version reviews queued; noCONor Aprilaccount supersession. Original issue and actual information transmittals remain wanted.
+
+
+## RUN-20261024T141544Z — source-version search bookkeeping
+
+No new original/case fact. Public Dawson County Library archive https://dawsoncounty.advantage-preservation.com/ and DLGcatalog https://dlg.usg.edu/record/chestateedawson_dcda are next issue-acquisition routes. Native browser runtime failed; directGETdateparameters returned unrelated1989results, not target. Do not repeat ineffective request/quotationqueries; use functioningnativebrowse or genuineviewer/PDFlocator. June7annotation stillunverified; no contact/request sent.
+
+
+## RUN-20261024T152433Z — January2001status report
+
+Acquired partial FCNJan21,2001opening as SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d; twoREPORTED attributed status claims, one paraphrased Hamrick account and source-scoped provisional person PER-52e2430c-7529-592a-b028-41fcbad1449e. P3Acontinuation/fullissue and administrative records remain wanted. No dissolution date, identity merge or contradiction inferred. Review/lead in BATCH-RESEARCH-20261024-008. Prior library/quoted-version routes remain parked.
+
+
+## Reconciliation — 2026-10-24
+
+Nine logical acquired sources and two existing-source rendition/provenance updates have been reconciled; do not reacquire archived photographs/reports. Four previously missing documentary ASTentries are indexed. Remaining tasks concern authentic originals/fullissue/continuations, source-version differences and underlying records; they remain human-review/wanted acquisitions. Follow recovery manifest and pipeline checkpoint before any new research. Internal review-hold material remains outside public source/asset indexes and future Git trees.
