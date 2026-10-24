@@ -3,7 +3,8 @@
  *   1. case sync + validation   (ERRORs fail the check; WARNINGs are reported)
  *   2. application tests
  *   3. type checking
- *   4. production build         (into .next-release so a running dev server is untouched)
+ *   4. lint
+ *   5. production build         (into .next-release so a running dev server is untouched)
  *
  * Exit status 0 means production may be updated from the current Git state; non-zero means it must not.
  * The result is also written to generated/release-check.json.
@@ -19,8 +20,13 @@ const steps: { name: string; cmd: string; args: string[]; env?: Record<string, s
   { name: "sync + validation", cmd: bin("tsx"), args: ["scripts/case.ts", "sync"] },
   { name: "tests", cmd: process.execPath, args: ["--import", "tsx", "--test", "tests/*.test.ts"] },
   { name: "typecheck", cmd: bin("tsc"), args: ["--noEmit"] },
+  { name: "lint", cmd: bin("eslint"), args: ["src", "scripts", "pipeline", "tests"] },
   { name: "production build", cmd: bin("next"), args: ["build"], env: { NEXT_DIST_DIR: ".next-release" } },
 ];
+
+// Start from an empty release build directory: stale generated types (e.g. sync-conflict copies
+// such as "routes.d 2.ts") must never make the typecheck depend on a previous run.
+fs.rmSync(path.join(APP_ROOT, ".next-release"), { recursive: true, force: true });
 
 const results: { step: string; ok: boolean; seconds: number }[] = [];
 let failed: string | null = null;

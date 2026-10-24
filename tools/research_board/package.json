@@ -6,7 +6,7 @@
     "dev": "next dev -p 3977",
     "build": "tsx scripts/case.ts sync --readonly && next build",
     "start": "next start -p 3977",
-    "lint": "eslint",
+    "lint": "eslint src scripts pipeline tests",
     "case": "tsx scripts/release.ts",
     "case:sync": "tsx scripts/case.ts sync",
     "case:validate": "tsx scripts/case.ts validate",
