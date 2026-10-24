@@ -1,0 +1,36 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 24 Oct 2026 07:03:56 GMT
+content-type: text/html
+content-length: 16635
+x-archive-orig-date: Sun, 30 Oct 2005 09:31:55 GMT
+x-archive-orig-server: Apache/1.3.12 (Unix)
+x-archive-orig-last-modified: Thu, 20 Oct 2005 21:29:28 GMT
+x-archive-orig-etag: "297edc7-40fb-43580c38"
+x-archive-orig-accept-ranges: bytes
+x-archive-orig-content-length: 16635
+x-archive-orig-connection: close
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sun, 30 Oct 2005 09:29:45 GMT
+link: <http://www.state.ga.us/gbi/levi.html>; rel="original", <https://web.archive.org/web/timemap/link/http://www.state.ga.us/gbi/levi.html>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://www.state.ga.us/gbi/levi.html>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: HURRICANE-KATRINA-2005-07-20051030031635-01204-crawling009-c/HURRICANE-KATRINA-2005-07-20051030092232-01333-crawling009.archive.org.arc.gz
+server-timing: captures_list;dur=0.444630, exclusion.robots;dur=0.053028, exclusion.robots.policy;dur=0.036613, esindex;dur=0.006345, cdx.remote;dur=10.421034, LoadShardBlock;dur=288.133133, PetaboxLoader3.resolve;dur=342.749472, PetaboxLoader3.datanode;dur=123.238914, load_resource;dur=317.623583
+x-app-server: wwwb-app266-dc8
+x-ts: 200
+x-tr: 633
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+cache-control: private
+x-location: All
+x-as: 7018
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: ATT-INTERNET4
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

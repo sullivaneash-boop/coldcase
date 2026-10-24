@@ -1,0 +1,16 @@
+HTTP/2 200 
+server: nginx
+date: Fri, 23 Oct 2026 21:56:59 GMT
+content-type: text/html; charset=UTF-8
+strict-transport-security: max-age=31536000
+vary: Accept-Encoding
+x-hacker: Want root?  Visit join.a8c.com/hacker and mention this header.
+host-header: WordPress.com
+link: <https://public-api.wordpress.com/wp-json/?rest_route=/sites/levifradydotcom.wordpress.com>; rel="https://api.w.org/"
+vary: accept, content-type, cookie
+link: <https://wp.me/P7gIMQ-1af>; rel=shortlink
+x-ac: 19.atl _dfw MISS
+x-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>
+alt-svc: clear
+server-timing: a8c-cdn, dc;desc=atl, cache;desc=MISS;dur=191.0
+

@@ -554,3 +554,15 @@ Newspaper accounts only. 29 new events; eight existing events gain source suppor
 - GBI reports a January 2002 partnership to establish Levi’s Call; Public Affairs researched/developed the initiative.
 - Source: `SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc`, PDF p.7 PUBLIC Affairs, lower-left paragraph. Claim `CLM-1f0c9e70-a044-56e0-b89a-03959abfedab`.
 - Precision: exact reported MONTH, `2002-01`; no day/time, incident activation or first-use date inferred. Existing year-only account remains; event_times.csv retains both assertions.
+
+## RUN-20261023T205418Z — additional documentary rendition, no new normalized events
+
+Partial photographed clipping `SRC-dd0a70b2-9491-50da-826e-122743460cde` supports existing reported bicycle/search/body/hunter accounts through six claim-source locators. All retain their existing precision and unresolved alternatives. Printed GBI credit is visible, but official original/full issue still wanted. A sketch-date passage is queued for review rather than normalized.
+
+## RUN-20261023T215618Z — attributed 1998 correspondence chronology
+
+Three date-only events added from an unauthenticated Hendrix reproduction: Aug27 first prison visit, Aug28 follow-up/tapes (next-day inference), and Sept1 meeting. Appointment/contact/arrival times remain distinct in the claim; no duration inferred. Existing Sept2 outgoing-letter/Sept17 reply events gain photographic date assertions. Reply reference to Sept1 stays in an UNRESOLVED correspondence-identity conflict, not a replacement letter event. Sources `SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd` / `SRC-b64917c6-9513-521a-b3b7-936ea2412bfa`.
+
+## RUN-20261024T070249Z source precision note
+
+EVT-c175f6c1-715b-554b-9dc4-6a596b9a85c6 has a separate source-reported date2002-01-01 from archivedGBIprogram page SRC-94d2abbc-6063-47fd-8a25-f46086d37025, HTMLlines167–172. This does not replace earlier year/month readings or establish first-use/operational activation time. No clock time/timezone supplied.

@@ -1,0 +1,18 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261023-003",
+  "counts": {
+    "people": 5,
+    "organizations": 1,
+    "source_files": 20,
+    "sources": 2,
+    "assets": 1,
+    "claims": 7,
+    "claim_sources": 11,
+    "events": 3,
+    "event_times": 5,
+    "contradictions": 2,
+    "contradiction_versions": 4,
+    "witness_statements": 2,
+    "relationships": 7
+  }
+}

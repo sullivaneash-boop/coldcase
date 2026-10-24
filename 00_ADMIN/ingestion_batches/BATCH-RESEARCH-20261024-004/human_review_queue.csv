@@ -1,0 +1,3 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-e3726524-a012-5826-8664-30458443423c,TIME_RANGE,"HTML line507 displays5:12p.m.-5:00p.m.; inverted, preserve unnormalized. Compare original agency release before any correction.",SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2,HIGH,OPEN
+REV-b7bec308-6e3f-5670-a014-6de505b2f97e,DATE_AND_CLAIM_SCOPE,Update label has no year; publication unknown.7:50entry lacks return-bike decision in CLM-ad779f54-b52c-55cb-97a8-18751471027d; omission alone is not contradiction or whole-claim support.,SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2,HIGH,OPEN

@@ -1,0 +1,81 @@
+
+> research_board@0.1.0 case:release-check
+> tsx scripts/release.ts
+
+
+━━ sync + validation ━━
+
+Archive: /Users/sullyeash/Documents/LEVI-FRADY-CASE
+  sources                  66
+  claims                   151
+  claim_sources            179
+  contradictions           5
+  contradiction_versions   12
+  people                   65
+  organizations            30
+  locations                18
+  events                   60
+  event_times              76
+  evidence                 8
+  witness_statements       33
+  relationships            340
+  source_files             212
+  records_requests         0
+  interviews               0
+  newspaper_articles       26
+  assets                   92
+  researcher_links         0
+  review_decisions         0
+
+  436 records · 972 links · 92 assets (0 newly discovered, appended to assets.csv) · 303 inbox items
+  56 archive files published (0 copied this run) · data version b5cc946305306659
+
+No register changes since last sync.
+
+Sync finished in 0.5s: 0 error(s), 0 warning(s). Report: tools/research_board/generated/validation-report.md
+
+━━ tests ━━
+✔ a valid archive builds with no errors and exposes records, provenance and timeline data (11.852125ms)
+✔ never infers relationships from co-mention in the same source (4.273333ms)
+✔ duplicate stable IDs are errors (3.27725ms)
+✔ malformed IDs and records are errors (2.948125ms)
+✔ claims without sources are errors (2.86ms)
+✔ broken, impossible and unresolved-source references are errors and are never drawn (2.763125ms)
+✔ invalid dates, clock times and impossible ranges are errors (2.801917ms)
+✔ invalid claim status is an error; malformed and duplicate URLs are warnings (2.557125ms)
+✔ missing assets are warnings, are not published, and do not fail the build (3.670583ms)
+✔ unsafe absolute paths are errors; a modified original is an error (3.802375ms)
+✔ local images are published and identities come only from explicit source labels (4.223167ms)
+✔ tolerates incomplete research: untitled source, unknown date, unnamed person (2.85075ms)
+✔ latest finding is derived from the newest research run log (2.814291ms)
+✔ data version is deterministic for identical archives (3.539ms)
+✔ never manufactures precision (0.616625ms)
+✔ marks approximate and range readings (0.170625ms)
+✔ date validation rejects impossible calendar dates (1.068792ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 208.09025
+
+━━ typecheck ━━
+.next-release/types/cache-life.d 2.ts(4,12): error TS2300: Duplicate identifier 'unstable_cache'.
+.next-release/types/cache-life.d 2.ts(6,5): error TS2300: Duplicate identifier 'revalidateTag'.
+.next-release/types/cache-life.d 2.ts(7,5): error TS2300: Duplicate identifier 'revalidatePath'.
+.next-release/types/cache-life.d 2.ts(8,5): error TS2300: Duplicate identifier 'unstable_expireTag'.
+.next-release/types/cache-life.d 2.ts(9,5): error TS2300: Duplicate identifier 'unstable_expirePath'.
+.next-release/types/cache-life.d 2.ts(11,12): error TS2300: Duplicate identifier 'unstable_noStore'.
+.next-release/types/cache-life.d 2.ts(140,24): error TS2300: Duplicate identifier 'unstable_cacheTag'.
+.next-release/types/routes.d 2.ts(54,8): error TS2300: Duplicate identifier 'LayoutProps'.
+
+━━ Release check ━━
+  ✔ sync + validation    0.7s
+  ✔ tests                0.3s
+  ✖ typecheck            66.6s
+  · production build     skipped
+  validation: 0 error(s), 0 warning(s)
+
+✖ NOT DEPLOYABLE — "typecheck" failed. Do not push to the deployment branch.

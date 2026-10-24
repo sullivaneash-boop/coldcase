@@ -1,0 +1,52 @@
+[
+  {
+    "name": "press-release.html",
+    "url": "https://gbi.georgia.gov/press-releases/2017-10-22/levi-frady-case-20-years",
+    "exit_code": 0,
+    "result": "200\nhttps://gbi.georgia.gov/press-releases/2017-10-22/levi-frady-case-20-years\n",
+    "error": "",
+    "accessed_at": "2026-10-24T05:06:20.188837+00:00",
+    "sha256": "6f7f9933fde9ac6098946547f8998bff9149f6226bb94c2c1d9bbfb220966e3a",
+    "bytes": 273859,
+    "matches": []
+  },
+  {
+    "name": "witness-1.jpg",
+    "url": "https://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Frady-Witness%201.jpg",
+    "exit_code": 0,
+    "result": "200\nhttps://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Frady-Witness%201.jpg\n",
+    "error": "",
+    "accessed_at": "2026-10-24T05:06:20.321528+00:00",
+    "sha256": "cbd2280781fa2ea2caa18651ccff64ba15d96098e6e1d08ce72f1e64147b1cca",
+    "bytes": 4782,
+    "matches": [
+      "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef"
+    ]
+  },
+  {
+    "name": "witness-2.jpg",
+    "url": "https://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Frady-Witness%202.jpg",
+    "exit_code": 0,
+    "result": "200\nhttps://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Frady-Witness%202.jpg\n",
+    "error": "",
+    "accessed_at": "2026-10-24T05:06:20.528417+00:00",
+    "sha256": "d7ab202e6eafcc631e7ec4127f7b77887712a23f694ff6b19563f5bfc85ee4ea",
+    "bytes": 5916,
+    "matches": [
+      "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce"
+    ]
+  },
+  {
+    "name": "portrait.jpg",
+    "url": "https://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Levi%20Frady.jpg",
+    "exit_code": 0,
+    "result": "200\nhttps://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Levi%20Frady.jpg\n",
+    "error": "",
+    "accessed_at": "2026-10-24T05:06:20.743592+00:00",
+    "sha256": "7de3c8c10ad268971a1a4dc849b8423d9debcd2092f6c73d5b85cafcad2663e9",
+    "bytes": 75594,
+    "matches": [
+      "SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd"
+    ]
+  }
+]

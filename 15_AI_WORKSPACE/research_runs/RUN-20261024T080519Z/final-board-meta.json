@@ -1,0 +1,45 @@
+{
+  "syncedAt": "2026-10-24T08:16:26.148Z",
+  "dataVersion": "b323926d10344493",
+  "readOnly": false,
+  "config": {
+    "title": "Levi Frady case",
+    "timelineWindows": [
+      {
+        "label": "Oct 22\u201323, 1997",
+        "start": "1997-10-22",
+        "end": "1997-10-24",
+        "hourly": true
+      },
+      {
+        "label": "Oct\u2013Nov 1997",
+        "start": "1997-10-20",
+        "end": "1997-11-16"
+      }
+    ]
+  },
+  "research": {
+    "lastRun": {
+      "id": "RUN-20261024T080519Z",
+      "at": "2026-10-24T08:05:19Z",
+      "file": "15_AI_WORKSPACE/research_runs/RUN-20261024T080519Z.md"
+    },
+    "registersChangedAt": "2026-10-24T08:12:24.882895+00:00",
+    "latestSource": {
+      "id": "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
+      "title": "New information released in Frady murder",
+      "at": "2026-10-24T08:12:24.882895+00:00"
+    },
+    "latestFinding": {
+      "text": "Recovered a detailed publisher timeline rendition. Added three scoped source links to existing claims and corresponding claim source lists, with backups and before/after audit. No new claim, event, witness, person, location, evidence identity or contradiction invented. Inverted time range stays unnormalized in review. The7:50entry does not support the additional return-bike decision in an existing broader claim, s\u2026",
+      "origin": "RUN-20261024T080519Z research log (AI-written summary \u2014 not evidence)",
+      "recordIds": []
+    }
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "warnings": [],
+  "openQuestionFiles": 1
+}

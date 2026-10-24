@@ -1,0 +1,178 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261024-001",
+  "run_id": "RUN-20261024T010118Z",
+  "status": "ACQUIRED_INTERNAL_REVIEW_NOT_REGISTERED_NOT_FOR_PUBLICATION",
+  "original_url": "https://catherinebroad.blog/wp-content/uploads/2020/04/2-23.pdf",
+  "acquired_at": "2026-10-24T01:02:03Z",
+  "pdf_pages": 21,
+  "embedded_text_pages": 0,
+  "ocr": "Local Apple Vision accurate en-US; language correction disabled; 21 rendered pages. Raw output uncorrected and uncertain.",
+  "provisional_relevance": "R4 potential documentary lead; no authentication or allegation truth established",
+  "source_ids": [],
+  "canonical_records_created": 0,
+  "files": [
+    {
+      "role": "ORIGINAL",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/originals/2-23.pdf",
+      "sha256": "e58e8718b3bb0f1aba09030c4d9bb13b9b94ceb7ea7e9f95122ff5f0ce06b0dc",
+      "bytes": 2372152
+    },
+    {
+      "role": "RETRIEVAL_HEADERS",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/originals/headers.txt",
+      "sha256": "f56cd59fe1926baf61f5cbebb1f08dbc060685c1cfd8cdd43a0c62fd67d0799e",
+      "bytes": 592
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-19.png.vision.json",
+      "sha256": "a9b4c8e3798f9e3b1a34fb1bbf60928ae2f2c177d385764f655da89143befa54",
+      "bytes": 13722
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-16.png.vision.json",
+      "sha256": "2113c1aeee05f54dccabd7ffbbc7706a3131a11d2b3b05afae5f82f73bb97be9",
+      "bytes": 969
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-11.png.vision.json",
+      "sha256": "407578f0c55d3029cc61aad0a6a938516ce144692ea2d568ea8216a90af7a1b7",
+      "bytes": 6135
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-08.png.vision.json",
+      "sha256": "30b7c2ea4ab449e61f95724be4e543ffe4a173fe29eb68652b081ccfe3b0fba0",
+      "bytes": 3965
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-07.png.vision.json",
+      "sha256": "8c3cf37547d6147096418445eda5249803b13c4e2105ec92edc84f651f10d3c9",
+      "bytes": 9603
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-10.png.vision.json",
+      "sha256": "ecdbc000f0c76511c54ad9d8380b70107058472a361fcef6c6dfb76484fea473",
+      "bytes": 1669
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-09.png.vision.json",
+      "sha256": "39c21abab5d726a3fd46cdd020898983a338d5e6f3aca4cdd55b8e21139ec9a6",
+      "bytes": 2633
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-06.png.vision.json",
+      "sha256": "97e70a74f33998149478327b99159b5396c60d0c656cb86988e7f5b6f96a03b9",
+      "bytes": 2189
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-18.png.vision.json",
+      "sha256": "f510b37ee7aa5a1e367d1d36186b8019bb5aa38979f69b5e0690ad80679d5039",
+      "bytes": 13848
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-01.png.vision.json",
+      "sha256": "59da123450d08de847ffc35e711e59dd85b511df7788f008f9135fdf49e7de7f",
+      "bytes": 3779
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-17.png.vision.json",
+      "sha256": "7ac3c185b25947fcecf9eff742dcbf6eabce0020a89e896f7a656e53b2f70417",
+      "bytes": 12660
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-12.png.vision.json",
+      "sha256": "42d5abc432f07ce06cefd155f3f52b77b4ee3af0aa4ff3327d12085dd0bb0973",
+      "bytes": 1396
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-20.png.vision.json",
+      "sha256": "742d7906e59b6b5f147968ed2ba6c13ec126a8648d2fbfbc9c3c1ffbdffd7cac",
+      "bytes": 13659
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-04.png.vision.json",
+      "sha256": "cfa807f13724ae560c1911138af0cbe204e839a4fd7f0c5448f803e6286dc1aa",
+      "bytes": 14203
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-03.png.vision.json",
+      "sha256": "e0d73fc91226f4f113f75636d5d798d1a712bbabcdf596f916827ea141fa534c",
+      "bytes": 15868
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-15.png.vision.json",
+      "sha256": "ba78149a8a101142449c5baf856a02fe96785ce611c9d901ab937164f4c0979f",
+      "bytes": 977
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-02.png.vision.json",
+      "sha256": "3423171b3b6b793686495dc15a1625ac10d78f7de080a0be771cc7c1d2368e6c",
+      "bytes": 1165
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-14.png.vision.json",
+      "sha256": "a1d25755e186a49cf9ea9043e6ad60cb20886af47ed5751f90374d84408a10be",
+      "bytes": 1181
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-13.png.vision.json",
+      "sha256": "ec097b3c087bc5608deca6c055d11ccfed3b3d7df24717a911202c0a8b5dee53",
+      "bytes": 1608
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-21.png.vision.json",
+      "sha256": "b9b4b7cd0ae67e77578624fcc4211ddd22ea2e50b629fac4c347a144f77c62da",
+      "bytes": 13708
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/page-05.png.vision.json",
+      "sha256": "8c7f0c7148e2e90ef61f32794be2297c0f684f5257a5b12674a037b8ac89a92c",
+      "bytes": 5355
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/embedded-text.txt",
+      "sha256": "9432a6e8ab033337cb7c320b75020b726a2365b25a4ce7f037d2a59554470e35",
+      "bytes": 432
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/raw-local-ocr.txt",
+      "sha256": "c920d8c27ea0d2a152216a9ef8caabdc34fa18c4a0af6bc11cbc43f7babc7fef",
+      "bytes": 20654
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/contact-sheet.jpg",
+      "sha256": "156ed3e80aa0106436070f3cd5fd1c84be1bff33e3b6755ca24b589fca1a4405",
+      "bytes": 302610
+    },
+    {
+      "role": "DERIVATIVE",
+      "path": "09_SOURCE_LIBRARY/review_pending/BATCH-RESEARCH-20261024-001/derivatives/fax-detail.png",
+      "sha256": "7da0dc94cad5d28d7db4541ddf4e71fb76b70d51c5f617ba0d71900489e0d61b",
+      "bytes": 877379
+    }
+  ],
+  "handling": "Mixed packet with personal information and unrelated case material. Local preservation only; do not stage or publish originals/OCR/contact sheet. Source catalog ingestion deferred for handling and provenance review. Permissions are a local guardrail, not a release decision."
+}

@@ -1,0 +1,47 @@
+ M 00_ADMIN/AUTONOMOUS_RESEARCH_PROTOCOL.md
+ M 00_ADMIN/DIRECTORY_TREE.txt
+ M 00_ADMIN/data_registers/assets.csv
+ M 00_ADMIN/data_registers/claim_sources.csv
+ M 00_ADMIN/data_registers/claims.csv
+ M 00_ADMIN/data_registers/contradiction_versions.csv
+ M 00_ADMIN/data_registers/contradictions.csv
+ M 00_ADMIN/data_registers/event_times.csv
+ M 00_ADMIN/data_registers/events.csv
+ M 00_ADMIN/data_registers/evidence.csv
+ M 00_ADMIN/data_registers/newspaper_articles.csv
+ M 00_ADMIN/data_registers/organizations.csv
+ M 00_ADMIN/data_registers/people.csv
+ M 00_ADMIN/data_registers/relationships.csv
+ M 00_ADMIN/data_registers/source_files.csv
+ M 00_ADMIN/data_registers/sources.csv
+ M 00_ADMIN/data_registers/witness_statements.csv
+ M 00_ADMIN/ingestion_batches/BATCH-MD-001/source_chain.csv
+ M 00_ADMIN/ingestion_batches/BATCH-MD-001/wanted_sources.csv
+ M 01_MASTER_CASE/research_questions/OPEN_QUESTIONS.md
+ M 02_TIMELINE/master_timeline.md
+ M 09_SOURCE_LIBRARY/README.md
+ M 09_SOURCE_LIBRARY/WANTED_SOURCES.md
+ M 15_AI_WORKSPACE/failed_searches/search_log.csv
+ M 15_AI_WORKSPACE/research_queue.md
+ M 15_AI_WORKSPACE/research_runs/INDEX.md
+ M AGENTS.md
+?? 00_ADMIN/RESEARCH_RELEASE_PROTOCOL.md
+?? 00_ADMIN/change_log/20261023T202545Z__hourly-research-release-policy.md
+?? 00_ADMIN/change_log/RUN-20261023T205418Z.md
+?? 00_ADMIN/change_log/RUN-20261023T215618Z.md
+?? "00_ADMIN/data_registers/contradiction_versions 2.csv"
+?? "00_ADMIN/data_registers/contradictions 2.csv"
+?? "00_ADMIN/data_registers/event_times 2.csv"
+?? "00_ADMIN/data_registers/people 2.csv"
+?? "00_ADMIN/data_registers/relationships 2.csv"
+?? "00_ADMIN/data_registers/witness_statements 2.csv"
+?? 00_ADMIN/ingestion_batches/BATCH-RESEARCH-20261023-002/
+?? 00_ADMIN/ingestion_batches/BATCH-RESEARCH-20261023-003/
+?? 06_WITNESS_STATEMENTS/statement_transcriptions/BATCH-RESEARCH-20261023-003/
+?? 09_SOURCE_LIBRARY/document_reproductions/
+?? 15_AI_WORKSPACE/development_requests/
+?? 15_AI_WORKSPACE/research_runs/CONFIG-20261023T202545Z.md
+?? 15_AI_WORKSPACE/research_runs/CONFIG-20261023T202545Z/
+?? 15_AI_WORKSPACE/research_runs/RUN-20261023T205418Z.md
+?? 15_AI_WORKSPACE/research_runs/RUN-20261023T215618Z.md
+?? 15_AI_WORKSPACE/validation_queue/

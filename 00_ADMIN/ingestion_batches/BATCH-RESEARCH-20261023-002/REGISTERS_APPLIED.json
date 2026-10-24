@@ -1,0 +1,11 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261023-002",
+  "counts": {
+    "sources": 1,
+    "source_files": 11,
+    "assets": 2,
+    "claims": 2,
+    "claim_sources": 8,
+    "relationships": 1
+  }
+}

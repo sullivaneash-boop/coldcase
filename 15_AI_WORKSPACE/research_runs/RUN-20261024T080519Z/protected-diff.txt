@@ -1,0 +1,32 @@
+diff --git a/tools/research_board/next.config.ts b/tools/research_board/next.config.ts
+index 8956c07..94d333e 100644
+--- a/tools/research_board/next.config.ts
++++ b/tools/research_board/next.config.ts
+@@ -1,8 +1,12 @@
++import path from "node:path";
+ import type { NextConfig } from "next";
+ 
+ const nextConfig: NextConfig = {
+   // The release check builds into a separate directory so a running dev server is not disturbed.
+   distDir: process.env.NEXT_DIST_DIR || ".next",
++  // Pin the workspace root to this app so stray lockfiles elsewhere on the machine
++  // (e.g. ~/package-lock.json) never make the build trace files outside the project.
++  outputFileTracingRoot: path.join(__dirname),
+   devIndicators: false,
+ };
+ 
+diff --git a/tools/research_board/scripts/release.ts b/tools/research_board/scripts/release.ts
+index fdf834c..be683bd 100644
+--- a/tools/research_board/scripts/release.ts
++++ b/tools/research_board/scripts/release.ts
+@@ -22,6 +22,10 @@ const steps: { name: string; cmd: string; args: string[]; env?: Record<string, s
+   { name: "production build", cmd: bin("next"), args: ["build"], env: { NEXT_DIST_DIR: ".next-release" } },
+ ];
+ 
++// Start from an empty release build directory: stale generated types (e.g. sync-conflict copies
++// such as "routes.d 2.ts") must never make the typecheck depend on a previous run.
++fs.rmSync(path.join(APP_ROOT, ".next-release"), { recursive: true, force: true });
++
+ const results: { step: string; ok: boolean; seconds: number }[] = [];
+ let failed: string | null = null;
+ for (const s of steps) {

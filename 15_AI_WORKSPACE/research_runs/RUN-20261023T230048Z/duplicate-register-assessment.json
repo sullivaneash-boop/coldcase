@@ -1,0 +1,62 @@
+[
+  {
+    "extra": "contradiction_versions 2.csv",
+    "sha256": "cca8389b26920bdacd364bdd77a3f4093c8753fb0935b326152797f6c4fcdf0b",
+    "rows": 8,
+    "canonical_rows": 12,
+    "shared_ids": 8,
+    "shared_rows_changed": 0,
+    "birthtime": 1792784691.0,
+    "mtime": 1792784691.0
+  },
+  {
+    "extra": "contradictions 2.csv",
+    "sha256": "6a3cfcb15a68a3c245572da2c3cd5bd15257b1583f8aebda994149a8ebef8c34",
+    "rows": 3,
+    "canonical_rows": 5,
+    "shared_ids": 3,
+    "shared_rows_changed": 0,
+    "birthtime": 1792784691.0,
+    "mtime": 1792784691.0
+  },
+  {
+    "extra": "event_times 2.csv",
+    "sha256": "ead0e3d0efe9f069a7bc03301527e8326bda0743fa82865b59a4815558a3e0d1",
+    "rows": 71,
+    "canonical_rows": 76,
+    "shared_ids": 71,
+    "shared_rows_changed": 0,
+    "birthtime": 1792785538.0,
+    "mtime": 1792785538.0
+  },
+  {
+    "extra": "people 2.csv",
+    "sha256": "633fd417f8df29fa606dd38701751031d2d2b3e2833e75a9efbb296892a8b5f1",
+    "rows": 60,
+    "canonical_rows": 65,
+    "shared_ids": 60,
+    "shared_rows_changed": 0,
+    "birthtime": 1792784691.0,
+    "mtime": 1792784691.0
+  },
+  {
+    "extra": "relationships 2.csv",
+    "sha256": "232fd427dafa0d66118c20fc6109b3c398d5b27a9ef82ed72c65181cdbef84fd",
+    "rows": 333,
+    "canonical_rows": 340,
+    "shared_ids": 333,
+    "shared_rows_changed": 0,
+    "birthtime": 1792789301.0,
+    "mtime": 1792789301.0
+  },
+  {
+    "extra": "witness_statements 2.csv",
+    "sha256": "0c13bdd6ff4527745ab58b47bc67888986dcb08e9c1d0f29e08241e3c4a6df6a",
+    "rows": 31,
+    "canonical_rows": 33,
+    "shared_ids": 31,
+    "shared_rows_changed": 0,
+    "birthtime": 1792784691.0,
+    "mtime": 1792784691.0
+  }
+]

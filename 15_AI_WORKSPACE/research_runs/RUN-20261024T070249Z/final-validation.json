@@ -1,0 +1,15 @@
+{
+  "registered_hashes_checked": 219,
+  "hash_failures": [],
+  "changed_registers": [
+    "claim_sources",
+    "claims",
+    "source_files",
+    "event_times",
+    "events",
+    "sources"
+  ],
+  "claim_and_time_on_board": true,
+  "held_files_verified": 27,
+  "private_packet_not_published": true
+}

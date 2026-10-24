@@ -1,0 +1,140 @@
+{
+  "run_id": "RUN-20261023T215618Z",
+  "captured_at": "2026-10-23T22:07:38.589459+00:00",
+  "status": "PRESERVED_PENDING_REGISTER_READABILITY_AND_REVIEW",
+  "files": [
+    {
+      "filename": "img_20160607_104454.jpg",
+      "sha256": "ec9832f9a11f4143c6ced8342440644d135f918bbf39911af45a012a44d57eb5",
+      "bytes": 1299035,
+      "role": "UNCHANGED_PUBLIC_DOWNLOAD",
+      "origin_url": "https://levifrady.com/wp-content/uploads/2016/06/img_20160607_104454.jpg"
+    },
+    {
+      "filename": "img_20160607_104454.jpg.raw-ocr.txt",
+      "sha256": "d21fe634fe64517dad2e20c79757a17e78e0c4ae5ed8117ce0ba96d78b4c9fad",
+      "bytes": 1060,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104454.jpg.vision.json",
+      "sha256": "2d94a586a7571c9ed160068e4eea2169495a9bb00663c36347febb4f8cdf9bc8",
+      "bytes": 4304,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104625.jpg",
+      "sha256": "fb5d7174f1b5bca33989fa6e9e5dad8b06560925b2d52eceb2d457790854608c",
+      "bytes": 1926334,
+      "role": "UNCHANGED_PUBLIC_DOWNLOAD",
+      "origin_url": "https://levifrady.com/wp-content/uploads/2016/06/img_20160607_104625.jpg"
+    },
+    {
+      "filename": "img_20160607_104625.jpg.raw-ocr.txt",
+      "sha256": "01ff62b1f0b9b0444329ce01502e8325d74968bf4d27ebc1a1d7032767126426",
+      "bytes": 2881,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104625.jpg.vision.json",
+      "sha256": "ab5fe745496516cb810bbfa77a7fe02b20d28240209bb55621d30aba3df48aac",
+      "bytes": 10097,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104801.jpg",
+      "sha256": "6b0f82fe616abcb82e1445188d51a058373c39d21fbcb3aa088074a478556226",
+      "bytes": 1569446,
+      "role": "UNCHANGED_PUBLIC_DOWNLOAD",
+      "origin_url": "https://levifrady.com/wp-content/uploads/2016/06/img_20160607_104801.jpg"
+    },
+    {
+      "filename": "img_20160607_104801.jpg.raw-ocr.txt",
+      "sha256": "31f42d2fa14ce0363c08372814f5a82a90e68452149f0eab7916bad65857533e",
+      "bytes": 1958,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104801.jpg.vision.json",
+      "sha256": "5653f54b5654c25b6edd55f238cc9f5be4de15cc5f329fb4fe9a15d106904ce9",
+      "bytes": 8606,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104834.jpg",
+      "sha256": "efbe1e5400b54699b75029ff3f05bf7907ec033162981abb7382dc0714800a5c",
+      "bytes": 1924241,
+      "role": "UNCHANGED_PUBLIC_DOWNLOAD",
+      "origin_url": "https://levifrady.com/wp-content/uploads/2016/06/img_20160607_104834.jpg"
+    },
+    {
+      "filename": "img_20160607_104834.jpg.raw-ocr.txt",
+      "sha256": "4e9543666f02dab24381e0c98f7bb0c43be981cc5922741101442c0aa49496ef",
+      "bytes": 3096,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160607_104834.jpg.vision.json",
+      "sha256": "0460c0ddee570c16a5040d36652870855aa892118fd3ab9fdfc47aaaa7f24c4b",
+      "bytes": 10496,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160608_154358.jpg",
+      "sha256": "d9cddc6ac6f368f824c503d282a27d305d352bf003a4a45d19719ba189039fab",
+      "bytes": 1590042,
+      "role": "UNCHANGED_PUBLIC_DOWNLOAD",
+      "origin_url": "https://levifrady.com/wp-content/uploads/2016/06/img_20160608_154358.jpg"
+    },
+    {
+      "filename": "img_20160608_154358.jpg.raw-ocr.txt",
+      "sha256": "d631a74d0c7674863a8d036061e1643f66b9db36b6bcd317ee4b42496f067f5d",
+      "bytes": 1365,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "img_20160608_154358.jpg.vision.json",
+      "sha256": "59c19ab7074bd076f4a4f577ebf37887a9508695bf53952092b27b8c30af7f32",
+      "bytes": 7842,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "nix-image-headers.txt",
+      "sha256": "2f191d35cf6edbb692a9017a1a6067890904079657b07053a7aeedcb9a2e0e0f",
+      "bytes": 473,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "nix-page-headers.txt",
+      "sha256": "dc1ddf3542b7247977ce72a328fa0c9c0824bc1239a006b86e591e50a2138ac0",
+      "bytes": 666,
+      "role": "RAW_EXTRACTION_OR_HTTP_METADATA",
+      "origin_url": null
+    },
+    {
+      "filename": "nix-page.html",
+      "sha256": "377cdfe13dcec2c106b8ec7ce6b865188fc6045e6ae538e02bd53544b3d01722",
+      "bytes": 80543,
+      "role": "UNCHANGED_PUBLIC_DOWNLOAD",
+      "origin_url": "https://levifrady.com/gbi-director-nixs-response-to-fcso-denny-hendrix/"
+    }
+  ],
+  "source_documents": {
+    "Hendrix": "four sequential photographed pages, printed September2,1998",
+    "Nix": "one photographed response page, printed September17,1998"
+  },
+  "authenticity": "UNVERIFIED_THIRD_PARTY_REPRODUCTIONS",
+  "no_registered_sources_or_claims_created": true,
+  "blocker": "Reading existing people.csv stalled in preflight; independent head read also stalled. Processes stopped. Cause unknown; no permission bypass or register overwrite attempted."
+}

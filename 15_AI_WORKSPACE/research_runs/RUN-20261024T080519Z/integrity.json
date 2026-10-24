@@ -1,0 +1,32 @@
+{
+  "registered_files_verified": 226,
+  "failures": [],
+  "changed_registers": [
+    "claim_sources",
+    "claims",
+    "source_files",
+    "sources"
+  ],
+  "unchanged_registers": [
+    "witness_statements 2",
+    "evidence",
+    "people",
+    "assets",
+    "event_times 2",
+    "contradiction_versions 2",
+    "contradiction_versions",
+    "records_requests",
+    "organizations",
+    "locations",
+    "contradictions 2",
+    "event_times",
+    "newspaper_articles",
+    "events",
+    "relationships 2",
+    "interviews",
+    "witness_statements",
+    "relationships",
+    "contradictions",
+    "people 2"
+  ]
+}

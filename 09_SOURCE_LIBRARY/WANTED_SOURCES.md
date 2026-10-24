@@ -8,11 +8,13 @@ Priorities: original GBI timeline / Nov. 3, 2004 newspaper; 1998 Hendrix–Nix l
 
 ### WNT-ca54cbbc-dd8f-5510-a053-19a39d0abb66 — GBI timeline as published in Dawson News & Advertiser, Nov. 3, 2004
 
-- Status: NOT_ACQUIRED
+- Status: PARTIALLY_ACQUIRED
 - Referenced by: SRC-272849e2-fbc8-5d9e-9e3d-4af3594a5583;SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9;SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a
 - Type: OFFICIAL_TIMELINE_REPRODUCTION
 - URL: https://levifrady.com/gbi-timeline/
 - Notes: 
+
+- RUN-20261023T205418Z: two cropped photographic reproductions acquired as `SRC-dd0a70b2-9491-50da-826e-122743460cde`. Handwritten issue/date unverified; full authenticated newspaper issue and original GBI timeline remain wanted. No original request closed.
 
 ### WNT-162e0804-58d4-548c-a275-c3c195bed7c1 — Original GBI timeline and supporting 1997 call/report records
 
@@ -24,19 +26,23 @@ Priorities: original GBI timeline / Nov. 3, 2004 newspaper; 1998 Hendrix–Nix l
 
 ### WNT-1143ea9a-47b0-594b-aaed-6f055ccae615 — Denny Hendrix letter to Buddy Nix, Sept. 2, 1998
 
-- Status: NOT_ACQUIRED
+- Status: PARTIALLY_ACQUIRED
 - Referenced by: SRC-272849e2-fbc8-5d9e-9e3d-4af3594a5583;SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9
 - Type: AGENCY_LETTER
 - URL: unknown
 - Notes: 
 
+- RUN-20261023T215618Z: photographic rendition `SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd` acquired; original/authentication still outstanding.
+
 ### WNT-00a4d216-8f54-5953-b56e-43745a27f0b5 — Buddy Nix response to Denny Hendrix, Sept. 17, 1998
 
-- Status: NOT_ACQUIRED
+- Status: PARTIALLY_ACQUIRED
 - Referenced by: SRC-272849e2-fbc8-5d9e-9e3d-4af3594a5583
 - Type: AGENCY_LETTER
 - URL: https://levifrady.com/gbi-director-nixs-response-to-fcso-denny-hendrix/
 - Notes: 
+
+- RUN-20261023T215618Z: photographic rendition `SRC-b64917c6-9513-521a-b3b7-936ea2412bfa` acquired; original/authentication still outstanding.
 
 ### WNT-a82e81e9-7e97-5294-8ed0-0078c7ced4e9 — Kimberly Boim outgoing May 25, 2016 email and Scott Dutton response
 
@@ -896,3 +902,28 @@ All 18 requests below remain OPEN; leads are not evidence. Overlapping older req
 ## RUN-20261023T195857Z — program-history acquisition status
 
 The GBI FY2002 administration report is now acquired as `SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc` (official URL https://gbi.georgia.gov/document/document/88545895administrationfy02pdf/download; PDF p.7). It supplies a January 2002 establishment/partnership account. This partially addresses BATCH-FCN-MIXED-002-LEAD-016; a specific operational activation/first-use record remains wanted. Likely custodian: GBI Public Affairs/program administration, to be verified; a dated implementation memo or archived release would distinguish milestones. No request was sent. Original case timeline, forensic records and other wanted items remain unacquired.
+
+## RUN-20261023T215618Z — additional exact acquisition targets
+
+- Two Friday inmate interview tapes and report referred to by `SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd` p.2 (Aug28,1998 inferred from context), original incoming inmate letter and agency receipt/visitor records. Likely custodians FCSO and/or GBI; custody/retention unverified. Lead, not proof recordings survive.
+- Certified correspondence/envelopes/dispatch register to compare outgoing Sept2 date with Sept1 acknowledgment reference and the warrant-notice wording. No request sent.
+
+## BATCH-RESEARCH-20261024-001 — pending-source authentication lead
+
+### WNT-20261024-001 — Original dated fax, actual attachment sequence and receipt/routing records
+
+- Status: ORIGINAL_NOT_ACQUIRED; third-party mixed rendition held internally pending review.
+- Requesting context: BATCH-RESEARCH-20261024-001, PDF p.3/BLK01052 and pp.4–5; SRC allocation deferred for authenticity/handling review. This is a lead, not a factual case finding.
+- Exact target: authenticated Feb23,2005 fax represented as Garry Gray/MSP to Mike Clayton/GBI; actual thirteen-page transmitted sequence, receipt/routing and any documented response/closure. A mixed21-page hosted file does not establish transmission boundaries.
+- Likely custodians: Michigan State Police investigative records / then Metro North Post21 and GBI recipient/regional investigation records; custody and retention unverified.
+- Method: authorized official records access or user-supplied authenticated copy. No contact, form, purchase or request sent.
+- Privacy/identity: private particulars and unrelated allegations remain in internal hold; no individual is linked to Levi by this entry. No identity merge or suspect designation.
+
+## RUN-20261024T070249Z acquisition limitation
+
+WNT-162e0804-58d4-548c-a275-c3c195bed7c1 remainsNOT_ACQUIRED. The exact historical link http://www.state.ga.us/gbi/levi.html retrieved through an indexed2005archive capture is a Levi’sCall program page, reused under SRC-94d2abbc-6063-47fd-8a25-f46086d37025; it does not satisfy the original case timeline request. Original dated2002establishment/activation authorization and first-use record also remainwanted; website date attribution alone does not supply those originals.
+
+
+## RUN-20261024T080519Z — archived publisher chronology
+
+Acquired AccessNorthGa article85646 as SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2 through indexed capture20041031071328. Three scoped source links added to existing claims; no new case claims/events/witness identities. Shared investigative chronology, not independent corroboration. Original agency release remains wanted. Inverted time range and publication-date uncertainty are in BATCH-RESEARCH-20261024-004/human_review_queue.csv. Do not repeat acquisition; next compare the exact original agency release with publisher/clipping versions.

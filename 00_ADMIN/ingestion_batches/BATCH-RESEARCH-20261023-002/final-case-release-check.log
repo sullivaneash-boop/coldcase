@@ -1,0 +1,110 @@
+
+> research_board@0.1.0 case:release-check
+> tsx scripts/release.ts
+
+
+━━ sync + validation ━━
+
+Archive: /Users/sullyeash/Documents/LEVI-FRADY-CASE
+  sources                  64
+  claims                   144
+  claim_sources            168
+  contradictions           3
+  contradiction_versions   8
+  people                   60
+  organizations            29
+  locations                18
+  events                   57
+  event_times              71
+  evidence                 8
+  witness_statements       31
+  relationships            333
+  source_files             188
+  records_requests         0
+  interviews               0
+  newspaper_articles       26
+  assets                   91
+  researcher_links         0
+  review_decisions         0
+
+  414 records · 905 links · 91 assets (0 newly discovered, appended to assets.csv) · 299 inbox items
+  51 archive files published (0 copied this run) · data version 9d872fa86ee5a894
+
+No register changes since last sync.
+
+Sync finished in 0.4s: 0 error(s), 0 warning(s). Report: tools/research_board/generated/validation-report.md
+
+━━ tests ━━
+✔ a valid archive builds with no errors and exposes records, provenance and timeline data (14.814875ms)
+✔ never infers relationships from co-mention in the same source (5.017125ms)
+✔ duplicate stable IDs are errors (3.819875ms)
+✔ malformed IDs and records are errors (2.99225ms)
+✔ claims without sources are errors (3.808875ms)
+✔ broken, impossible and unresolved-source references are errors and are never drawn (3.359834ms)
+✔ invalid dates, clock times and impossible ranges are errors (3.590625ms)
+✔ invalid claim status is an error; malformed and duplicate URLs are warnings (4.033041ms)
+✔ missing assets are warnings, are not published, and do not fail the build (4.686709ms)
+✔ unsafe absolute paths are errors; a modified original is an error (4.030834ms)
+✔ local images are published and identities come only from explicit source labels (4.602416ms)
+✔ tolerates incomplete research: untitled source, unknown date, unnamed person (2.954625ms)
+✔ latest finding is derived from the newest research run log (3.434ms)
+✔ data version is deterministic for identical archives (3.013833ms)
+✔ never manufactures precision (0.605667ms)
+✔ marks approximate and range readings (0.171375ms)
+✔ date validation rejects impossible calendar dates (1.02175ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 211.858584
+
+━━ typecheck ━━
+
+━━ production build ━━
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/sullyeash/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/sullyeash/Documents/LEVI-FRADY-CASE/tools/research_board/package-lock.json
+
+   ▲ Next.js 15.5.28
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 1801ms
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/7) ...
+   Generating static pages (1/7) 
+   Generating static pages (3/7) 
+   Generating static pages (5/7) 
+ ✓ Generating static pages (7/7)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                     205 kB         308 kB
+├ ○ /_not-found                            993 B         104 kB
+├ ƒ /api/inbox                             127 B         103 kB
+└ ƒ /api/links                             127 B         103 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/255-b1e2483a7e02feee.js       46.6 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.91 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+━━ Release check ━━
+  ✔ sync + validation    0.6s
+  ✔ tests                0.3s
+  ✔ typecheck            1.4s
+  ✔ production build     12.6s
+  validation: 0 error(s), 0 warning(s)
+
+✔ DEPLOYABLE — commit and push to update production.

@@ -1,0 +1,7 @@
+{
+  "reason": "Restore existing LF record formatting after Python CSV writer defaulted to CRLF; no record values changed.",
+  "paths": [
+    "00_ADMIN/data_registers/assets.csv",
+    "15_AI_WORKSPACE/failed_searches/search_log.csv"
+  ]
+}

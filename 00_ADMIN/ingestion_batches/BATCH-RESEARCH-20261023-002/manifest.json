@@ -1,0 +1,98 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261023-002",
+  "run_id": "RUN-20261023T205418Z",
+  "created_at": "2026-10-23T21:01:41.788753+00:00",
+  "source_id": "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+  "publication_date": null,
+  "publication_annotation": "Nov.3,2004, Dawson News + Advertiser — handwritten, unverified",
+  "classification": "R4",
+  "raw_sources_preserved_unchanged": true,
+  "source_urls": [
+    "https://levifrady.com/gbi-timeline/",
+    "https://levifrady.com/wp-content/uploads/2016/05/img_20160525_174637.jpg",
+    "https://levifrady.com/wp-content/uploads/2016/05/img_20160525_174917.jpg"
+  ],
+  "files": [
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/timeline-page.html",
+      "role": "ORIGINAL",
+      "sha256": "da5787ea748e0f21548df4a9d1eebcd3467b1c8e07f12b5bf4293b1a5fdd35fb",
+      "bytes": 81126
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/img_20160525_174637.jpg",
+      "role": "ORIGINAL",
+      "sha256": "8cba671de04db4ccf7dbe49d3a66a9986edc4e4c817159af31dcebfe24ac7b24",
+      "bytes": 1928450
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/img_20160525_174917.jpg",
+      "role": "ORIGINAL",
+      "sha256": "8b8b131926d7334988a022e2059d47790612a8db431b43cb54964f30d3331135",
+      "bytes": 941584
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/timeline-headers.txt",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "6b43a631211db077064071d1dee452a004fe3c32ab376448eef4914a61c649f6",
+      "bytes": 665
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/timeline-01-headers.txt",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "d818aef537e21352d3a736b65e664c241decf6c3e8d53a1962e486ea7a482c8b",
+      "bytes": 472
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/timeline-02-headers.txt",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "71324a16e1a90b4229107373fc17f1457b158920130d5c4cae930e7196de7c5c",
+      "bytes": 471
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/img_20160525_174637.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "470e4ffe3726344002e66263aeeb987844cc2d7f33802df5be94bf36e948cc5c",
+      "bytes": 38345
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/img_20160525_174917.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "7c6e58892a52b7f8bc49d6c3d376ef0c687cabe10c00c386fc15f4e1ac28809a",
+      "bytes": 27723
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/img_20160525_174637.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "14ca22cc9201784592888fd054078b89a72985090f5c612ec724e38a392ab678",
+      "bytes": 5649
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/img_20160525_174917.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "1ef76072f5219581a604675b7bed489511bd9cb29a069cb5928fdf7fdac67bb9",
+      "bytes": 3944
+    },
+    {
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/SRC-dd0a70b2-9491-50da-826e-122743460cde__timeline-clipping__reading-note-v01.md",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "a17ef532a353e7ca35983063c60b0e394a48b3fe3db8f1d4612c4d022abb170c",
+      "bytes": 3253
+    }
+  ],
+  "new_register_counts": {
+    "sources": 1,
+    "source_files": 11,
+    "assets": 2,
+    "claims": 2,
+    "claim_sources": 8,
+    "relationships": 1
+  },
+  "existing_claims_updated": 6,
+  "new_events": 0,
+  "new_witness_statements": 0,
+  "new_contradictions": 0,
+  "human_review_items": 4,
+  "state": "INGESTED_PENDING_HUMAN_REVIEW",
+  "extraction": "Apple Vision local accurate en-US, language correction disabled; both images visually reviewed. First sandbox OCR stalled, completed after normal approved local execution. No software installation."
+}

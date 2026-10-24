@@ -1,0 +1,3 @@
+# Source comparison
+
+Source-wording conflict `CON-1a8b343f-796a-5cd0-a671-2c075b70698c`: blog line35 inserts a negation absent from reproduced Hendrix p.3; both remain UNRESOLVED and neither proves actual notification. Date conflict `CON-9758b329-1855-5b6d-b93d-2ca2b3f7e587`: reproduced outgoing date September2 vs reply reference September1; could involve different letters/date typo/version. No inference of deception. Four of the acquired photos were previously remote assets and retain IDs; Nix photograph adds one asset. Two WIT rows are representation versions of the same letters, not newly changed recollections.

@@ -1,0 +1,51 @@
+{
+  "source_present": true,
+  "source_links": 3,
+  "registered_files": 7,
+  "inbox_items": 3,
+  "meta": {
+    "syncedAt": "2026-10-24T08:13:21.273Z",
+    "dataVersion": "303f027735ffe620",
+    "readOnly": false,
+    "config": {
+      "title": "Levi Frady case",
+      "timelineWindows": [
+        {
+          "label": "Oct 22\u201323, 1997",
+          "start": "1997-10-22",
+          "end": "1997-10-24",
+          "hourly": true
+        },
+        {
+          "label": "Oct\u2013Nov 1997",
+          "start": "1997-10-20",
+          "end": "1997-11-16"
+        }
+      ]
+    },
+    "research": {
+      "lastRun": {
+        "id": "RUN-20261024T070249Z",
+        "at": "2026-10-24T07:02:49Z",
+        "file": "15_AI_WORKSPACE/research_runs/RUN-20261024T070249Z.md"
+      },
+      "registersChangedAt": "2026-10-24T08:12:24.882895+00:00",
+      "latestSource": {
+        "id": "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
+        "title": "New information released in Frady murder",
+        "at": "2026-10-24T08:12:24.882895+00:00"
+      },
+      "latestFinding": {
+        "text": "The archived GBI program page states January 1, 2002 as an establishment date, in HTML lines167\u2013172. This is a source-reported agency program-history assertion, not independent proof of a launch act or first alert use. Initial drop capital/program name are image elements; raw extraction marks images and does not silently reconstruct them. The date text itself is literal. Precise locator and institutional attributi\u2026",
+        "origin": "RUN-20261024T070249Z research log (AI-written summary \u2014 not evidence)",
+        "recordIds": []
+      }
+    },
+    "validation": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "warnings": [],
+    "openQuestionFiles": 1
+  }
+}

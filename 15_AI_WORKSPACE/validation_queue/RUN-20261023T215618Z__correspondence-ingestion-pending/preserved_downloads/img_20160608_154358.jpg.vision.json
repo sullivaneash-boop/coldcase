@@ -1,0 +1,290 @@
+[
+  {
+    "confidence" : 1,
+    "height" : 0.031355403294073048,
+    "text" : "GEORGIA BUREAU OF INVESTIGATION-",
+    "width" : 0.5004429566232782,
+    "x" : 0.16902543384216448,
+    "y" : 0.8980741846641298
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.01324973373769589,
+    "text" : "3121 Panthersville Road",
+    "width" : 0.14795445141039398,
+    "x" : 0.16937302264228443,
+    "y" : 0.88662916294594551
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.010228754204010371,
+    "text" : "P.O. Box 370808",
+    "width" : 0.10020449914430318,
+    "x" : 0.16973415125764235,
+    "y" : 0.87645348857275696
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.01314252336448607,
+    "text" : "Decatur, Georgia 30037-0808",
+    "width" : 0.17586911352057208,
+    "x" : 0.16973415269779177,
+    "y" : 0.86477803721460622
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.011729786886233051,
+    "text" : "Milton E. Nix, Jr.",
+    "width" : 0.11451942042300575,
+    "x" : 0.06339468794800629,
+    "y" : 0.82267441865394308
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.0087209299345997193,
+    "text" : "Director",
+    "width" : 0.042944785795713716,
+    "x" : 0.10020449914713291,
+    "y" : 0.81395348857921179
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.017577699968747917,
+    "text" : "September 17, 1998",
+    "width" : 0.15337423274391576,
+    "x" : 0.3967280178304961,
+    "y" : 0.76162790739582675
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.015988372196660938,
+    "text" : "Sheriff Denny Hendrix",
+    "width" : 0.17791410496360377,
+    "x" : 0.11451943146502835,
+    "y" : 0.71366279080573936
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.020684257846012244,
+    "text" : "Forsyth County Sheriff's Office",
+    "width" : 0.24637262444747124,
+    "x" : 0.11403957916680293,
+    "y" : 0.69660911318621277
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.016798658905742392,
+    "text" : "202 Old Buford Road",
+    "width" : 0.1686963407616866,
+    "x" : 0.11400965192596269,
+    "y" : 0.68361063063538152
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.016076668400630711,
+    "text" : "Cumming, Georgia 30040",
+    "width" : 0.20245397718329178,
+    "x" : 0.11451943520692254,
+    "y" : 0.66851635503418239
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.014670723509565664,
+    "text" : "Dear Sheriff Hendrix:",
+    "width" : 0.1697341517398232,
+    "x" : 0.1145194286120243,
+    "y" : 0.63953488394906122
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.032041705657388508,
+    "text" : "This is to acknowledge receipt of your letter dated September 1, 1998. Trank yoiı for",
+    "width" : 0.69230139882940978,
+    "x" : 0.17130510547147099,
+    "y" : 0.60572991472553861
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.031813456633380643,
+    "text" : "bringing your concerns to my personal attention. Everyone involved in this case shares your",
+    "width" : 0.75144868148000621,
+    "x" : 0.11403556145378191,
+    "y" : 0.59130971025807366
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.032680462453966941,
+    "text" : "desire for all participating agencies t fully cooperate and this agency takes the Levi Frady",
+    "width" : 0.75147488242701477,
+    "x" : 0.11402712295638801,
+    "y" : 0.57476112972991045
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.030684769710647708,
+    "text" : "investigation very seriously. It is a challenging case and as always, it is our intent to conduct a",
+    "width" : 0.75345245160554575,
+    "x" : 0.1120287737690794,
+    "y" : 0.56090153219848082
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.030395440966169418,
+    "text" : "quality investigation that is coordinated with the local authorities. I have spoken to Special",
+    "width" : 0.75559756630345409,
+    "x" : 0.1120107233703127,
+    "y" : 0.5456421323241365
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.029567473402647204,
+    "text" : "Agent in Charge (SAC) Jim Hallman regarding your concerns and again he extends his apology",
+    "width" : 0.7554668125353361,
+    "x" : 0.11205190598598151,
+    "y" : 0.53070524618344117
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.019370495715988034,
+    "text" : "for the discomforts he has caused you and your staff.",
+    "width" : 0.40939203061555562,
+    "x" : 0.11225998789623151,
+    "y" : 0.51852861243069703
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.030464748355829907,
+    "text" : "The GBl anticipates a coordinited redoubling of our efforts in order to sclve fais most",
+    "width" : 0.70428496912906047,
+    "x" : 0.16936385509665486,
+    "y" : 0.48374220180587846
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.013203650991493232,
+    "text" : "heinous crime.",
+    "width" : 0.11860940330906918,
+    "x" : 0.1124744399610073,
+    "y" : 0.47371495346045489
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.027553350011879085,
+    "text" : "This agency looks forward to working with you and Sheriff Carlisle in bringing this case",
+    "width" : 0.70422533938759257,
+    "x" : 0.16939974197291296,
+    "y" : 0.43904485934446502
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.015871064685215486,
+    "text" : "to a successful conclusion.",
+    "width" : 0.20906774621260793,
+    "x" : 0.11217295788372815,
+    "y" : 0.4267278750368958
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.016373374751795122,
+    "text" : "Sincerely,",
+    "width" : 0.090533501223513946,
+    "x" : 0.40258601102268088,
+    "y" : 0.39588308011346596
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.01465034763389661,
+    "text" : "Milton E. Nix, Jr.",
+    "width" : 0.14110429663407181,
+    "x" : 0.40286298578316865,
+    "y" : 0.35017523363022052
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.013517984720034071,
+    "text" : "Director",
+    "width" : 0.069690158492640486,
+    "x" : 0.40278273319325786,
+    "y" : 0.33408403095999906
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.013493817543314912,
+    "text" : "MEN\/jb",
+    "width" : 0.067641019821166992,
+    "x" : 0.10830627889238484,
+    "y" : 0.28177053303168886
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.008768474108704849,
+    "text" : "Division of Forensic Sciences",
+    "width" : 0.16768916029679148,
+    "x" : 0.094069531957943694,
+    "y" : 0.12645348857921168
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.008768474108704849,
+    "text" : "P.O. Box 370808",
+    "width" : 0.096114516258239704,
+    "x" : 0.12065439711116648,
+    "y" : 0.11477803729754832
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.011736579030473648,
+    "text" : "Decatur, Georgla 30037-0808",
+    "width" : 0.17177914318285492,
+    "x" : 0.089979550494462088,
+    "y" : 0.10163551405250171
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.011682242990654235,
+    "text" : "Investigative Division",
+    "width" : 0.13087933941891317,
+    "x" : 0.42331288816375401,
+    "y" : 0.12353971956929544
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.01022875420401026,
+    "text" : "P.O. Box 370808",
+    "width" : 0.094069524815207972,
+    "x" : 0.43967280323656782,
+    "y" : 0.11331775703409286
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.013196859404305372,
+    "text" : "Drcatur, Georgla 30037-0808",
+    "width" : 0.17177913063450861,
+    "x" : 0.40286298887497479,
+    "y" : 0.10017523341973589
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.013142523364485958,
+    "text" : "Georgla Crime Information Cenle:",
+    "width" : 0.20654396006935527,
+    "x" : 0.70756646733239803,
+    "y" : 0.12499999996919675
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.008761682242990676,
+    "text" : "P.O. '3co: 3\/0748",
+    "width" : 0.098159507701271465,
+    "x" : 0.75664621653791231,
+    "y" : 0.11623831782841698
+  },
+  {
+    "confidence" : 1,
+    "height" : 0.011729786886233051,
+    "text" : "Decatur, Geargia 30037-0748",
+    "width" : 0.17177913063450867,
+    "x" : 0.72801636801607894,
+    "y" : 0.1030957945930604
+  }
+]

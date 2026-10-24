@@ -52,3 +52,20 @@ Raw captures and annotated reading copies are separate under web_markdown/<publi
 ## Official GBI program-history source
 
 `SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc` — [GBI FY2002 administration report section, reading note](government/georgia-bureau-of-investigation/fy2002/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc/derivatives/SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc__gbi-fy2002__public-affairs__reading-v01.md). Official unchanged PDF and separate raw text/page preview are preserved under government/georgia-bureau-of-investigation/fy2002/. PDF p.7 supplies month-level program-history support; no case forensic findings extracted.
+
+## Partially acquired timeline clipping
+
+`SRC-dd0a70b2-9491-50da-826e-122743460cde` — [reading note](document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/derivatives/SRC-dd0a70b2-9491-50da-826e-122743460cde__timeline-clipping__reading-note-v01.md), two unaltered document photographs and host HTML under document_reproductions/levifrady-com/timeline/. Printed GBI credit visible; handwritten issue/date unverified; source is not an authenticated official original.
+
+## 1998 correspondence reproductions
+
+`SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd` — [Hendrix reading note](document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd__reading-note-v01.md); `SRC-b64917c6-9513-521a-b3b7-936ea2412bfa` — [Nix reading note](document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/derivatives/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa__reading-note-v01.md). Unchanged public photographs and raw OCR archived; no authenticity or physical-custody claim. Two conflicts remain UNRESOLVED.
+
+- BATCH-RESEARCH-20261024-002: officialGBI2017release capture/headers/hash provenance under web_captures/gbi; three supplied images reused after exactSHA256match. No newSRC or case claims.
+
+- BATCH-RESEARCH-20261024-003: acquired the indexed2005InternetArchive capture of the historicalGBILevi’sCall program page under its existingSRC, with provenance and separate reading/raw text. Not the case timeline; source-reported January1,2002establishment date, not first alert use.
+
+
+## RUN-20261024T080519Z — archived publisher chronology
+
+Acquired AccessNorthGa article85646 as SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2 through indexed capture20041031071328. Three scoped source links added to existing claims; no new case claims/events/witness identities. Shared investigative chronology, not independent corroboration. Original agency release remains wanted. Inverted time range and publication-date uncertainty are in BATCH-RESEARCH-20261024-004/human_review_queue.csv. Do not repeat acquisition; next compare the exact original agency release with publisher/clipping versions.

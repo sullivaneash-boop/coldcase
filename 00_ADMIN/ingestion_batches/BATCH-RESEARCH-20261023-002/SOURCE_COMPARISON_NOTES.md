@@ -1,0 +1,3 @@
+# Timeline rendition comparison
+
+New `SRC-dd0a70b2-9491-50da-826e-122743460cde` is a partial photographic reproduction acquired from a previously cited web page. Printed continuation credits GBI, improving source-chain visibility, not authenticating an original. Six existing chronological claims gain locators; no new events/WIT identities are duplicated. FCN rendition and this clipping broadly overlap and must not count as independent witnesses. Missing overnight/morning lines are not filled from FCN. Sketch-completion date is flagged for comparison, not resolved as an error or new fact. Existing three CON records remain UNRESOLVED.

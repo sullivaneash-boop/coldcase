@@ -1,0 +1,177 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261023-003",
+  "run_id": "RUN-20261023T215618Z",
+  "source_ids": [
+    "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+    "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa"
+  ],
+  "created_at": "2026-10-23T22:05:28.007674+00:00",
+  "files": [
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104801.jpg",
+      "role": "ORIGINAL",
+      "sha256": "6b0f82fe616abcb82e1445188d51a058373c39d21fbcb3aa088074a478556226",
+      "bytes": 1569446
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104801.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "5653f54b5654c25b6edd55f238cc9f5be4de15cc5f329fb4fe9a15d106904ce9",
+      "bytes": 8606
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104801.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "31f42d2fa14ce0363c08372814f5a82a90e68452149f0eab7916bad65857533e",
+      "bytes": 1958
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104834.jpg",
+      "role": "ORIGINAL",
+      "sha256": "efbe1e5400b54699b75029ff3f05bf7907ec033162981abb7382dc0714800a5c",
+      "bytes": 1924241
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104834.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "0460c0ddee570c16a5040d36652870855aa892118fd3ab9fdfc47aaaa7f24c4b",
+      "bytes": 10496
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104834.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "4e9543666f02dab24381e0c98f7bb0c43be981cc5922741101442c0aa49496ef",
+      "bytes": 3096
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104625.jpg",
+      "role": "ORIGINAL",
+      "sha256": "fb5d7174f1b5bca33989fa6e9e5dad8b06560925b2d52eceb2d457790854608c",
+      "bytes": 1926334
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104625.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "ab5fe745496516cb810bbfa77a7fe02b20d28240209bb55621d30aba3df48aac",
+      "bytes": 10097
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104625.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "01ff62b1f0b9b0444329ce01502e8325d74968bf4d27ebc1a1d7032767126426",
+      "bytes": 2881
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/originals/img_20160607_104454.jpg",
+      "role": "ORIGINAL",
+      "sha256": "ec9832f9a11f4143c6ced8342440644d135f918bbf39911af45a012a44d57eb5",
+      "bytes": 1299035
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104454.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "2d94a586a7571c9ed160068e4eea2169495a9bb00663c36347febb4f8cdf9bc8",
+      "bytes": 4304
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/img_20160607_104454.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "d21fe634fe64517dad2e20c79757a17e78e0c4ae5ed8117ce0ba96d78b4c9fad",
+      "bytes": 1060
+    },
+    {
+      "source_id": "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd/derivatives/SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd__reading-note-v01.md",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "4d012c95cc5c1880e8613fc91d47202fed4d55c95837f5a53de1228cfec14bc2",
+      "bytes": 1895
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/originals/img_20160608_154358.jpg",
+      "role": "ORIGINAL",
+      "sha256": "d9cddc6ac6f368f824c503d282a27d305d352bf003a4a45d19719ba189039fab",
+      "bytes": 1590042
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/derivatives/img_20160608_154358.jpg.vision.json",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "59c19ab7074bd076f4a4f577ebf37887a9508695bf53952092b27b8c30af7f32",
+      "bytes": 7842
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/derivatives/img_20160608_154358.jpg.raw-ocr.txt",
+      "role": "OCR_TEXT",
+      "sha256": "d631a74d0c7674863a8d036061e1643f66b9db36b6bcd317ee4b42496f067f5d",
+      "bytes": 1365
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/originals/nix-page.html",
+      "role": "ORIGINAL",
+      "sha256": "377cdfe13dcec2c106b8ec7ce6b865188fc6045e6ae538e02bd53544b3d01722",
+      "bytes": 80543
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/derivatives/nix-page-headers.txt",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "dc1ddf3542b7247977ce72a328fa0c9c0824bc1239a006b86e591e50a2138ac0",
+      "bytes": 666
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/derivatives/nix-image-headers.txt",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "2f191d35cf6edbb692a9017a1a6067890904079657b07053a7aeedcb9a2e0e0f",
+      "bytes": 473
+    },
+    {
+      "source_id": "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+      "path": "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/correspondence/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa/derivatives/SRC-b64917c6-9513-521a-b3b7-936ea2412bfa__reading-note-v01.md",
+      "role": "OTHER_DERIVATIVE",
+      "sha256": "be4d0b4840ca8a92ecdac27ec2bf19f5776fb95237f63ed6222352f6f403ee11",
+      "bytes": 1290
+    }
+  ],
+  "new_register_counts": {
+    "people": 5,
+    "organizations": 1,
+    "source_files": 20,
+    "sources": 2,
+    "assets": 1,
+    "claims": 7,
+    "claim_sources": 11,
+    "events": 3,
+    "event_times": 5,
+    "contradictions": 2,
+    "contradiction_versions": 4,
+    "witness_statements": 2,
+    "relationships": 7
+  },
+  "relevance": "R4",
+  "document_authentication": "UNVERIFIED_THIRD_PARTY_REPRODUCTIONS",
+  "source_class": "G pending authenticity review",
+  "original_source_bytes_preserved": true,
+  "existing_assets_localized": 4,
+  "new_assets": 1,
+  "contradictions": [
+    "CON-1a8b343f-796a-5cd0-a671-2c075b70698c",
+    "CON-9758b329-1855-5b6d-b93d-2ca2b3f7e587"
+  ],
+  "state": "INGESTED_PENDING_HUMAN_AUTHENTICATION"
+}

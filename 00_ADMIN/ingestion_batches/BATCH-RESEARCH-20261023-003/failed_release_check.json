@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-23T22:18:44.825Z",
+  "deployable": false,
+  "failedStep": "typecheck",
+  "validation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "steps": [
+    {
+      "step": "sync + validation",
+      "ok": true,
+      "seconds": 0.8
+    },
+    {
+      "step": "tests",
+      "ok": true,
+      "seconds": 0.3
+    },
+    {
+      "step": "typecheck",
+      "ok": false,
+      "seconds": 311.4
+    }
+  ]
+}

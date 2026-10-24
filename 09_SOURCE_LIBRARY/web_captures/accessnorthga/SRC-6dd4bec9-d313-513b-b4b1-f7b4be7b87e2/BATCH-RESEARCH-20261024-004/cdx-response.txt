@@ -1,0 +1,3 @@
+[["urlkey","timestamp","original","mimetype","statuscode","digest","length"],
+["com,accessnorthga)/news/hall/newfullstory.asp?id=85646","20041031071328","http://www.accessnorthga.com:80/news/hall/newfullstory.asp?ID=85646","text/html","200","BL3BMHWKYR5SJ5XO3NABD3IEC4DLKTLL","10478"],
+["com,accessnorthga)/news/hall/newfullstory.asp?id=85646","20041217050705","http://www.accessnorthga.com:80/news/hall/newfullstory.asp?ID=85646","text/html","200","TDQZ2YJKK63K7X4G5RRS3KQXN5PS5CPW","9878"]]

@@ -1,0 +1,98 @@
+{
+  "assets": {
+    "count": 92,
+    "sha256": "680b0e760ebf442a254b2d9524590ea27deb81d55e6d3610ff1e4c0927c5aab9"
+  },
+  "claim_sources": {
+    "count": 179,
+    "sha256": "c67f41aa7acc31cc1b674fa02df70364d9d969bdadaa61b631fc83760ee8adc3"
+  },
+  "claims": {
+    "count": 151,
+    "sha256": "21bb3bcc6dcf8d799e065f157a7791e67af51d823a83241fd9437e143549445a"
+  },
+  "contradiction_versions 2": {
+    "count": 8,
+    "sha256": "cca8389b26920bdacd364bdd77a3f4093c8753fb0935b326152797f6c4fcdf0b"
+  },
+  "contradiction_versions": {
+    "count": 12,
+    "sha256": "897e108618d991795ec899ff66d85f9b23d7feabce56fe31866964f1e2caecf2"
+  },
+  "contradictions 2": {
+    "count": 3,
+    "sha256": "6a3cfcb15a68a3c245572da2c3cd5bd15257b1583f8aebda994149a8ebef8c34"
+  },
+  "contradictions": {
+    "count": 5,
+    "sha256": "cacb1eedf1916fbcf4537b10029500cc8f3c328e1c76501e214a1c5b5adce414"
+  },
+  "event_times 2": {
+    "count": 71,
+    "sha256": "ead0e3d0efe9f069a7bc03301527e8326bda0743fa82865b59a4815558a3e0d1"
+  },
+  "event_times": {
+    "count": 76,
+    "sha256": "58b0b20d55a5bb317800faaba42207e4202e4db29bebf497cbc8e73bebb99cbf"
+  },
+  "events": {
+    "count": 60,
+    "sha256": "b59991ae6d2a54c637e221cbb30ca5478b4599f9df48395f8470b954352a2ac4"
+  },
+  "evidence": {
+    "count": 8,
+    "sha256": "190f438363a42cd676c7c5c3b26c8a3c7a39a5aea8a9e2a09630261e4ad97bdb"
+  },
+  "interviews": {
+    "count": 0,
+    "sha256": "c07faba4e4375fac43d3b659330d03993c28caa7be7fff2aa77b82252d162bd9"
+  },
+  "locations": {
+    "count": 18,
+    "sha256": "f217048ac6c97ff3b7931bbe7bcf866398029eb8562849b14d623ad83b2f58ce"
+  },
+  "newspaper_articles": {
+    "count": 26,
+    "sha256": "b5b1077f3289fe3c7e1ae2012371c4c9ec674b93b25cf0e7b7d5359981bbb371"
+  },
+  "organizations": {
+    "count": 30,
+    "sha256": "cfe85bd8598379c73c269ce257629c41aabb37a5e2e547bf3c7dab75ea780245"
+  },
+  "people 2": {
+    "count": 60,
+    "sha256": "633fd417f8df29fa606dd38701751031d2d2b3e2833e75a9efbb296892a8b5f1"
+  },
+  "people": {
+    "count": 65,
+    "sha256": "5dadd06b7c0bd4b600fce79048479fe331b9f65776742b0f8554c24a58762485"
+  },
+  "records_requests": {
+    "count": 0,
+    "sha256": "661b17032136eca73cebde8e78f96e834bf7adc45517793080c908d638e400d1"
+  },
+  "relationships 2": {
+    "count": 333,
+    "sha256": "232fd427dafa0d66118c20fc6109b3c398d5b27a9ef82ed72c65181cdbef84fd"
+  },
+  "relationships": {
+    "count": 340,
+    "sha256": "37aa64df6065ebb5b73babac7cb1ea008f28e12e96ed3a68718ba7d110a87f41"
+  },
+  "source_files": {
+    "count": 212,
+    "sha256": "5afa0ee068a24f725231cb1875f17aef8a3920dc38505577682e09fcc611f892"
+  },
+  "sources": {
+    "count": 66,
+    "sha256": "2c4c80a532e72c880a85be0cd1261b0c0390c4fb7517c6d5949991abd3850e46"
+  },
+  "witness_statements 2": {
+    "count": 31,
+    "sha256": "0c13bdd6ff4527745ab58b47bc67888986dcb08e9c1d0f29e08241e3c4a6df6a"
+  },
+  "witness_statements": {
+    "count": 33,
+    "sha256": "44e0e5c0620d486d0fc698236ef95d8769ce0bf14f8aa8a8bcedcc849fb57a1c"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ghn_access": "302 to browser-verification challenge; stopped, no newspaper content acquired",
+  "web_image_fetch": "web-tool cache miss; ordinary source-host HTTPS download succeeded",
+  "ocr": "built-in Apple Vision, local; raw regions/lines retained",
+  "raw_original_paths": [
+    "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/timeline-page.html",
+    "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/img_20160525_174637.jpg",
+    "09_SOURCE_LIBRARY/document_reproductions/levifrady-com/timeline/SRC-dd0a70b2-9491-50da-826e-122743460cde/originals/img_20160525_174917.jpg"
+  ]
+}

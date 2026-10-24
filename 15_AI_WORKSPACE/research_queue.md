@@ -18,7 +18,7 @@ Research targets only; priority is acquisition value, not evidentiary weight. Re
 
 - **RQ-007 — Official Levi’s Call establishment/activation/first-use history.** PARTIAL_PRIMARY_ACQUIRED. Compare original FY2002 GBI report with 2002 newspaper and later year-only accounts. Keep milestones distinct; original dated launch/activation memo still a separate possible target.
 - **RQ-008 — Official source/image provenance.** OPEN. Verify supplied GBI capture/image origin against official URLs and hashes, preserving revisions. Do not download remote images merely to bypass display restrictions; acquisition for research must retain provenance and rights limitations.
-- **RQ-009 — Source bookkeeping / board warnings.** JUNCTION_REPAIRED_PENDING_SYNC. One existing claim summary lists an FCN source without a claim_sources row (`CLM-895e038d-bfc6-5ce9-bb69-ef4d30aad068`). Read the original and claim scope before adding any locator or revising support. Never invent support to silence a warning.
+- **RQ-009 — Source bookkeeping / board warnings.** JUNCTION_REPAIRED_SYNC_VERIFIED. One existing claim summary lists an FCN source without a claim_sources row (`CLM-895e038d-bfc6-5ce9-bb69-ef4d30aad068`). Read the original and claim scope before adding any locator or revising support. Never invent support to silence a warning.
 
 ## P3 — low-priority discovery
 
@@ -27,3 +27,28 @@ Research targets only; priority is acquisition value, not evidentiary weight. Re
 ## Latest run — RUN-20261023T195857Z
 
 RQ-007: acquired official GBI FY2002 administration report (`SRC-bd6a3856-3520-5f5f-ba3b-80427b047bdc`), PDF p.7. GBI dates establishment partnership January 2002; no exact day or first-use date. Existing event `EVT-c175f6c1-715b-554b-9dc4-6a596b9a85c6` gains a month-level source assertion. Original case timeline and all unrelated wanted sources remain open. Next preferred target: RQ-001 or RQ-003, using a different acquisition strategy from logged failures.
+
+## Latest run — RUN-20261023T205418Z
+
+RQ-001: partially acquired two photographed clipping/continuation images as `SRC-dd0a70b2-9491-50da-826e-122743460cde`, with printed GBI credit. Handwritten newspaper/date and full coverage unverified; original remains wanted. Avoid repeating direct GHN retrieval while its browser-verification gate persists. Next: authenticate complete issue or obtain dated sketch-release/revision records before interpreting the November21 entry. RQ-009 prior repaired junction now sync-verified.
+
+## Latest run — RUN-20261023T215618Z
+
+RQ-004: four Hendrix pages `SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd` and one Nix response `SRC-b64917c6-9513-521a-b3b7-936ea2412bfa` acquired as unauthenticated reproductions. Preserve new UNRESOLVED warrant-wording and letter-date conflicts. P0 follow-up: original dated correspondence and Aug27–28,1998 inmate interview tapes/report/receipt records explicitly referenced in p.2. No identities inferred. Do not repeat downloading these same images; next task should authenticate source/records or follow a different exact lead.
+
+## Latest run — RUN-20261024T010118Z
+
+New internal acquisition BATCH-RESEARCH-20261024-001: mixed public PDF with reproduced Feb23,2005 interagency fax and older GBI case-page printout. AUTHENTICITY/HANDLING HOLD; no SRC/claim/person allocated. Exact original fax, thirteen-page attachment boundaries, receipt/routing/response are the bounded follow-up in NEW_LEADS_FROM_BATCH.md. Likely MSP/GBI custodians require verification; no request sent. Do not repeat download or publish packet/private OCR. Original AJC/sketch searches remain parked as logged; extra-register copies still require review.
+
+## Latest run — RUN-20261024T050519Z
+
+RQ-008 PARTIAL_HASH_VERIFIED: three supplied images now match the official2017GBI release attachments exactly; existingSRCs reused,4provenance/capture files added. Artist/creation date, original download date, alternative case-page image renditions and1997sketch-release chronology remain unverified. No newcase claims/identities. Extra-register copies remain untouched; known-table backup-protected update validated without using them as canonical data.
+
+## Latest run — RUN-20261024T070249Z
+
+RQ-001 exact legacyURL resolved to a program page, not the original case timeline; do not equate community link labels with document content. RQ-007 gains an archivedGBI2005source-reported establishment date January1,2002 under existingSRC-94d2abbc-6063-47fd-8a25-f46086d37025. Oneclaim/attribution/dayassertion; existing2002year/Januarymonth retained. First use/activation and originalcase timeline remainopen. No repeated download of this archive capture.
+
+
+## RUN-20261024T080519Z — archived publisher chronology
+
+Acquired AccessNorthGa article85646 as SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2 through indexed capture20041031071328. Three scoped source links added to existing claims; no new case claims/events/witness identities. Shared investigative chronology, not independent corroboration. Original agency release remains wanted. Inverted time range and publication-date uncertainty are in BATCH-RESEARCH-20261024-004/human_review_queue.csv. Do not repeat acquisition; next compare the exact original agency release with publisher/clipping versions.

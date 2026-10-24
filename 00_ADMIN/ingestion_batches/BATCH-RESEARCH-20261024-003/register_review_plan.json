@@ -1,0 +1,162 @@
+{
+  "batch_id": "BATCH-RESEARCH-20261024-003",
+  "register_rows": {
+    "source_files": [
+      {
+        "source_file_id": "FIL-88787038-dc2a-572c-95b0-1d649c3faec1",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/archive-retrieval-result.json",
+        "sha256": "d1be3b12b3a9811f2275cac18075e13d61e2119215ce3abe292aea103d4024ea",
+        "mime_type": "application/json",
+        "byte_size": "1498",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      },
+      {
+        "source_file_id": "FIL-b1461c07-81c2-5567-88a4-f460488d209f",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/cdx-headers.txt",
+        "sha256": "ec549c5e6fa1821ef71eefe6fbe6f0e4574d8f81514b5246de06e06e2a754414",
+        "mime_type": "text/plain",
+        "byte_size": "580",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      },
+      {
+        "source_file_id": "FIL-1ab3024c-7ba3-58bb-aa45-7a6fba0070d4",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/cdx-response.txt",
+        "sha256": "e43aaf2b15fee08a757a99711b871b7ffabc2beca65f8a9a794c38d7b9a30d77",
+        "mime_type": "text/plain",
+        "byte_size": "981",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      },
+      {
+        "source_file_id": "FIL-26a706f5-f0e0-5936-a4cb-ab6f4498fa0d",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "ACQUISITION_METADATA",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/gbi-2005-headers.txt",
+        "sha256": "9fcdbf78ca6ba1653bed7cb61db06fc99379ba538545cb285a8d35fa65975db0",
+        "mime_type": "text/plain",
+        "byte_size": "1875",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      },
+      {
+        "source_file_id": "FIL-e49db487-f435-5159-baf5-296b2e0b8b4a",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "ORIGINAL",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/gbi-2005.html",
+        "sha256": "0f5464232770c209d5431a0a5cc9acd6b8757eb8e6533cd89c23736e9b134377",
+        "mime_type": "text/html",
+        "byte_size": "16635",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      },
+      {
+        "source_file_id": "FIL-b3ae4d2a-8815-54f7-b338-0f8ba8c3139d",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "RAW_TEXT",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/raw-extracted-text.txt",
+        "sha256": "2bce59f36c9ab2c7006f62e40e5b9c2c54956470fe3e05c032009fdf1875067f",
+        "mime_type": "text/plain",
+        "byte_size": "5146",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      },
+      {
+        "source_file_id": "FIL-6e12ac32-3ca3-5221-be1d-84db42906ddc",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "file_role": "READING_COPY",
+        "local_file": "09_SOURCE_LIBRARY/web_captures/gbi/SRC-94d2abbc-6063-47fd-8a25-f46086d37025/BATCH-RESEARCH-20261024-003/reading-note.md",
+        "sha256": "6cf2a5ceff1e1a732888e2ee4fa7eccf8d8b5c33ec48e9ec4ddd8aff6ab92e6a",
+        "mime_type": "text/markdown",
+        "byte_size": "1436",
+        "derived_from_file_id": "",
+        "transformation_description": "Public archive capture/index metadata; separate extraction/reading derivative where labeled",
+        "created_by": "Codex hourly research",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "notes": "BATCH-RESEARCH-20261024-003; archive_url https://web.archive.org/web/20051030092945id_/http://www.state.ga.us/gbi/levi.html; no publication/event date inferred from snapshot time."
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLM-fdc85709-c81e-50e0-908f-d2e758e1f796",
+        "claim": "The archived GBI Levi\u2019s Call program page gives January1,2002 as its establishment date.",
+        "status": "REPORTED",
+        "confidence": "MEDIUM",
+        "source_ids": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "contradicting_source_ids": "",
+        "people_ids": "",
+        "event_ids": "EVT-c175f6c1-715b-554b-9dc4-6a596b9a85c6",
+        "location_ids": "",
+        "evidence_ids": "",
+        "assessment_rationale": "Official agency program-history wording in an Internet Archive rendition; confidence concerns attribution, not independent verification.",
+        "reviewed_by": "",
+        "reviewed_at": "",
+        "notes": "BATCH-RESEARCH-20261024-003; HTML image drop capitals/program-name graphics noted. Not first alert activation/use or exact clock time; human review pending.",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "updated_at": "2026-10-24T07:05:53.512119+00:00"
+      }
+    ],
+    "claim_sources": [
+      {
+        "claim_source_id": "CSL-fdc85709-c81e-50e0-908f-d2e758e1f796",
+        "claim_id": "CLM-fdc85709-c81e-50e0-908f-d2e758e1f796",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "relationship": "SUPPORTS",
+        "source_locator": "Archived HTML gbi-2005.html, lines167\u2013172; program establishment paragraph; capture20051030092945",
+        "excerpt": "January 1, 2002",
+        "knowledge_basis": "FIRSTHAND",
+        "notes": "Agency statement about its own program, preserved as source-reported. Archive capture metadata retained; no individual speaker identified.",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "updated_at": "2026-10-24T07:05:53.512119+00:00",
+        "speaker_person_id": "",
+        "assertion_type": "AGENCY_PROGRAM_HISTORY"
+      }
+    ],
+    "event_times": [
+      {
+        "event_time_id": "ETM-fdc85709-c81e-50e0-908f-d2e758e1f796",
+        "event_id": "EVT-c175f6c1-715b-554b-9dc4-6a596b9a85c6",
+        "source_id": "SRC-94d2abbc-6063-47fd-8a25-f46086d37025",
+        "source_locator": "Archived HTML gbi-2005.html, lines167\u2013172; program establishment paragraph; capture20051030092945",
+        "time_status": "EXACT",
+        "start_at": "2002-01-01",
+        "end_at": "",
+        "timezone": "",
+        "time_precision": "DAY",
+        "original_time_text": "January 1, 2002",
+        "confidence": "MEDIUM",
+        "notes": "Date as reported by the archivedGBIprogram page; no clock time/timezone or first-use claim. Year/month assertions retained.",
+        "created_at": "2026-10-24T07:05:53.512119+00:00",
+        "updated_at": "2026-10-24T07:05:53.512119+00:00",
+        "local_start_time": "",
+        "local_end_time": "",
+        "date_precision": "DAY"
+      }
+    ]
+  }
+}

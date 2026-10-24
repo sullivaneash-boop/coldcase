@@ -1,0 +1,6 @@
+# Human review queue
+
+- `REV-255205cb-f2fa-5ff2-a19f-10f60ab33697` — Check November 21,1997 composite date against Nov.5/9,1997 sketch reports. Same/revised drawing vs misprint not established; do not normalize a new event or adjudicate a conflict. Source `SRC-dd0a70b2-9491-50da-826e-122743460cde`; OPEN.
+- `REV-a0f3f7ec-3d64-517b-ba09-beaffabe5b8f` — Photographs are incomplete; Oct.23 2 a.m. continuation and subsequent first lines missing/obscured. Verify entire issue/original before claiming complete timeline. Source `SRC-dd0a70b2-9491-50da-826e-122743460cde`; OPEN.
+- `REV-16a473f2-1341-5255-9ff1-faea1201e0b4` — Authenticate handwritten Nov.3,2004 Dawson News + Advertiser annotation and inferred 12A/13A pages using an independent full issue; official original still wanted. Source `SRC-dd0a70b2-9491-50da-826e-122743460cde`; OPEN.
+- `REV-cfb4ac84-674f-5c3e-82de-dccf83f310da` — Independently verify raw Apple Vision OCR and exact clock/quote passages. Engine confidence is not factual confidence; adjacent advertisements excluded from claims. Source `SRC-dd0a70b2-9491-50da-826e-122743460cde`; OPEN.

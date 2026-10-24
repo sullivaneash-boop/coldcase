@@ -1,0 +1,13 @@
+{
+  "registered_files_checked": 212,
+  "hash_failures": [],
+  "registers_changed": [
+    "assets",
+    "source_files",
+    "relationships",
+    "sources"
+  ],
+  "held_packet_files_checked": 27,
+  "no_packet_published": true,
+  "extra_register_copies_unchanged": true
+}

@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-e026b334-9bd7-52fc-ab2b-b9d6c15fd5c6,SOURCE_AUTHENTICATION_AND_HANDLING,"A newly acquired mixed PDF may contain an interagency fax and historical GBI case-page reproduction. Verify authenticity, boundaries and safe handling before source/claim ingestion; personal information and unrelated allegations remain outside publication. No case connection or individual identity established. Internal batch BATCH-RESEARCH-20261024-001.",,HIGH,OPEN

@@ -1,0 +1,2 @@
+review_id,issue_type,description,source_ids,priority,status
+REV-a570b0a5-7932-5d58-9e03-856f70ac1a5f,SOURCE_VERSION_AND_DATE_CONTEXT,"Review olderGBIprogram-page rendition and January1,2002reported establishment date; image-based initial/program name not reconstructed in raw text. Distinguish capture/publication/event date and first use. Original case timeline still wanted.",SRC-94d2abbc-6063-47fd-8a25-f46086d37025,MEDIUM,OPEN

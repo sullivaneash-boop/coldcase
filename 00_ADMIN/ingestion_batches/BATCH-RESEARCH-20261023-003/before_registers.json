@@ -1,0 +1,74 @@
+{
+  "evidence": {
+    "rows": 8,
+    "sha256": "48e536d1b778d67f28458b4de7e75e775af807a95fefed8428acb4b815f617b1"
+  },
+  "people": {
+    "rows": 60,
+    "sha256": "633fd417f8df29fa606dd38701751031d2d2b3e2833e75a9efbb296892a8b5f1"
+  },
+  "assets": {
+    "rows": 91,
+    "sha256": "936d3340e690200f809f6e5f1ca1cd89de24644ad2f7736b7d0395d5c9ebbdec"
+  },
+  "contradiction_versions": {
+    "rows": 8,
+    "sha256": "cca8389b26920bdacd364bdd77a3f4093c8753fb0935b326152797f6c4fcdf0b"
+  },
+  "records_requests": {
+    "rows": 0,
+    "sha256": "661b17032136eca73cebde8e78f96e834bf7adc45517793080c908d638e400d1"
+  },
+  "claim_sources": {
+    "rows": 168,
+    "sha256": "919a8c105de0ada7cf873d08f34bcfd3ac7f7b4e64a4076ce8003706193b1e3c"
+  },
+  "claims": {
+    "rows": 144,
+    "sha256": "1b4f5f06adbc18a886aec703c473e79a307b4a9c05d2e8a92381bf0474a8f3d0"
+  },
+  "source_files": {
+    "rows": 188,
+    "sha256": "96255ef04db308292f62dfd252747caa059da59e7babf2be83c4941f6a11ca5a"
+  },
+  "organizations": {
+    "rows": 29,
+    "sha256": "884d6b9ab499e86f8e1b74b98d68cf8a79c9b9693083c9bbaf911bf1217d9cce"
+  },
+  "locations": {
+    "rows": 18,
+    "sha256": "f217048ac6c97ff3b7931bbe7bcf866398029eb8562849b14d623ad83b2f58ce"
+  },
+  "event_times": {
+    "rows": 71,
+    "sha256": "ead0e3d0efe9f069a7bc03301527e8326bda0743fa82865b59a4815558a3e0d1"
+  },
+  "newspaper_articles": {
+    "rows": 26,
+    "sha256": "b5b1077f3289fe3c7e1ae2012371c4c9ec674b93b25cf0e7b7d5359981bbb371"
+  },
+  "events": {
+    "rows": 57,
+    "sha256": "0262821af6df70268d8816ad31acfce6893bc83bfec485c6e437e4d4dea97b7c"
+  },
+  "interviews": {
+    "rows": 0,
+    "sha256": "c07faba4e4375fac43d3b659330d03993c28caa7be7fff2aa77b82252d162bd9"
+  },
+  "witness_statements": {
+    "rows": 31,
+    "sha256": "0c13bdd6ff4527745ab58b47bc67888986dcb08e9c1d0f29e08241e3c4a6df6a"
+  },
+  "relationships": {
+    "rows": 333,
+    "sha256": "232fd427dafa0d66118c20fc6109b3c398d5b27a9ef82ed72c65181cdbef84fd"
+  },
+  "contradictions": {
+    "rows": 3,
+    "sha256": "6a3cfcb15a68a3c245572da2c3cd5bd15257b1583f8aebda994149a8ebef8c34"
+  },
+  "sources": {
+    "rows": 64,
+    "sha256": "8f4f23ccbd2482e97e2ebaf59e7a61c8a902ccf83e4438ba2b853301d40c5a7b"
+  }
+}

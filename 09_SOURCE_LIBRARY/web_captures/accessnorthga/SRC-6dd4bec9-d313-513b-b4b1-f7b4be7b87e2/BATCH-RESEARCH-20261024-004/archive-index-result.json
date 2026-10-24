@@ -1,0 +1,7 @@
+{
+  "request_url": "https://web.archive.org/cdx/search/cdx?url=www.accessnorthga.com%2Fnews%2Fhall%2Fnewfullstory.asp%3FID%3D85646&output=json&filter=statuscode%3A200&collapse=digest&from=2004&to=2010",
+  "exit_code": 0,
+  "status_effective_url": "200\nhttps://web.archive.org/cdx/search/cdx?url=www.accessnorthga.com%2Fnews%2Fhall%2Fnewfullstory.asp%3FID%3D85646&output=json&filter=statuscode%3A200&collapse=digest&from=2004&to=2010\n",
+  "stderr": "",
+  "response_excerpt": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,accessnorthga)/news/hall/newfullstory.asp?id=85646\",\"20041031071328\",\"http://www.accessnorthga.com:80/news/hall/newfullstory.asp?ID=85646\",\"text/html\",\"200\",\"BL3BMHWKYR5SJ5XO3NABD3IEC4DLKTLL\",\"10478\"],\n[\"com,accessnorthga)/news/hall/newfullstory.asp?id=85646\",\"20041217050705\",\"http://www.accessnorthga.com:80/news/hall/newfullstory.asp?ID=85646\",\"text/html\",\"200\",\"TDQZ2YJKK63K7X4G5RRS3KQXN5PS5CPW\",\"9878\"]]\n"
+}

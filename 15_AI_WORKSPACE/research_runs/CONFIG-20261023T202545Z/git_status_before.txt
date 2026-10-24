@@ -1,0 +1,43 @@
+ M tools/research_board/.gitignore
+ M tools/research_board/next.config.ts
+ M tools/research_board/package-lock.json
+ M tools/research_board/package.json
+ D tools/research_board/scripts/sync.ts
+ D tools/research_board/src/app/api/file/route.ts
+ M tools/research_board/src/app/api/inbox/route.ts
+ M tools/research_board/src/app/api/links/route.ts
+ D tools/research_board/src/app/api/source/[id]/route.ts
+ M tools/research_board/src/app/layout.tsx
+ M tools/research_board/src/app/page.tsx
+ M tools/research_board/src/components/board/ImageViewer.tsx
+ M tools/research_board/src/components/board/Inbox.tsx
+ M tools/research_board/src/components/board/Inspector.tsx
+ M tools/research_board/src/components/board/MobileShell.tsx
+ M tools/research_board/src/components/board/MobileTimeline.tsx
+ M tools/research_board/src/components/board/SourceViewer.tsx
+ M tools/research_board/src/components/board/Timeline.tsx
+ M tools/research_board/src/components/board/Workspace.tsx
+ M tools/research_board/src/components/board/bits.tsx
+ D tools/research_board/src/db/ddl.ts
+ D tools/research_board/src/db/schema.ts
+ M tools/research_board/src/lib/archive.ts
+ D tools/research_board/src/lib/bundle.ts
+ D tools/research_board/src/lib/db.ts
+ M tools/research_board/src/lib/types.ts
+ M tools/research_board/tsconfig.json
+?? 00_ADMIN/board_config.json
+?? 15_AI_WORKSPACE/research_runs/CONFIG-20261023T202545Z/AGENTS.md
+?? 15_AI_WORKSPACE/research_runs/CONFIG-20261023T202545Z/AUTONOMOUS_RESEARCH_PROTOCOL.md
+?? 15_AI_WORKSPACE/research_runs/CONFIG-20261023T202545Z/automation.toml
+?? tools/research_board/pipeline/build.ts
+?? tools/research_board/pipeline/outputs.ts
+?? tools/research_board/pipeline/registers.ts
+?? tools/research_board/pipeline/validate.ts
+?? tools/research_board/scripts/case.ts
+?? tools/research_board/scripts/release.ts
+?? tools/research_board/src/components/board/CaseApp.tsx
+?? tools/research_board/src/components/board/ResearchStatus.tsx
+?? tools/research_board/src/lib/time.ts
+?? tools/research_board/tests/fixture.ts
+?? tools/research_board/tests/pipeline.test.ts
+?? tools/research_board/tests/time.test.ts

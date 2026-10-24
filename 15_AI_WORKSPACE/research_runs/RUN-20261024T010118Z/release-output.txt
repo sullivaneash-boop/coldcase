@@ -1,0 +1,64 @@
+
+> research_board@0.1.0 case:release-check
+> tsx scripts/release.ts
+
+
+━━ sync + validation ━━
+
+Archive: /Users/sullyeash/Documents/LEVI-FRADY-CASE
+  sources                  66
+  claims                   151
+  claim_sources            179
+  contradictions           5
+  contradiction_versions   12
+  people                   65
+  organizations            30
+  locations                18
+  events                   60
+  event_times              76
+  evidence                 8
+  witness_statements       33
+  relationships            340
+  source_files             208
+  records_requests         0
+  interviews               0
+  newspaper_articles       26
+  assets                   92
+  researcher_links         0
+  review_decisions         0
+
+  436 records · 972 links · 92 assets (0 newly discovered, appended to assets.csv) · 303 inbox items
+  56 archive files published (0 copied this run) · data version 591afe4203c1f48d
+
+No register changes since last sync.
+
+Sync finished in 0.5s: 0 error(s), 0 warning(s). Report: tools/research_board/generated/validation-report.md
+
+━━ tests ━━
+✔ a valid archive builds with no errors and exposes records, provenance and timeline data (12.787416ms)
+✔ never infers relationships from co-mention in the same source (3.977625ms)
+✔ duplicate stable IDs are errors (2.86075ms)
+✔ malformed IDs and records are errors (2.638125ms)
+✔ claims without sources are errors (3.520625ms)
+✔ broken, impossible and unresolved-source references are errors and are never drawn (3.151917ms)
+✔ invalid dates, clock times and impossible ranges are errors (2.995375ms)
+✔ invalid claim status is an error; malformed and duplicate URLs are warnings (2.77975ms)
+✔ missing assets are warnings, are not published, and do not fail the build (4.085208ms)
+✔ unsafe absolute paths are errors; a modified original is an error (3.834916ms)
+✔ local images are published and identities come only from explicit source labels (4.18225ms)
+✔ tolerates incomplete research: untitled source, unknown date, unnamed person (2.65325ms)
+✔ latest finding is derived from the newest research run log (3.008166ms)
+✔ data version is deterministic for identical archives (3.172917ms)
+✔ never manufactures precision (0.655667ms)
+✔ marks approximate and range readings (0.176375ms)
+✔ date validation rejects impossible calendar dates (1.147042ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 205.793916
+
+━━ typecheck ━━

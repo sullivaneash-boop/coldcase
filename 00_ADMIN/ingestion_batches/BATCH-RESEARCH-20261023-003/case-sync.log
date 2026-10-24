@@ -1,0 +1,47 @@
+
+> research_board@0.1.0 case:sync
+> tsx scripts/case.ts sync
+
+
+Archive: /Users/sullyeash/Documents/LEVI-FRADY-CASE
+  sources                  66
+  claims                   151
+  claim_sources            179
+  contradictions           5
+  contradiction_versions   12
+  people                   65
+  organizations            30
+  locations                18
+  events                   60
+  event_times              76
+  evidence                 8
+  witness_statements       33
+  relationships            340
+  source_files             208
+  records_requests         0
+  interviews               0
+  newspaper_articles       26
+  assets                   92
+  researcher_links         0
+  review_decisions         0
+
+  436 records · 972 links · 92 assets (0 newly discovered, appended to assets.csv) · 301 inbox items
+  56 archive files published (5 copied this run) · data version a232bdc11c527464
+
+Changes since last sync:
+  sources                  +2 ~0 -0
+  claims                   +7 ~4 -0
+  claim_sources            +11 ~0 -0
+  contradictions           +2 ~0 -0
+  contradiction_versions   +4 ~0 -0
+  people                   +5 ~0 -0
+  organizations            +1 ~0 -0
+  events                   +3 ~2 -0
+  event_times              +5 ~0 -0
+  evidence                 +0 ~1 -0
+  witness_statements       +2 ~0 -0
+  relationships            +7 ~0 -0
+  source_files             +20 ~0 -0
+  assets                   +1 ~4 -0
+
+Sync finished in 97.3s: 0 error(s), 0 warning(s). Report: tools/research_board/generated/validation-report.md

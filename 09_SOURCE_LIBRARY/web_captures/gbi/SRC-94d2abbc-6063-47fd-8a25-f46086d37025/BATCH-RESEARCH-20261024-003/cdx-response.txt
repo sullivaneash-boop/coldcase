@@ -1,0 +1,7 @@
+[["urlkey","timestamp","original","mimetype","statuscode","digest","length"],
+["us,ga,state)/gbi/levi.html","20030404024610","http://www.state.ga.us:80/gbi/levi.html","text/html","200","J6B2WQUW5R2ZJLXDQGUKT3KBHGP4JNIX","3698"],
+["us,ga,state)/gbi/levi.html","20030810125312","http://www.state.ga.us:80/gbi/levi.html","text/html","200","KZEARU33GTYQB64QGTS2QH7O7HQ4UTGA","3802"],
+["us,ga,state)/gbi/levi.html","20031008092219","http://www.state.ga.us:80/gbi/levi.html","text/html","200","QBGLKDEO4P2XYVWOSP5LN3QBKB2U4VFK","3799"],
+["us,ga,state)/gbi/levi.html","20040403202726","http://www.state.ga.us:80/gbi/levi.html","text/html","200","BIFJHQONQTZ7ZMZBJKIOKFJTVUPX4HSG","3665"],
+["us,ga,state)/gbi/levi.html","20051030092945","http://www.state.ga.us/gbi/levi.html","text/html","200","NHZM75JU5MBZ22VZ4LMHAKVHVVU4GM2C","3764"],
+["us,ga,state)/gbi/levi.html","20070303123709","http://www.state.ga.us:80/gbi/levi.html","text/html","200","U62BFIPHUI5KHYBC6TA5OJGSOYIICREG","3887"]]
