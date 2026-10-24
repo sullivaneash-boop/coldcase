@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { EntityType } from "@/lib/types";
 import { CLAIM_STATUS_META, TYPE_META } from "./constants";
+import { label } from "@/lib/labels";
 import { useBoard } from "./context";
 
 export function TypeIcon({ type, className }: { type: EntityType; className?: string }) {
@@ -14,9 +15,10 @@ export function TypeIcon({ type, className }: { type: EntityType; className?: st
 export function StatusBadge({ status, className }: { status: string | null | undefined; className?: string }) {
   const s = status || "UNKNOWN";
   const meta = CLAIM_STATUS_META[s] ?? CLAIM_STATUS_META.UNKNOWN;
+  const l = label("claimStatus", s);
   return (
-    <span title={meta.caveat} className={cn("inline-flex items-center rounded border px-1.5 py-px font-mono text-[10px] tracking-wide touchui:text-[11px]", meta.cls, className)}>
-      {s}
+    <span title={l.help || meta.caveat} className={cn("inline-flex shrink-0 items-center rounded border px-1.5 py-px text-[10px] font-medium touchui:text-[11px]", meta.cls, className)}>
+      {l.label}
     </span>
   );
 }
@@ -65,7 +67,7 @@ export function ChipList({ ids, empty = "None recorded.", notes }: { ids: string
 
 /** Collapsible section. Long lists start collapsed so detail screens stay scannable on phones. */
 export function Section({ title, count, children, hint, defaultOpen }: { title: string; count?: number; children: React.ReactNode; hint?: string; defaultOpen?: boolean }) {
-  const [open, setOpen] = useState(defaultOpen ?? (count === undefined || count <= 12));
+  const [open, setOpen] = useState(defaultOpen ?? (count === undefined || count <= 8));
   return (
     <section className="border-t border-zinc-800 px-3 py-2.5 touchui:px-4">
       <button type="button" onClick={() => setOpen(!open)} aria-expanded={open}

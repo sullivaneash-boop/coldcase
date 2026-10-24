@@ -22,6 +22,8 @@ export interface BoardApi {
   /** Show the record plus only its immediate relationships on the board. */
   focusRelationships: (id: string) => void;
   isMobile: boolean;
+  /** Desktop inspector history (back/forward through records you opened). */
+  history?: { canBack: boolean; canForward: boolean; back: () => void; forward: () => void };
 }
 
 export const BoardContext = createContext<BoardApi | null>(null);

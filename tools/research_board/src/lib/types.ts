@@ -9,7 +9,7 @@ export type EntityType =
   | "SOURCE"
   | "CONTRADICTION";
 
-export type EdgeCategory = "SOURCED" | "REGISTER" | "LEAD" | "RESEARCHER";
+export type EdgeCategory = "SOURCED" | "REGISTER" | "LEAD" | "RESEARCHER" | "VIA_CLAIM";
 
 export interface Entity {
   id: string;

@@ -5,6 +5,7 @@ import { Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, Comma
 import type { Entity } from "@/lib/types";
 import { TYPE_META, TYPE_ORDER } from "./constants";
 import { StatusBadge, TypeIcon } from "./bits";
+import { describe } from "@/lib/labels";
 
 // Searchable text is derived from register fields client-side (not shipped twice in the payload).
 const TEXT_FIELDS = ["claim", "aliases", "neutral_description", "original_time_text", "description", "statement_text", "title", "author", "publisher", "subject", "address", "notes"];
@@ -48,7 +49,7 @@ export function SearchDialog({ open, onOpenChange, entities, onPick, title = "Se
                   <TypeIcon type={e.type} className="mt-0.5" />
                   <div className="min-w-0 flex-1">
                     <div className="line-clamp-2 text-[12px] text-zinc-100">{e.label}</div>
-                    <div className="truncate text-[10px] text-zinc-500">{e.subtitle} · <span className="font-mono">{e.id.slice(0, 12)}</span></div>
+                    <div className="truncate text-[11px] text-zinc-500">{TYPE_META[e.type].label} · {describe(e)}</div>
                   </div>
                   {e.type === "CLAIM" && <StatusBadge status={e.status} />}
                 </CommandItem>

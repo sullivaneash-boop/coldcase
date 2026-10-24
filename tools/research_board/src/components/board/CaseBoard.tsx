@@ -1,7 +1,7 @@
 "use client";
 import { memo, useEffect, useMemo, useRef, useState } from "react";
 import {
-  ReactFlow, Background, Controls, MiniMap, Handle, Position, useReactFlow, ReactFlowProvider,
+  ReactFlow, Background, Controls, MiniMap, Handle, Position, useReactFlow, useNodesInitialized, ReactFlowProvider,
   type Node, type Edge, type NodeProps, type NodeChange, applyNodeChanges,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
@@ -173,10 +173,13 @@ function Board({ entities, edges, selectedId, focusId, highlight, fitSignal, onS
   const [nodes, setNodes] = useState<Node[]>(build);
   useEffect(() => setNodes(build()), [base, selectedId, highlight]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Fit only once React Flow has measured the nodes (they measure 0×0 while the board is hidden).
+  const nodesReady = useNodesInitialized();
   useEffect(() => {
-    const t = setTimeout(() => rf.fitView({ padding: compact ? 0.04 : 0.12, duration: 350, maxZoom: compact ? 1.4 : 1.1 }), 60);
+    if (!nodesReady) return;
+    const t = setTimeout(() => rf.fitView({ padding: compact ? 0.04 : 0.12, duration: 300, maxZoom: compact ? 1.4 : 1.1 }), 50);
     return () => clearTimeout(t);
-  }, [layoutKey, fitSignal, rf, compact]);
+  }, [nodesReady, layoutKey, fitSignal, rf, compact, base]);
 
   // In the compact (phone) focus layout edge labels would sit on top of nodes; the detail view lists them.
   const showLabels = !compact && (!!focusEntity || entities.length < 40);
@@ -185,7 +188,7 @@ function Board({ entities, edges, selectedId, focusId, highlight, fitSignal, onS
     const active = !highlight || (highlight.has(e.from) && highlight.has(e.to));
     const isResearcher = e.category === "RESEARCHER";
     const color = e.rel === "CONTRADICTED_BY" ? "#f87171" : e.rel === "SUPPORTED_BY" ? "#4d7c63" : cat.stroke;
-    const label = isResearcher ? "Researcher connection — not evidence" : REL_LABEL[e.rel] ?? e.rel.toLowerCase().replace(/_/g, " ");
+    const label = isResearcher ? "Researcher connection — not evidence" : e.category === "VIA_CLAIM" ? `via ${e.notes}` : REL_LABEL[e.rel] ?? e.rel.toLowerCase().replace(/_/g, " ");
     return {
       id: e.id,
       source: e.from,
@@ -243,9 +246,25 @@ function Board({ entities, edges, selectedId, focusId, highlight, fitSignal, onS
 }
 
 export function CaseBoard(props: CaseBoardProps) {
+  // Re-fit when the board becomes visible (e.g. switching tabs): a hidden board measures 0×0.
+  const ref = useRef<HTMLDivElement>(null);
+  const [visibleSignal, setVisibleSignal] = useState(0);
+  useEffect(() => {
+    if (!ref.current) return;
+    let wasHidden = true;
+    const ro = new ResizeObserver(([entry]) => {
+      const hidden = entry.contentRect.width === 0 || entry.contentRect.height === 0;
+      if (wasHidden && !hidden) setVisibleSignal((n) => n + 1);
+      wasHidden = hidden;
+    });
+    ro.observe(ref.current);
+    return () => ro.disconnect();
+  }, []);
   return (
-    <ReactFlowProvider>
-      <Board {...props} />
-    </ReactFlowProvider>
+    <div ref={ref} className="h-full w-full">
+      <ReactFlowProvider>
+        <Board {...props} fitSignal={props.fitSignal + visibleSignal * 1000} />
+      </ReactFlowProvider>
+    </div>
   );
 }

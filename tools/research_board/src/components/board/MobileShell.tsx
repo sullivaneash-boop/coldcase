@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, X, Network, CalendarClock, Search as SearchIcon, FileText, Menu, SlidersHorizontal, Maximize,
-  Inbox as InboxIcon, GitCompareArrows, Gauge, ShieldCheck, ChevronRight, TriangleAlert,
+  Inbox as InboxIcon, Home, GitCompareArrows, Gauge, ShieldCheck, ChevronRight, TriangleAlert,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Asset, InboxDecision, InboxItem } from "@/lib/types";
@@ -18,24 +18,28 @@ import { Inbox } from "./Inbox";
 import { FilterControls } from "./FilterControls";
 import { useBoardFilters, useBoardView } from "./useBoardView";
 import { useEntitySearch } from "./SearchDialog";
-import { StatusBadge, Tag, TypeIcon } from "./bits";
-import { ResearchStatus } from "./ResearchStatus";
+import { StatusBadge, TypeIcon } from "./bits";
+import { Overview } from "./Overview";
+import { describe } from "@/lib/labels";
+import { ContradictionsList, SourcesList } from "./Lists";
+import { ViewPicker } from "./ViewPicker";
 
-type Tab = "board" | "timeline" | "search" | "sources" | "more";
+type Tab = "home" | "board" | "timeline" | "search" | "more";
 type Route =
   | { kind: "entity"; id: string }
   | { kind: "source"; req: SourceViewRequest }
   | { kind: "image"; assets: Asset[]; index: number }
   | { kind: "inbox" }
+  | { kind: "sources" }
   | { kind: "contradictions" }
   | { kind: "status" }
   | { kind: "about" };
 
 const TABS: { key: Tab; label: string; icon: typeof Network }[] = [
+  { key: "home", label: "Home", icon: Home },
   { key: "board", label: "Board", icon: Network },
   { key: "timeline", label: "Timeline", icon: CalendarClock },
   { key: "search", label: "Search", icon: SearchIcon },
-  { key: "sources", label: "Sources", icon: FileText },
   { key: "more", label: "More", icon: Menu },
 ];
 
@@ -43,7 +47,7 @@ function routeTitle(r: Route, idx: CaseIndex) {
   if (r.kind === "entity") return TYPE_META[idx.byId.get(r.id)?.type ?? "CLAIM"].label;
   if (r.kind === "source") return "Source";
   if (r.kind === "image") return "Image";
-  return { inbox: "Discovery Inbox", contradictions: "Contradictions", status: "Case status", about: "Research rules" }[r.kind];
+  return { inbox: "Discovery Inbox", contradictions: "Conflicting accounts", status: "Case status", about: "How to read this board", sources: "Sources" }[r.kind];
 }
 
 // ---------------------------------------------------------------- tab screens
@@ -121,7 +125,7 @@ function SearchScreen({ onPick }: { onPick: (id: string) => void }) {
               <TypeIcon type={e.type} className="mt-1 size-4" />
               <div className="min-w-0 flex-1">
                 <div className="wrap-anywhere line-clamp-3 text-[15px] leading-snug text-zinc-100">{e.label}</div>
-                <div className="mt-0.5 truncate text-[12px] text-zinc-500">{TYPE_META[e.type].label} · {e.subtitle}</div>
+                <div className="mt-0.5 truncate text-[12px] text-zinc-500">{TYPE_META[e.type].label} · {describe(e, { times: idx.eventTimesByEvent.get(e.id) })}</div>
               </div>
               {e.type === "CLAIM" && <StatusBadge status={e.status} className="mt-1" />}
             </button>
@@ -133,66 +137,18 @@ function SearchScreen({ onPick }: { onPick: (id: string) => void }) {
   );
 }
 
-function SourcesScreen({ onOpen }: { onOpen: (id: string) => void }) {
-  const { idx } = useBoard();
-  const [group, setGroup] = useState("ALL");
-  const [limit, setLimit] = useState(40);
-  const sources = idx.bundle.entities.filter((e) => e.type === "SOURCE");
-  const groups = [...new Set(sources.map((s) => s.subtype ?? "OTHER"))];
-  const list = sources.filter((s) => group === "ALL" || s.subtype === group)
-    .sort((a, b) => (a.row.publication_date || "9999").localeCompare(b.row.publication_date || "9999") || a.label.localeCompare(b.label));
-  return (
-    <div className="flex h-full flex-col">
-      <TabHeader title={`Sources · ${sources.length}`} />
-      <div className="flex shrink-0 gap-2 overflow-x-auto border-b border-zinc-800 bg-zinc-950 px-4 py-2">
-        {["ALL", ...groups].map((g) => (
-          <button key={g} type="button" onClick={() => { setGroup(g); setLimit(40); }} className={cn("min-h-11 shrink-0 rounded-full border px-3.5 text-[14px]", group === g ? "border-zinc-300 bg-zinc-100 text-zinc-900" : "border-zinc-700 text-zinc-300")}>
-            {g === "ALL" ? "All" : g.toLowerCase().replace(/_/g, " ")} <span className="font-mono text-[12px] opacity-70">{g === "ALL" ? sources.length : sources.filter((s) => s.subtype === g).length}</span>
-          </button>
-        ))}
-      </div>
-      <div className="min-h-0 flex-1 overflow-y-auto pb-6">
-      <ul>
-        {list.slice(0, limit).map((s) => {
-          const claims = new Set((idx.claimSourcesBySource.get(s.id) ?? []).map((c) => c.claimId)).size;
-          return (
-            <li key={s.id}>
-              <button type="button" onClick={() => onOpen(s.id)} className="flex min-h-16 w-full items-start gap-3 border-b border-zinc-900 px-4 py-3 text-left active:bg-zinc-900">
-                <FileText className="mt-1 size-4 shrink-0 text-yellow-300" />
-                <div className="min-w-0 flex-1">
-                  <div className="wrap-anywhere text-[15px] font-medium leading-snug text-zinc-100">{s.label}</div>
-                  <div className="mt-1 flex flex-wrap items-center gap-1.5 text-[12px] text-zinc-500">
-                    <span>{[s.row.publisher || s.row._article?.publication, s.row.publication_date].filter(Boolean).join(" · ") || "publication details not recorded"}</span>
-                    <Tag>{s.row.reliability_class ? `class ${s.row.reliability_class}` : "class pending"}</Tag>
-                    {claims > 0 && <span>{claims} claim{claims === 1 ? "" : "s"}</span>}
-                  </div>
-                </div>
-                <ChevronRight className="mt-1 size-4 shrink-0 text-zinc-600" />
-              </button>
-            </li>
-          );
-        })}
-      </ul>
-      {list.length > limit && (
-        <div className="px-4 pt-3"><button type="button" onClick={() => setLimit(limit + 40)} className="min-h-11 w-full rounded border border-zinc-700 text-[15px] text-zinc-300">Show more ({list.length - limit})</button></div>
-      )}
-      </div>
-    </div>
-  );
-}
-
 function MoreScreen({ push, awaiting, conCount }: { push: (r: Route) => void; awaiting: number; conCount: number }) {
   const { idx } = useBoard();
   const items: { label: string; detail: string; icon: typeof Gauge; route: Route; warn?: boolean }[] = [
+    { label: "Sources", detail: "Articles, web pages, documents and photos", icon: FileText, route: { kind: "sources" } },
     { label: "Discovery Inbox", detail: `${awaiting} awaiting a decision`, icon: InboxIcon, route: { kind: "inbox" } },
-    { label: "Contradictions", detail: `${conCount} recorded`, icon: GitCompareArrows, route: { kind: "contradictions" } },
+    { label: "Conflicting accounts", detail: `${conCount} recorded`, icon: GitCompareArrows, route: { kind: "contradictions" } },
     { label: "Case status", detail: `Live counts · ${idx.bundle.meta.validation.errors} error(s), ${idx.bundle.meta.validation.warnings} warning(s)`, icon: Gauge, route: { kind: "status" }, warn: idx.bundle.meta.warnings.length > 0 },
-    { label: "Research rules", detail: "How statuses and links should be read", icon: ShieldCheck, route: { kind: "about" } },
+    { label: "How to read this board", detail: "What the labels and links mean", icon: ShieldCheck, route: { kind: "about" } },
   ];
   return (
     <div>
-      <TabHeader title={idx.bundle.meta.config.title} />
-      <div className="px-4 pt-3"><ResearchStatus variant="card" /></div>
+      <TabHeader title="More" />
       <ul className="px-2 pt-2">
         {items.map((it) => (
           <li key={it.label}>
@@ -208,34 +164,6 @@ function MoreScreen({ push, awaiting, conCount }: { push: (r: Route) => void; aw
         ))}
       </ul>
       <p className="px-5 pb-6 pt-4 text-[12px] text-zinc-600">Generated {idx.bundle.meta.syncedAt?.replace("T", " ").slice(0, 16)} UTC from the archive · data {idx.bundle.meta.dataVersion}{idx.bundle.meta.readOnly ? " · read-only deployment" : ""}.</p>
-    </div>
-  );
-}
-
-function ContradictionsScreen() {
-  const { idx, select } = useBoard();
-  const cons = idx.bundle.entities.filter((e) => e.type === "CONTRADICTION");
-  return (
-    <div className="flex flex-col gap-3 p-4">
-      {cons.length === 0 && <p className="text-[15px] italic text-zinc-500">No contradiction records in the archive.</p>}
-      {cons.map((c) => {
-        const versions = idx.versionsByContradiction.get(c.id) ?? [];
-        return (
-          <button key={c.id} type="button" onClick={() => select(c.id)} className="rounded-lg border border-red-900/60 bg-zinc-900/80 p-3.5 text-left active:bg-zinc-800">
-            <div className="flex items-center gap-2"><Tag className="border-red-700 text-red-300">{c.status}</Tag><span className="text-[12px] text-zinc-500">{versions.length} versions</span></div>
-            <div className="wrap-anywhere mt-1.5 text-[16px] font-medium leading-snug text-zinc-50">{c.label}</div>
-            <div className="mt-2 flex flex-col gap-1.5">
-              {versions.slice(0, 4).map((v, i) => (
-                <div key={v.id} className="rounded border border-zinc-800 bg-zinc-950 px-2 py-1.5 text-[13px]">
-                  <span className="text-[11px] uppercase tracking-wider text-zinc-500">Version {String.fromCharCode(65 + i)}{v.assertedStartAt && ` · ${v.assertedStartAt}`}</span>
-                  <div className="wrap-anywhere text-zinc-200">“{v.versionText}”</div>
-                </div>
-              ))}
-            </div>
-            <div className="mt-2 text-[12px] text-zinc-500">No version is preferred automatically.</div>
-          </button>
-        );
-      })}
     </div>
   );
 }
@@ -293,7 +221,7 @@ export function MobileShell({ idx, onDecide, onAddLink }: {
   onDecide: (item: InboxItem, d: InboxDecision, note: string) => Promise<void>;
   onAddLink: (fromId: string) => void;
 }) {
-  const [tab, setTab] = useState<Tab>("board");
+  const [tab, setTab] = useState<Tab>("home");
   const [stack, setStack] = useState<Route[]>([]);
   const filters = useBoardFilters();
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -397,6 +325,7 @@ export function MobileShell({ idx, onDecide, onAddLink }: {
               </div>
               <span className="min-w-0 truncate text-zinc-500">{view.boardEntities.length} records · {view.boardEdges.length} links</span>
             </div>
+            <div className="border-b border-zinc-800 px-4 py-2"><ViewPicker f={filters} onCustomize={() => setFiltersOpen(true)} /></div>
             {fullBoard && <p className="border-b border-zinc-800 bg-amber-950/20 px-4 py-1.5 text-[12px] text-amber-200">Full graph is dense on a phone. Pinch to zoom; tap a record to inspect; use Focus relationships to narrow.</p>}
             {!fullBoard && focusEntity && (
               <button type="button" onClick={() => select(focusEntity.id)} className="flex min-h-11 items-center gap-2 border-b border-zinc-800 px-4 text-left text-[13px] text-zinc-400">
@@ -419,8 +348,14 @@ export function MobileShell({ idx, onDecide, onAddLink }: {
           <div className={cn("absolute inset-0", tab !== "search" && "hidden")}>
             {tab === "search" && <SearchScreen onPick={(id) => select(id)} />}
           </div>
-          <div className={cn("absolute inset-0", tab !== "sources" && "hidden")}>
-            <SourcesScreen onOpen={(id) => push({ kind: "source", req: { sourceId: id } })} />
+          <div className={cn("absolute inset-0 flex flex-col", tab !== "home" && "hidden")}>
+            <TabHeader title="Home" />
+            <div className="min-h-0 flex-1 overflow-y-auto">
+              <Overview go={(t) => {
+                if (t === "board" || t === "timeline") switchTab(t);
+                else push({ kind: t });
+              }} />
+            </div>
           </div>
           <div className={cn("absolute inset-0 overflow-y-auto", tab !== "more" && "hidden")}>
             <MoreScreen push={push} awaiting={awaiting} conCount={conCount} />
@@ -448,7 +383,8 @@ export function MobileShell({ idx, onDecide, onAddLink }: {
                   )}
                   {r.kind === "source" && <SourceReader req={r.req} layout="page" />}
                   {r.kind === "inbox" && <Inbox compact items={idx.bundle.inbox} onDecide={onDecide} />}
-                  {r.kind === "contradictions" && <ContradictionsScreen />}
+                  {r.kind === "contradictions" && <ContradictionsList />}
+                  {r.kind === "sources" && <div className="h-full"><SourcesList onOpen={(id) => push({ kind: "source", req: { sourceId: id } })} /></div>}
                   {r.kind === "status" && <StatusScreen awaiting={awaiting} />}
                   {r.kind === "about" && <AboutScreen />}
                 </div>

@@ -37,6 +37,7 @@ export const CATEGORY_META: Record<EdgeCategory, { label: string; description: s
   REGISTER: { label: "Register link", description: "Explicit association stored in a register ID list.", stroke: "#52525b", dash: "2 3", width: 1 },
   LEAD: { label: "Research lead", description: "Register relationship flagged as a lead — not established.", stroke: "#fb923c", dash: "1 4", width: 1.6 },
   RESEARCHER: { label: "Researcher link", description: "Researcher connection — not evidence.", stroke: "#f59e0b", dash: "8 5", width: 2 },
+  VIA_CLAIM: { label: "Via claims", description: "Both records are named in the same claim record(s). Shown when claims are hidden; not a direct relationship.", stroke: "#6b7280", dash: "1 3", width: 1.4 },
 };
 
 export const REL_LABEL: Record<string, string> = {

@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import { Check, CircleHelp, Eye, GitMerge, Info, X } from "lucide-react";
+import { Check, ChevronDown, CircleHelp, Eye, GitMerge, Info, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { InboxDecision, InboxItem } from "@/lib/types";
 import { DECISION_LABEL, INBOX_KIND_LABEL, TERMINAL_DECISIONS } from "./constants";
@@ -22,16 +22,16 @@ function ItemCard({ item, onDecide }: { item: InboxItem; onDecide: (item: InboxI
   const readOnly = idx.bundle.meta.readOnly;
   const [note, setNote] = useState("");
   const [busy, setBusy] = useState(false);
+  const [showDetails, setShowDetails] = useState(false);
   const asset = item.kind === "UNASSIGNED_IMAGE" ? idx.bundle.assets.find((a) => a.id === item.entityIds[0]) : null;
   const decided = item.status !== "OPEN";
   return (
     <div className={cn("rounded-md border bg-zinc-900/70 p-2.5 touchui:rounded-lg touchui:p-3.5", TERMINAL_DECISIONS.has(item.status) ? "border-zinc-800 opacity-60" : "border-zinc-700")}>
       <div className="flex flex-wrap items-center gap-1.5">
-        <Tag className={item.priority === "HIGH" ? "border-red-700 text-red-300" : item.priority === "LOW" ? "text-zinc-500" : ""}>{item.priority}</Tag>
+        <Tag className={item.priority === "HIGH" ? "border-red-700 text-red-300" : item.priority === "LOW" ? "text-zinc-500" : ""}>{item.priority === "HIGH" ? "High priority" : item.priority === "LOW" ? "Low priority" : "Medium"}</Tag>
         <Tag>{INBOX_KIND_LABEL[item.kind] ?? item.kind}</Tag>
-        {item.originalIssueType && item.originalIssueType !== item.kind && <Tag className="text-zinc-500" title="Issue type in the originating file">{item.originalIssueType}</Tag>}
         <Tag className={cn(decided && "border-sky-700 text-sky-300")}>{DECISION_LABEL[item.status] ?? item.status}</Tag>
-        <span className="ml-auto font-mono text-[10px] text-zinc-600 touchui:hidden">{item.id.slice(0, 22)}</span>
+        <button type="button" onClick={() => setShowDetails(!showDetails)} className="ml-auto text-[10px] text-zinc-500 hover:text-zinc-300 touchui:min-h-10 touchui:text-[12px]">{showDetails ? "hide details" : "details"}</button>
       </div>
       <div className="wrap-anywhere mt-1.5 text-[13px] font-medium text-zinc-100 touchui:text-[17px] touchui:leading-snug">{item.title}</div>
       {item.description && <p className="wrap-anywhere mt-0.5 text-[12px] leading-snug text-zinc-400 touchui:mt-1 touchui:text-[14px] touchui:leading-relaxed">{item.description}</p>}
@@ -67,7 +67,7 @@ function ItemCard({ item, onDecide }: { item: InboxItem; onDecide: (item: InboxI
           {item.sourceIds.map((id) => <EntityChip key={id} id={id} />)}
         </div>
       )}
-      <div className="wrap-anywhere mt-1 text-[10px] text-zinc-600 touchui:text-[12px]">From {item.origin}{item.originRef && item.originRef !== item.id ? ` · ${item.originRef}` : ""}</div>
+      {showDetails && <div className="wrap-anywhere mt-1 font-mono text-[10px] text-zinc-600 touchui:text-[12px]">{item.id} · from {item.origin}{item.originRef && item.originRef !== item.id ? ` · ${item.originRef}` : ""}{item.originalIssueType ? ` · ${item.originalIssueType}` : ""}</div>}
       {item.decisionNote && <div className="mt-1 text-[11px] text-sky-300/80">Note: {item.decisionNote} <span className="text-zinc-600">({item.decidedBy}, {item.decidedAt?.slice(0, 16)})</span></div>}
       {readOnly ? (
         <p className="mt-2 text-[11px] text-zinc-500 touchui:text-[13px]">Read-only deployment — record decisions in the local board.</p>
@@ -87,6 +87,55 @@ function ItemCard({ item, onDecide }: { item: InboxItem; onDecide: (item: InboxI
     </div>
   );
 }
+
+function groupByKind(list: InboxItem[]) {
+  const m = new Map<string, InboxItem[]>();
+  for (const i of list) m.set(i.kind, [...(m.get(i.kind) ?? []), i]);
+  return [...m.entries()].sort((a, b) => {
+    const hi = (g: InboxItem[]) => g.filter((i) => i.priority === "HIGH").length;
+    return hi(b[1]) - hi(a[1]) || b[1].length - a[1].length;
+  });
+}
+
+/** One kind of review item, collapsible; low-priority items stay folded until asked for. */
+function KindGroup({ kind, items, onDecide, defaultOpen }: { kind: string; items: InboxItem[]; onDecide: (item: InboxItem, d: InboxDecision, note: string) => Promise<void>; defaultOpen: boolean }) {
+  const [open, setOpen] = useState(defaultOpen);
+  const [showLow, setShowLow] = useState(false);
+  const main = items.filter((i) => i.priority !== "LOW");
+  const low = items.filter((i) => i.priority === "LOW");
+  const high = items.filter((i) => i.priority === "HIGH").length;
+  return (
+    <section className="rounded-xl border border-zinc-800">
+      <button type="button" onClick={() => setOpen(!open)} className="flex w-full items-center gap-2 px-4 py-2.5 text-left hover:bg-zinc-900/60">
+        <ChevronDown className={cn("size-4 text-zinc-500 transition-transform", !open && "-rotate-90")} />
+        <span className="text-[14px] font-medium text-zinc-100">{INBOX_KIND_LABEL[kind] ?? kind}</span>
+        <span className="font-mono text-[12px] text-zinc-500">{items.length}</span>
+        {high > 0 && <span className="rounded bg-red-950 px-1.5 text-[11px] text-red-300">{high} high</span>}
+        <span className="ml-auto text-[11px] text-zinc-500">{KIND_HELP[kind] ?? ""}</span>
+      </button>
+      {open && (
+        <div className="flex flex-col gap-2 border-t border-zinc-800 p-2">
+          {(main.length ? main : low).map((i) => <ItemCard key={i.id} item={i} onDecide={onDecide} />)}
+          {main.length > 0 && low.length > 0 && (showLow ? low.map((i) => <ItemCard key={i.id} item={i} onDecide={onDecide} />) : (
+            <button type="button" onClick={() => setShowLow(true)} className="rounded-lg border border-dashed border-zinc-700 py-2 text-[12px] text-zinc-400 hover:text-zinc-200">Show {low.length} low-priority item{low.length > 1 ? "s" : ""}</button>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+const KIND_HELP: Record<string, string> = {
+  SOURCE_TO_ACQUIRE: "Records or articles we know exist but don't have",
+  UNASSIGNED_IMAGE: "Images whose subject isn't established by the source",
+  AMBIGUOUS_TEXT: "Wording or OCR that needs a human check",
+  AMBIGUOUS_DATE: "Dates that need checking",
+  POSSIBLE_CONTRADICTION: "Accounts that may conflict",
+  POSSIBLE_DUPLICATE_PERSON: "People who may be the same person",
+  BATCH_REVIEW: "General checks from an ingestion batch",
+  UNKNOWN_SOURCE: "Files not yet registered as sources",
+  DATA_INTEGRITY: "Broken references in the registers",
+};
 
 export function Inbox({ items, onDecide, compact }: { items: InboxItem[]; onDecide: (item: InboxItem, d: InboxDecision, note: string) => Promise<void>; compact?: boolean }) {
   const [kind, setKind] = useState<string>("ALL");
@@ -163,7 +212,9 @@ export function Inbox({ items, onDecide, compact }: { items: InboxItem[]; onDeci
       </div>
       <div className="min-w-0 flex-1 overflow-y-auto p-3">
         {list.length === 0 ? <p className="text-[12px] italic text-zinc-500">Nothing in this view.</p> : (
-          <div className="mx-auto flex max-w-4xl flex-col gap-2">{list.map((i) => <ItemCard key={i.id} item={i} onDecide={onDecide} />)}</div>
+          <div className="mx-auto flex max-w-4xl flex-col gap-4">
+            {groupByKind(list).map(([k, group]) => <KindGroup key={k} kind={k} items={group} onDecide={onDecide} defaultOpen={kind !== "ALL" || group.some((i) => i.priority === "HIGH")} />)}
+          </div>
         )}
       </div>
     </div>
