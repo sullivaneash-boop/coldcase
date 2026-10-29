@@ -291,6 +291,10 @@ export interface CaseReview {
   provenance: ReviewItem[];
   projectCritique: { overstated?: string[]; understated?: string[]; organizedPoorly?: string[] };
   humanReview: ReviewItem[];
+  /** Offender-profile dimensions assessed independently (relationship, geography, encounter, location). */
+  offenderDimensions: ReviewItem[];
+  /** Decisions on challenges raised by secondary reviewers. */
+  secondaryReview: ReviewItem[];
   changes: { date: string; summary: string }[];
   /** File the review was loaded from (archive-relative). */
   file: string;

@@ -8,7 +8,7 @@ import { ANALYSIS_DECISIONS, ANALYSIS_GRADES, type AnalysisDecision, type Review
 
 const LISTS = [
   "observations", "timeline", "evidence", "people", "locations", "contradictions", "hypotheses", "priorities",
-  "openQuestions", "biasAudit", "provenance", "humanReview",
+  "openQuestions", "biasAudit", "provenance", "humanReview", "offenderDimensions", "secondaryReview",
 ] as const;
 
 export async function POST(req: Request) {

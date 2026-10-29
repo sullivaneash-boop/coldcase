@@ -27,11 +27,17 @@ const DECISION_META: Record<string, { label: string; cls: string }> = {
   NOTE: { label: "Note", cls: "text-zinc-300" },
 };
 
+const CHALLENGE_CLS: Record<string, string> = {
+  ACCEPTED: "bg-emerald-950 text-emerald-200",
+  PARTIALLY_ACCEPTED: "bg-sky-950 text-sky-200",
+  REJECTED: "bg-rose-950 text-rose-200",
+};
+
 const SECTIONS = [
   ["overview", "Case overview"], ["observations", "Key observations"], ["timeline", "Master timeline"], ["evidence", "Key evidence"],
-  ["people", "People"], ["locations", "Locations"], ["contradictions", "Contradictions & gaps"], ["hypotheses", "Hypothesis matrix"],
+  ["people", "People"], ["locations", "Locations"], ["contradictions", "Contradictions & gaps"], ["dimensions", "Offender dimensions"], ["hypotheses", "Hypothesis matrix"],
   ["priorities", "Investigative priorities"], ["questions", "Open questions"], ["bias", "Bias & narrative audit"], ["provenance", "Source provenance"],
-  ["critique", "Project self-critique"], ["activity", "Recent activity"], ["review", "Needs your judgment"],
+  ["critique", "Project self-critique"], ["challenges", "Challenge log"], ["activity", "Recent activity"], ["review", "Needs your judgment"],
 ] as const;
 
 export function GradeBadge({ grade, override }: { grade?: string | null; override?: string | null }) {
@@ -202,8 +208,8 @@ function CommandCenterBody({ review: r, api, notes }: { review: CaseReview; api:
     return [...latest.values()].filter((n) => n.decision === "NEEDS_REVIEW" || n.decision === "DISAGREE");
   }, [notes]);
   const allItems = useMemo(() => new Map(
-    (["observations", "timeline", "evidence", "people", "locations", "contradictions", "hypotheses", "priorities", "openQuestions", "biasAudit", "provenance", "humanReview"] as const)
-      .flatMap((k) => r[k].map((i) => [i.id, i] as const))), [r]);
+    (["observations", "timeline", "evidence", "people", "locations", "contradictions", "hypotheses", "priorities", "openQuestions", "biasAudit", "provenance", "humanReview", "offenderDimensions", "secondaryReview"] as const)
+      .flatMap((k) => (r[k] ?? []).map((i) => [i.id, i] as const))), [r]);
   const gradeCounts = useMemo(() => {
     const c = new Map<string, number>();
     for (const t of r.timeline) c.set(t.grade ?? "UNKNOWN", (c.get(t.grade ?? "UNKNOWN") ?? 0) + 1);
@@ -275,6 +281,14 @@ function CommandCenterBody({ review: r, api, notes }: { review: CaseReview; api:
             {r.evidence.map((e) => (
               <Card key={e.id} item={e} api={api} title={s(e.item)}>
                 <Field label="Status" value={e.status} />
+                {s(e.knownToHaveExisted) && (
+                  <dl className="my-1 grid grid-cols-[auto_1fr] gap-x-3 gap-y-0.5 rounded border border-zinc-800 p-1.5 text-[11px] touchui:text-[13px]">
+                    <dt className="text-zinc-500">Known to have existed</dt><dd>{s(e.knownToHaveExisted)}</dd>
+                    <dt className="text-zinc-500">Documented preserved (2004)</dt><dd>{s(e.documentedPreserved2004)}</dd>
+                    <dt className="text-zinc-500">Confirmed to exist today</dt><dd>{s(e.confirmedToday)}</dd>
+                    <dt className="text-zinc-500">Suitable for modern testing</dt><dd>{s(e.testingSuitability)}</dd>
+                  </dl>
+                )}
                 <Field label="What we know" value={e.whatWeKnow} />
                 <Field label="Custodian" value={e.custodian} />
                 <Field label="Forensic opportunity" value={e.forensicOpportunity} />
@@ -312,10 +326,24 @@ function CommandCenterBody({ review: r, api, notes }: { review: CaseReview; api:
           </div>
         </Section>
 
+        {(r.offenderDimensions ?? []).length > 0 && (
+          <Section id="dimensions" title="Offender dimensions" intro="Assessed separately so that, for example, a stranger to Levi can still be highly familiar with the area. Each hypothesis below states where it sits on these dimensions.">
+            <div className="grid gap-2 xl:grid-cols-2">
+              {r.offenderDimensions.map((d) => (
+                <Card key={d.id} item={d} api={api} title={<>{s(d.dimension)} <span className="ml-1 rounded bg-zinc-800 px-1.5 py-px text-[10px] font-normal text-zinc-300">current: {s(d.current)}</span></>}>
+                  <p className="text-zinc-500">Values: {list(d.values).join(" · ")}</p>
+                  <p>{s(d.basis)}</p>
+                </Card>
+              ))}
+            </div>
+          </Section>
+        )}
+
         <Section id="hypotheses" title="Competing hypothesis matrix" intro="Explanations, not accusations. Each is stated with what supports it, what contradicts it, and what would disprove it. No person is identified as a perpetrator.">
           <div className="space-y-2">
             {r.hypotheses.map((h) => (
               <Card key={h.id} item={h} api={api} kind="hypothesis" title={<>{s(h.title)} <span className="ml-1 rounded bg-zinc-800 px-1.5 py-px text-[10px] font-normal text-zinc-300">weight: {s(h.currentWeight)}</span></>}>
+                {s(h.dimensions) && <p className="text-[11px] text-fuchsia-300/80 touchui:text-[13px]">{s(h.dimensions)}</p>}
                 <p>{s(h.summary)}</p>
                 <div className="mt-2 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
                   <Bullets label="Supports" items={list(h.supports)} cls="text-emerald-400" />
@@ -390,6 +418,19 @@ function CommandCenterBody({ review: r, api, notes }: { review: CaseReview; api:
             <Bullets label="Organized poorly" items={r.projectCritique.organizedPoorly ?? []} cls="text-rose-400" />
           </div>
         </Section>
+
+        {(r.secondaryReview ?? []).length > 0 && (
+          <Section id="challenges" title="Challenge log" intro="Challenges raised by secondary reviewers and how each was decided against the evidence. Accepted challenges changed the items listed.">
+            <div className="space-y-2">
+              {r.secondaryReview.map((c) => (
+                <Card key={c.id} item={c} api={api} title={<>{s(c.challenge)} <span className={cn("ml-1 rounded px-1.5 py-px text-[10px] font-normal", CHALLENGE_CLS[s(c.decision)] ?? "bg-zinc-800 text-zinc-300")}>{s(c.decision).replace(/_/g, " ").toLowerCase()}</span></>}>
+                  <p>{s(c.reason)}</p>
+                  {list(c.affectedItems).length > 0 && <p className="text-zinc-500">Changed: <span className="font-mono">{list(c.affectedItems).join(" · ")}</span></p>}
+                </Card>
+              ))}
+            </div>
+          </Section>
+        )}
 
         <Section id="activity" title="Recent activity">
           <ResearchStatus variant="card" />

@@ -569,7 +569,7 @@ export function buildCase(opts: BuildOptions): BuildResult {
 export const REVIEW_FILE = "11_ANALYSIS/independent_review/case_review.json";
 const REVIEW_LISTS = [
   "observations", "timeline", "evidence", "people", "locations", "contradictions", "hypotheses", "priorities",
-  "openQuestions", "biasAudit", "provenance", "humanReview",
+  "openQuestions", "biasAudit", "provenance", "humanReview", "offenderDimensions", "secondaryReview",
 ] as const;
 
 /** Loads the analysis layer. It is never evidence: unknown record references are dropped and reported, not drawn. */
