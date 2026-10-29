@@ -3,7 +3,7 @@
     "title": "Independent cold-case review",
     "layer": "CLAUDE_ANALYSIS",
     "author": "Claude (AI analyst), independent review requested by the project owner",
-    "version": 1,
+    "version": 2,
     "updatedAt": "2026-10-29",
     "notebook": "LEAD_DETECTIVE_REVIEW.md",
     "disclaimer": "AI analysis is not evidence. Grades describe how well the archive's sources support an item, from provenance and independence, not truth. Nothing here identifies an offender. Edit this file to correct the analysis; record agreement or disagreement on the board.",
@@ -70,48 +70,51 @@
     }
   ],
   "overview": {
-    "headline": "An 11-year-old boy riding his bicycle home at dusk on a rural Forsyth County road disappeared within a window of roughly 25 minutes; he was found shot about 19 hours later in a state forest roughly 15–22 road miles away. Nobody has been charged.",
+    "headline": "An 11-year-old boy last firmly seen riding his bicycle on a rural Forsyth County road at 6:50 p.m., near sunset, never reached home less than a mile away; he was found shot the next afternoon in a state forest about 15–22 road miles away. When he was separated from his bicycle, and when he died, are not established. Nobody has been charged.",
     "paragraphs": [
       "On Wednesday 22 October 1997 Levi Frady rode the school bus home and was alone at his Burruss Mill Road home after about 4:12 p.m.; his mother was at work in Alpharetta and his twin sister Laci was still at school. He phoned his mother, was told to be home by 6:30, and spent the afternoon cycling between two friends' homes. He left his book bag on friend #2's patio when that family went out to eat at about 5:45–6:00.",
       "At 6:38 he phoned home from a third residence and told Laci he did not want to ride home because it was getting dark and he was afraid of dogs on the route. He set off at about 6:45–6:50 by the Little Mill Road route to avoid the dogs. A resident saw him on Little Mill Road at 6:50, heading toward friend #2's house, with a small black dog following. Sunset was about 6:55 p.m. EDT and civil dusk about 7:20 (computed, not sourced).",
-      "Between 6:52 and 7:00 a lost motorist spoke to a man who did not answer and walked into the woods at a driveway a few hundred feet from where the bicycle was later found; she saw no bicycle. Between 7:00 and 7:15 Laci, searching by car with her mother, saw a bicycle like Levi's lying at a driveway on Little Mill Road about half a mile from home. If both accounts are accurate, the bicycle reached the roadside between about 6:52 and 7:15, and that is the best estimate of when Levi was taken.",
-      "His mother checked friend #1's house at about 7:30 and was told Levi had left to eat with another family. That family was out (an 8:01 Kmart check is reported). Believing he was staying at a friend's, she went to sleep, searched by car at about 2 a.m., and filed a missing-person report at 8 a.m. Before the report, the bicycle had been moved twice: by a resident's children into the ditch at 6:45 a.m., and by relatives who took it to the mother's house and then returned it.",
-      "At about 2 p.m. on 23 October, the opening day of rifle deer season, three Gilmer County hunters found Levi's body in Dawson Forest Wildlife Management Area near the abandoned Lockheed site. The sheriff said he was killed at that scene ('It all happened here'). Later accounts say he was shot three times, and a later sheriff mentioned 'a couple of shell casings'. The official interval for the shooting runs from 6 p.m. on the 22nd to 2:30 p.m. on the 23rd. The archive cannot say whether he was killed that evening or the next morning.",
-      "Investigators publicly sought two possible witnesses. One was a man walking Little Mill Road at about 6:30 p.m. The other was a man in Dawson Forest with a 1980–85 medium-blue Toyota 2WD pickup with a white camper shell, seen at about 10 a.m. on the 23rd. They have sought both since 1997. Three agencies shared the case, and their working relationship was documented as strained. Later suspect narratives, mainly from one blog, rest on anonymous sources and a hostile party's statement. No official source has adopted them."
+      "Between 6:52 and 7:00 a lost motorist spoke to a man who walked into the woods at a driveway a few hundred feet from where the bicycle was later found; she reported no bicycle 'in that area' (a negative observation of limited strength). During the mother's search that left at 7:00–7:15 and ended back home by 7:34, Laci saw 'a bike that looks like the one belonging to her brother' at a driveway; she was not heard and did not mention it again that night. The bicycle is firmly placed only from 5:15 a.m. the next morning, when two residents saw it at their driveway edge. The bicycle is therefore an object eventually found, not a clock: it bounds his separation from it to between 6:50 p.m. and 5:15 a.m., with Laci's sighting a possible, unconfirmed indication that it was already down by 7:34. An evening separation remains probable on other grounds (a sub-mile ride he never completed after being told to come straight home), but there is no hard upper bound.",
+      "His mother went to friend #1's home around 7:30 and was told Levi had left to eat with another family; that family was out (an 8:01 Kmart check, 'verified by receipt' in one rendition). Believing he was staying at a friend's, she went to sleep, drove the roads at about 2 a.m. without seeing the bicycle, and filed a missing-person report at 8 a.m. Before the report, the bicycle had been moved by a resident's children into the ditch (6:45 a.m.) and then taken to the mother's house by relatives, who decided to take it back before law enforcement arrived; the return itself is implied, not timestamped.",
+      "At about 2 p.m. on 23 October, the opening day of rifle deer season, three Gilmer County hunters found Levi's body in Dawson Forest Wildlife Management Area near the abandoned Lockheed site. Dawson Sheriff Carlisle said he was killed there ('It all happened here'). Later accounts say he was shot three times. In 2002 Forsyth Sheriff Ted Paxton mentioned 'a couple of shell casings' without saying where they were found; a 2007 article places 'some shell casings' with the bicycle in the Little Mill Road ditch. No source links any casing to the wounds. The published shooting interval (6 p.m. Oct 22 – 2:30 p.m. Oct 23) has no public medical basis; whether he died that evening or later is unknown.",
+      "Investigators publicly sought two possible witnesses: a man walking Little Mill Road at about 6:30 p.m., and a man with a 1980–85 medium-blue Toyota 2WD pickup with a white camper shell seen in Dawson Forest at about 10 a.m. on the 23rd. Seeking a witness shows investigators thought he might know something; it says nothing about when Levi died. Both remain publicly sought; whether investigators privately identified either is unknown. Three agencies shared the case and their relationship was documented as strained. Later suspect narratives, mainly from one blog, rest on anonymous sources and a hostile party's statement; no official source has adopted them."
     ]
   },
   "observations": [
     {
       "id": "OBS-01",
       "rank": 1,
-      "title": "The abduction window is about 6:50–7:15 p.m., not '6–7 p.m.'",
-      "detail": "The 6:50 sighting on Little Mill Road, the motorist seeing no bicycle at 6:52–7:00 and Laci's bicycle sighting at 7:00–7:15 bracket the event to roughly 25 minutes at sunset. The GBI's public 'before the sun went down, 6–7 p.m.' is broader and earlier than its own chronology. A narrow window on a 'well-traveled' road makes passing drivers the most valuable possible witnesses.",
+      "title": "The bicycle is an object eventually found, not a clock",
+      "detail": "Firm: last sighting 6:50 p.m. on Little Mill Road; bicycle at a driveway edge by 5:15 a.m. (two adult residents). Possible: Laci's 'bike that looks like' Levi's, seen during a search that left at 7:00–7:15 and was home by 7:34 — resemblance only, from a moving car at dusk; the driveway is unspecified in the Dawson News rendition, given as 'on Little Mill Road about a half mile from Levi's home' only in the FCN rendition, and the earliest dated rendition (AccessNorthGa, Oct 31 2004) omits the sighting entirely. Weak: the motorist's 'no bicycle in that area' and the mother's 2 a.m. non-sighting. Even a correct bicycle time would not fix when or where Levi separated from it. v1's '6:50–7:15 window' overstated this; the defensible statement is last firm sighting 6:50, separation probably that evening, no established upper bound before 5:15 a.m.",
       "grade": "PROBABLE",
       "recordIds": [
         "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
-        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
         "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
-        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4"
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "EVT-2af952ea-7a07-58e3-b0a8-6ff67cb3c054",
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+        "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2"
       ]
     },
     {
       "id": "OBS-02",
       "rank": 2,
-      "title": "When Levi was killed is the most important unknown",
-      "detail": "The official shooting window runs from 6 p.m. on the 22nd to 2:30 p.m. on the 23rd. Investigators have kept seeking a man seen in Dawson Forest at about 10 a.m. on the 23rd, 15 hours after the abduction. That makes most sense if they could not rule out Levi being alive, or the offender being present, that morning. The 23rd was the opening day of rifle season, when gunfire would go unnoticed. Evening killing and overnight custody imply different offenders and motives. The autopsy (stomach contents set against a skipped dinner, rigor, lividity, wetness after rain) is the answer, and the archive does not hold it.",
+      "title": "When Levi died is unknown, and nothing public narrows it",
+      "detail": "The published shooting interval (6 p.m. Oct 22 – 2:30 p.m. Oct 23, FCN 31 Oct 1997) bounds the time from just before the last sighting to the body report; no public source gives a medical basis for it or anything narrower. Investigators' 'contact before sundown, 6–7 p.m.' concerns the encounter, not death, and its basis is undisclosed. v1 used the GBI's continued search for Witness 2 (10 a.m. Oct 23) to suggest a morning death was kept open — that was an unsupported inference and is withdrawn. Only the autopsy and scene findings can address this.",
       "grade": "UNKNOWN",
       "recordIds": [
         "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230",
-        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
-        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
-        "EVT-455419a5-c86e-555e-ab87-11166bb68040"
+        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
       ]
     },
     {
       "id": "OBS-03",
       "rank": 3,
       "title": "The bicycle's 'found location' is a reconstruction after at least three handlings",
-      "detail": "At 5:15 a.m. the bicycle was at the edge of a driveway. Children moved it into the ditch at 6:45. Relatives took it to the mother's house and then put it back before police arrived. The 1997 press (Laci found it; Laci and her mother found it) does not reflect any of this; the GBI chronology first did in 2004. The placement (lying at a driveway edge, not hidden) best fits a bicycle dropped at the point of encounter. The blog's 'wiped clean' claim is anonymous, and the handling plus the reported drizzle are mundane explanations for missing prints.",
+      "detail": "At 5:15 a.m. the bicycle was at the edge of a driveway. Children moved it into the ditch at 6:45. In the 7:50 a.m. entry relatives found it there, took it to the mother's house, and (in the FCN and Dawson News renditions, not AccessNorthGa) the family 'decides to take the bicycle back to its location before law enforcement arrives'. The return is implied by the 6:45 entry's '(where it was ultimately found)' but is not timestamped, and police arrival time is not stated. The 1997 press (Laci found it; Laci and her mother found it) does not reflect any of this. The 'wiped clean' claim is anonymous; handling and the reported drizzle are mundane explanations for missing prints.",
       "grade": "PROBABLE",
       "recordIds": [
         "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
@@ -125,7 +128,7 @@
       "id": "OBS-04",
       "rank": 4,
       "title": "He said he did not want to ride home in the dark",
-      "detail": "At 6:38 Levi said he was afraid of the dark and of dogs, and he chose a different route. A ride offered by a familiar adult would have been welcome, which fits his mother's belief that he would not get into a stranger's car. This raises the plausibility of a known or locally familiar driver without pointing to anyone.",
+      "detail": "At 6:38 Levi said he was afraid of the dark and of dogs and chose a different route. A ride offered by someone he knew would have been welcome, which fits his mother's belief that he would not get into a stranger's car. But whether he entered a vehicle voluntarily is itself unknown, so this bears only on the relationship dimension, and only conditionally; it says nothing about geographic familiarity.",
       "grade": "PROBABLE",
       "recordIds": [
         "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
@@ -137,7 +140,7 @@
       "id": "OBS-05",
       "rank": 5,
       "title": "The man at the driveway (6:52–7:00) is the closest observation to the abduction, and he is not one of the sought witnesses",
-      "detail": "The lost motorist's man was 35–60, with scraggly grayish-black or light-brown hair, jeans, and a light shirt with rolled sleeves. He ignored her and walked into the woods at a driveway a few hundred feet from the bicycle site. Witness 1 was seen at 6:30 and is described as late 50s, gray beard, blue cap, stooped. The records held never say whether the driveway man was identified (perhaps a resident at his own driveway) or simply dropped.",
+      "detail": "The lost motorist's man was 35–60, with scraggly grayish-black or light-brown hair, jeans, and a light shirt with rolled sleeves. He ignored her and walked into the woods at a driveway a few hundred feet from the bicycle site. Witness 1 was seen at 6:30 and is described differently. He has never been the subject of a public appeal; whether investigators identified him is not stated in any held source (not publicly identified ≠ never identified).",
       "grade": "PROBABLE",
       "recordIds": [
         "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
@@ -162,15 +165,16 @@
     {
       "id": "OBS-07",
       "rank": 7,
-      "title": "'It all happened here': the shooting was at the Dawson scene",
-      "detail": "Sheriff Carlisle said this on 24 October 1997, and Paxton's 'couple of shell casings' (2002) fits a shooting at the scene. The 2007 line that casings were found with the bicycle in the Little Mill ditch conflicts with both and is best treated as a retelling error. Hendrix's 'a crime occurred in this county' is most simply the abduction itself, which is a crime in Forsyth. The blog reads it as a sign Levi died before reaching Dawson, which overreads it.",
-      "grade": "PROBABLE",
+      "title": "Casings: existence, location and link to the shooting are three separate unknowns",
+      "detail": "Existence: Forsyth Sheriff Ted Paxton (2002; v1 wrongly called him Dawson sheriff) said 'There were a couple of shell casings' — no location. Location: only the 2007 FCN states one, 'His bike and some shell casings were found in a ditch off Little Mill Road' — a later, unsourced line that may be compressed wording or may be accurate. Link: no source says any casing was matched to the projectiles or wounds. Carlisle's 1997 'It all happened here' was about where Levi was killed (rejecting a dump-site theory), not about casings. v1 called the 2007 line a retelling error and assumed a Dawson recovery; neither is supported. If casings were found at the bicycle site, a shot fired in Forsyth would follow — so their recovery location is now a P0 question.",
+      "grade": "UNKNOWN",
       "recordIds": [
-        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
         "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
         "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
         "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
-        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
+        "PER-6f491957-c62f-5e41-84da-e91264a530da",
+        "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d"
       ]
     },
     {
@@ -191,7 +195,7 @@
       "id": "OBS-09",
       "rank": 9,
       "title": "The Tallant/Samples narrative has little evidentiary weight so far",
-      "detail": "Its core is a statement made in 2013, during a stabbing investigation, by a man with a documented psychiatric history and a violent dispute with the accused ('long gun … same one they shot Levi Frady with'), with no stated basis of knowledge. Added to it are one anonymous 'they were friends' claim and an uncorroborated 2020 warrant report. A 2026-10-29 web search found no independent report of the warrant. The 1998 inmate in the Hendrix letter is unlikely to be Samples: Samples was awaiting trial or out on bond in 1998, and Hendrix described the inmate as his informant from Fulton County years earlier. The decisive test is a ballistic comparison, which only the GBI can run.",
+      "detail": "Its core is a statement made in 2013, during a stabbing investigation, by a man with a documented psychiatric history and a violent dispute with the accused ('long gun … same one they shot Levi Frady with'), with no stated basis of knowledge. Added to it are one anonymous 'they were friends' claim and an uncorroborated 2020 warrant report. A 2026-10-29 web search found no independent report of the warrant. The 1998 inmate in the Hendrix letter is unlikely to be Samples: Samples was awaiting trial or out on bond in 1998, and Hendrix described the inmate as his informant from Fulton County years earlier. A firearms comparison would be a strong test only if suitable firearms evidence (cartridge cases and/or projectiles) still exists and a weapon was recovered; none of that is established publicly.",
       "grade": "ALLEGED",
       "recordIds": [
         "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
@@ -206,14 +210,15 @@
     {
       "id": "OBS-10",
       "rank": 10,
-      "title": "Modern forensic options are the most realistic route to resolution",
-      "detail": "In 2004 the GBI said the evidence was 'painstakingly preserved' and being reviewed for resubmission; the bicycle was in GBI evidence in Cleveland. Casings and projectiles can be compared through NIBIN. Clothing, a sexual-assault kit if one exists, fingernail scrapings and bicycle grips can be tested with touch/Y-STR DNA and probabilistic genotyping, then forensic genetic genealogy if a usable male profile results. Most of this was unavailable or immature in 1997, and all of it is in agency custody.",
-      "grade": "PROBABLE",
+      "title": "Forensic potential is unestablished until the current inventory is known",
+      "detail": "Known to have existed (reported): autopsy material; 'a couple of shell casings' (location unknown); the bicycle; clothing. Documented as preserved in 2004: Cagle said investigators were re-examining physical evidence 'painstakingly preserved' and considering resubmission (no item list), and an AJC photo caption shows the bicycle held at GBI Cleveland. Confirmed to exist today: nothing. Suitable for modern testing: unknown — cartridge cases are NIBIN-eligible if retained; projectiles need a recovered weapon for comparison; no source confirms any biological sample, STR result, or material suitable for SNP/FIGG. The first ask is the current inventory, testing history and remaining sample condition.",
+      "grade": "POSSIBLE",
       "recordIds": [
         "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
         "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396",
         "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
-        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9"
+        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9",
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
       ]
     }
   ],
@@ -428,7 +433,7 @@
       "precision": "±3 min",
       "corroboration": "World Series Game 5 that night; DST still in effect",
       "conflicts": "",
-      "note": "Analyst calculation; verify against USNO tables.",
+      "note": "Analyst calculation; verify against USNO tables. Context only — not a bound on the abduction.",
       "recordIds": []
     },
     {
@@ -443,27 +448,27 @@
       "contemporaneous": "Retrospective",
       "precision": "Range",
       "corroboration": "",
-      "conflicts": "His description differs from Witness 1",
-      "note": "The closest observation to the abduction point in time and space.",
+      "conflicts": "The AccessNorthGa rendition truncates this entry before the bicycle note",
+      "note": "Closest observation to the bicycle site. 'No bicycle … in that area' is negative evidence of limited strength (moving car, dusk, area not specified).",
       "recordIds": [
         "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930"
       ]
     },
     {
       "id": "TL-13",
-      "when": "1997-10-22 19:00–19:15",
-      "title": "Laci sees a bicycle like Levi's at a Little Mill Road driveway; her mother does not hear her",
+      "when": "1997-10-22 between departure 19:00–19:15 and return by 19:34",
+      "title": "Laci sees 'a bike that looks like the one belonging to her brother' at a driveway; her mother does not hear her",
       "grade": "POSSIBLE",
       "lineages": [
         "L2",
         "L6"
       ],
-      "basis": "Child witness at dusk, from a moving car",
-      "contemporaneous": "Reported in 1997 per blog (AJC Oct. 24 and Nov. 9)",
-      "precision": "Range",
-      "corroboration": "The AJC 1997 version is cited but not held",
-      "conflicts": "1997 FCN: Laci found the bicycle Thursday",
-      "note": "Pivotal: if accurate, the bicycle was down by 7:15.",
+      "basis": "Laci (age 11), as summarized by investigators; from a moving car at dusk",
+      "contemporaneous": "Retrospective (2004 release); a 1997 AJC version is cited by the blog but not held",
+      "precision": "Within the search trip, not a clock time; '7:00–7:15' is the departure range",
+      "corroboration": "None independent; AJC 9 Nov 1997 per blog: 'her mother simply didn't react when they saw the bike' (wording differs: 'they saw' vs 'does not hear her')",
+      "conflicts": "FCN: 'at a driveway on Little Mill Road about a half mile from Levi's home'; Dawson News: 'at a driveway' only; AccessNorthGa (earliest dated, 31 Oct 2004): sighting absent. 1997 FCN: Laci found the bicycle Thursday",
+      "note": "Resemblance, not identification. Not established as the same driveway as the 5:15 a.m. bicycle. Not repeated that night, including in the 7:34 call. Cannot serve as an exclusion cutoff.",
       "recordIds": [
         "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
         "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42",
@@ -483,11 +488,32 @@
       "contemporaneous": "1997 contemporaneous",
       "precision": "Approximate",
       "corroboration": "Consistent in 1997, 2002 and 2004",
-      "conflicts": "None",
-      "note": "The misinformation explains why her concern stayed low.",
+      "conflicts": "2004: the visit falls inside a search that ended home by 7:34; 1997 says she went 'around 7:30' and then to the other neighbor's address — tight but compatible given 'around'",
+      "note": "The misinformation explains why her concern stayed low. The 7:30/7:34 tension widens, rather than narrows, the window for Laci's sighting.",
       "recordIds": [
         "EVT-c015bce3-b7e2-5403-934a-ff7c779c9b79",
         "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53"
+      ]
+    },
+    {
+      "id": "TL-14A",
+      "when": "1997-10-22 19:34",
+      "title": "Mother and Laci back home; Laci phones a friend and says Levi has not come home",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Investigators' summary (friend unnamed)",
+      "contemporaneous": "Retrospective (2004 release)",
+      "precision": "Exact minute reported; basis for the minute not stated (possibly phone records or the friend's account)",
+      "corroboration": "Same in all three renditions",
+      "conflicts": "",
+      "note": "No bicycle is mentioned in any rendition. This does not corroborate Laci's sighting; the friend could be asked whether it came up.",
+      "recordIds": [
+        "EVT-bc109c34-f226-51db-a13e-e4e8032b31f2",
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+        "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2"
       ]
     },
     {
@@ -501,7 +527,7 @@
       "basis": "Documentary (check), not held",
       "contemporaneous": "Retrospective",
       "precision": "Exact",
-      "corroboration": "",
+      "corroboration": "AccessNorthGa rendition: check 'verified by receipt'",
       "conflicts": "",
       "note": "A record that would confirm where friend #2's family was.",
       "recordIds": [
@@ -596,8 +622,8 @@
       "contemporaneous": "Retrospective",
       "precision": "Exact (reported)",
       "corroboration": "Dawson News clipping rendition",
-      "conflicts": "1997: Laci found it (26 Oct) / Laci and mother, 'about a mile' (29 Oct); AccessNorthGa 7:50 entry lacks the 'return' clause",
-      "note": "Second handling. The finder is DISPUTED between eras.",
+      "conflicts": "1997: Laci found it (26 Oct) / Laci and mother, 'about a mile' (29 Oct). The 'decides to take the bicycle back … before law enforcement arrives' clause is in FCN and Dawson News, absent from AccessNorthGa",
+      "note": "Second handling. The return is implied by '(where it was ultimately found)' but not timestamped; police arrival time is not stated anywhere held.",
       "recordIds": [
         "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
         "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
@@ -620,7 +646,7 @@
       "precision": "Exact (reported)",
       "corroboration": "1997: reported Thursday morning",
       "conflicts": "",
-      "note": "",
+      "note": "Police arrival time at the bicycle site is not stated.",
       "recordIds": [
         "EVT-e80dffba-4610-5889-9405-2e23c7ef4f81"
       ]
@@ -659,7 +685,7 @@
       "precision": "Approximate",
       "corroboration": "GBI Witness 2: 1980–85 medium-blue Toyota 2WD with white camper",
       "conflicts": "",
-      "note": "15 hours after the abduction window; see OBS-02.",
+      "note": "Why investigators sought this man is not stated. His relevance to the time of death is unknown; seeking him does not imply Levi was alive that morning.",
       "recordIds": [
         "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
         "EVT-13d171a1-c547-544d-b5c0-1ebba66b4f6b",
@@ -763,7 +789,7 @@
       "precision": "Day",
       "corroboration": "",
       "conflicts": "The 2004 clipping gives Nov. 21, 1997 for a sketch's completion",
-      "note": "Witness 2 (Toyota) stayed unidentified. Witness 1's sketch may date from Nov. 21.",
+      "note": "Witness 2 (Toyota) remained publicly sought; private identification status unknown. Witness 1's sketch may date from Nov. 21.",
       "recordIds": [
         "EVT-bd34ed5f-1e7e-5225-bf16-932b901423f4",
         "EVT-1f5ad684-92d9-5f20-9890-b0613ac874f6",
@@ -804,7 +830,7 @@
       "precision": "Day",
       "corroboration": "",
       "conflicts": "",
-      "note": "The event is documented, but its link to the Frady case is ALLEGED (see H-06).",
+      "note": "The event is documented, but its link to the Frady case is ALLEGED (see H-07).",
       "recordIds": [
         "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
         "PER-746f494a-89a1-5fd4-b58b-7201477502f1",
@@ -856,21 +882,22 @@
     {
       "id": "TL-33",
       "when": "2002-10",
-      "title": "Sheriff Paxton: physical evidence 'little to none', 'a couple of shell casings', no DNA (head shake); 50 volumes",
+      "title": "Forsyth Sheriff Ted Paxton: physical evidence 'little to none', 'a couple of shell casings' (no location), no DNA on the body (head shake); 50 volumes",
       "grade": "PROBABLE",
       "lineages": [
         "L5"
       ],
-      "basis": "Dawson sheriff (official, retrospective)",
+      "basis": "Forsyth County sheriff (title from context: he succeeded Hendrix in 2001); retrospective",
       "contemporaneous": "5 years after",
       "precision": "Month",
       "corroboration": "",
-      "conflicts": "2007 places casings with the bicycle in Forsyth",
-      "note": "",
+      "conflicts": "2007 FCN places some casings with the bicycle in the Little Mill ditch",
+      "note": "v1 misattributed Paxton as Dawson sheriff. Location and homicide link of the casings are not stated.",
       "recordIds": [
         "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
         "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
-        "PER-6f491957-c62f-5e41-84da-e91264a530da"
+        "PER-6f491957-c62f-5e41-84da-e91264a530da",
+        "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d"
       ]
     },
     {
@@ -963,25 +990,33 @@
       "whatWeKnow": "'One or more gunshot wounds' (1997); 'shot three times' (later). Wound sites, range, trajectory, sequence, time-of-death indicators and sexual-assault findings are not public.",
       "grade": "STRONGLY_SUPPORTED",
       "custodian": "GBI Medical Examiner / Division of Forensic Sciences; Dawson County coroner",
-      "forensicOpportunity": "Time-of-death reassessment (stomach contents vs last meal, lividity, rigor, insects, wetness). Wound sequence tests the anonymous 'not fired at same time/place' claim.",
+      "forensicOpportunity": "If records and samples survive: re-review of time-of-death indicators (stomach contents, lividity, rigor, insects, wetness) and wound sequence.",
       "recordIds": [
         "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
         "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
-      ]
+      ],
+      "knownToHaveExisted": "Yes (state crime lab autopsy, 1997)",
+      "documentedPreserved2004": "Not itemized",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Unknown — depends on retained samples and records"
     },
     {
       "id": "EV-02",
       "item": "Shell casings ('a couple')",
-      "status": "Reported 2002; location implied Dawson scene",
-      "whatWeKnow": "Count, caliber and weapon class not public. 'A couple' set against three shots may mean a casing was missed, a manually operated weapon, or loose wording.",
-      "grade": "PROBABLE",
-      "custodian": "GBI DOFS firearms",
-      "forensicOpportunity": "NIBIN entry and correlation; comparison with any weapon seized since (tests the 'long gun' claim).",
+      "status": "Existence reported 2002; recovery location UNKNOWN (2007 places some in the Little Mill ditch)",
+      "whatWeKnow": "Count, caliber, recovery location(s) and whether any were linked to the projectiles or wounds are not public. 'A couple' set against three shots is unexplained.",
+      "grade": "UNKNOWN",
+      "custodian": "GBI DOFS firearms; Forsyth SO (if recovered at the bicycle site)",
+      "forensicOpportunity": "First establish where they were found and whether they were tied to the homicide; only then NIBIN entry/correlation and comparison with any recovered weapon.",
       "recordIds": [
         "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
         "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
         "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0"
-      ]
+      ],
+      "knownToHaveExisted": "Reported: 'a couple of shell casings' (Forsyth Sheriff Paxton, 2002); 2007 FCN places 'some' with the bicycle",
+      "documentedPreserved2004": "Not itemized (general 2004 'painstakingly preserved' statement)",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Cartridge cases are NIBIN-eligible if retained and if caliber/condition allow; link to the homicide not established"
     },
     {
       "id": "EV-03",
@@ -990,10 +1025,14 @@
       "whatWeKnow": "Never mentioned publicly.",
       "grade": "UNKNOWN",
       "custodian": "GBI DOFS",
-      "forensicOpportunity": "Rifling characteristics narrow the weapon class; comparison with any test-fired weapon.",
+      "forensicOpportunity": "If recovered and retained: rifling class characteristics; comparison only against a recovered weapon.",
       "recordIds": [
         "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
-      ]
+      ],
+      "knownToHaveExisted": "Unknown (never mentioned)",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Comparison needs a recovered weapon; NIBIN is primarily cartridge-case based"
     },
     {
       "id": "EV-04",
@@ -1002,12 +1041,16 @@
       "whatWeKnow": "Handled by the residents' children, relatives (taken to the mother's house and returned) and then officers. 'No prints / wiped clean' is anonymous (blog). Light rain/drizzle was reported.",
       "grade": "STRONGLY_SUPPORTED",
       "custodian": "GBI Region (Cleveland)",
-      "forensicOpportunity": "Touch DNA on grips, seat and brake levers with probabilistic genotyping, using elimination samples from known handlers. Low but non-zero yield.",
+      "forensicOpportunity": "Conditional on current condition: touch DNA on grips, seat and brake levers with probabilistic genotyping, using elimination samples from known handlers. Expected yield low.",
       "recordIds": [
         "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9",
         "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396",
         "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899"
-      ]
+      ],
+      "knownToHaveExisted": "Yes",
+      "documentedPreserved2004": "Yes — AJC photo caption, Oct 2004, GBI Cleveland",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Touch-DNA potential unknown; heavy handling and weather lower it; elimination samples would be needed"
     },
     {
       "id": "EV-05",
@@ -1020,7 +1063,11 @@
       "recordIds": [
         "EVT-0cb4646d-2e47-53a7-955e-34583bed190f",
         "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb"
-      ]
+      ],
+      "knownToHaveExisted": "Yes (left on patio)",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Not forensic; establishes route and intent"
     },
     {
       "id": "EV-06",
@@ -1029,10 +1076,14 @@
       "whatWeKnow": "'He was clothed' (Carlisle). Whether every reported item was present was not disclosed.",
       "grade": "PROBABLE",
       "custodian": "GBI DOFS",
-      "forensicOpportunity": "Trace and touch DNA, fibers, gunshot residue pattern (range of fire).",
+      "forensicOpportunity": "Conditional on retention: trace and touch DNA, fibers, range-of-fire residue.",
       "recordIds": [
         "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
-      ]
+      ],
+      "knownToHaveExisted": "Yes ('he was clothed')",
+      "documentedPreserved2004": "Not itemized",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Unknown — no source confirms biological material"
     },
     {
       "id": "EV-07",
@@ -1041,11 +1092,15 @@
       "whatWeKnow": "Officials withheld it as 'guilty knowledge'. Blog hearsay (funeral home) and an anonymous denial (an officer at the autopsy) conflict.",
       "grade": "DISPUTED",
       "custodian": "GBI DOFS / ME",
-      "forensicOpportunity": "If a kit or swabs exist: Y-STR / autosomal retest, then FIGG if a male profile results.",
+      "forensicOpportunity": "Conditional: if a kit or swabs exist and were stored adequately, Y-STR/autosomal retesting; SNP profiling and FIGG only if a sufficient single-source male profile results.",
       "recordIds": [
         "CON-665a6ff9-a0bc-5deb-ac2b-7601ca78f770",
         "SRC-61c50234-323f-5dbc-8401-a53761a9871d"
-      ]
+      ],
+      "knownToHaveExisted": "Unknown (officially withheld)",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Only if a kit or swabs exist; no source confirms an STR profile; SNP/FIGG suitability unknown"
     },
     {
       "id": "EV-08",
@@ -1060,7 +1115,11 @@
         "EVT-1a1c8b8a-fea8-5aa9-8ebc-8c9a456883f3",
         "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
         "PER-b0a05aae-a2bf-5e8a-ae94-da29f01a670e"
-      ]
+      ],
+      "knownToHaveExisted": "Yes (photos requested 1998)",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "Documentary — scene reconstruction"
     },
     {
       "id": "EV-09",
@@ -1075,7 +1134,11 @@
         "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef",
         "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce",
         "SRC-ce768045-8c9f-5250-9c95-1ead57781399"
-      ]
+      ],
+      "knownToHaveExisted": "Yes",
+      "documentedPreserved2004": "Published versions persist",
+      "confirmedToday": "Yes (public pages)",
+      "testingSuitability": "N/A"
     },
     {
       "id": "EV-10",
@@ -1089,7 +1152,11 @@
         "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
         "EVT-dc8aca45-5980-532b-bc4b-61ffa04e9791",
         "EVT-79676791-6e64-5563-bb34-32e98fa511c5"
-      ]
+      ],
+      "knownToHaveExisted": "Unknown",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "N/A"
     },
     {
       "id": "EV-11",
@@ -1103,7 +1170,11 @@
         "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
         "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533",
         "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
-      ]
+      ],
+      "knownToHaveExisted": "Yes (66 volumes, 2004)",
+      "documentedPreserved2004": "Yes (2004)",
+      "confirmedToday": "Presumably (case open, 2026)",
+      "testingSuitability": "N/A"
     },
     {
       "id": "EV-12",
@@ -1115,7 +1186,11 @@
       "forensicOpportunity": "",
       "recordIds": [
         "EVD-38a6460d-629d-55ac-af36-933e039ef6b6"
-      ]
+      ],
+      "knownToHaveExisted": "Anonymous report",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "N/A"
     },
     {
       "id": "EV-13",
@@ -1127,7 +1202,11 @@
       "forensicOpportunity": "If true, impound or search records exist.",
       "recordIds": [
         "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9"
-      ]
+      ],
+      "knownToHaveExisted": "Anonymous report",
+      "documentedPreserved2004": "Unknown",
+      "confirmedToday": "Unknown",
+      "testingSuitability": "N/A"
     }
   ],
   "people": [
@@ -1269,7 +1348,7 @@
       "id": "PP-13",
       "name": "Marshall Tallant and Tommy Albert Samples",
       "role": "Named in a blog narrative (2016–2020)",
-      "whyTheyMatter": "Subject of an unverified accusation; see H-06.",
+      "whyTheyMatter": "Subject of an unverified accusation; see H-07.",
       "caution": "No official source names either man as a suspect. Listed separately so that placement implies nothing.",
       "recordIds": [
         "PER-67ae211a-32b6-5012-add3-11015594f26a",
@@ -1362,16 +1441,14 @@
       "id": "CX-01",
       "title": "When was Levi killed — the evening of the 22nd or the morning of the 23rd?",
       "versions": [
-        "Official window: 6 p.m. Oct 22 – 2:30 p.m. Oct 23 (FCN, Oct 31 1997)",
-        "Investigators: contact before sundown (6–7 p.m.)",
-        "Witness 2 sought for a 10 a.m. Oct 23 sighting in Dawson Forest"
+        "Official interval: 6 p.m. Oct 22 – 2:30 p.m. Oct 23 (FCN, 31 Oct 1997); no public medical basis",
+        "Investigators: encounter before sundown, 6–7 p.m. (an encounter estimate, not a death estimate; basis undisclosed)"
       ],
-      "assessment": "Unresolved and the most consequential gap. The archive has no medical time-of-death evidence.",
-      "whatResolves": "Autopsy findings; scene photographs (rain, lividity); hunters' accounts of gunfire on the morning of the opener.",
+      "assessment": "Unresolved. v1 listed the GBI's search for Witness 2 as a version bearing on time of death; withdrawn — seeking a witness is not a medical estimate.",
+      "whatResolves": "Autopsy findings and scene records; the GBI's stated basis for its encounter estimate.",
       "recordIds": [
         "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230",
         "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
-        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
         "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
       ]
     },
@@ -1381,9 +1458,10 @@
       "versions": [
         "1997: Laci found it in a ditch about half a mile from home (26 Oct)",
         "1997: Laci and her mother found it about a mile from home (29 Oct)",
-        "2004 GBI: seen by Laci 7–7:15 p.m.; residents 5:15 and 6:00; children moved it 6:45; grandfather and relatives took it home and returned it 7:50"
+        "2004 GBI: seen by Laci 7–7:15 p.m.; residents 5:15 and 6:00; children moved it 6:45; grandfather and relatives took it home and returned it 7:50",
+        "2004 renditions differ: AccessNorthGa (31 Oct 2004) omits Laci's sighting and the return decision; Dawson News: 'at a driveway'; FCN: 'at a driveway on Little Mill Road about a half mile from Levi's home'"
       ],
-      "assessment": "The 2004 sequence is the most detailed and comes from investigators, so it is preferred. The 1997 accounts are the family's simplified public version, most likely given after the bicycle was put back. 'Moved' is documented; 'wiped' is anonymous.",
+      "assessment": "The 2004 sequence is the most detailed and comes from investigators, so it is preferred for handling. The evening sighting is POSSIBLE only: resemblance, location unspecified in two of three renditions, and not established as the same driveway as the morning bicycle.",
       "whatResolves": "Original GBI chronology; AJC 24 Oct and 9 Nov 1997; the residents' statements.",
       "recordIds": [
         "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42",
@@ -1401,9 +1479,10 @@
       "versions": [
         "6:50: heading toward friend #2's home (book bag there; family away)",
         "Family letter: riding home on Little Mill Road 6:00–6:30",
-        "Motorist: man entering the woods at a driveway near the bicycle site, about 6:52–7:00"
+        "Motorist: man entering the woods at a driveway near the bicycle site, about 6:52–7:00; no bicycle 'in that area'",
+        "Laci: a bike that looks like Levi's at a driveway, sometime before 7:34"
       ],
-      "assessment": "The direction at 6:50 and the book bag's whereabouts are unresolved. The motorist's man's identification status is unknown.",
+      "assessment": "Unresolved. The period after 6:50 is not bounded by the bicycle evidence; the driveway man's identification status and the book bag's whereabouts are unknown.",
       "whatResolves": "Book bag recovery; GIS of the houses relative to the bicycle site; identity of the motorist and of the driveway man.",
       "recordIds": [
         "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
@@ -1445,7 +1524,7 @@
         "2004 clipping: a sketch completed Nov 21, 1997",
         "GBI 2017/2026: Witness 1 (6:30 walker) and Witness 2 (Toyota) still sought"
       ],
-      "assessment": "Most consistent reading: the Nov 5 pair included Witness 2 (whose caption matches); the tag-identified man was the other; Witness 1's sketch was made later, possibly Nov 21. The motorist's man appears never to have been sketched publicly.",
+      "assessment": "Most consistent reading: the Nov 5 pair included Witness 2 (whose caption matches); the tag-identified man was the other; Witness 1's sketch was made later, possibly Nov 21. The motorist's man has never been the subject of a public appeal. 'Publicly sought' does not mean investigators never identified someone.",
       "whatResolves": "Dated GBI sketch release records; full 5 Nov and 9 Nov 1997 page images.",
       "recordIds": [
         "SRC-ce768045-8c9f-5250-9c95-1ead57781399",
@@ -1457,19 +1536,37 @@
     },
     {
       "id": "CX-06",
-      "title": "Where the casings were found",
+      "title": "Casings: existence, recovery location and link to the shooting",
       "versions": [
-        "2002 Paxton: 'a couple of shell casings' (Dawson context)",
+        "2002 Forsyth Sheriff Paxton: 'a couple of shell casings' (no location)",
         "2007 FCN: 'His bike and some shell casings were found in a ditch off Little Mill Road'",
-        "1997 Carlisle: 'It all happened here' (Dawson)"
+        "1997 Carlisle: 'It all happened here' — about the killing site, not casings",
+        "No source states a ballistic link between any casing and the wounds"
       ],
-      "assessment": "2007 is most likely a retelling conflation. Graded DISPUTED until the inventory is seen, but low weight for Forsyth.",
-      "whatResolves": "Evidence inventory.",
+      "assessment": "UNKNOWN location. v1 preferred a Dawson recovery and called 2007 a retelling error on a misattributed premise; withdrawn. Neither location is established.",
+      "whatResolves": "Evidence inventory with recovery locations; firearms report.",
       "recordIds": [
         "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
         "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
         "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
-        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "PER-6f491957-c62f-5e41-84da-e91264a530da"
+      ]
+    },
+    {
+      "id": "CX-08",
+      "title": "Mother's evening search: 7:30 visit vs home by 7:34",
+      "versions": [
+        "1997 FCN: went to the Noah Road home around 7:30, then to the other neighbor's address (nobody home)",
+        "2004: search left 7:00–7:15, visited friend's house, home by 7:34"
+      ],
+      "assessment": "Compatible if the 1997 '7:30' is loose; tight otherwise. Either way it places Laci's sighting somewhere in roughly 7:00–7:34, not before 7:15.",
+      "whatResolves": "Original statements; phone records for the 7:34 call.",
+      "recordIds": [
+        "EVT-c015bce3-b7e2-5403-934a-ff7c779c9b79",
+        "EVT-bc109c34-f226-51db-a13e-e4e8032b31f2",
+        "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153"
       ]
     },
     {
@@ -1492,78 +1589,91 @@
   "hypotheses": [
     {
       "id": "H-01",
-      "title": "Roadside abduction by a driver familiar with the area (acquaintance or local)",
-      "summary": "A driver Levi knew, or who was locally familiar, offered or forced a ride on Little Mill Road at dusk and drove him to Dawson Forest.",
+      "title": "Pickup by someone Levi knew or indirectly knew",
+      "dimensions": "Relationship: known / indirectly known · Geography: any · Encounter: opportunistic or targeted",
+      "summary": "A known or semi-known adult stopped on Little Mill Road and Levi went with them, willingly or not.",
       "supports": [
-        "Levi feared riding home in the dark (6:38)",
-        "The bicycle lay at a driveway edge, not hidden: dropped at the encounter",
+        "Feared riding home in the dark (6:38) — a familiar ride would be welcome",
         "Mother: he would not get in a stranger's car",
-        "Carlisle (1998): killer knew the Forsyth/Dawson area well (remote site chosen)",
-        "No ransom, message or pattern ('never before or since another case like it')"
+        "No sign the bicycle was hidden"
       ],
       "contradicts": [
-        "Nothing specific in the held record"
+        "Nothing specific"
       ],
       "neutral": [
-        "Narrow 25-minute window"
+        "Whether entry was voluntary is unknown"
       ],
       "unknown": [
-        "Whether the offender's vehicle was seen",
+        "Vehicle seen stopping",
         "Sexual-assault findings"
       ],
       "neededToTest": [
-        "Canvass list of Little Mill Road traffic 6:45–7:20",
-        "DNA and NIBIN results",
-        "Acquaintance vehicles and alibis (GBI file)"
+        "GBI canvass and acquaintance vehicle records",
+        "Phone records"
       ],
-      "ifWrongExpect": "Signs of a struggle at the bicycle site; evidence he was taken far afield by a stranger; a forensic hit on a transient offender.",
-      "ifRightExpect": "A forensic profile or weapon traced to someone with local ties; a witness to a familiar vehicle stopping.",
-      "whatWouldMoveIt": "Physical evidence linking a specific person; any proof of a struggle.",
-      "currentWeight": "Leading",
-      "recordIds": [
-        "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
-        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
-        "SRC-3a6dc4bc-7c73-5c70-bbe7-1dbba01b4e7a",
-        "SRC-61c50234-323f-5dbc-8401-a53761a9871d",
-        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
-      ]
+      "ifWrongExpect": "A forensic or witness link to someone with no prior contact with Levi.",
+      "ifRightExpect": "A witness to a familiar vehicle stopping; forensic link to an acquaintance.",
+      "whatWouldMoveIt": "Any identification of the person or vehicle.",
+      "currentWeight": "Viable",
+      "recordIds": []
     },
     {
       "id": "H-02",
-      "title": "Opportunistic stranger abduction",
-      "summary": "Someone with no prior connection encountered Levi alone at dusk and abducted him.",
+      "title": "A stranger to Levi who knew the area",
+      "dimensions": "Relationship: stranger · Geography: moderately/highly familiar · Encounter: opportunistic",
+      "summary": "Someone with no tie to Levi, but who knew the roads and Dawson Forest, took a lone child at dusk.",
       "supports": [
-        "Dusk, a lone child, a well-traveled road",
-        "No motive has emerged in 29 years"
+        "Dusk, lone child, 'well-traveled' road",
+        "Remote site in a WMA known to regional hunters",
+        "Carlisle (1998): killer knew the area well",
+        "No motive in 29 years"
       ],
       "contradicts": [
-        "Choice of a remote site deep in an unfamiliar forest is harder for a non-local",
-        "Shooting, rather than strangulation, is atypical in sexually motivated stranger child murders (NCMEC comment, 1998)"
+        "Mother's belief about strangers (if entry was voluntary)"
       ],
       "neutral": [
-        "The motorist's man and Witness 1 are unidentified"
+        "Unidentified men on Little Mill Road that evening"
       ],
       "unknown": [
-        "Sexual-assault evidence",
-        "Whether a vehicle stop was seen"
+        "Sexual-assault findings"
       ],
       "neededToTest": [
-        "DNA / CODIS / FIGG",
-        "NIBIN against crimes elsewhere"
+        "DNA/CODIS, NIBIN, regional similar-crime review — each conditional on surviving evidence"
       ],
-      "ifWrongExpect": "Local ties for the offender; no forensic trace in national databases.",
-      "ifRightExpect": "CODIS, NIBIN or FIGG hit on a non-local offender; similar regional crimes.",
-      "whatWouldMoveIt": "Any database hit.",
+      "ifWrongExpect": "Evidence of a prior relationship.",
+      "ifRightExpect": "A database hit on a regional offender with no link to the family.",
+      "whatWouldMoveIt": "Any forensic hit.",
       "currentWeight": "Viable",
-      "recordIds": [
-        "SRC-61c50234-323f-5dbc-8401-a53761a9871d",
-        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
-        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930"
-      ]
+      "recordIds": []
     },
     {
       "id": "H-03",
-      "title": "Targeted killing (retaliation or debt) aimed at an adult in Levi's orbit",
+      "title": "A stranger unfamiliar with the area (transient)",
+      "dimensions": "Relationship: stranger · Geography: unfamiliar · Encounter: opportunistic",
+      "summary": "A passer-through took Levi and drove until reaching woods.",
+      "supports": [
+        "Lone child at dusk on a through road between highways"
+      ],
+      "contradicts": [
+        "Choice of a specific WMA tract near the Lockheed site suggests some familiarity",
+        "Shooting rather than strangulation is atypical in sexually motivated stranger child murders (NCMEC comment, 1998)"
+      ],
+      "neutral": [],
+      "unknown": [
+        "Route taken"
+      ],
+      "neededToTest": [
+        "Database searches (conditional)"
+      ],
+      "ifWrongExpect": "Local ties.",
+      "ifRightExpect": "Non-local database hit.",
+      "whatWouldMoveIt": "Any forensic hit.",
+      "currentWeight": "Less likely",
+      "recordIds": []
+    },
+    {
+      "id": "H-04",
+      "title": "Targeted retaliation or debt aimed at an adult",
       "summary": "Levi was taken and killed to punish or intimidate an adult connected to him.",
       "supports": [
         "Firearm and multiple shots; remote location",
@@ -1596,11 +1706,12 @@
         "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533",
         "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9",
         "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
-      ]
+      ],
+      "dimensions": "Relationship: indirectly known · Geography: familiar · Encounter: targeted"
     },
     {
-      "id": "H-04",
-      "title": "Unplanned encounter that escalated (witness elimination or panic)",
+      "id": "H-05",
+      "title": "Unplanned encounter that escalated",
       "summary": "Levi stumbled on something (e.g., illicit activity or the man in the woods) or was the victim of an accident, and the offender killed him to silence him.",
       "supports": [
         "Man walking into the woods near the bicycle site just before",
@@ -1625,11 +1736,12 @@
       "recordIds": [
         "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
         "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
-      ]
+      ],
+      "dimensions": "Relationship: any · Geography: familiar · Encounter: accidental / escalating"
     },
     {
-      "id": "H-05",
-      "title": "Household or family involvement with a staged disappearance",
+      "id": "H-06",
+      "title": "Household involvement with staged disappearance",
       "summary": "Kept because investigators examined it (search warrant for the mother's home; polygraphs; 'everyone in and near the family considered suspects'). Kept to be tested, not because evidence points to it.",
       "supports": [
         "The bicycle was moved by relatives before the report",
@@ -1667,11 +1779,12 @@
         "EVT-c015bce3-b7e2-5403-934a-ff7c779c9b79",
         "EVT-6c0d950a-0c81-506c-9b36-bdc8f1e91969",
         "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533"
-      ]
+      ],
+      "dimensions": "Relationship: known · Geography: familiar · Encounter: targeted"
     },
     {
-      "id": "H-06",
-      "title": "The Tallant / Samples narrative (specific person-of-interest claim)",
+      "id": "H-07",
+      "title": "The Tallant / Samples narrative",
       "summary": "Blog theory: a local man possessed the weapon, based on his companion's accusation.",
       "supports": [
         "Samples' 2013 'long gun … same one' remark",
@@ -1691,8 +1804,8 @@
         "Whether a weapon was seized in 2020 and compared"
       ],
       "neededToTest": [
-        "Court records for any 2020 warrant/return",
-        "Ballistic comparison (GBI)",
+        "Forsyth court records for any 2020 warrant/return",
+        "Whether suitable firearms evidence still exists for comparison",
         "1997 alibis"
       ],
       "ifWrongExpect": "No warrant record; ballistics excluded.",
@@ -1706,20 +1819,20 @@
         "PER-746f494a-89a1-5fd4-b58b-7201477502f1",
         "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2",
         "EVT-c710e005-f524-52ab-8fbc-96717255bac6"
-      ]
+      ],
+      "dimensions": "Relationship: indirectly known (alleged) · Geography: familiar · Encounter: unknown"
     },
     {
       "id": "H-T1",
       "title": "Timing: killed the evening of Oct 22, shortly after the abduction",
-      "summary": "Orthogonal to who did it. The shooting happened about 7:20–8:30 p.m. at the Dawson scene.",
+      "summary": "Orthogonal to who did it: Levi was killed on the evening of the 22nd, at an unknown time after the last sighting.",
       "supports": [
-        "The simplest sequence",
-        "Investigators place contact before dusk"
+        "The simplest sequence"
       ],
-      "contradicts": [
-        "Witness 2 sought for a 10 a.m. sighting"
+      "contradicts": [],
+      "neutral": [
+        "Investigators place the encounter before dusk (not a death estimate)"
       ],
-      "neutral": [],
       "unknown": [
         "Autopsy"
       ],
@@ -1729,7 +1842,7 @@
       "ifWrongExpect": "",
       "ifRightExpect": "",
       "whatWouldMoveIt": "Autopsy.",
-      "currentWeight": "Leading (default)",
+      "currentWeight": "Unresolved",
       "recordIds": [
         "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
         "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230"
@@ -1738,16 +1851,17 @@
     {
       "id": "H-T2",
       "title": "Timing: held overnight, killed the morning of Oct 23 during the deer opener",
-      "summary": "The offender kept Levi overnight; shots on opening morning would pass unnoticed.",
+      "summary": "The offender kept Levi for some time and killed him later, possibly the next morning.",
       "supports": [
-        "The official window extends to 2:30 p.m.",
-        "Witness 2 at about 10 a.m.",
-        "Gunfire masked by hunting"
+        "The official interval extends to 2:30 p.m. on the 23rd (a bound, not evidence)"
       ],
       "contradicts": [
         "No held source says Levi was alive overnight"
       ],
-      "neutral": [],
+      "neutral": [
+        "Opening-day gunfire would have masked shots (a consideration, not evidence)",
+        "Witness 2's 10 a.m. sighting — why he was sought is unknown"
+      ],
       "unknown": [
         "Autopsy; hunters' recollection of gunshots"
       ],
@@ -1757,11 +1871,43 @@
       "ifWrongExpect": "",
       "ifRightExpect": "",
       "whatWouldMoveIt": "Autopsy.",
-      "currentWeight": "Viable",
+      "currentWeight": "Unresolved",
       "recordIds": [
         "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
         "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230",
         "SRC-c0e0188e-569d-42e8-9231-2001c600b389"
+      ]
+    },
+    {
+      "id": "H-L2",
+      "title": "Location: at least one shot fired away from the Dawson scene",
+      "dimensions": "Where shots were fired",
+      "summary": "Kept open by the casings question; not favoured.",
+      "supports": [
+        "2007 FCN: casings with the bicycle in the Little Mill ditch",
+        "Blog (anonymous 2014): shots not fired at the same time or location",
+        "Hendrix 1998: 'a crime occurred in this county' (may just mean the abduction)"
+      ],
+      "contradicts": [
+        "Carlisle 1997: 'It all happened here'",
+        "No 1997–2004 source mentions evidence at the bicycle site beyond the bicycle"
+      ],
+      "neutral": [],
+      "unknown": [
+        "Casing recovery locations"
+      ],
+      "neededToTest": [
+        "Evidence inventory with recovery locations"
+      ],
+      "ifWrongExpect": "All casings logged from the Dawson scene.",
+      "ifRightExpect": "A casing logged at the Little Mill site.",
+      "whatWouldMoveIt": "The inventory.",
+      "currentWeight": "Possible",
+      "recordIds": [
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+        "SRC-272849e2-fbc8-5d9e-9e3d-4af3594a5583",
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
       ]
     }
   ],
@@ -1769,11 +1915,27 @@
     {
       "id": "PR-01",
       "tier": "P0",
-      "question": "When did Levi die, and what does the autopsy say about wounds, range, sequence and sexual assault?",
-      "whyItMatters": "Separates H-T1 from H-T2 and narrows the offender type. It also tests the anonymous 'not same time/place' claim.",
-      "whatWouldAnswer": "Autopsy report, or a GBI summary of time-of-death indicators.",
-      "custodian": "GBI Medical Examiner / DOFS; Dawson coroner. The family can request the death certificate. The investigative file is exempt while the case is open (O.C.G.A. 50-18-72(a)(4)), so ask for a summary.",
-      "resultThatChangesModel": "Morning death raises H-T2 and Witness 2's importance. Sexual assault would change the offender profile.",
+      "question": "What evidence exists today, what has been tested and when, and what sample remains? (inventory + testing history + condition)",
+      "whyItMatters": "Every forensic option is conditional on this; it is the first question, before any specific test.",
+      "whatWouldAnswer": "GBI evidence inventory with recovery locations, chain of custody, lab submissions and results since 1997, and remaining quantity/condition.",
+      "custodian": "GBI DOFS and Cleveland region; Forsyth/Dawson SO evidence rooms. Investigative file exempt while open (O.C.G.A. 50-18-72(a)(4)); ask the case agent.",
+      "resultThatChangesModel": "Confirms or rules out every later test; recovery locations answer the casings question.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9",
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
+        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3"
+      ]
+    },
+    {
+      "id": "PR-02",
+      "tier": "P0",
+      "question": "Autopsy: what is the medical basis for any death interval, and what are the wound count, sites, range, sequence and sexual-assault findings?",
+      "whyItMatters": "The only legitimate source for the evening-vs-later question and for wound sequence.",
+      "whatWouldAnswer": "Autopsy report or a GBI/ME summary.",
+      "custodian": "GBI Medical Examiner / DOFS; Dawson coroner; death certificate via family.",
+      "resultThatChangesModel": "Resolves or narrows H-T1/H-T2; sexual-assault findings change the offender picture.",
       "status": "OPEN",
       "recordIds": [
         "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
@@ -1781,31 +1943,50 @@
       ]
     },
     {
-      "id": "PR-02",
+      "id": "PR-03",
       "tier": "P0",
-      "question": "Have the casings and any projectiles been entered in NIBIN, and compared with any weapon seized since (including any 2020 seizure)?",
-      "whyItMatters": "Ballistics is the only physical evidence able to identify or exclude a weapon, and it tests the 'long gun' claim directly.",
-      "whatWouldAnswer": "Yes/no from GBI firearms on NIBIN entry, caliber and class, and any comparisons made.",
-      "custodian": "GBI DOFS Firearms; case agent (Cleveland region).",
-      "resultThatChangesModel": "A match identifies a weapon line. An exclusion sharply lowers H-06.",
+      "question": "Casings: how many, what caliber, where was each recovered (Dawson scene, Little Mill ditch, both), and was any tied to the projectiles or wounds? Were they entered in NIBIN?",
+      "whyItMatters": "Decides whether any shot was fired at the bicycle site (H-L2) and whether the cartridge cases are usable evidence at all.",
+      "whatWouldAnswer": "Evidence log with recovery locations and the firearms report.",
+      "custodian": "GBI DOFS Firearms; Forsyth SO (if recovered in Forsyth).",
+      "resultThatChangesModel": "A Forsyth recovery overturns the Dawson-only shooting reading; no homicide link makes the casings irrelevant.",
       "status": "OPEN",
       "recordIds": [
         "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
-        "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2"
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+        "PER-6f491957-c62f-5e41-84da-e91264a530da"
       ]
     },
     {
-      "id": "PR-03",
-      "tier": "P0",
-      "question": "What biological evidence exists, and has it been retested with modern DNA methods (Y-STR, probabilistic genotyping, FIGG)?",
-      "whyItMatters": "The most plausible route to a name decades on.",
-      "whatWouldAnswer": "An evidence inventory and test history (2004 'resubmission' review onward).",
-      "custodian": "GBI DOFS.",
-      "resultThatChangesModel": "A male profile would make CODIS and FIGG searches possible.",
+      "id": "PR-15",
+      "tier": "P1",
+      "question": "Laci's earliest account: what did she say on 23 Oct 1997 and to the AJC (24 Oct / 9 Nov 1997), at which driveway, and did she tell the friend she phoned at 7:34?",
+      "whyItMatters": "Her sighting is the only evidence that the bicycle was down that evening; it is currently POSSIBLE on a single, varying rendition.",
+      "whatWouldAnswer": "AJC 1997 articles (library archive); consensual interview with Laci and with the 7:34 friend; GBI statement summary.",
+      "custodian": "Public library AJC archive; family (with consent); GBI.",
+      "resultThatChangesModel": "A contemporaneous, location-specific account raises it to PROBABLE; silence leaves the separation window open to 5:15 a.m.",
       "status": "OPEN",
       "recordIds": [
-        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
-        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9"
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
+        "EVT-bc109c34-f226-51db-a13e-e4e8032b31f2",
+        "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d",
+        "PER-f2a087b4-7b24-5e08-8e5f-ae81242c7495"
+      ]
+    },
+    {
+      "id": "PR-16",
+      "tier": "P1",
+      "question": "What is the GBI's basis for 'contact before sundown, 6–7 p.m.' and 'last seen alive shortly before 7 p.m.'?",
+      "whyItMatters": "Investigators may hold evidence we lack (statements, phone records) that bounds the encounter; or the estimate may rest on the same bicycle reasoning v1 used.",
+      "whatWouldAnswer": "A direct question to the case agent or GBI Public Affairs.",
+      "custodian": "GBI (Cleveland region).",
+      "resultThatChangesModel": "An independent basis would restore an evening upper bound; none leaves it open.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
+        "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde"
       ]
     },
     {
@@ -1815,7 +1996,7 @@
       "whyItMatters": "This is the abduction window. The driveway man is the nearest observation to it.",
       "whatWouldAnswer": "GBI canvass records; the motorist's statement; residents' 1997 statements. The project can build a GIS map of the houses, driveways and sightlines from 1990s USGS aerials.",
       "custodian": "GBI; Forsyth County GIS; USGS EarthExplorer (1993/1999 aerials).",
-      "resultThatChangesModel": "Identifying the driveway man as a resident lowers H-04. An unidentified man raises it.",
+      "resultThatChangesModel": "Identifying the driveway man as a resident lowers H-05 (escalating encounter). Note: not publicly identified ≠ never identified.",
       "status": "OPEN",
       "recordIds": [
         "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
@@ -1855,10 +2036,10 @@
       "id": "PR-07",
       "tier": "P1",
       "question": "Witness 2: can the 1980–85 medium-blue Toyota 2WD pickup with a white camper be traced?",
-      "whyItMatters": "A specific vehicle in Dawson Forest on the morning after.",
+      "whyItMatters": "A possible witness in the forest on the morning the body was found. Why investigators sought him is not public; his relevance to the time of death is unknown.",
       "whatWouldAnswer": "Georgia DNR WRD 1997 Dawson Forest hunt sign-in or check-station records (if retained); GBI follow-up history.",
       "custodian": "Georgia DNR Wildlife Resources Division; GBI.",
-      "resultThatChangesModel": "Identification and exclusion lowers H-T2. Never identified keeps it open.",
+      "resultThatChangesModel": "Identification and his account; not a time-of-death test.",
       "status": "OPEN",
       "recordIds": [
         "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce",
@@ -1872,7 +2053,7 @@
       "whyItMatters": "Converts or deflates the main secondary-source suspect narrative.",
       "whatWouldAnswer": "Forsyth County Magistrate/Superior Court warrant and return records; death records.",
       "custodian": "Forsyth County Clerk of Courts.",
-      "resultThatChangesModel": "No warrant: H-06 drops to RUMOR. A warrant listing firearms makes PR-02 urgent.",
+      "resultThatChangesModel": "No warrant: H-07 drops to RUMOR. A warrant listing firearms matters only if PR-01/PR-03 show suitable firearms evidence exists.",
       "status": "OPEN",
       "recordIds": [
         "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2",
@@ -1976,7 +2157,7 @@
     },
     {
       "id": "OQ-02",
-      "question": "Did Laci's 7:00–7:15 sighting happen at the same driveway where the residents saw the bicycle at 5:15 a.m.?",
+      "question": "Was the driveway where Laci saw 'a bike that looks like' Levi's the same as the one where residents saw it at 5:15 a.m.?",
       "recordIds": [
         "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
         "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a"
@@ -2039,6 +2220,28 @@
       "recordIds": [
         "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3"
       ]
+    },
+    {
+      "id": "OQ-11",
+      "question": "Where was each reported shell casing recovered, and was any linked to the shooting?",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834"
+      ]
+    },
+    {
+      "id": "OQ-12",
+      "question": "Did Laci mention the bicycle to the friend she called at 7:34?",
+      "recordIds": [
+        "EVT-bc109c34-f226-51db-a13e-e4e8032b31f2"
+      ]
+    },
+    {
+      "id": "OQ-13",
+      "question": "When did police first reach the bicycle site on 23 October, and was the bicycle in the ditch when they arrived?",
+      "recordIds": [
+        "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
+        "EVT-e80dffba-4610-5889-9405-2e23c7ef4f81"
+      ]
     }
   ],
   "biasAudit": [
@@ -2066,7 +2269,7 @@
     {
       "id": "BA-03",
       "category": "Investigator",
-      "observation": "Investigators gave a public '6–7 p.m., before sundown' window while their own chronology puts the last sighting at 6:50, near sunset. Public appeals may have targeted the wrong half-hour.",
+      "observation": "Investigators gave a public '6–7 p.m., before sundown' encounter window and said Levi was last seen alive 'shortly before 7 p.m.'. Its basis is undisclosed. If it rests on the bicycle sightings, it inherits their weakness; if on other evidence, that evidence is not public.",
       "type": "BIAS_POSSIBILITY",
       "recordIds": [
         "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
@@ -2085,7 +2288,7 @@
     {
       "id": "BA-05",
       "category": "Media (retellings)",
-      "observation": "Distances grow from 15 to 22 miles, casings migrate to the bicycle ditch (2007), 'execution-style' enters (2002), and 'found the following morning' appears (blog). These are classic retelling drift.",
+      "observation": "Distances grow from 15 to 22 miles, 'execution-style' enters (2002, a reporter's characterization), and 'found the following morning' appears (blog). The 2007 casings-in-the-ditch line may be compression or may be accurate; it is no longer counted as drift.",
       "type": "EVIDENCE_OF_DISTORTION",
       "recordIds": [
         "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
@@ -2135,7 +2338,7 @@
     {
       "id": "BA-10",
       "category": "This review (Claude)",
-      "observation": "Risk of over-reading the 2004 chronology because it is the most detailed source. It is a retrospective summary by one agency, and its details cannot be checked against the underlying statements.",
+      "observation": "v1 treated the bicycle sightings as a clock, used a witness search to imply a death interval, misattributed Paxton to Dawson and built a casings conclusion on that error, and merged relationship with area familiarity. All corrected in v2 after the secondary audit. Remaining risk: over-reading the detailed FCN rendition of the 2004 chronology.",
       "type": "BIAS_POSSIBILITY",
       "recordIds": [
         "SRC-0cfacff9-8400-5741-9234-128bd71c9153"
@@ -2150,7 +2353,7 @@
       "lineage": "L2",
       "dependentRenditions": "FCN 7 Nov 2004; AccessNorthGa (captured 31 Oct 2004); Dawson News & Advertiser clipping; levifrady.com 2016",
       "independentLineages": 1,
-      "note": "Four renditions count as one source. They differ slightly (the AccessNorthGa 7:50 entry lacks the 'return' clause).",
+      "note": "Four renditions count as one source, and they are not identical: the AccessNorthGa capture (31 Oct 2004, the earliest dated) omits Laci's sighting, the return decision, several 'Note' sentences and the motorist's bicycle remark, but adds 'verified by receipt' (Kmart) and 'He completed a composite' (hunter); the Dawson News clipping gives Laci's sighting 'at a driveway' only; the FCN adds 'on Little Mill Road about a half mile from Levi's home'.",
       "recordIds": [
         "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
         "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
@@ -2214,12 +2417,12 @@
     },
     {
       "id": "PV-06",
-      "claim": "Casings found with the bicycle",
-      "earliestSource": "FCN 2007",
+      "claim": "Casings: existence and location",
+      "earliestSource": "FCN 20 Oct 2002 (Forsyth Sheriff Paxton) — existence only; FCN 21 Oct 2007 — location",
       "lineage": "L5",
       "dependentRenditions": "",
       "independentLineages": 1,
-      "note": "No antecedent; conflicts with 1997 and 2002.",
+      "note": "Two statements in the same newspaper five years apart; the location appears only in the later one.",
       "recordIds": [
         "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0"
       ]
@@ -2248,6 +2451,22 @@
       "recordIds": [
         "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d",
         "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c"
+      ]
+    },
+    {
+      "id": "PV-09",
+      "claim": "Laci saw the bicycle on the evening of the 22nd",
+      "earliestSource": "AJC 24 Oct 1997 (cited by blog, not held); GBI 2004 chronology",
+      "lineage": "L6 + L2",
+      "dependentRenditions": "FCN (location phrase), Dawson News ('at a driveway'), AccessNorthGa (absent)",
+      "independentLineages": 1,
+      "note": "Counted as one until the 1997 AJC text is obtained; the blog's paraphrase ('they saw the bike') differs from 2004 ('her mother does not hear her').",
+      "recordIds": [
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
+        "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d",
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+        "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2"
       ]
     }
   ],
@@ -2281,10 +2500,10 @@
     },
     {
       "id": "HR-02",
-      "question": "Treat the 2007 'casings found with the bicycle' line as a probable retelling error (low weight), pending the inventory?",
+      "question": "Record Ted Paxton's role as Forsyth County Sheriff (from 2001, succeeding Hendrix) in people.csv? (v1 misattributed him; the register has no role.)",
       "recordIds": [
-        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
-        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0"
+        "PER-6f491957-c62f-5e41-84da-e91264a530da",
+        "SRC-9a8f183d-b5bc-5298-b293-a85bb9ad1c8d"
       ]
     },
     {
@@ -2299,7 +2518,7 @@
     },
     {
       "id": "HR-05",
-      "question": "Add CX-01 (time of death), CX-04 (wounds) and CX-05 (sketch accounting) to the canonical contradictions register?",
+      "question": "Add CX-01 (time of death), CX-04 (wounds), CX-06 (casings location) and CX-08 (7:30 vs 7:34) to the canonical contradictions register?",
       "recordIds": []
     },
     {
@@ -2320,6 +2539,218 @@
     {
       "date": "2026-10-29",
       "summary": "Initial independent review: reconstruction, graded timeline, evidence status, hypotheses, bias audit and P0–P3 priorities."
+    },
+    {
+      "date": "2026-10-29",
+      "summary": "v2: evaluated the secondary detective audit (12 challenges: 8 accepted, 4 partially accepted, 0 rejected). Bicycle no longer used as a clock; Witness 2 removed from time-of-death reasoning; casings split into existence/location/link and Paxton re-attributed to Forsyth; hypotheses rebuilt on relationship/geography/encounter/location dimensions; forensic items graded by known/preserved/confirmed/suitable."
+    }
+  ],
+  "offenderDimensions": [
+    {
+      "id": "DIM-01",
+      "dimension": "Relationship to Levi",
+      "values": [
+        "Known",
+        "Indirectly known (family circle, neighbor)",
+        "Stranger",
+        "Unknown"
+      ],
+      "current": "Unknown",
+      "grade": "UNKNOWN",
+      "basis": "Only conditional indications: his fear of riding home in the dark and his mother's belief that he would not enter a stranger's car would favour a known person IF he entered a vehicle voluntarily — which is unknown.",
+      "recordIds": []
+    },
+    {
+      "id": "DIM-02",
+      "dimension": "Geographic familiarity (Forsyth/Dawson, Dawson Forest)",
+      "values": [
+        "Highly familiar",
+        "Moderately familiar",
+        "Unfamiliar",
+        "Unknown"
+      ],
+      "current": "Leans familiar",
+      "grade": "POSSIBLE",
+      "basis": "Carlisle's 1998 opinion and the remote site support some familiarity; but Dawson Forest WMA is signed public land off GA-9 used by regional hunters, so familiarity need not be intimate or local.",
+      "recordIds": []
+    },
+    {
+      "id": "DIM-03",
+      "dimension": "Encounter type",
+      "values": [
+        "Targeted",
+        "Opportunistic",
+        "Accidental / escalating",
+        "Unknown"
+      ],
+      "current": "Unknown",
+      "grade": "UNKNOWN",
+      "basis": "No motive, message or pattern is known; dusk on a lone rural road fits opportunity, and a firearm and remote site are compatible with targeting. Accidental/escalating is weakened by 'no other injuries' (Paxton).",
+      "recordIds": []
+    },
+    {
+      "id": "DIM-04",
+      "dimension": "Where shots were fired",
+      "values": [
+        "All at the Dawson scene",
+        "At least one elsewhere (e.g. the bicycle site)",
+        "Unknown"
+      ],
+      "current": "Dawson scene probable; elsewhere not excluded",
+      "grade": "PROBABLE",
+      "basis": "1997 official 'It all happened here'; against it, three weak, separate items: the 2007 casings-in-the-ditch line, the blog's anonymous 'not fired at the same time or location', and Hendrix's 1998 belief that 'a crime occurred in this county' (which may simply mean the abduction).",
+      "recordIds": []
+    }
+  ],
+  "secondaryReview": [
+    {
+      "id": "SR-01",
+      "challenge": "6:50–7:15 abduction window is too strong; the bicycle is not a clock",
+      "decision": "PARTIALLY_ACCEPTED",
+      "reason": "Accepted that the bicycle evidence does not bound separation: Laci's sighting is resemblance-only, its time is the search trip (left 7:00–7:15, home by 7:34), its location is unspecified in one rendition and absent from the earliest. Not accepted that the window is wholly open: evening separation stays PROBABLE on non-bicycle grounds (a sub-mile ride never completed after 'come straight home'), just without an upper bound before 5:15 a.m.",
+      "affectedItems": [
+        "OBS-01",
+        "TL-13",
+        "CX-02",
+        "CX-03"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-02",
+      "challenge": "The motorist's 'no bicycle' is weak negative evidence",
+      "decision": "ACCEPTED",
+      "reason": "A moving car at dusk, 'in that area'; and the entry is truncated in one rendition.",
+      "affectedItems": [
+        "TL-12"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-03",
+      "challenge": "The 2 a.m. non-sighting shows a present bicycle could be missed",
+      "decision": "PARTIALLY_ACCEPTED",
+      "reason": "True only if the bicycle was already there at 2 a.m. — which is what is in question. It weakens negative observations generally, not the evening sighting specifically.",
+      "affectedItems": [
+        "TL-16"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-04",
+      "challenge": "Do not use Witness 2 to estimate time of death",
+      "decision": "ACCEPTED",
+      "reason": "Seeking a witness shows possible useful knowledge, not a medical interval or an investigator belief about survival. Removed from OBS-02, CX-01, H-T2 and TL-23.",
+      "affectedItems": [
+        "OBS-02",
+        "CX-01",
+        "H-T2",
+        "TL-23",
+        "PR-07"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-05",
+      "challenge": "Casings: separate existence, location and homicide link; fix attribution",
+      "decision": "ACCEPTED",
+      "reason": "Paxton was Forsyth sheriff in 2002 (succeeded Hendrix, Jan 2001 report), not Dawson. His statement gives no location; only 2007 does; no source links any casing to the wounds. The v1 'retelling error' conclusion is withdrawn.",
+      "affectedItems": [
+        "OBS-07",
+        "CX-06",
+        "EV-02",
+        "TL-33",
+        "PR-03",
+        "H-L2"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-06",
+      "challenge": "Separate relationship, geographic familiarity and encounter type",
+      "decision": "ACCEPTED",
+      "reason": "v1 H-01 merged 'known' and 'area-familiar'. Rebuilt as four dimensions (DIM-01…04); a stranger to Levi can know Dawson Forest well.",
+      "affectedItems": [
+        "DIM-01",
+        "DIM-02",
+        "DIM-03",
+        "H-01",
+        "H-02",
+        "H-03"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-07",
+      "challenge": "Tighten forensic language; inventory first",
+      "decision": "ACCEPTED",
+      "reason": "v1 implied tests were possible because evidence once existed. Evidence now carries known / preserved-2004 / confirmed-today / suitability; P0 #1 is inventory + testing history + sample condition.",
+      "affectedItems": [
+        "OBS-10",
+        "PR-01",
+        "EV-01",
+        "EV-02",
+        "EV-04",
+        "EV-07"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-08",
+      "challenge": "Check the 7:34 call",
+      "decision": "ACCEPTED",
+      "reason": "All three renditions: Laci tells a friend Levi has not come home. No bicycle mention; the minute's basis is unstated. It does not strengthen her sighting; the friend is a new interview target.",
+      "affectedItems": [
+        "TL-14A",
+        "OQ-12",
+        "PR-15"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-09",
+      "challenge": "7:30 visit vs 7:34 call",
+      "decision": "PARTIALLY_ACCEPTED",
+      "reason": "A real tension, but compatible if the 1997 'around 7:30' is loose; not material except that it widens Laci's window to about 7:34.",
+      "affectedItems": [
+        "CX-08",
+        "TL-14"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-10",
+      "challenge": "The 7:20–8:30 shooting interval is unsupported",
+      "decision": "ACCEPTED",
+      "reason": "It was an analyst assumption in v1's H-T1 summary; removed.",
+      "affectedItems": [
+        "H-T1"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-11",
+      "challenge": "Return of the bicycle before police is not timestamped",
+      "decision": "ACCEPTED",
+      "reason": "Only the decision appears (in two of three renditions); the return is implied by '(where it was ultimately found)'; police arrival is never timed.",
+      "affectedItems": [
+        "OBS-03",
+        "TL-20",
+        "OQ-13"
+      ],
+      "recordIds": []
+    },
+    {
+      "id": "SR-12",
+      "challenge": "Publicly unidentified vs never identified by investigators",
+      "decision": "PARTIALLY_ACCEPTED",
+      "reason": "v1 OBS-05 already made this distinction; TL-28 and CX-05 did not, and are corrected.",
+      "affectedItems": [
+        "OBS-05",
+        "TL-28",
+        "CX-05"
+      ],
+      "recordIds": []
     }
   ]
 }
