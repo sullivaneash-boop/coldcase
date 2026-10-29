@@ -1,0 +1,2325 @@
+{
+  "meta": {
+    "title": "Independent cold-case review",
+    "layer": "CLAUDE_ANALYSIS",
+    "author": "Claude (AI analyst), independent review requested by the project owner",
+    "version": 1,
+    "updatedAt": "2026-10-29",
+    "notebook": "LEAD_DETECTIVE_REVIEW.md",
+    "disclaimer": "AI analysis is not evidence. Grades describe how well the archive's sources support an item, from provenance and independence, not truth. Nothing here identifies an offender. Edit this file to correct the analysis; record agreement or disagreement on the board.",
+    "method": "Evidence-first: the 1997 contemporaneous articles, the official GBI pages and the 2004 GBI chronology were read before any suspect narrative. Claims are traced to their earliest available lineage; repeated renditions of one lineage count once."
+  },
+  "lineages": [
+    {
+      "id": "L1",
+      "label": "1997 Forsyth County News contemporaneous reporting (sheriff, GBI and family quotes)"
+    },
+    {
+      "id": "L2",
+      "label": "GBI investigative chronology released 2004 (FCN timeline, AccessNorthGa, Dawson News clipping and 2016 blog are renditions of this ONE lineage)"
+    },
+    {
+      "id": "L3",
+      "label": "Official GBI web pages 2017+ (case page, 20-year release, Levi's Call page)"
+    },
+    {
+      "id": "L4",
+      "label": "levifrady.com 2016-2020 (single author; many unnamed sources; some primary documents reproduced)"
+    },
+    {
+      "id": "L5",
+      "label": "Later newspaper/TV retrospectives 2000-2026 (officials quoted years later)"
+    },
+    {
+      "id": "L6",
+      "label": "1997 AJC reporting cited by the blog but not held by the archive"
+    }
+  ],
+  "gradeScale": [
+    {
+      "grade": "CONFIRMED",
+      "meaning": "Official record or multiple independent contemporaneous lineages agree; no credible conflict."
+    },
+    {
+      "grade": "STRONGLY_SUPPORTED",
+      "meaning": "Two independent lineages, or an official statement plus a consistent contemporaneous account."
+    },
+    {
+      "grade": "PROBABLE",
+      "meaning": "One credible lineage (often the GBI chronology) with no conflict, or several with minor variance."
+    },
+    {
+      "grade": "POSSIBLE",
+      "meaning": "Plausible on one weak or indirect lineage; important limitations."
+    },
+    {
+      "grade": "ALLEGED",
+      "meaning": "Asserted by an identifiable but interested, hostile or unverified party."
+    },
+    {
+      "grade": "DISPUTED",
+      "meaning": "Sources of comparable weight conflict."
+    },
+    {
+      "grade": "RUMOR",
+      "meaning": "Anonymous, hearsay or retrospective with no traceable basis."
+    },
+    {
+      "grade": "UNKNOWN",
+      "meaning": "Not established by anything held."
+    }
+  ],
+  "overview": {
+    "headline": "An 11-year-old boy riding his bicycle home at dusk on a rural Forsyth County road disappeared within a window of roughly 25 minutes; he was found shot about 19 hours later in a state forest roughly 15–22 road miles away. Nobody has been charged.",
+    "paragraphs": [
+      "On Wednesday 22 October 1997 Levi Frady rode the school bus home and was alone at his Burruss Mill Road home after about 4:12 p.m.; his mother was at work in Alpharetta and his twin sister Laci was still at school. He phoned his mother, was told to be home by 6:30, and spent the afternoon cycling between two friends' homes. He left his book bag on friend #2's patio when that family went out to eat at about 5:45–6:00.",
+      "At 6:38 he phoned home from a third residence and told Laci he did not want to ride home because it was getting dark and he was afraid of dogs on the route. He set off at about 6:45–6:50 by the Little Mill Road route to avoid the dogs. A resident saw him on Little Mill Road at 6:50, heading toward friend #2's house, with a small black dog following. Sunset was about 6:55 p.m. EDT and civil dusk about 7:20 (computed, not sourced).",
+      "Between 6:52 and 7:00 a lost motorist spoke to a man who did not answer and walked into the woods at a driveway a few hundred feet from where the bicycle was later found; she saw no bicycle. Between 7:00 and 7:15 Laci, searching by car with her mother, saw a bicycle like Levi's lying at a driveway on Little Mill Road about half a mile from home. If both accounts are accurate, the bicycle reached the roadside between about 6:52 and 7:15, and that is the best estimate of when Levi was taken.",
+      "His mother checked friend #1's house at about 7:30 and was told Levi had left to eat with another family. That family was out (an 8:01 Kmart check is reported). Believing he was staying at a friend's, she went to sleep, searched by car at about 2 a.m., and filed a missing-person report at 8 a.m. Before the report, the bicycle had been moved twice: by a resident's children into the ditch at 6:45 a.m., and by relatives who took it to the mother's house and then returned it.",
+      "At about 2 p.m. on 23 October, the opening day of rifle deer season, three Gilmer County hunters found Levi's body in Dawson Forest Wildlife Management Area near the abandoned Lockheed site. The sheriff said he was killed at that scene ('It all happened here'). Later accounts say he was shot three times, and a later sheriff mentioned 'a couple of shell casings'. The official interval for the shooting runs from 6 p.m. on the 22nd to 2:30 p.m. on the 23rd. The archive cannot say whether he was killed that evening or the next morning.",
+      "Investigators publicly sought two possible witnesses. One was a man walking Little Mill Road at about 6:30 p.m. The other was a man in Dawson Forest with a 1980–85 medium-blue Toyota 2WD pickup with a white camper shell, seen at about 10 a.m. on the 23rd. They have sought both since 1997. Three agencies shared the case, and their working relationship was documented as strained. Later suspect narratives, mainly from one blog, rest on anonymous sources and a hostile party's statement. No official source has adopted them."
+    ]
+  },
+  "observations": [
+    {
+      "id": "OBS-01",
+      "rank": 1,
+      "title": "The abduction window is about 6:50–7:15 p.m., not '6–7 p.m.'",
+      "detail": "The 6:50 sighting on Little Mill Road, the motorist seeing no bicycle at 6:52–7:00 and Laci's bicycle sighting at 7:00–7:15 bracket the event to roughly 25 minutes at sunset. The GBI's public 'before the sun went down, 6–7 p.m.' is broader and earlier than its own chronology. A narrow window on a 'well-traveled' road makes passing drivers the most valuable possible witnesses.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
+        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4"
+      ]
+    },
+    {
+      "id": "OBS-02",
+      "rank": 2,
+      "title": "When Levi was killed is the most important unknown",
+      "detail": "The official shooting window runs from 6 p.m. on the 22nd to 2:30 p.m. on the 23rd. Investigators have kept seeking a man seen in Dawson Forest at about 10 a.m. on the 23rd, 15 hours after the abduction. That makes most sense if they could not rule out Levi being alive, or the offender being present, that morning. The 23rd was the opening day of rifle season, when gunfire would go unnoticed. Evening killing and overnight custody imply different offenders and motives. The autopsy (stomach contents set against a skipped dinner, rigor, lividity, wetness after rain) is the answer, and the archive does not hold it.",
+      "grade": "UNKNOWN",
+      "recordIds": [
+        "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230",
+        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
+        "EVT-455419a5-c86e-555e-ab87-11166bb68040"
+      ]
+    },
+    {
+      "id": "OBS-03",
+      "rank": 3,
+      "title": "The bicycle's 'found location' is a reconstruction after at least three handlings",
+      "detail": "At 5:15 a.m. the bicycle was at the edge of a driveway. Children moved it into the ditch at 6:45. Relatives took it to the mother's house and then put it back before police arrived. The 1997 press (Laci found it; Laci and her mother found it) does not reflect any of this; the GBI chronology first did in 2004. The placement (lying at a driveway edge, not hidden) best fits a bicycle dropped at the point of encounter. The blog's 'wiped clean' claim is anonymous, and the handling plus the reported drizzle are mundane explanations for missing prints.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "EVT-7149e5f8-3ca4-5cc7-9000-b1d5647fde21",
+        "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
+        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9",
+        "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42"
+      ]
+    },
+    {
+      "id": "OBS-04",
+      "rank": 4,
+      "title": "He said he did not want to ride home in the dark",
+      "detail": "At 6:38 Levi said he was afraid of the dark and of dogs, and he chose a different route. A ride offered by a familiar adult would have been welcome, which fits his mother's belief that he would not get into a stranger's car. This raises the plausibility of a known or locally familiar driver without pointing to anyone.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
+        "EVT-63b79c09-56c1-5853-824d-ec2f49b4c956",
+        "PER-72b630f3-1d87-551d-a2ce-1971fcad6165"
+      ]
+    },
+    {
+      "id": "OBS-05",
+      "rank": 5,
+      "title": "The man at the driveway (6:52–7:00) is the closest observation to the abduction, and he is not one of the sought witnesses",
+      "detail": "The lost motorist's man was 35–60, with scraggly grayish-black or light-brown hair, jeans, and a light shirt with rolled sleeves. He ignored her and walked into the woods at a driveway a few hundred feet from the bicycle site. Witness 1 was seen at 6:30 and is described as late 50s, gray beard, blue cap, stooped. The records held never say whether the driveway man was identified (perhaps a resident at his own driveway) or simply dropped.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "EVT-ec0b1ffe-8fe2-5d80-a110-188242718bfd",
+        "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef"
+      ]
+    },
+    {
+      "id": "OBS-06",
+      "rank": 6,
+      "title": "The delay in reporting has a documented, mundane explanation",
+      "detail": "At 7:30 friend #1's parents told the mother that Levi had left to eat with another family. That family really was out (Kmart, 8:01), and Levi had an invitation and money. Her account that she believed he was staying at a friend's is consistent from 1997 to 2004. The 8 a.m. report is not, on this record, an anomaly that needs a sinister explanation.",
+      "grade": "STRONGLY_SUPPORTED",
+      "recordIds": [
+        "EVT-c015bce3-b7e2-5403-934a-ff7c779c9b79",
+        "EVT-8515da72-d287-5de3-b48a-421d41e6c064",
+        "EVT-2af952ea-7a07-58e3-b0a8-6ff67cb3c054",
+        "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
+      ]
+    },
+    {
+      "id": "OBS-07",
+      "rank": 7,
+      "title": "'It all happened here': the shooting was at the Dawson scene",
+      "detail": "Sheriff Carlisle said this on 24 October 1997, and Paxton's 'couple of shell casings' (2002) fits a shooting at the scene. The 2007 line that casings were found with the bicycle in the Little Mill ditch conflicts with both and is best treated as a retelling error. Hendrix's 'a crime occurred in this county' is most simply the abduction itself, which is a crime in Forsyth. The blog reads it as a sign Levi died before reaching Dawson, which overreads it.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
+      ]
+    },
+    {
+      "id": "OBS-08",
+      "rank": 8,
+      "title": "The father's avoidance has a documented reason, and the GBI later all but excluded him",
+      "detail": "Milton Frady had a 1995 failure-to-appear bench warrant and feared arrest at the funeral. He surrendered on 29 October, was interviewed with counsel, and by 19 December the GBI said he had 'pretty much been ruled out'. His alibi for the evening rests on his own mother, which is an interested source, but nothing held contradicts it.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "EVT-eb528307-15e7-5b8b-9e09-7ee8927d0354",
+        "EVT-ee02be32-df26-5790-8e8b-34b9932ef69f",
+        "EVT-79676791-6e64-5563-bb34-32e98fa511c5",
+        "PER-5f4c3fe0-deea-52d0-b2eb-d2e16a52311c",
+        "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533"
+      ]
+    },
+    {
+      "id": "OBS-09",
+      "rank": 9,
+      "title": "The Tallant/Samples narrative has little evidentiary weight so far",
+      "detail": "Its core is a statement made in 2013, during a stabbing investigation, by a man with a documented psychiatric history and a violent dispute with the accused ('long gun … same one they shot Levi Frady with'), with no stated basis of knowledge. Added to it are one anonymous 'they were friends' claim and an uncorroborated 2020 warrant report. A 2026-10-29 web search found no independent report of the warrant. The 1998 inmate in the Hendrix letter is unlikely to be Samples: Samples was awaiting trial or out on bond in 1998, and Hendrix described the inmate as his informant from Fulton County years earlier. The decisive test is a ballistic comparison, which only the GBI can run.",
+      "grade": "ALLEGED",
+      "recordIds": [
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9",
+        "EVD-92fab56a-8cae-574c-8242-a624db4efc6b",
+        "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2",
+        "PER-746f494a-89a1-5fd4-b58b-7201477502f1",
+        "PER-67ae211a-32b6-5012-add3-11015594f26a",
+        "EVT-c710e005-f524-52ab-8fbc-96717255bac6"
+      ]
+    },
+    {
+      "id": "OBS-10",
+      "rank": 10,
+      "title": "Modern forensic options are the most realistic route to resolution",
+      "detail": "In 2004 the GBI said the evidence was 'painstakingly preserved' and being reviewed for resubmission; the bicycle was in GBI evidence in Cleveland. Casings and projectiles can be compared through NIBIN. Clothing, a sexual-assault kit if one exists, fingernail scrapings and bicycle grips can be tested with touch/Y-STR DNA and probabilistic genotyping, then forensic genetic genealogy if a usable male profile results. Most of this was unavailable or immature in 1997, and all of it is in agency custody.",
+      "grade": "PROBABLE",
+      "recordIds": [
+        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
+        "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396",
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "TL-01",
+      "when": "1997-10-22 15:30–16:12",
+      "title": "Bus home; Levi alone at home",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Investigative reconstruction",
+      "contemporaneous": "Retrospective (released 2004)",
+      "precision": "Range",
+      "corroboration": "1997 sheriff report: left home Wednesday afternoon",
+      "conflicts": "Blog says family 'last saw him at 4:15', but no family member was home then",
+      "note": "Mother at work in Alpharetta; Laci waiting at school until about 5:30.",
+      "recordIds": [
+        "EVT-44f55436-84a9-5326-a06b-7dbb10fbf171",
+        "EVT-e5e7f42b-03e5-51a4-932f-20961d717e29"
+      ]
+    },
+    {
+      "id": "TL-02",
+      "when": "1997-10-22 16:12",
+      "title": "Calls mother at work; told to be home by 6:30",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L1",
+        "L2"
+      ],
+      "basis": "Mother's account (one underlying witness)",
+      "contemporaneous": "1997 and 2004",
+      "precision": "Exact (reported)",
+      "corroboration": "The 6:30 deadline appears in 1997 sheriff reports",
+      "conflicts": "None",
+      "note": "Two lineages but one witness, so not independent.",
+      "recordIds": [
+        "EVT-a698d9ad-f681-5a64-b1db-80ddc597b2d3",
+        "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53"
+      ]
+    },
+    {
+      "id": "TL-03",
+      "when": "1997-10-22 16:12–17:00",
+      "title": "Three neighborhood sightings of Levi cycling (with book bag)",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Unnamed residents (firsthand, as summarized)",
+      "contemporaneous": "Retrospective",
+      "precision": "Ranges",
+      "corroboration": "Mutually consistent",
+      "conflicts": "None",
+      "note": "Establishes the routes: Little Mill Road and Picklesimer Road.",
+      "recordIds": [
+        "EVT-76fcef9e-02b2-5120-bcc8-d677440a283b",
+        "EVT-737fb4ed-8bd4-57d2-9b8c-b122acef9bbd",
+        "EVT-d6065f2f-fec8-530c-a228-a376208e1b60"
+      ]
+    },
+    {
+      "id": "TL-04",
+      "when": "1997-10-22 16:40–17:45",
+      "title": "With friends #1 and #2; trampoline; invited to dinner; call home not answered",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2",
+        "L6"
+      ],
+      "basis": "Friends and their families",
+      "contemporaneous": "Retrospective",
+      "precision": "Range",
+      "corroboration": "Blog cites a Nov. 1997 AJC report: the other boy's mother could not reach Levi's mother",
+      "conflicts": "None",
+      "note": "Levi had money; friend #1 did not.",
+      "recordIds": [
+        "EVT-4213bf83-6a24-514d-b1e7-c9422426cbda",
+        "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d"
+      ]
+    },
+    {
+      "id": "TL-05",
+      "when": "1997-10-22 17:30–17:45",
+      "title": "Mother and Laci home with carry-out food",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Mother",
+      "contemporaneous": "Retrospective",
+      "precision": "Range",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "",
+      "recordIds": [
+        "EVT-00f81b55-22c0-5ead-8c46-6f5d9b753bd1",
+        "EVT-bf46e195-1b77-5ef1-a21f-0ac90304467b"
+      ]
+    },
+    {
+      "id": "TL-06",
+      "when": "1997-10-22 17:45–18:00",
+      "title": "Friend #2's family leaves to eat; Levi returns with friend #1; book bag left on friend #2's patio",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Friends' families",
+      "contemporaneous": "Retrospective",
+      "precision": "Range",
+      "corroboration": "8:01 Kmart check (documentary, if obtained)",
+      "conflicts": "None",
+      "note": "The book bag's later recovery is not recorded anywhere held.",
+      "recordIds": [
+        "EVT-0cb4646d-2e47-53a7-955e-34583bed190f",
+        "EVT-8515da72-d287-5de3-b48a-421d41e6c064"
+      ]
+    },
+    {
+      "id": "TL-07",
+      "when": "1997-10-22 18:25–18:35",
+      "title": "Bronco driver: beige F-150, ladder station wagon, two boys cycling, man picking up cans",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Unnamed motorist",
+      "contemporaneous": "Retrospective",
+      "precision": "Range",
+      "corroboration": "Witness 1 (6:30, Little Mill Road) appears to derive from this observation",
+      "conflicts": "Witness 1's published description is not in the 2004 entry",
+      "note": "The two boys may be Levi and friend #1; this is not stated anywhere.",
+      "recordIds": [
+        "EVT-ec0b1ffe-8fe2-5d80-a110-188242718bfd",
+        "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef",
+        "SRC-c0e0188e-569d-42e8-9231-2001c600b389"
+      ]
+    },
+    {
+      "id": "TL-08",
+      "when": "1997-10-22 18:38",
+      "title": "Last family contact: calls home from a third residence, tells Laci he is afraid of the dark and of dogs",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2",
+        "L4"
+      ],
+      "basis": "Laci (age 11) and the household",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact (reported)",
+      "corroboration": "The blog's family sources say the mother was in the bath",
+      "conflicts": "None",
+      "note": "Phone records and the third household are both checkable.",
+      "recordIds": [
+        "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
+        "PER-f2a087b4-7b24-5e08-8e5f-ae81242c7495"
+      ]
+    },
+    {
+      "id": "TL-09",
+      "when": "1997-10-22 18:45–18:50",
+      "title": "Leaves friend #1 toward Little Mill Road to avoid the dogs",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2",
+        "L4"
+      ],
+      "basis": "Friend #1",
+      "contemporaneous": "Retrospective",
+      "precision": "Range",
+      "corroboration": "Blog: Roman Martinez watched him ride over the hill",
+      "conflicts": "1997: the classmate was 'the last person believed to have seen Levi alive'",
+      "note": "Officially, friend #1 is the last known companion.",
+      "recordIds": [
+        "EVT-63b79c09-56c1-5853-824d-ec2f49b4c956",
+        "PER-ecffe79a-6156-5f6a-b0c8-8f87c939f1cf",
+        "SRC-e7748f0d-eb79-5bea-bf6f-02004548465f"
+      ]
+    },
+    {
+      "id": "TL-10",
+      "when": "1997-10-22 18:50",
+      "title": "Last sighting: on Little Mill Road heading toward friend #2's home, small black dog following",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2",
+        "L3"
+      ],
+      "basis": "Unnamed resident",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact (reported)",
+      "corroboration": "GBI 'last seen on Little Mill Road'",
+      "conflicts": "Grandmother's 1997 letter gives 6:00–6:30 for the ride home",
+      "note": "The direction is toward the house where his book bag was, not necessarily toward home.",
+      "recordIds": [
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
+        "EVT-1f589cb9-dc99-58d7-a46f-7c23323944fc",
+        "SRC-c0e0188e-569d-42e8-9231-2001c600b389"
+      ]
+    },
+    {
+      "id": "TL-11",
+      "when": "1997-10-22 ~18:55",
+      "title": "Sunset (computed); civil dusk about 19:20",
+      "grade": "PROBABLE",
+      "lineages": [],
+      "basis": "Astronomical calculation for Cumming, GA, EDT",
+      "contemporaneous": "N/A",
+      "precision": "±3 min",
+      "corroboration": "World Series Game 5 that night; DST still in effect",
+      "conflicts": "",
+      "note": "Analyst calculation; verify against USNO tables.",
+      "recordIds": []
+    },
+    {
+      "id": "TL-12",
+      "when": "1997-10-22 18:52–19:00",
+      "title": "Lost motorist: man walks into woods at a driveway near the later bicycle site; no bicycle seen",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Stranger motorist (firsthand)",
+      "contemporaneous": "Retrospective",
+      "precision": "Range",
+      "corroboration": "",
+      "conflicts": "His description differs from Witness 1",
+      "note": "The closest observation to the abduction point in time and space.",
+      "recordIds": [
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930"
+      ]
+    },
+    {
+      "id": "TL-13",
+      "when": "1997-10-22 19:00–19:15",
+      "title": "Laci sees a bicycle like Levi's at a Little Mill Road driveway; her mother does not hear her",
+      "grade": "POSSIBLE",
+      "lineages": [
+        "L2",
+        "L6"
+      ],
+      "basis": "Child witness at dusk, from a moving car",
+      "contemporaneous": "Reported in 1997 per blog (AJC Oct. 24 and Nov. 9)",
+      "precision": "Range",
+      "corroboration": "The AJC 1997 version is cited but not held",
+      "conflicts": "1997 FCN: Laci found the bicycle Thursday",
+      "note": "Pivotal: if accurate, the bicycle was down by 7:15.",
+      "recordIds": [
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
+        "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42",
+        "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d"
+      ]
+    },
+    {
+      "id": "TL-14",
+      "when": "1997-10-22 ~19:30",
+      "title": "Mother at friend #1's home; told Levi left to eat at another neighbor's; nobody home there",
+      "grade": "STRONGLY_SUPPORTED",
+      "lineages": [
+        "L1",
+        "L2"
+      ],
+      "basis": "Mother and friend #1's parents",
+      "contemporaneous": "1997 contemporaneous",
+      "precision": "Approximate",
+      "corroboration": "Consistent in 1997, 2002 and 2004",
+      "conflicts": "None",
+      "note": "The misinformation explains why her concern stayed low.",
+      "recordIds": [
+        "EVT-c015bce3-b7e2-5403-934a-ff7c779c9b79",
+        "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53"
+      ]
+    },
+    {
+      "id": "TL-15",
+      "when": "1997-10-22 20:01",
+      "title": "Friend #2's family Kmart check purchase",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Documentary (check), not held",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "A record that would confirm where friend #2's family was.",
+      "recordIds": [
+        "EVT-8515da72-d287-5de3-b48a-421d41e6c064"
+      ]
+    },
+    {
+      "id": "TL-16",
+      "when": "1997-10-23 ~02:00",
+      "title": "Mother wakes and drives the roads; does not see the bicycle",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L1",
+        "L2"
+      ],
+      "basis": "Mother",
+      "contemporaneous": "1997 (wake) / 2004 (drive)",
+      "precision": "Approximate",
+      "corroboration": "Waking is in 1997 reports",
+      "conflicts": "The drive and not seeing the bicycle appear only in 2004",
+      "note": "A detail that becomes more elaborate in the later rendition; probably omitted in 1997 rather than added later.",
+      "recordIds": [
+        "EVT-2af952ea-7a07-58e3-b0a8-6ff67cb3c054"
+      ]
+    },
+    {
+      "id": "TL-17",
+      "when": "1997-10-23 05:15–06:00",
+      "title": "Driveway residents (husband, then wife) see the bicycle at the driveway edge; neither moves it",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Two residents (firsthand)",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact (reported)",
+      "corroboration": "Two observers in one household",
+      "conflicts": "",
+      "note": "",
+      "recordIds": [
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "EVT-66549a70-de43-5ae0-b5c9-8e03c8267c24"
+      ]
+    },
+    {
+      "id": "TL-18",
+      "when": "1997-10-23 06:45",
+      "title": "Residents' children move the bicycle into the ditch",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Children",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact (reported)",
+      "corroboration": "",
+      "conflicts": "Blog headline credits only family with moving it",
+      "note": "First handling.",
+      "recordIds": [
+        "EVT-7149e5f8-3ca4-5cc7-9000-b1d5647fde21"
+      ]
+    },
+    {
+      "id": "TL-19",
+      "when": "1997-10-23 07:02",
+      "title": "Laci–Milton phone call; she does not say Levi is missing",
+      "grade": "STRONGLY_SUPPORTED",
+      "lineages": [
+        "L1",
+        "L2"
+      ],
+      "basis": "Two family branches",
+      "contemporaneous": "1997 (Sarah Frady) and 2004",
+      "precision": "Exact (reported)",
+      "corroboration": "Sarah Frady (31 Oct 1997): Milton called next morning, spoke to Laci",
+      "conflicts": "2014 anonymous family source: told 'in the shower'",
+      "note": "Independent maternal and paternal accounts agree on the call.",
+      "recordIds": [
+        "EVT-dc8aca45-5980-532b-bc4b-61ffa04e9791",
+        "SRC-72711a61-ec36-5a35-922a-7e9e8bd94966"
+      ]
+    },
+    {
+      "id": "TL-20",
+      "when": "1997-10-23 07:50",
+      "title": "Grandfather and relatives find the bicycle in the ditch, take it home, decide to return it before police arrive",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Family (as summarized by investigators)",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact (reported)",
+      "corroboration": "Dawson News clipping rendition",
+      "conflicts": "1997: Laci found it (26 Oct) / Laci and mother, 'about a mile' (29 Oct); AccessNorthGa 7:50 entry lacks the 'return' clause",
+      "note": "Second handling. The finder is DISPUTED between eras.",
+      "recordIds": [
+        "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
+        "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+        "SRC-e7748f0d-eb79-5bea-bf6f-02004548465f",
+        "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
+        "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42"
+      ]
+    },
+    {
+      "id": "TL-21",
+      "when": "1997-10-23 08:00",
+      "title": "Missing-person report to Forsyth Sheriff",
+      "grade": "STRONGLY_SUPPORTED",
+      "lineages": [
+        "L1",
+        "L2"
+      ],
+      "basis": "Agency record (not held)",
+      "contemporaneous": "1997",
+      "precision": "Exact (reported)",
+      "corroboration": "1997: reported Thursday morning",
+      "conflicts": "",
+      "note": "",
+      "recordIds": [
+        "EVT-e80dffba-4610-5889-9405-2e23c7ef4f81"
+      ]
+    },
+    {
+      "id": "TL-22",
+      "when": "1997-10-23 09:30",
+      "title": "Mother calls boyfriend Tim Tatum at work; he comes to the search area",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2"
+      ],
+      "basis": "Mother",
+      "contemporaneous": "Retrospective",
+      "precision": "Exact (reported)",
+      "corroboration": "",
+      "conflicts": "2014 anonymous family member: Tatum 'seen in Dawson Forest' that morning (RUMOR)",
+      "note": "Employment or time records would test the rumor directly.",
+      "recordIds": [
+        "EVT-6c0d950a-0c81-506c-9b36-bdc8f1e91969",
+        "PER-d60ebc5b-7e77-5164-95d4-c8ba02e7f697",
+        "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+      ]
+    },
+    {
+      "id": "TL-23",
+      "when": "1997-10-23 ~10:00",
+      "title": "Hunter sees a small blue truck with a white camper near the scene; a man in a dress shirt seems out of place",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2",
+        "L3"
+      ],
+      "basis": "Hunter (firsthand), interviewed 10:48 p.m.",
+      "contemporaneous": "Same-day interview",
+      "precision": "Approximate",
+      "corroboration": "GBI Witness 2: 1980–85 medium-blue Toyota 2WD with white camper",
+      "conflicts": "",
+      "note": "15 hours after the abduction window; see OBS-02.",
+      "recordIds": [
+        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
+        "EVT-13d171a1-c547-544d-b5c0-1ebba66b4f6b",
+        "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce"
+      ]
+    },
+    {
+      "id": "TL-24",
+      "when": "1997-10-23 10:15–10:30",
+      "title": "Mother notifies Milton; ground search begins in the Little Mill area",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L1",
+        "L2"
+      ],
+      "basis": "Mother; Sarah Frady",
+      "contemporaneous": "1997 and 2004",
+      "precision": "Exact (reported)",
+      "corroboration": "Sarah: told later that day; Milton then at the search site",
+      "conflicts": "Police said they could not find Milton",
+      "note": "",
+      "recordIds": [
+        "EVT-6a0f5aa6-11dd-5ec3-aec2-142e118a10f6",
+        "EVT-2dea3ceb-a2f7-5308-9b4d-4e13351f1ad2",
+        "SRC-72711a61-ec36-5a35-922a-7e9e8bd94966"
+      ]
+    },
+    {
+      "id": "TL-25",
+      "when": "1997-10-23 ~14:00",
+      "title": "Body found by three Gilmer County hunters, opening day of rifle season, Dawson Forest WMA near the old Lockheed site",
+      "grade": "CONFIRMED",
+      "lineages": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "basis": "Official and multiple lineages",
+      "contemporaneous": "1997",
+      "precision": "Discovery about 2:00; officials called about 2:30",
+      "corroboration": "The 2:00 discovery and 2:30 call are sequential: hunters went to a nearby home to phone",
+      "conflicts": "Blog (2016): 'found the following morning' — an error",
+      "note": "Date, place and finders are confirmed; the clock time is PROBABLE.",
+      "recordIds": [
+        "EVT-455419a5-c86e-555e-ab87-11166bb68040",
+        "EVT-a1976383-d1cd-5285-bfbc-03829c5ab8b2",
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "SRC-c0e0188e-569d-42e8-9231-2001c600b389"
+      ]
+    },
+    {
+      "id": "TL-26",
+      "when": "1997-10-24",
+      "title": "Body identified; state crime lab autopsy: death from 'one or more' gunshot wounds; 'It all happened here'",
+      "grade": "STRONGLY_SUPPORTED",
+      "lineages": [
+        "L1"
+      ],
+      "basis": "Sheriff Carlisle (official)",
+      "contemporaneous": "1997",
+      "precision": "Day",
+      "corroboration": "Later: 'shot three times' (2004 GBI chronology; 2015; 2017)",
+      "conflicts": "Wound distribution DISPUTED: blog 2 head + 1 body; 2007 forum 1 head + 2 chest",
+      "note": "The autopsy report itself is not held.",
+      "recordIds": [
+        "EVT-a1a2a519-410b-598b-804c-8f3f4be326e1",
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
+      ]
+    },
+    {
+      "id": "TL-27",
+      "when": "1997-10-29",
+      "title": "Milton surrenders on 1995 FTA warrant; interviewed by GBI, Forsyth and Dawson with counsel",
+      "grade": "STRONGLY_SUPPORTED",
+      "lineages": [
+        "L1"
+      ],
+      "basis": "Multiple 1997 articles; court proceedings",
+      "contemporaneous": "1997",
+      "precision": "Day",
+      "corroboration": "Oct 31, Nov 5, Nov 9 and Nov 12 reports",
+      "conflicts": "Age reported as 34 (Oct 26) and as 37 (Oct 29 and 31)",
+      "note": "",
+      "recordIds": [
+        "EVT-eb528307-15e7-5b8b-9e09-7ee8927d0354",
+        "SRC-23a2747a-e8c2-5bf3-97b2-918bd917a284",
+        "SRC-36faf6e3-f39e-5235-9760-06876bd63b13"
+      ]
+    },
+    {
+      "id": "TL-28",
+      "when": "1997-11-05 → 11-09",
+      "title": "Two-man sketch released; one man identified by vehicle tag and interviewed that night; a third sketch (roadblock tip) prepared Nov 6, man identified and interviewed Nov 8–9",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L1"
+      ],
+      "basis": "GBI SAC Hallman",
+      "contemporaneous": "1997",
+      "precision": "Day",
+      "corroboration": "",
+      "conflicts": "The 2004 clipping gives Nov. 21, 1997 for a sketch's completion",
+      "note": "Witness 2 (Toyota) stayed unidentified. Witness 1's sketch may date from Nov. 21.",
+      "recordIds": [
+        "EVT-bd34ed5f-1e7e-5225-bf16-932b901423f4",
+        "EVT-1f5ad684-92d9-5f20-9890-b0613ac874f6",
+        "EVT-8f7adaf9-e7c9-51a1-a2f3-ec4866ea1998",
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde"
+      ]
+    },
+    {
+      "id": "TL-29",
+      "when": "1997-12-19",
+      "title": "GBI press conference: father 'pretty much ruled out'; 30 volumes; 500+ leads; 20+ polygraphs; FBI behavioral consult",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L1"
+      ],
+      "basis": "GBI spokesman Bankhead, SAC Hallman",
+      "contemporaneous": "1997",
+      "precision": "Day",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "",
+      "recordIds": [
+        "EVT-ee02be32-df26-5790-8e8b-34b9932ef69f",
+        "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533"
+      ]
+    },
+    {
+      "id": "TL-30",
+      "when": "1997-12-01",
+      "title": "Samples stabs Tallant at Church Road home (court records per blog)",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L4"
+      ],
+      "basis": "Court records reproduced by the blog",
+      "contemporaneous": "Records 1997–1999",
+      "precision": "Day",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "The event is documented, but its link to the Frady case is ALLEGED (see H-06).",
+      "recordIds": [
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
+        "PER-746f494a-89a1-5fd4-b58b-7201477502f1",
+        "PER-67ae211a-32b6-5012-add3-11015594f26a"
+      ]
+    },
+    {
+      "id": "TL-31",
+      "when": "1998 (date unknown)",
+      "title": "Scene area clear-cut; North Georgia College cadets search it",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L1"
+      ],
+      "basis": "GBI SAC Hallman",
+      "contemporaneous": "1998",
+      "precision": "Unknown",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "The original scene is altered, so the photographs and sketches are the only scene record.",
+      "recordIds": [
+        "EVT-1a1c8b8a-fea8-5aa9-8ebc-8c9a456883f3",
+        "SRC-61c50234-323f-5dbc-8401-a53761a9871d"
+      ]
+    },
+    {
+      "id": "TL-32",
+      "when": "1998-08-27 → 09-17",
+      "title": "Interagency dispute: Forsyth inmate interviews about a weapon; Sept 1 meeting; Hendrix letter; Nix reply",
+      "grade": "POSSIBLE",
+      "lineages": [
+        "L4"
+      ],
+      "basis": "Unauthenticated photographic reproductions",
+      "contemporaneous": "1998 documents",
+      "precision": "Day",
+      "corroboration": "",
+      "conflicts": "Warrant-notification wording: informed vs not informed (blog)",
+      "note": "Documents interagency friction; does not establish facts about the crime.",
+      "recordIds": [
+        "EVT-c710e005-f524-52ab-8fbc-96717255bac6",
+        "EVT-e4c0116c-cf7b-5e65-9206-af9286d0c7c2",
+        "EVT-50a222a2-ec78-5924-b365-c363c766ecfe",
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+        "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+        "CON-1a8b343f-796a-5cd0-a671-2c075b70698c"
+      ]
+    },
+    {
+      "id": "TL-33",
+      "when": "2002-10",
+      "title": "Sheriff Paxton: physical evidence 'little to none', 'a couple of shell casings', no DNA (head shake); 50 volumes",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L5"
+      ],
+      "basis": "Dawson sheriff (official, retrospective)",
+      "contemporaneous": "5 years after",
+      "precision": "Month",
+      "corroboration": "",
+      "conflicts": "2007 places casings with the bicycle in Forsyth",
+      "note": "",
+      "recordIds": [
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "PER-6f491957-c62f-5e41-84da-e91264a530da"
+      ]
+    },
+    {
+      "id": "TL-34",
+      "when": "2004-10/11",
+      "title": "GBI releases its chronology; 66 volumes; evidence 'painstakingly preserved' and under review for resubmission; bicycle held at GBI Cleveland",
+      "grade": "PROBABLE",
+      "lineages": [
+        "L2",
+        "L5"
+      ],
+      "basis": "GBI SAC Cagle; AJC photo caption",
+      "contemporaneous": "7 years after",
+      "precision": "Month",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "",
+      "recordIds": [
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
+        "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396"
+      ]
+    },
+    {
+      "id": "TL-35",
+      "when": "2013-08-17",
+      "title": "Samples, interrogated after stabbing Tallant, says Tallant used a 'long gun … same one they shot Levi Frady with'",
+      "grade": "ALLEGED",
+      "lineages": [
+        "L4"
+      ],
+      "basis": "Video posted by blog (hostile party)",
+      "contemporaneous": "16 years after",
+      "precision": "Day",
+      "corroboration": "",
+      "conflicts": "Tallant said Samples had falsely accused him",
+      "note": "",
+      "recordIds": [
+        "EVD-92fab56a-8cae-574c-8242-a624db4efc6b",
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de"
+      ]
+    },
+    {
+      "id": "TL-36",
+      "when": "2020-07-07",
+      "title": "Blog: GBI search warrant for Tallant's home the day he was found dead",
+      "grade": "ALLEGED",
+      "lineages": [
+        "L4"
+      ],
+      "basis": "Blog only",
+      "contemporaneous": "23 years after",
+      "precision": "Day",
+      "corroboration": "None found (web search 2026-10-29)",
+      "conflicts": "",
+      "note": "Warrant and return should exist in Forsyth court records if issued.",
+      "recordIds": [
+        "EVT-b250df69-9e8e-52b2-9039-e7d566e2ac7a",
+        "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2",
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9"
+      ]
+    },
+    {
+      "id": "TL-37",
+      "when": "2017 → 2026",
+      "title": "GBI still seeks Witness 1 and Witness 2; case open",
+      "grade": "CONFIRMED",
+      "lineages": [
+        "L3",
+        "L5"
+      ],
+      "basis": "Official pages",
+      "contemporaneous": "Current",
+      "precision": "",
+      "corroboration": "",
+      "conflicts": "",
+      "note": "",
+      "recordIds": [
+        "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+        "SRC-c0e0188e-569d-42e8-9231-2001c600b389",
+        "SRC-ca00f156-8756-5921-8ae6-929e4e83db7d"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-01",
+      "item": "Autopsy / medical examiner findings",
+      "status": "Exists; not held",
+      "whatWeKnow": "'One or more gunshot wounds' (1997); 'shot three times' (later). Wound sites, range, trajectory, sequence, time-of-death indicators and sexual-assault findings are not public.",
+      "grade": "STRONGLY_SUPPORTED",
+      "custodian": "GBI Medical Examiner / Division of Forensic Sciences; Dawson County coroner",
+      "forensicOpportunity": "Time-of-death reassessment (stomach contents vs last meal, lividity, rigor, insects, wetness). Wound sequence tests the anonymous 'not fired at same time/place' claim.",
+      "recordIds": [
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
+      ]
+    },
+    {
+      "id": "EV-02",
+      "item": "Shell casings ('a couple')",
+      "status": "Reported 2002; location implied Dawson scene",
+      "whatWeKnow": "Count, caliber and weapon class not public. 'A couple' set against three shots may mean a casing was missed, a manually operated weapon, or loose wording.",
+      "grade": "PROBABLE",
+      "custodian": "GBI DOFS firearms",
+      "forensicOpportunity": "NIBIN entry and correlation; comparison with any weapon seized since (tests the 'long gun' claim).",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0"
+      ]
+    },
+    {
+      "id": "EV-03",
+      "item": "Projectiles recovered at autopsy (if any)",
+      "status": "Unknown",
+      "whatWeKnow": "Never mentioned publicly.",
+      "grade": "UNKNOWN",
+      "custodian": "GBI DOFS",
+      "forensicOpportunity": "Rifling characteristics narrow the weapon class; comparison with any test-fired weapon.",
+      "recordIds": [
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
+      ]
+    },
+    {
+      "id": "EV-04",
+      "item": "Bicycle (red, 20-inch, per blog)",
+      "status": "In GBI evidence at Cleveland as of Oct 2004 (AJC caption)",
+      "whatWeKnow": "Handled by the residents' children, relatives (taken to the mother's house and returned) and then officers. 'No prints / wiped clean' is anonymous (blog). Light rain/drizzle was reported.",
+      "grade": "STRONGLY_SUPPORTED",
+      "custodian": "GBI Region (Cleveland)",
+      "forensicOpportunity": "Touch DNA on grips, seat and brake levers with probabilistic genotyping, using elimination samples from known handlers. Low but non-zero yield.",
+      "recordIds": [
+        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9",
+        "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396",
+        "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899"
+      ]
+    },
+    {
+      "id": "EV-05",
+      "item": "Book bag left on friend #2's patio",
+      "status": "Unknown",
+      "whatWeKnow": "Left about 5:45–6:00. Whether, when and by whom it was recovered is never stated.",
+      "grade": "PROBABLE",
+      "custodian": "Family / GBI file",
+      "forensicOpportunity": "Not forensic. It establishes whether Levi went back for it after 6:50, and so his route.",
+      "recordIds": [
+        "EVT-0cb4646d-2e47-53a7-955e-34583bed190f",
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb"
+      ]
+    },
+    {
+      "id": "EV-06",
+      "item": "Clothing",
+      "status": "Unknown",
+      "whatWeKnow": "'He was clothed' (Carlisle). Whether every reported item was present was not disclosed.",
+      "grade": "PROBABLE",
+      "custodian": "GBI DOFS",
+      "forensicOpportunity": "Trace and touch DNA, fibers, gunshot residue pattern (range of fire).",
+      "recordIds": [
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
+      ]
+    },
+    {
+      "id": "EV-07",
+      "item": "Sexual-assault evidence",
+      "status": "Undisclosed",
+      "whatWeKnow": "Officials withheld it as 'guilty knowledge'. Blog hearsay (funeral home) and an anonymous denial (an officer at the autopsy) conflict.",
+      "grade": "DISPUTED",
+      "custodian": "GBI DOFS / ME",
+      "forensicOpportunity": "If a kit or swabs exist: Y-STR / autosomal retest, then FIGG if a male profile results.",
+      "recordIds": [
+        "CON-665a6ff9-a0bc-5deb-ac2b-7601ca78f770",
+        "SRC-61c50234-323f-5dbc-8401-a53761a9871d"
+      ]
+    },
+    {
+      "id": "EV-08",
+      "item": "Crime-scene photographs, sketch and search records",
+      "status": "Exist (Hendrix requested the photos in 1998)",
+      "whatWeKnow": "The scene was later clear-cut, so these are now the only record of it. The blog describes the body face up in a rain-filled pit about 300 yards from the Etowah River (unsourced).",
+      "grade": "PROBABLE",
+      "custodian": "GBI; Dawson Sheriff (crime-scene tech Branson)",
+      "forensicOpportunity": "Reconstruct body position, approach route and vehicle access with 1990s aerials.",
+      "recordIds": [
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+        "EVT-1a1c8b8a-fea8-5aa9-8ebc-8c9a456883f3",
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
+        "PER-b0a05aae-a2bf-5e8a-ae94-da29f01a670e"
+      ]
+    },
+    {
+      "id": "EV-09",
+      "item": "Composite sketches (Nov 5 pair, third roadblock sketch, Witness 1, Witness 2)",
+      "status": "Two published; others resolved or unreleased",
+      "whatWeKnow": "Nov 5 pair: one man identified by tag. Third: identified and interviewed. Witness 1 and Witness 2 still sought in 2026.",
+      "grade": "PROBABLE",
+      "custodian": "GBI (forensic artist 'Marla')",
+      "forensicOpportunity": "Re-release with the specific vehicle description; Georgia DOR historical registrations for 1980–85 Toyota 2WD pickups (if retained).",
+      "recordIds": [
+        "EVD-891bdfb1-121b-5757-9492-1555fb2f3b16",
+        "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef",
+        "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce",
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399"
+      ]
+    },
+    {
+      "id": "EV-10",
+      "item": "Telephone records (6:38 call; 7:02 call; Milton's evening calls)",
+      "status": "Unknown",
+      "whatWeKnow": "The 6:38 call came from a third residence. Sarah said Milton called the children's home on the night of the 22nd and was told Levi was at a neighbor's.",
+      "grade": "UNKNOWN",
+      "custodian": "GBI file (1997 subpoenaed LUDs, if obtained)",
+      "forensicOpportunity": "Fixes the times of the last contact and tests the father's alibi call.",
+      "recordIds": [
+        "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
+        "EVT-dc8aca45-5980-532b-bc4b-61ffa04e9791",
+        "EVT-79676791-6e64-5563-bb34-32e98fa511c5"
+      ]
+    },
+    {
+      "id": "EV-11",
+      "item": "Investigative file (66 volumes, 500+ leads, 20+ polygraphs, search warrant for the mother's home)",
+      "status": "Exists; exempt while the case is open",
+      "whatWeKnow": "",
+      "grade": "STRONGLY_SUPPORTED",
+      "custodian": "GBI",
+      "forensicOpportunity": "A file review by a fresh team is itself the best available 'test'.",
+      "recordIds": [
+        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
+        "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533",
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
+      ]
+    },
+    {
+      "id": "EV-12",
+      "item": "Comb near body",
+      "status": "Anonymous report",
+      "whatWeKnow": "",
+      "grade": "RUMOR",
+      "custodian": "",
+      "forensicOpportunity": "",
+      "recordIds": [
+        "EVD-38a6460d-629d-55ac-af36-933e039ef6b6"
+      ]
+    },
+    {
+      "id": "EV-13",
+      "item": "Tallant's tan Dodge van 'taken by law enforcement' (1997)",
+      "status": "Anonymous report",
+      "whatWeKnow": "",
+      "grade": "RUMOR",
+      "custodian": "",
+      "forensicOpportunity": "If true, impound or search records exist.",
+      "recordIds": [
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "PP-01",
+      "name": "Levi Frady",
+      "role": "Victim, age 11",
+      "whyTheyMatter": "Victimology: careful of strangers per his mother; afraid of the dark and of dogs; carried money that day; a regular rider of these routes.",
+      "caution": "",
+      "recordIds": [
+        "PER-aaaf79a6-e634-55e7-9a3d-0ffe9b1eb646"
+      ]
+    },
+    {
+      "id": "PP-02",
+      "name": "Marilyn Parkman (also Weaver / Hamby in later sources)",
+      "role": "Mother; source of most of the family chronology",
+      "whyTheyMatter": "Her account anchors the 4:12, 6:38, 7:00–7:34 and 2 a.m. entries and is consistent from 1997 to 2004.",
+      "caution": "Being a primary source makes her central to the record. It does not make her a suspect. The 1997 investigation examined everyone close to the family as a matter of routine.",
+      "recordIds": [
+        "PER-72b630f3-1d87-551d-a2ce-1971fcad6165"
+      ]
+    },
+    {
+      "id": "PP-03",
+      "name": "Laci Frady",
+      "role": "Twin sister, age 11",
+      "whyTheyMatter": "Possible bicycle sighting at 7:00–7:15 (pivotal); took the 6:38 and 7:02 calls. Now an adult, she is the best surviving witness to the evening.",
+      "caution": "Child witness; account first reported via others.",
+      "recordIds": [
+        "PER-f2a087b4-7b24-5e08-8e5f-ae81242c7495"
+      ]
+    },
+    {
+      "id": "PP-04",
+      "name": "Milton Frady",
+      "role": "Father (divorced 1989)",
+      "whyTheyMatter": "Fugitive on a 1995 warrant at the time; interviewed 29 Oct; 'pretty much ruled out' (Dec 1997).",
+      "caution": "The 1997 press framed his absence speculatively; it has a documented mundane reason.",
+      "recordIds": [
+        "PER-5f4c3fe0-deea-52d0-b2eb-d2e16a52311c"
+      ]
+    },
+    {
+      "id": "PP-05",
+      "name": "Sarah (Sara) Frady",
+      "role": "Paternal grandmother",
+      "whyTheyMatter": "Gave Milton's alibi (porch 5:15, calls that night and the next morning). Independently corroborates the 7:02 call.",
+      "caution": "Interested witness; spelling varies.",
+      "recordIds": [
+        "PER-fe648a92-c571-52b6-8185-e7ad96fa0179",
+        "PER-fbb3ffdf-01de-540c-a405-dd41a99e6587"
+      ]
+    },
+    {
+      "id": "PP-06",
+      "name": "Dorsey Hamby",
+      "role": "Maternal grandfather",
+      "whyTheyMatter": "Per the 2004 chronology, the 'grandfather' and relatives found the bicycle and moved it.",
+      "caution": "Handling evidence before police arrived is common family behavior in a search and does not imply intent.",
+      "recordIds": [
+        "PER-baa87e50-6d80-5000-a81d-4ba39aa46241"
+      ]
+    },
+    {
+      "id": "PP-07",
+      "name": "Janice Hamby",
+      "role": "Maternal grandmother; family spokesperson",
+      "whyTheyMatter": "Letters and press statements 1997–2007; gave '6–6:30' for the ride home.",
+      "caution": "Her basis of knowledge for times is unknown.",
+      "recordIds": [
+        "PER-a235bbe2-bcff-5acd-ab38-3dc764a6b204"
+      ]
+    },
+    {
+      "id": "PP-08",
+      "name": "Tim Tatum",
+      "role": "Mother's boyfriend",
+      "whyTheyMatter": "Arrived at the driveway at 7:00–7:15 per the chronology; at work at 9:30 the next morning.",
+      "caution": "The only adverse item is an anonymous 2014 claim (RUMOR). Employer records could exclude it.",
+      "recordIds": [
+        "PER-d60ebc5b-7e77-5164-95d4-c8ba02e7f697"
+      ]
+    },
+    {
+      "id": "PP-09",
+      "name": "Friend #1 (blog names Roman Martinez)",
+      "role": "Classmate; last known companion",
+      "whyTheyMatter": "Officially the last person known to have seen Levi; can describe his departure and direction.",
+      "caution": "The identity rests on the blog alone.",
+      "recordIds": [
+        "PER-ecffe79a-6156-5f6a-b0c8-8f87c939f1cf"
+      ]
+    },
+    {
+      "id": "PP-10",
+      "name": "Unnamed neighborhood witnesses",
+      "role": "6:50 resident; lost motorist; Bronco driver; driveway residents and children; hunter",
+      "whyTheyMatter": "They define the abduction window and the morning-after observation.",
+      "caution": "Identities are held by the GBI; do not guess.",
+      "recordIds": [
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "EVT-ec0b1ffe-8fe2-5d80-a110-188242718bfd",
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f"
+      ]
+    },
+    {
+      "id": "PP-11",
+      "name": "Witness 1 and Witness 2",
+      "role": "Possible witnesses (GBI)",
+      "whyTheyMatter": "Witness 1: Little Mill Road walker, 6:30. Witness 2: Toyota/camper man in Dawson Forest, about 10 a.m. Oct 23.",
+      "caution": "The GBI expressly calls them possible witnesses, not suspects.",
+      "recordIds": [
+        "SRC-4271f9ca-1e65-465c-ac09-e971337d1fef",
+        "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce"
+      ]
+    },
+    {
+      "id": "PP-12",
+      "name": "Investigators",
+      "role": "Carlisle (Dawson Sheriff), Hallman / Cagle / Attaway (GBI), Hendrix / Born (Forsyth), Tanner, Branson (crime-scene tech), Paxton",
+      "whyTheyMatter": "Their public statements are the official layer of the record; several are reachable for interviews.",
+      "caution": "Agency friction is documented; read each account with its institutional perspective in mind.",
+      "recordIds": [
+        "PER-87b53cec-218a-528a-89c5-6b759ae8676b",
+        "PER-c0e7c347-e5a1-552a-904c-a686ee14ef46",
+        "PER-026f64d6-86c1-50c5-be6b-92cfd2678d2e",
+        "PER-7501e656-bba1-5ce0-8360-13ab439caaff",
+        "PER-13fef263-951e-55c1-b4e5-f9d528870a53",
+        "PER-6f1827c4-76fc-59e8-90a5-edbbcf00b0bd",
+        "PER-7bcf7566-a857-51e3-b2f4-9bbf27fe2977",
+        "PER-b0a05aae-a2bf-5e8a-ae94-da29f01a670e",
+        "PER-6f491957-c62f-5e41-84da-e91264a530da"
+      ]
+    },
+    {
+      "id": "PP-13",
+      "name": "Marshall Tallant and Tommy Albert Samples",
+      "role": "Named in a blog narrative (2016–2020)",
+      "whyTheyMatter": "Subject of an unverified accusation; see H-06.",
+      "caution": "No official source names either man as a suspect. Listed separately so that placement implies nothing.",
+      "recordIds": [
+        "PER-67ae211a-32b6-5012-add3-11015594f26a",
+        "PER-746f494a-89a1-5fd4-b58b-7201477502f1"
+      ]
+    },
+    {
+      "id": "PP-14",
+      "name": "Kimberly Boim",
+      "role": "Blog author (levifrady.com)",
+      "whyTheyMatter": "The single largest secondary source; reproduced primary documents (letters, court records, video).",
+      "caution": "One author; many anonymous sources; interpretive headlines.",
+      "recordIds": [
+        "PER-f1615aac-c377-5d8e-bef0-637f4c46c89e"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "LC-01",
+      "name": "Burruss Mill Road home",
+      "role": "Levi's home",
+      "notes": "'Less than a mile' from the bicycle site (GBI); the bicycle was 'about half a mile' (1997, 2004) or 'about a mile' (29 Oct 1997) away.",
+      "recordIds": [
+        "LOC-3be22a6e-4c95-5a26-960b-ecc928607dd3"
+      ]
+    },
+    {
+      "id": "LC-02",
+      "name": "Friend #1's home, Noah Road",
+      "role": "Last known companion's home",
+      "notes": "Levi left from here at about 6:45–6:50.",
+      "recordIds": [
+        "LOC-f926a037-7172-5b5a-991b-4f4826368844"
+      ]
+    },
+    {
+      "id": "LC-03",
+      "name": "Friend #2's home (road not stated)",
+      "role": "Book bag left on patio; family out 5:45 to after 8:01",
+      "notes": "Levi was heading in this direction at 6:50.",
+      "recordIds": [
+        "EVT-0cb4646d-2e47-53a7-955e-34583bed190f"
+      ]
+    },
+    {
+      "id": "LC-04",
+      "name": "Picklesimer Road",
+      "role": "The route with dogs, avoided at 6:45",
+      "notes": "",
+      "recordIds": [
+        "LOC-f40da331-7551-57c0-8186-ed2c854b879f"
+      ]
+    },
+    {
+      "id": "LC-05",
+      "name": "Little Mill Road bicycle site (a resident's driveway)",
+      "role": "Probable encounter point",
+      "notes": "Bicycle at the driveway edge by 5:15 a.m., possibly by 7:15 p.m. The motorist's man entered the woods a few hundred feet away. A 'well-traveled two-lane road between Hwys 306 and 369'.",
+      "recordIds": [
+        "LOC-37f35f7f-dbef-55c0-bfe3-90b751f39710",
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930"
+      ]
+    },
+    {
+      "id": "LC-06",
+      "name": "Dawson Forest WMA near the old Lockheed site, off GA-9 / Dawson Forest Road",
+      "role": "Body and shooting scene",
+      "notes": "Reported as 15, 19, 20 and 22 miles from the bicycle site; no source states the road route. Blog: about 300 yards from the Etowah River. Clear-cut after the murder.",
+      "recordIds": [
+        "LOC-c22dafb0-3d62-5f9b-b2fa-259c2aa9f6d6",
+        "LOC-41a40c47-b481-5783-ac26-2533aba46293",
+        "LOC-c79a32de-dc10-55bd-8467-3fa0e7e56e71",
+        "LOC-dd543841-447f-5de5-a6f5-dd0cde82dc79"
+      ]
+    },
+    {
+      "id": "LC-07",
+      "name": "GBI Region office, Cleveland",
+      "role": "Evidence custody (bicycle, 2004)",
+      "notes": "",
+      "recordIds": [
+        "LOC-eda192eb-9285-54b0-8c77-791ca981efb4"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "CX-01",
+      "title": "When was Levi killed — the evening of the 22nd or the morning of the 23rd?",
+      "versions": [
+        "Official window: 6 p.m. Oct 22 – 2:30 p.m. Oct 23 (FCN, Oct 31 1997)",
+        "Investigators: contact before sundown (6–7 p.m.)",
+        "Witness 2 sought for a 10 a.m. Oct 23 sighting in Dawson Forest"
+      ],
+      "assessment": "Unresolved and the most consequential gap. The archive has no medical time-of-death evidence.",
+      "whatResolves": "Autopsy findings; scene photographs (rain, lividity); hunters' accounts of gunfire on the morning of the opener.",
+      "recordIds": [
+        "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230",
+        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
+        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a"
+      ]
+    },
+    {
+      "id": "CX-02",
+      "title": "Bicycle: who found it, where, when, and how many times it was moved",
+      "versions": [
+        "1997: Laci found it in a ditch about half a mile from home (26 Oct)",
+        "1997: Laci and her mother found it about a mile from home (29 Oct)",
+        "2004 GBI: seen by Laci 7–7:15 p.m.; residents 5:15 and 6:00; children moved it 6:45; grandfather and relatives took it home and returned it 7:50"
+      ],
+      "assessment": "The 2004 sequence is the most detailed and comes from investigators, so it is preferred. The 1997 accounts are the family's simplified public version, most likely given after the bicycle was put back. 'Moved' is documented; 'wiped' is anonymous.",
+      "whatResolves": "Original GBI chronology; AJC 24 Oct and 9 Nov 1997; the residents' statements.",
+      "recordIds": [
+        "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42",
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "EVT-7149e5f8-3ca4-5cc7-9000-b1d5647fde21",
+        "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
+        "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+        "SRC-e7748f0d-eb79-5bea-bf6f-02004548465f"
+      ]
+    },
+    {
+      "id": "CX-03",
+      "title": "What happened between 6:50 and 7:15, and where was Levi going?",
+      "versions": [
+        "6:50: heading toward friend #2's home (book bag there; family away)",
+        "Family letter: riding home on Little Mill Road 6:00–6:30",
+        "Motorist: man entering the woods at a driveway near the bicycle site, about 6:52–7:00"
+      ],
+      "assessment": "The direction at 6:50 and the book bag's whereabouts are unresolved. The motorist's man's identification status is unknown.",
+      "whatResolves": "Book bag recovery; GIS of the houses relative to the bicycle site; identity of the motorist and of the driveway man.",
+      "recordIds": [
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
+        "EVT-1f589cb9-dc99-58d7-a46f-7c23323944fc",
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "EVT-0cb4646d-2e47-53a7-955e-34583bed190f"
+      ]
+    },
+    {
+      "id": "CX-04",
+      "title": "Wounds, shots and weapon",
+      "versions": [
+        "'One or more gunshot wounds' (1997)",
+        "'Gunshot blast' (editorial)",
+        "Three shots (2004 GBI chronology and later)",
+        "2 head + 1 upper body, 'not same time or location' (blog, anonymous 2014)",
+        "1 head + 2 chest (2007 forum, unsourced)",
+        "'A couple of shell casings' (2002)",
+        "'Long gun' (Samples, 2013)",
+        "'Execution-style' (2002 reporter characterization)"
+      ],
+      "assessment": "The count of three is probable; the distribution, sequence and weapon class are unknown. The 'execution-style' label is a reporter's characterization, not a finding.",
+      "whatResolves": "Autopsy; firearms report.",
+      "recordIds": [
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "SRC-0a95162c-bae9-50ae-8a4d-e1dd9a826b42",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-272849e2-fbc8-5d9e-9e3d-4af3594a5583",
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "EVD-92fab56a-8cae-574c-8242-a624db4efc6b"
+      ]
+    },
+    {
+      "id": "CX-05",
+      "title": "Accounting for the sketched witnesses",
+      "versions": [
+        "Nov 5 1997: two-man sketch; one identified by vehicle tag that night",
+        "Nov 6–9: third (roadblock) sketch; man identified and interviewed",
+        "2004 clipping: a sketch completed Nov 21, 1997",
+        "GBI 2017/2026: Witness 1 (6:30 walker) and Witness 2 (Toyota) still sought"
+      ],
+      "assessment": "Most consistent reading: the Nov 5 pair included Witness 2 (whose caption matches); the tag-identified man was the other; Witness 1's sketch was made later, possibly Nov 21. The motorist's man appears never to have been sketched publicly.",
+      "whatResolves": "Dated GBI sketch release records; full 5 Nov and 9 Nov 1997 page images.",
+      "recordIds": [
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399",
+        "SRC-36faf6e3-f39e-5235-9760-06876bd63b13",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+        "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+        "EVT-bd34ed5f-1e7e-5225-bf16-932b901423f4"
+      ]
+    },
+    {
+      "id": "CX-06",
+      "title": "Where the casings were found",
+      "versions": [
+        "2002 Paxton: 'a couple of shell casings' (Dawson context)",
+        "2007 FCN: 'His bike and some shell casings were found in a ditch off Little Mill Road'",
+        "1997 Carlisle: 'It all happened here' (Dawson)"
+      ],
+      "assessment": "2007 is most likely a retelling conflation. Graded DISPUTED until the inventory is seen, but low weight for Forsyth.",
+      "whatResolves": "Evidence inventory.",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3"
+      ]
+    },
+    {
+      "id": "CX-07",
+      "title": "Minor variances (low importance)",
+      "versions": [
+        "Milton's age 34 vs 37",
+        "Distance 15/19/20/22 miles",
+        "Funeral Oct 26 vs 'Nov. 2'",
+        "Hendrix letter dated Sept 2 vs Sept 1"
+      ],
+      "assessment": "Clerical or reporting variance; none changes the reconstruction. The funeral 'Nov. 2' is most likely an error in the Nov 12 article: the obituary and a school report both put the funeral on Sunday 26 Oct.",
+      "whatResolves": "Routine records.",
+      "recordIds": [
+        "CON-40d98cb8-65ac-5acc-b8d5-f029216e20c2",
+        "CON-9758b329-1855-5b6d-b93d-2ca2b3f7e587"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H-01",
+      "title": "Roadside abduction by a driver familiar with the area (acquaintance or local)",
+      "summary": "A driver Levi knew, or who was locally familiar, offered or forced a ride on Little Mill Road at dusk and drove him to Dawson Forest.",
+      "supports": [
+        "Levi feared riding home in the dark (6:38)",
+        "The bicycle lay at a driveway edge, not hidden: dropped at the encounter",
+        "Mother: he would not get in a stranger's car",
+        "Carlisle (1998): killer knew the Forsyth/Dawson area well (remote site chosen)",
+        "No ransom, message or pattern ('never before or since another case like it')"
+      ],
+      "contradicts": [
+        "Nothing specific in the held record"
+      ],
+      "neutral": [
+        "Narrow 25-minute window"
+      ],
+      "unknown": [
+        "Whether the offender's vehicle was seen",
+        "Sexual-assault findings"
+      ],
+      "neededToTest": [
+        "Canvass list of Little Mill Road traffic 6:45–7:20",
+        "DNA and NIBIN results",
+        "Acquaintance vehicles and alibis (GBI file)"
+      ],
+      "ifWrongExpect": "Signs of a struggle at the bicycle site; evidence he was taken far afield by a stranger; a forensic hit on a transient offender.",
+      "ifRightExpect": "A forensic profile or weapon traced to someone with local ties; a witness to a familiar vehicle stopping.",
+      "whatWouldMoveIt": "Physical evidence linking a specific person; any proof of a struggle.",
+      "currentWeight": "Leading",
+      "recordIds": [
+        "EVT-d30ee0d6-7fbb-5872-9d2c-fe7787996069",
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a",
+        "SRC-3a6dc4bc-7c73-5c70-bbe7-1dbba01b4e7a",
+        "SRC-61c50234-323f-5dbc-8401-a53761a9871d",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
+      ]
+    },
+    {
+      "id": "H-02",
+      "title": "Opportunistic stranger abduction",
+      "summary": "Someone with no prior connection encountered Levi alone at dusk and abducted him.",
+      "supports": [
+        "Dusk, a lone child, a well-traveled road",
+        "No motive has emerged in 29 years"
+      ],
+      "contradicts": [
+        "Choice of a remote site deep in an unfamiliar forest is harder for a non-local",
+        "Shooting, rather than strangulation, is atypical in sexually motivated stranger child murders (NCMEC comment, 1998)"
+      ],
+      "neutral": [
+        "The motorist's man and Witness 1 are unidentified"
+      ],
+      "unknown": [
+        "Sexual-assault evidence",
+        "Whether a vehicle stop was seen"
+      ],
+      "neededToTest": [
+        "DNA / CODIS / FIGG",
+        "NIBIN against crimes elsewhere"
+      ],
+      "ifWrongExpect": "Local ties for the offender; no forensic trace in national databases.",
+      "ifRightExpect": "CODIS, NIBIN or FIGG hit on a non-local offender; similar regional crimes.",
+      "whatWouldMoveIt": "Any database hit.",
+      "currentWeight": "Viable",
+      "recordIds": [
+        "SRC-61c50234-323f-5dbc-8401-a53761a9871d",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930"
+      ]
+    },
+    {
+      "id": "H-03",
+      "title": "Targeted killing (retaliation or debt) aimed at an adult in Levi's orbit",
+      "summary": "Levi was taken and killed to punish or intimidate an adult connected to him.",
+      "supports": [
+        "Firearm and multiple shots; remote location",
+        "A TV revenge report existed in Nov 1997; GBI 'not ruling out any possibility'",
+        "Blog: anonymous claim of an $88,000 drug debt"
+      ],
+      "contradicts": [
+        "Hallman: the revenge report did not come from official sources",
+        "No message or claim, though retaliation is usually communicated",
+        "No motive surfaced in 5 years (Paxton, 2002)",
+        "GBI (Dec 1997): family-suspect aspect 'not significant'"
+      ],
+      "neutral": [
+        "'Execution-style' is a reporter's characterization"
+      ],
+      "unknown": [
+        "Threats received by the family",
+        "Debts or disputes of adults close to Levi"
+      ],
+      "neededToTest": [
+        "Interviews with family about threats in 1997",
+        "GBI file on informant tips"
+      ],
+      "ifWrongExpect": "No threats or disputes in the file; an offender with no link to the family.",
+      "ifRightExpect": "Documented threats or debt; a message to the family; informant corroboration.",
+      "whatWouldMoveIt": "Documentary proof of threats or debt.",
+      "currentWeight": "Viable but unsupported",
+      "recordIds": [
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399",
+        "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533",
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
+      ]
+    },
+    {
+      "id": "H-04",
+      "title": "Unplanned encounter that escalated (witness elimination or panic)",
+      "summary": "Levi stumbled on something (e.g., illicit activity or the man in the woods) or was the victim of an accident, and the offender killed him to silence him.",
+      "supports": [
+        "Man walking into the woods near the bicycle site just before",
+        "Dusk on a rural road"
+      ],
+      "contradicts": [
+        "No injuries other than gunshots (Paxton): a vehicle-strike cover-up is unlikely",
+        "Transport 15+ miles to a specific forest suggests deliberation"
+      ],
+      "neutral": [],
+      "unknown": [
+        "What the driveway man was doing"
+      ],
+      "neededToTest": [
+        "Identify the driveway man and the Bronco-sighting man",
+        "Scene evidence of what was going on near the driveway"
+      ],
+      "ifWrongExpect": "The driveway man identified as an innocent resident.",
+      "ifRightExpect": "Evidence of illicit activity at that spot in Oct 1997.",
+      "whatWouldMoveIt": "The driveway man's identity.",
+      "currentWeight": "Less likely",
+      "recordIds": [
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051"
+      ]
+    },
+    {
+      "id": "H-05",
+      "title": "Household or family involvement with a staged disappearance",
+      "summary": "Kept because investigators examined it (search warrant for the mother's home; polygraphs; 'everyone in and near the family considered suspects'). Kept to be tested, not because evidence points to it.",
+      "supports": [
+        "The bicycle was moved by relatives before the report",
+        "Report filed 8 a.m. the next day",
+        "GBI search warrant for the mother's home (1998 letter)",
+        "Anonymous 2014 claim about Tatum (RUMOR)"
+      ],
+      "contradicts": [
+        "The misinformation at 7:30 explains the delay",
+        "Independent residents saw Levi alive and alone at 4:12–5:00 and at 6:50",
+        "Mother in the bath at 6:38; mother and Laci home until about 7:00; Tatum arriving at 7:00–7:15 (each other's accounts, not independent)",
+        "GBI Dec 1997: family aspect 'not significant'; father 'pretty much ruled out'",
+        "Moving the bicycle and then returning it is self-defeating as concealment"
+      ],
+      "neutral": [
+        "Family grief behavior"
+      ],
+      "unknown": [
+        "Phone records 6:38 / 7:00",
+        "Tatum's employer records on Oct 23"
+      ],
+      "neededToTest": [
+        "Tatum's work records",
+        "Phone records",
+        "Neighbors' observations of household vehicles 6:45–7:30"
+      ],
+      "ifWrongExpect": "Phone and work records consistent with the accounts.",
+      "ifRightExpect": "Records contradicting the accounts.",
+      "whatWouldMoveIt": "Phone or work records.",
+      "currentWeight": "Low",
+      "recordIds": [
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+        "SRC-d72ac44c-272f-5fc3-bd74-4ad7016d55f8",
+        "EVT-33f0b460-fd88-5ea0-9b8f-9d977bfb5899",
+        "EVT-c015bce3-b7e2-5403-934a-ff7c779c9b79",
+        "EVT-6c0d950a-0c81-506c-9b36-bdc8f1e91969",
+        "SRC-1e8f16b8-92f2-5a07-9617-8a570f431533"
+      ]
+    },
+    {
+      "id": "H-06",
+      "title": "The Tallant / Samples narrative (specific person-of-interest claim)",
+      "summary": "Blog theory: a local man possessed the weapon, based on his companion's accusation.",
+      "supports": [
+        "Samples' 2013 'long gun … same one' remark",
+        "Anonymous: 'Marilyn and Tim had friends — Marshall Tallant and a guy named Albert'",
+        "Blog: 2020 GBI warrant (uncorroborated)"
+      ],
+      "contradicts": [
+        "The accuser was in a violent dispute with the accused and had a psychiatric history",
+        "No stated basis of knowledge; investigators did not pursue it in 2013",
+        "The 1998 inmate is probably not Samples (chronology)",
+        "No official source names either man"
+      ],
+      "neutral": [
+        "Drug histories (not evidence of this crime)"
+      ],
+      "unknown": [
+        "Whether a weapon was seized in 2020 and compared"
+      ],
+      "neededToTest": [
+        "Court records for any 2020 warrant/return",
+        "Ballistic comparison (GBI)",
+        "1997 alibis"
+      ],
+      "ifWrongExpect": "No warrant record; ballistics excluded.",
+      "ifRightExpect": "A 2020 warrant return listing a long gun; a ballistic match.",
+      "whatWouldMoveIt": "Court records; the GBI's ballistics.",
+      "currentWeight": "Low (unverified)",
+      "recordIds": [
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9",
+        "PER-67ae211a-32b6-5012-add3-11015594f26a",
+        "PER-746f494a-89a1-5fd4-b58b-7201477502f1",
+        "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2",
+        "EVT-c710e005-f524-52ab-8fbc-96717255bac6"
+      ]
+    },
+    {
+      "id": "H-T1",
+      "title": "Timing: killed the evening of Oct 22, shortly after the abduction",
+      "summary": "Orthogonal to who did it. The shooting happened about 7:20–8:30 p.m. at the Dawson scene.",
+      "supports": [
+        "The simplest sequence",
+        "Investigators place contact before dusk"
+      ],
+      "contradicts": [
+        "Witness 2 sought for a 10 a.m. sighting"
+      ],
+      "neutral": [],
+      "unknown": [
+        "Autopsy"
+      ],
+      "neededToTest": [
+        "Autopsy time-of-death markers"
+      ],
+      "ifWrongExpect": "",
+      "ifRightExpect": "",
+      "whatWouldMoveIt": "Autopsy.",
+      "currentWeight": "Leading (default)",
+      "recordIds": [
+        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
+        "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230"
+      ]
+    },
+    {
+      "id": "H-T2",
+      "title": "Timing: held overnight, killed the morning of Oct 23 during the deer opener",
+      "summary": "The offender kept Levi overnight; shots on opening morning would pass unnoticed.",
+      "supports": [
+        "The official window extends to 2:30 p.m.",
+        "Witness 2 at about 10 a.m.",
+        "Gunfire masked by hunting"
+      ],
+      "contradicts": [
+        "No held source says Levi was alive overnight"
+      ],
+      "neutral": [],
+      "unknown": [
+        "Autopsy; hunters' recollection of gunshots"
+      ],
+      "neededToTest": [
+        "Autopsy; interviews of hunters on the opener"
+      ],
+      "ifWrongExpect": "",
+      "ifRightExpect": "",
+      "whatWouldMoveIt": "Autopsy.",
+      "currentWeight": "Viable",
+      "recordIds": [
+        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f",
+        "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230",
+        "SRC-c0e0188e-569d-42e8-9231-2001c600b389"
+      ]
+    }
+  ],
+  "priorities": [
+    {
+      "id": "PR-01",
+      "tier": "P0",
+      "question": "When did Levi die, and what does the autopsy say about wounds, range, sequence and sexual assault?",
+      "whyItMatters": "Separates H-T1 from H-T2 and narrows the offender type. It also tests the anonymous 'not same time/place' claim.",
+      "whatWouldAnswer": "Autopsy report, or a GBI summary of time-of-death indicators.",
+      "custodian": "GBI Medical Examiner / DOFS; Dawson coroner. The family can request the death certificate. The investigative file is exempt while the case is open (O.C.G.A. 50-18-72(a)(4)), so ask for a summary.",
+      "resultThatChangesModel": "Morning death raises H-T2 and Witness 2's importance. Sexual assault would change the offender profile.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
+        "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230"
+      ]
+    },
+    {
+      "id": "PR-02",
+      "tier": "P0",
+      "question": "Have the casings and any projectiles been entered in NIBIN, and compared with any weapon seized since (including any 2020 seizure)?",
+      "whyItMatters": "Ballistics is the only physical evidence able to identify or exclude a weapon, and it tests the 'long gun' claim directly.",
+      "whatWouldAnswer": "Yes/no from GBI firearms on NIBIN entry, caliber and class, and any comparisons made.",
+      "custodian": "GBI DOFS Firearms; case agent (Cleveland region).",
+      "resultThatChangesModel": "A match identifies a weapon line. An exclusion sharply lowers H-06.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2"
+      ]
+    },
+    {
+      "id": "PR-03",
+      "tier": "P0",
+      "question": "What biological evidence exists, and has it been retested with modern DNA methods (Y-STR, probabilistic genotyping, FIGG)?",
+      "whyItMatters": "The most plausible route to a name decades on.",
+      "whatWouldAnswer": "An evidence inventory and test history (2004 'resubmission' review onward).",
+      "custodian": "GBI DOFS.",
+      "resultThatChangesModel": "A male profile would make CODIS and FIGG searches possible.",
+      "status": "OPEN",
+      "recordIds": [
+        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3",
+        "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9"
+      ]
+    },
+    {
+      "id": "PR-04",
+      "tier": "P1",
+      "question": "Who drove Little Mill Road between 6:45 and 7:20 p.m., and was the man at the driveway (6:52–7:00) ever identified?",
+      "whyItMatters": "This is the abduction window. The driveway man is the nearest observation to it.",
+      "whatWouldAnswer": "GBI canvass records; the motorist's statement; residents' 1997 statements. The project can build a GIS map of the houses, driveways and sightlines from 1990s USGS aerials.",
+      "custodian": "GBI; Forsyth County GIS; USGS EarthExplorer (1993/1999 aerials).",
+      "resultThatChangesModel": "Identifying the driveway man as a resident lowers H-04. An unidentified man raises it.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930",
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
+        "LOC-37f35f7f-dbef-55c0-bfe3-90b751f39710"
+      ]
+    },
+    {
+      "id": "PR-05",
+      "tier": "P1",
+      "question": "Was the book bag still on friend #2's patio, and who recovered it, when?",
+      "whyItMatters": "Shows whether Levi was heading for the patio (route and timing) or home.",
+      "whatWouldAnswer": "Family or friend #2's family; GBI file.",
+      "custodian": "Family (with consent); GBI.",
+      "resultThatChangesModel": "If he retrieved it, the encounter point and timing shift.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVT-0cb4646d-2e47-53a7-955e-34583bed190f"
+      ]
+    },
+    {
+      "id": "PR-06",
+      "tier": "P1",
+      "question": "Obtain the original GBI 2004 chronology and the AJC 24 Oct and 9 Nov 1997 articles.",
+      "whyItMatters": "Gives the earliest version of Laci's evening sighting and the bicycle sequence, and resolves CX-02.",
+      "whatWouldAnswer": "A library NewsBank/AJC archive (public library card) and a GBI public-affairs request for the 2004 release.",
+      "custodian": "AJC archive via public library; GBI Public Affairs.",
+      "resultThatChangesModel": "If the AJC 1997 account matches the 2004 chronology, Laci's sighting rises to PROBABLE.",
+      "status": "OPEN",
+      "recordIds": [
+        "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d",
+        "CON-ca33917a-5a04-5ff5-b8fb-f530b563bf42",
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+      ]
+    },
+    {
+      "id": "PR-07",
+      "tier": "P1",
+      "question": "Witness 2: can the 1980–85 medium-blue Toyota 2WD pickup with a white camper be traced?",
+      "whyItMatters": "A specific vehicle in Dawson Forest on the morning after.",
+      "whatWouldAnswer": "Georgia DNR WRD 1997 Dawson Forest hunt sign-in or check-station records (if retained); GBI follow-up history.",
+      "custodian": "Georgia DNR Wildlife Resources Division; GBI.",
+      "resultThatChangesModel": "Identification and exclusion lowers H-T2. Never identified keeps it open.",
+      "status": "OPEN",
+      "recordIds": [
+        "SRC-0ef49f7b-e40e-4e92-a151-7c0976455bce",
+        "EVT-c8904f0b-f4ff-5d61-9a81-f05043d5f04f"
+      ]
+    },
+    {
+      "id": "PR-08",
+      "tier": "P1",
+      "question": "Did a 2020 search warrant for Tallant's home exist, and what was seized?",
+      "whyItMatters": "Converts or deflates the main secondary-source suspect narrative.",
+      "whatWouldAnswer": "Forsyth County Magistrate/Superior Court warrant and return records; death records.",
+      "custodian": "Forsyth County Clerk of Courts.",
+      "resultThatChangesModel": "No warrant: H-06 drops to RUMOR. A warrant listing firearms makes PR-02 urgent.",
+      "status": "OPEN",
+      "recordIds": [
+        "EVD-b8973651-f77b-57e5-9632-0f6dc1d12ed2",
+        "EVT-b250df69-9e8e-52b2-9039-e7d566e2ac7a"
+      ]
+    },
+    {
+      "id": "PR-09",
+      "tier": "P1",
+      "question": "Consensual interviews: Laci Frady, friend #1, Brandy Branson (crime-scene tech), Kevin Tanner, Tim Attaway.",
+      "whyItMatters": "Firsthand recollection of the 6:38 call, the 7:00 sighting, the scene and the investigative choices.",
+      "whatWouldAnswer": "Interviews under the 14_INTERVIEWS consent protocol.",
+      "custodian": "Project owner (outreach is not authorized yet).",
+      "resultThatChangesModel": "Corrects or confirms the timeline entries graded PROBABLE.",
+      "status": "OPEN",
+      "recordIds": [
+        "PER-f2a087b4-7b24-5e08-8e5f-ae81242c7495",
+        "PER-ecffe79a-6156-5f6a-b0c8-8f87c939f1cf",
+        "PER-b0a05aae-a2bf-5e8a-ae94-da29f01a670e",
+        "PER-7bcf7566-a857-51e3-b2f4-9bbf27fe2977",
+        "PER-7501e656-bba1-5ce0-8360-13ab439caaff"
+      ]
+    },
+    {
+      "id": "PR-10",
+      "tier": "P2",
+      "question": "Weather (drizzle), sunset and civil twilight, and the WMA hunt dates for Oct 22–23, 1997.",
+      "whyItMatters": "Prints on the bicycle, the scene's condition and visibility.",
+      "whatWouldAnswer": "NOAA NCEI daily records (Gainesville/Cumming); USNO; DNR 1997 regulations.",
+      "custodian": "NOAA; USNO; Georgia DNR.",
+      "resultThatChangesModel": "",
+      "status": "OPEN",
+      "recordIds": [
+        "EVT-455419a5-c86e-555e-ab87-11166bb68040"
+      ]
+    },
+    {
+      "id": "PR-11",
+      "tier": "P2",
+      "question": "Measure the route and drive time from the bicycle site to the Dawson Forest scene.",
+      "whyItMatters": "Tests the timing of H-T1 (arrival before full dark).",
+      "whatWouldAnswer": "GIS route on the 1997 road network.",
+      "custodian": "Project (public data).",
+      "resultThatChangesModel": "",
+      "status": "OPEN",
+      "recordIds": [
+        "LOC-37f35f7f-dbef-55c0-bfe3-90b751f39710",
+        "LOC-c22dafb0-3d62-5f9b-b2fa-259c2aa9f6d6"
+      ]
+    },
+    {
+      "id": "PR-12",
+      "tier": "P2",
+      "question": "Authenticate the Hendrix–Nix letters and resolve the 'informed / not informed' negation.",
+      "whyItMatters": "Agency-dynamics provenance.",
+      "whatWouldAnswer": "GBI or Forsyth Sheriff correspondence files.",
+      "custodian": "GBI; FCSO.",
+      "resultThatChangesModel": "",
+      "status": "OPEN",
+      "recordIds": [
+        "CON-1a8b343f-796a-5cd0-a671-2c075b70698c",
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
+      ]
+    },
+    {
+      "id": "PR-13",
+      "tier": "P3",
+      "question": "Funeral date, Levi's Call launch date, task-force paperwork.",
+      "whyItMatters": "Bookkeeping only; does not affect the reconstruction.",
+      "whatWouldAnswer": "",
+      "custodian": "",
+      "resultThatChangesModel": "",
+      "status": "OPEN",
+      "recordIds": [
+        "CON-40d98cb8-65ac-5acc-b8d5-f029216e20c2"
+      ]
+    },
+    {
+      "id": "PR-14",
+      "tier": "P3",
+      "question": "Comb, tan van, '911 call days before', 'five people involved' (preacher), drug task-force scandal.",
+      "whyItMatters": "Anonymous or rhetorical; retain without effort.",
+      "whatWouldAnswer": "",
+      "custodian": "",
+      "resultThatChangesModel": "",
+      "status": "OPEN",
+      "recordIds": [
+        "EVD-38a6460d-629d-55ac-af36-933e039ef6b6",
+        "SRC-eccf36df-51e8-50c7-81e7-96045ab33979",
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9"
+      ]
+    }
+  ],
+  "openQuestions": [
+    {
+      "id": "OQ-01",
+      "question": "Was Levi killed the evening of the 22nd or the morning of the 23rd?",
+      "recordIds": [
+        "EVT-0eb31ea8-60dc-563b-8dc2-051b0c7b0230"
+      ]
+    },
+    {
+      "id": "OQ-02",
+      "question": "Did Laci's 7:00–7:15 sighting happen at the same driveway where the residents saw the bicycle at 5:15 a.m.?",
+      "recordIds": [
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c",
+        "EVT-fb9855cd-e8c5-5255-b038-cf23200c424a"
+      ]
+    },
+    {
+      "id": "OQ-03",
+      "question": "Why was Levi heading toward friend #2's empty home at 6:50, and where was his book bag?",
+      "recordIds": [
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb",
+        "EVT-0cb4646d-2e47-53a7-955e-34583bed190f"
+      ]
+    },
+    {
+      "id": "OQ-04",
+      "question": "Who was the man at the driveway at 6:52–7:00, and was he ever identified?",
+      "recordIds": [
+        "EVT-145da1c8-1037-5466-9b11-9bf25cfa8930"
+      ]
+    },
+    {
+      "id": "OQ-05",
+      "question": "Which sketches were resolved, and when was Witness 1's sketch made?",
+      "recordIds": [
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde"
+      ]
+    },
+    {
+      "id": "OQ-06",
+      "question": "What weapon class fired the shots, and were casings and projectiles entered in NIBIN?",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834"
+      ]
+    },
+    {
+      "id": "OQ-07",
+      "question": "How did the offender get to the Lockheed-area scene (road access in 1997, gates on the opener's eve)?",
+      "recordIds": [
+        "LOC-c22dafb0-3d62-5f9b-b2fa-259c2aa9f6d6"
+      ]
+    },
+    {
+      "id": "OQ-08",
+      "question": "When did Milton call the children's home on the evening of the 22nd?",
+      "recordIds": [
+        "EVT-79676791-6e64-5563-bb34-32e98fa511c5"
+      ]
+    },
+    {
+      "id": "OQ-09",
+      "question": "Was the search warrant for the mother's home executed, and what did it seek?",
+      "recordIds": [
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
+      ]
+    },
+    {
+      "id": "OQ-10",
+      "question": "Has any evidence been resubmitted since 2004, and with what result?",
+      "recordIds": [
+        "SRC-27d9e772-be2d-51b4-9c94-28cdd4e21dd3"
+      ]
+    }
+  ],
+  "biasAudit": [
+    {
+      "id": "BA-01",
+      "category": "Investigator",
+      "observation": "Within 48 hours Carlisle reassured parents that 'the victim usually knows the perpetrator'. Such a public framing can steer early effort toward the family circle, and the warrant for the mother's home and the polygraphs fit that early focus.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd"
+      ]
+    },
+    {
+      "id": "BA-02",
+      "category": "Investigator / interagency",
+      "observation": "Documented friction: Forsyth was asked to leave the scene, photographs and polygraph results were not shared, and GBI and Dawson declined the 2000 task force. Leads sent to Forsyth (inmate weapon claims) may not have been integrated.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "SRC-991fd2b8-b94c-5a7b-a843-0cbaec7616cd",
+        "SRC-b64917c6-9513-521a-b3b7-936ea2412bfa",
+        "EVT-e4c0116c-cf7b-5e65-9206-af9286d0c7c2"
+      ]
+    },
+    {
+      "id": "BA-03",
+      "category": "Investigator",
+      "observation": "Investigators gave a public '6–7 p.m., before sundown' window while their own chronology puts the last sighting at 6:50, near sunset. Public appeals may have targeted the wrong half-hour.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "EVT-32e3b36e-dad2-5deb-8681-cf3259de6bf4",
+        "EVT-0eb1f3c4-2984-50ab-989e-6e09cc377cbb"
+      ]
+    },
+    {
+      "id": "BA-04",
+      "category": "Media (1997)",
+      "observation": "The FCN wrote of Milton's 'conspicuous absence … continues to fuel speculation' before he was interviewed. That is speculative framing of a fugitive-warrant issue.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "SRC-e7748f0d-eb79-5bea-bf6f-02004548465f"
+      ]
+    },
+    {
+      "id": "BA-05",
+      "category": "Media (retellings)",
+      "observation": "Distances grow from 15 to 22 miles, casings migrate to the bicycle ditch (2007), 'execution-style' enters (2002), and 'found the following morning' appears (blog). These are classic retelling drift.",
+      "type": "EVIDENCE_OF_DISTORTION",
+      "recordIds": [
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
+        "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396"
+      ]
+    },
+    {
+      "id": "BA-06",
+      "category": "Secondary researcher (blog)",
+      "observation": "The headline 'GBI timeline confirms bicycle moved by family members before reported missing' omits that children moved it first. The Hendrix letter is quoted with an inserted negation. The task-force scandal is tied to the murder only by calendar proximity ('three days later'). These are interpretive framings and transcription discrepancies, not proof of deception.",
+      "type": "EVIDENCE_OF_DISTORTION",
+      "recordIds": [
+        "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+        "CON-1a8b343f-796a-5cd0-a671-2c075b70698c",
+        "SRC-eccf36df-51e8-50c7-81e7-96045ab33979"
+      ]
+    },
+    {
+      "id": "BA-07",
+      "category": "Family / witness",
+      "observation": "Family-sourced details first appear in 2014 interviews 17 years later ('in the shower'; Tatum in the forest; sexual-abuse hearsay). Memory decay, grief and intra-family conflict can all shape such details.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de"
+      ]
+    },
+    {
+      "id": "BA-08",
+      "category": "Community",
+      "observation": "A drug-era narrative ('sex, drugs and the murder') and local reputations attach to people by association. Drug and criminal histories are not evidence of this crime.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "SRC-eccf36df-51e8-50c7-81e7-96045ab33979",
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de"
+      ]
+    },
+    {
+      "id": "BA-09",
+      "category": "PROJECT LEVI (our own)",
+      "observation": "151 of 159 claims carry MEDIUM confidence, so the registers cannot tell established facts from rumor. Effort concentrated on peripheral chronology (Levi's Call launch date, funeral date, task-force releases) rather than the abduction window, time of death and forensics. 'Key people' is ranked by mention count, which surfaces heavily covered names.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": []
+    },
+    {
+      "id": "BA-10",
+      "category": "This review (Claude)",
+      "observation": "Risk of over-reading the 2004 chronology because it is the most detailed source. It is a retrospective summary by one agency, and its details cannot be checked against the underlying statements.",
+      "type": "BIAS_POSSIBILITY",
+      "recordIds": [
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "id": "PV-01",
+      "claim": "Detailed Oct 22–23 chronology (sightings, calls, bicycle handling)",
+      "earliestSource": "GBI release, Oct/Nov 2004",
+      "lineage": "L2",
+      "dependentRenditions": "FCN 7 Nov 2004; AccessNorthGa (captured 31 Oct 2004); Dawson News & Advertiser clipping; levifrady.com 2016",
+      "independentLineages": 1,
+      "note": "Four renditions count as one source. They differ slightly (the AccessNorthGa 7:50 entry lacks the 'return' clause).",
+      "recordIds": [
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
+        "SRC-dd0a70b2-9491-50da-826e-122743460cde",
+        "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a"
+      ]
+    },
+    {
+      "id": "PV-02",
+      "claim": "Shot three times",
+      "earliestSource": "GBI chronology 2004 (as published)",
+      "lineage": "L2 → L5",
+      "dependentRenditions": "DCN 2015, AJC 2017/2019, blog",
+      "independentLineages": 1,
+      "note": "1997 sources say only 'one or more'.",
+      "recordIds": [
+        "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "SRC-1cea4a34-d2c7-523b-9880-7056a6e8f979",
+        "SRC-8959ef1f-e7ba-5ba4-9216-9d886a538396"
+      ]
+    },
+    {
+      "id": "PV-03",
+      "claim": "Bicycle 'wiped clean' of prints",
+      "earliestSource": "levifrady.com (anonymous officer)",
+      "lineage": "L4",
+      "dependentRenditions": "Repeated across blog posts",
+      "independentLineages": 1,
+      "note": "Contradicted by nothing and corroborated by nothing. In Nov 1997 Hallman declined to confirm fingerprint reports.",
+      "recordIds": [
+        "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399"
+      ]
+    },
+    {
+      "id": "PV-04",
+      "claim": "Shot twice in the head and once in the body, at different times and places",
+      "earliestSource": "levifrady.com 2016 ('authorities familiar', 2014)",
+      "lineage": "L4",
+      "dependentRenditions": "",
+      "independentLineages": 1,
+      "note": "Conflicts with an unsourced 2007 forum version. RUMOR until the autopsy is seen.",
+      "recordIds": [
+        "SRC-ba4a311f-d907-5e61-9a9e-6dfb30bb2c5a",
+        "SRC-272849e2-fbc8-5d9e-9e3d-4af3594a5583"
+      ]
+    },
+    {
+      "id": "PV-05",
+      "claim": "Witness 1 and Witness 2 descriptions",
+      "earliestSource": "FCN 9 Nov 1997 (Witness 2 caption); 2002 FCN caption; GBI pages",
+      "lineage": "L1 + L3",
+      "dependentRenditions": "11Alive, Fox 5, AJC",
+      "independentLineages": 2,
+      "note": "Official and contemporaneous.",
+      "recordIds": [
+        "SRC-ce768045-8c9f-5250-9c95-1ead57781399",
+        "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+        "SRC-c0e0188e-569d-42e8-9231-2001c600b389"
+      ]
+    },
+    {
+      "id": "PV-06",
+      "claim": "Casings found with the bicycle",
+      "earliestSource": "FCN 2007",
+      "lineage": "L5",
+      "dependentRenditions": "",
+      "independentLineages": 1,
+      "note": "No antecedent; conflicts with 1997 and 2002.",
+      "recordIds": [
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0"
+      ]
+    },
+    {
+      "id": "PV-07",
+      "claim": "Tallant possessed the weapon",
+      "earliestSource": "Samples statement, 2013 (via blog)",
+      "lineage": "L4",
+      "dependentRenditions": "Blog 2016, 2020",
+      "independentLineages": 1,
+      "note": "A hostile party's single statement.",
+      "recordIds": [
+        "SRC-aecf50cc-b12a-5edf-b943-48b07b7209de",
+        "SRC-6c06ccb3-e8ce-5e73-9ea8-3185e1cd06a9"
+      ]
+    },
+    {
+      "id": "PV-08",
+      "claim": "Laci saw the bicycle on Wednesday night",
+      "earliestSource": "AJC 24 Oct 1997 (cited, not held)",
+      "lineage": "L6 + L2",
+      "dependentRenditions": "Blog 2016; GBI chronology 2004",
+      "independentLineages": 2,
+      "note": "Possibly two lineages if the AJC 1997 version is independent of the investigators. Obtain it.",
+      "recordIds": [
+        "SRC-7b175dee-9c1d-5f9c-94eb-fa1113e8080d",
+        "EVT-47f09be7-731c-5f14-96e0-aef6fd771b2c"
+      ]
+    }
+  ],
+  "projectCritique": {
+    "overstated": [
+      "The blog-originated Tallant/Samples narrative has person, evidence and event records that look structurally like core evidence. Its weight is ALLEGED/RUMOR, and nothing in the registers says so beyond notes.",
+      "The 2007 'casings in the ditch' statement sits as a co-equal version in EVD-0145…, with no note that it conflicts with official 1997 and 2002 statements.",
+      "Hendrix's 'a crime occurred in this county' risks being read (as the blog does) as evidence of a Forsyth killing, when it most simply means the abduction."
+    ],
+    "understated": [
+      "The roughly 25-minute abduction window (6:50–7:15) that falls out of three independent observations.",
+      "That the time of death is entirely open, and that Witness 2's morning timing implies investigators never closed it.",
+      "The mundane, documented explanation for the delayed report (the 7:30 misinformation).",
+      "The bicycle being in GBI custody (2004) and the evidence being 'painstakingly preserved', which are the basis for realistic forensic opportunities.",
+      "The lost motorist's man and the book bag, both absent from any question list."
+    ],
+    "organizedPoorly": [
+      "Confidence is flat: 151 of 159 claims are MEDIUM, so a human cannot see what is established.",
+      "master_timeline.md is ordered by ingestion batch, not chronology, and repeats events.",
+      "10_THEORIES is empty, and there is no competing-hypothesis layer anywhere.",
+      "The contradiction register (5 rows) is dominated by peripheral conflicts (funeral date, letter date, warrant wording). The case-critical conflicts (time of death, wounds, sketch accounting) are missing.",
+      "The research queue's P0/P1 effort went to bookkeeping targets rather than the questions that could change the model.",
+      "Lineage independence is described in prose notes but never counted, so repeated renditions look like corroboration on the board."
+    ]
+  },
+  "humanReview": [
+    {
+      "id": "HR-01",
+      "question": "Adopt the eight-grade scale and lineage counting as the project's analytic layer (kept separate from register status)?",
+      "recordIds": []
+    },
+    {
+      "id": "HR-02",
+      "question": "Treat the 2007 'casings found with the bicycle' line as a probable retelling error (low weight), pending the inventory?",
+      "recordIds": [
+        "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+        "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0"
+      ]
+    },
+    {
+      "id": "HR-03",
+      "question": "Authorize records requests and public-record pulls for PR-06 (AJC 1997, GBI 2004 release), PR-08 (2020 warrant) and PR-10 (weather)?",
+      "recordIds": []
+    },
+    {
+      "id": "HR-04",
+      "question": "Authorize consensual outreach (PR-09)? Outreach is currently not authorized.",
+      "recordIds": []
+    },
+    {
+      "id": "HR-05",
+      "question": "Add CX-01 (time of death), CX-04 (wounds) and CX-05 (sketch accounting) to the canonical contradictions register?",
+      "recordIds": []
+    },
+    {
+      "id": "HR-06",
+      "question": "Keep Tallant/Samples off the 'key people' surfaces and label them 'named in an unverified secondary narrative'?",
+      "recordIds": [
+        "PER-67ae211a-32b6-5012-add3-11015594f26a",
+        "PER-746f494a-89a1-5fd4-b58b-7201477502f1"
+      ]
+    },
+    {
+      "id": "HR-07",
+      "question": "Approve building a GIS map (public 1990s aerials) of the homes, driveways and bicycle site (PR-04, PR-11)?",
+      "recordIds": []
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-10-29",
+      "summary": "Initial independent review: reconstruction, graded timeline, evidence status, hypotheses, bias audit and P0–P3 priorities."
+    }
+  ]
+}
