@@ -136,3 +136,31 @@ test("data version is deterministic for identical archives", () => {
   assert.equal(a.bundle.meta.dataVersion, b.bundle.meta.dataVersion);
   assert.ok(fs.existsSync(root));
 });
+
+test("the independent review loads as a separate analysis layer; unknown references are dropped and warned, human notes attach", () => {
+  const t = baseTables();
+  t["review_decisions.csv"] = [
+    { decision_id: "DEC-00000000-0000-4000-8000-000000000001", item_id: "OBS-01", item_kind: "ANALYSIS_ITEM", decision: "REGRADE", note: "[grade:POSSIBLE] too thin", decided_by: "me", decided_at: "2026-01-02T00:00:00Z" },
+    { decision_id: "DEC-00000000-0000-4000-8000-000000000002", item_id: "OBS-01", item_kind: "SOURCE_TO_ACQUIRE", decision: "ACCEPTED", note: "", decided_by: "me", decided_at: "2026-01-02T00:00:00Z" },
+  ];
+  const review = {
+    meta: { title: "Review", layer: "CLAUDE_ANALYSIS", author: "test", version: 1, updatedAt: "2026-01-01", disclaimer: "not evidence" },
+    lineages: [], gradeScale: [], overview: { headline: "h", paragraphs: [] },
+    observations: [{ id: "OBS-01", grade: "PROBABLE", recordIds: [ID.evt, "EVT-00000000-0000-4000-8000-0000000000ff"] }, { id: "OBS-01" }],
+    timeline: [], evidence: [], people: [], locations: [], contradictions: [], hypotheses: [], priorities: [], openQuestions: [],
+    biasAudit: [], provenance: [], projectCritique: {}, humanReview: [], changes: [],
+  };
+  const r = buildCase({ archiveRoot: makeArchive(t, { "11_ANALYSIS/independent_review/case_review.json": JSON.stringify(review) }) });
+  assert.deepEqual(codes(r, "ERROR"), []);
+  assert.deepEqual(r.bundle.review?.observations.map((o) => o.recordIds), [[ID.evt]]);
+  assert.ok(codes(r, "WARNING").includes("UNKNOWN_REVIEW_REF") && codes(r, "WARNING").includes("DUPLICATE_ID"));
+  assert.equal(r.bundle.reviewNotes.length, 1);
+  assert.deepEqual([r.bundle.reviewNotes[0].grade, r.bundle.reviewNotes[0].note], ["POSSIBLE", "too thin"]);
+  assert.ok(!r.bundle.entities.some((e) => e.id === "OBS-01"), "analysis items are never case records");
+});
+
+test("no review file means no command center data", () => {
+  const r = buildCase({ archiveRoot: makeArchive(baseTables()) });
+  assert.equal(r.bundle.review, null);
+  assert.deepEqual(r.bundle.reviewNotes, []);
+});

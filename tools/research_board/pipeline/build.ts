@@ -5,8 +5,8 @@ import path from "node:path";
 import { v5 as uuidv5 } from "uuid";
 import { readCsv, splitIds, type Row } from "../src/lib/csv";
 import type {
-  Asset, BoardConfig, CaseBundle, CaseEdge, Entity, EntityType, EventTime, InboxItem, Issue, ResearchStatus,
-  SourceDoc, SourceRendition,
+  Asset, BoardConfig, CaseBundle, CaseEdge, CaseReview, Entity, EntityType, EventTime, InboxItem, Issue, ResearchStatus,
+  ReviewNote, SourceDoc, SourceRendition,
 } from "../src/lib/types";
 import { loadRegisters, sha256, ENTITY_REGISTERS, REGISTERS, type Registers, type RegisterName } from "./registers";
 import { validateArchive, summarize, isSafeArchivePath, PUBLISHABLE_IMAGE } from "./validate";
@@ -513,6 +513,7 @@ export function buildCase(opts: BuildOptions): BuildResult {
     }
   }
   const research = researchStatus(root, data, exists);
+  const review = loadReview(root, exists, warn);
 
   const bundle: CaseBundle = {
     entities, edges,
@@ -541,6 +542,8 @@ export function buildCase(opts: BuildOptions): BuildResult {
     })),
     sourceChain,
     wanted: [...wanted.values()].map((w) => ({ id: w.wanted_id, title: w.title || null, sourceType: w.source_type || null, url: w.url || null, requestedBySourceIds: w.requested_by_source_ids || null, status: w.status || null, notes: w.notes || null })),
+    review,
+    reviewNotes: reviewNotes(data, review),
     meta: {
       syncedAt: now, dataVersion: "", readOnly: !!opts.readOnly, config, research,
       validation: summarize(issues), warnings: [],
@@ -563,6 +566,57 @@ export function buildCase(opts: BuildOptions): BuildResult {
 }
 
 /** Research status derived from run logs and registers — never hard-coded. */
+export const REVIEW_FILE = "11_ANALYSIS/independent_review/case_review.json";
+const REVIEW_LISTS = [
+  "observations", "timeline", "evidence", "people", "locations", "contradictions", "hypotheses", "priorities",
+  "openQuestions", "biasAudit", "provenance", "humanReview",
+] as const;
+
+/** Loads the analysis layer. It is never evidence: unknown record references are dropped and reported, not drawn. */
+function loadReview(root: string, exists: (id: string) => boolean, warn: (code: string, message: string, recordId?: string) => void): CaseReview | null {
+  const file = path.join(root, REVIEW_FILE);
+  if (!fs.existsSync(file)) return null;
+  let raw: CaseReview;
+  try {
+    raw = JSON.parse(fs.readFileSync(file, "utf8"));
+  } catch (e) {
+    warn("MALFORMED_REVIEW", `${REVIEW_FILE} could not be parsed (${(e as Error).message}); command center hidden`);
+    return null;
+  }
+  const seen = new Set<string>();
+  for (const list of REVIEW_LISTS) {
+    const items = Array.isArray(raw[list]) ? raw[list] : [];
+    raw[list] = items.filter((it) => {
+      if (!it || typeof it.id !== "string" || !it.id) { warn("MALFORMED_REVIEW", `${REVIEW_FILE}: ${list} item without id ignored`); return false; }
+      if (seen.has(it.id)) { warn("DUPLICATE_ID", `${REVIEW_FILE}: review item ${it.id} appears more than once`); return false; }
+      seen.add(it.id);
+      return true;
+    });
+    for (const it of raw[list]) {
+      const refs = Array.isArray(it.recordIds) ? it.recordIds : [];
+      const missing = refs.filter((r) => !exists(r));
+      for (const r of missing) warn("UNKNOWN_REVIEW_REF", `${REVIEW_FILE}: ${it.id} cites ${r}, which is not in the registers`, it.id);
+      it.recordIds = refs.filter(exists);
+    }
+  }
+  return { ...raw, file: REVIEW_FILE };
+}
+
+/** Human responses to analysis items (review_decisions.csv rows with item_kind ANALYSIS_ITEM). */
+function reviewNotes(data: Registers, review: CaseReview | null): ReviewNote[] {
+  if (!review) return [];
+  return data.review_decisions
+    .filter((d) => d.item_kind === "ANALYSIS_ITEM" && d.item_id)
+    .sort((a, b) => (a.decided_at ?? "").localeCompare(b.decided_at ?? ""))
+    .map((d) => {
+      const m = (d.note ?? "").match(/^\[grade:([A-Z_]+)\]\s*/);
+      return {
+        id: d.decision_id, itemId: d.item_id, decision: d.decision || "NOTE", grade: m ? m[1] : null,
+        note: (m ? (d.note ?? "").slice(m[0].length) : d.note) || null, decidedBy: d.decided_by || null, decidedAt: d.decided_at || null,
+      };
+    });
+}
+
 function researchStatus(root: string, data: Registers, exists: (id: string) => boolean): ResearchStatus {
   const runsDir = path.join(root, "15_AI_WORKSPACE", "research_runs");
   const runs = fs.existsSync(runsDir) ? fs.readdirSync(runsDir).filter((f) => /^RUN-.*\.md$/.test(f)).sort() : [];

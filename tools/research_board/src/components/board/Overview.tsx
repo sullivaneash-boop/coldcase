@@ -11,7 +11,7 @@ import { inSources, outTargets } from "./graph";
 import { usePrefs } from "./prefs";
 import { ResearchStatus } from "./ResearchStatus";
 
-export type OverviewTarget = "board" | "timeline" | "sources" | "inbox" | "contradictions";
+export type OverviewTarget = "command" | "board" | "timeline" | "sources" | "inbox" | "contradictions";
 
 function Card({ title, icon: Icon, action, onAction, children, className }: {
   title: string; icon: typeof Users; action?: string; onAction?: () => void; children: React.ReactNode; className?: string;
@@ -102,6 +102,16 @@ export function Overview({ go }: { go: (t: OverviewTarget) => void }) {
           ))}
         </div>
       </div>
+
+      {b.review && (
+        <button type="button" onClick={() => go("command")} className="flex w-full items-center gap-3 rounded-xl border border-violet-900/70 bg-violet-950/20 px-4 py-3 text-left hover:border-violet-700 touchui:min-h-16">
+          <span className="min-w-0 flex-1">
+            <span className="block text-[14px] font-semibold text-zinc-100 touchui:text-[16px]">Command center — what happened, what is established, what to investigate</span>
+            <span className="block text-[12px] text-zinc-400 touchui:text-[14px]">{b.review.overview.headline}</span>
+          </span>
+          <ArrowRight className="size-4 shrink-0 text-violet-300" />
+        </button>
+      )}
 
       <ResearchStatus variant="card" />
 

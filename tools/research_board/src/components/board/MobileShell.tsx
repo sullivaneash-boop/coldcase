@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft, X, Network, CalendarClock, Search as SearchIcon, FileText, Menu, SlidersHorizontal, Maximize,
-  Inbox as InboxIcon, Home, GitCompareArrows, Gauge, ShieldCheck, ChevronRight, TriangleAlert,
+  Inbox as InboxIcon, Home, GitCompareArrows, Gauge, ShieldCheck, ChevronRight, TriangleAlert, Crosshair,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Asset, InboxDecision, InboxItem } from "@/lib/types";
@@ -23,6 +23,7 @@ import { Overview } from "./Overview";
 import { describe } from "@/lib/labels";
 import { ContradictionsList, SourcesList } from "./Lists";
 import { ViewPicker } from "./ViewPicker";
+import { CommandCenter } from "./CommandCenter";
 
 type Tab = "home" | "board" | "timeline" | "search" | "more";
 type Route =
@@ -33,6 +34,7 @@ type Route =
   | { kind: "sources" }
   | { kind: "contradictions" }
   | { kind: "status" }
+  | { kind: "command" }
   | { kind: "about" };
 
 const TABS: { key: Tab; label: string; icon: typeof Network }[] = [
@@ -47,7 +49,7 @@ function routeTitle(r: Route, idx: CaseIndex) {
   if (r.kind === "entity") return TYPE_META[idx.byId.get(r.id)?.type ?? "CLAIM"].label;
   if (r.kind === "source") return "Source";
   if (r.kind === "image") return "Image";
-  return { inbox: "Discovery Inbox", contradictions: "Conflicting accounts", status: "Case status", about: "How to read this board", sources: "Sources" }[r.kind];
+  return { command: "Command center", inbox: "Discovery Inbox", contradictions: "Conflicting accounts", status: "Case status", about: "How to read this board", sources: "Sources" }[r.kind];
 }
 
 // ---------------------------------------------------------------- tab screens
@@ -140,6 +142,7 @@ function SearchScreen({ onPick }: { onPick: (id: string) => void }) {
 function MoreScreen({ push, awaiting, conCount }: { push: (r: Route) => void; awaiting: number; conCount: number }) {
   const { idx } = useBoard();
   const items: { label: string; detail: string; icon: typeof Gauge; route: Route; warn?: boolean }[] = [
+    ...(idx.bundle.review ? [{ label: "Command center", detail: "Reconstruction, graded timeline, hypotheses, priorities", icon: Crosshair, route: { kind: "command" } as Route }] : []),
     { label: "Sources", detail: "Articles, web pages, documents and photos", icon: FileText, route: { kind: "sources" } },
     { label: "Discovery Inbox", detail: `${awaiting} awaiting a decision`, icon: InboxIcon, route: { kind: "inbox" } },
     { label: "Conflicting accounts", detail: `${conCount} recorded`, icon: GitCompareArrows, route: { kind: "contradictions" } },
@@ -387,6 +390,7 @@ export function MobileShell({ idx, onDecide, onAddLink }: {
                   {r.kind === "sources" && <div className="h-full"><SourcesList onOpen={(id) => push({ kind: "source", req: { sourceId: id } })} /></div>}
                   {r.kind === "status" && <StatusScreen awaiting={awaiting} />}
                   {r.kind === "about" && <AboutScreen />}
+                  {r.kind === "command" && <CommandCenter />}
                 </div>
               </div>
             );

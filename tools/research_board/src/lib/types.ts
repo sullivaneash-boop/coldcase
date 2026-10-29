@@ -211,6 +211,10 @@ export interface CaseBundle {
   researcherLinks: ResearcherLink[];
   sourceChain: SourceChainRow[];
   wanted: WantedSource[];
+  /** Independent review (Claude analysis layer) from 11_ANALYSIS/independent_review; null when absent. */
+  review: CaseReview | null;
+  /** Human notes and decisions on review items, oldest first. */
+  reviewNotes: ReviewNote[];
   meta: {
     syncedAt: string | null;
     /** Hash of the generated data; changes only when case data changes. */
@@ -252,3 +256,52 @@ export const CLAIM_STATUSES = [
 
 export const INBOX_DECISIONS = ["IN_REVIEW", "ACCEPTED", "MERGE_REQUESTED", "IGNORED", "UNRESOLVED"] as const;
 export type InboxDecision = (typeof INBOX_DECISIONS)[number];
+
+// ---------------------------------------------------------------- independent review (analysis layer)
+/** Grades used by the analysis layer; they describe source support, never truth or guilt. */
+export const ANALYSIS_GRADES = ["CONFIRMED", "STRONGLY_SUPPORTED", "PROBABLE", "POSSIBLE", "ALLEGED", "DISPUTED", "RUMOR", "UNKNOWN"] as const;
+export type AnalysisGrade = (typeof ANALYSIS_GRADES)[number];
+/** Human responses to an analysis item, appended to review_decisions.csv with item_kind ANALYSIS_ITEM. */
+export const ANALYSIS_DECISIONS = ["AGREE", "DISAGREE", "NEEDS_REVIEW", "REGRADE", "NOTE"] as const;
+export type AnalysisDecision = (typeof ANALYSIS_DECISIONS)[number];
+
+/** Any item in case_review.json: every list item has a stable id and may cite register records. */
+export interface ReviewItem {
+  id: string;
+  recordIds?: string[];
+  grade?: string;
+  [key: string]: unknown;
+}
+
+export interface CaseReview {
+  meta: { title: string; layer: string; author: string; version: number; updatedAt: string; notebook?: string; disclaimer: string; method?: string };
+  lineages: { id: string; label: string }[];
+  gradeScale: { grade: string; meaning: string }[];
+  overview: { headline: string; paragraphs: string[] };
+  observations: ReviewItem[];
+  timeline: ReviewItem[];
+  evidence: ReviewItem[];
+  people: ReviewItem[];
+  locations: ReviewItem[];
+  contradictions: ReviewItem[];
+  hypotheses: ReviewItem[];
+  priorities: ReviewItem[];
+  openQuestions: ReviewItem[];
+  biasAudit: ReviewItem[];
+  provenance: ReviewItem[];
+  projectCritique: { overstated?: string[]; understated?: string[]; organizedPoorly?: string[] };
+  humanReview: ReviewItem[];
+  changes: { date: string; summary: string }[];
+  /** File the review was loaded from (archive-relative). */
+  file: string;
+}
+
+export interface ReviewNote {
+  id: string;
+  itemId: string;
+  decision: string;
+  grade: string | null;
+  note: string | null;
+  decidedBy: string | null;
+  decidedAt: string | null;
+}

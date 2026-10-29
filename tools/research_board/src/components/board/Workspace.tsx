@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from "react";
-import { Search, Maximize, Inbox as InboxIcon, Network, TriangleAlert, LayoutDashboard, CalendarClock, FileText, GitCompareArrows, PanelLeftClose, PanelLeftOpen, PanelBottom } from "lucide-react";
+import { Search, Maximize, Inbox as InboxIcon, Network, TriangleAlert, LayoutDashboard, CalendarClock, FileText, GitCompareArrows, PanelLeftClose, PanelLeftOpen, PanelBottom, Crosshair } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Asset, CaseBundle, InboxDecision, InboxItem } from "@/lib/types";
 import { TERMINAL_DECISIONS } from "./constants";
@@ -22,6 +22,7 @@ import { ContradictionsList, SourcesList } from "./Lists";
 import { MobileTimeline } from "./MobileTimeline";
 import { ViewPicker } from "./ViewPicker";
 import { PrefsProvider, usePrefs } from "./prefs";
+import { CommandCenter } from "./CommandCenter";
 
 // Below this width the app switches to the phone/tablet layout (bottom tabs + detail stack).
 const MOBILE_QUERY = "(max-width: 1023px)";
@@ -38,9 +39,10 @@ function useIsMobile(): boolean | null {
   );
 }
 
-type DesktopView = "overview" | "board" | "timeline" | "sources" | "contradictions" | "inbox";
+type DesktopView = "command" | "overview" | "board" | "timeline" | "sources" | "contradictions" | "inbox";
 const DESKTOP_TABS: { key: DesktopView; label: string; icon: typeof Network }[] = [
-  { key: "overview", label: "Overview", icon: LayoutDashboard },
+  { key: "command", label: "Command center", icon: Crosshair },
+  { key: "overview", label: "Records overview", icon: LayoutDashboard },
   { key: "board", label: "Board", icon: Network },
   { key: "timeline", label: "Timeline", icon: CalendarClock },
   { key: "sources", label: "Sources", icon: FileText },
@@ -68,7 +70,7 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
   }, [bundle, idx]);
   const [focusId, setFocusId] = useState<string | null>(defaultFocus);
   const [wholeBoard, setWholeBoard] = useState(false);
-  const [view, setView] = useState<DesktopView>("overview");
+  const [view, setView] = useState<DesktopView>(idx.bundle.review ? "command" : "overview");
   const filters = useBoardFilters();
   const [fitSignal, setFitSignal] = useState(0);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -118,7 +120,7 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
     <BoardContext.Provider value={api}>
       <div className="flex h-screen flex-col bg-zinc-950 text-zinc-200">
         <header className="flex items-center gap-4 border-b border-zinc-800 px-4 py-2">
-          <button type="button" onClick={() => setView("overview")} className="shrink-0 text-left">
+          <button type="button" onClick={() => setView(bundle.review ? "command" : "overview")} className="shrink-0 text-left">
             <div className="text-[14px] font-semibold tracking-tight text-zinc-100">{bundle.meta.config.title}</div>
             <div className="text-[10px] text-zinc-500">Research board{bundle.meta.readOnly && " · read-only"}</div>
           </button>
@@ -200,6 +202,7 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
                 {prefs.showTimelineStrip && <div className="h-[190px] shrink-0 border-t border-zinc-800"><Timeline /></div>}
               </>
             )}
+            {view === "command" && <div className="min-h-0 flex-1 overflow-y-auto"><CommandCenter /></div>}
             {view === "overview" && <div className="min-h-0 flex-1 overflow-y-auto"><Overview go={go} /></div>}
             {view === "timeline" && <div className="min-h-0 flex-1 overflow-y-auto"><div className="mx-auto max-w-3xl"><MobileTimeline /></div></div>}
             {view === "sources" && <div className="min-h-0 flex-1"><SourcesList onOpen={(id) => { select(id); setSourceReq({ sourceId: id }); }} /></div>}
