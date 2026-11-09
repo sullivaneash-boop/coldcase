@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { CaseBundle } from "@/lib/types";
 import { Workspace } from "./Workspace";
@@ -20,7 +21,7 @@ export function CaseApp() {
       .catch((e: Error) => setState({ kind: "error", message: e.message }));
   }, []);
 
-  if (state.kind === "ready") return <Workspace initial={state.bundle} />;
+  if (state.kind === "ready") return <><div className="flex min-h-10 items-center justify-between gap-4 border-b border-zinc-700 bg-[#19271e] px-4 py-2 text-xs text-stone-200"><Link prefetch={false} href="/" className="underline underline-offset-4">← Guided case & independent briefing</Link><span className="hidden sm:inline">Public source edition · source reports and AI analysis are distinct</span><Link href="/#briefing" className="underline underline-offset-4">Investigator’s briefing</Link></div><div className="workspace-frame"><Workspace initial={state.bundle} /></div></>;
   return (
     <main className="flex h-[100dvh] items-center justify-center bg-zinc-950 p-6 text-zinc-300">
       {state.kind === "loading" ? (

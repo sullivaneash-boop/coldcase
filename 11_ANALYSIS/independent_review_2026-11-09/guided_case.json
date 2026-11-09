@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-09",
+  "author": "Codex · independent AI review",
+  "reviewStatus": "Human review pending",
+  "title": "A life to remember. A case to understand.",
+  "intro": "Levi Frady was eleven. On October 22, 1997, he was last seen on Little Mill Road in Forsyth County, Georgia. The next day, his body was found in Dawson Forest. His murder remains listed by the GBI as unsolved.",
+  "introRefs": [
+    {
+      "sourceId": "SRC-c0e0188e-569d-42e8-9231-2001c600b389",
+      "locator": "Case narrative and Unsolved Homicide heading; live page checked November 9, 2026"
+    }
+  ],
+  "portrait": {
+    "sourceId": "SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd",
+    "file": "09_SOURCE_LIBRARY/originals/SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd/SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd__levi-frady__portrait__original.jpg",
+    "caption": "Levi Frady · portrait also published by the GBI. Supplied image bytes matched to the official attachment in the existing archive."
+  },
+  "meet": [
+    {
+      "id": "school",
+      "title": "A child, a classmate, a brother",
+      "text": "Levi was a sixth grader at North Forsyth Middle School and had a twin sister, Laci. Contemporary reporting describes a school community grieving his loss. This journey begins with his life, before the questions about his death.",
+      "status": "Contemporary reporting",
+      "refs": [
+        {
+          "sourceId": "SRC-7337040a-80cb-570b-8314-f26051e4b272",
+          "locator": "P003, P005, P009–P017"
+        }
+      ]
+    },
+    {
+      "id": "ordinary",
+      "title": "An ordinary afternoon",
+      "text": "The later published timeline describes school, visiting friends and riding bicycles. Those everyday activities frame the last known day; the original interviews behind the timeline are not held here.",
+      "status": "Later reporting",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P002–P014"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "after-school",
+      "title": "School ends; visits to friends",
+      "text": "The 2004 newspaper timeline places Levi’s journey from school to home between 3:30 and 4:12 p.m., followed by visits to friends.",
+      "status": "Reported",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P002–P007"
+        }
+      ],
+      "time": "Afternoon",
+      "date": "October 22",
+      "limit": "Retrospective timeline. Original bus and interview records are not held."
+    },
+    {
+      "id": "phone",
+      "title": "A call home",
+      "text": "The timeline reports a call through his sister and an instruction to come straight home. It says he was concerned about darkness and dogs.",
+      "status": "Reported",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P012"
+        }
+      ],
+      "time": "6:38 p.m.",
+      "date": "October 22",
+      "limit": "Minute precision is printed in the source; the clock or telephone-record basis is not shown."
+    },
+    {
+      "id": "sighting",
+      "title": "Seen riding on Little Mill Road",
+      "text": "A resident is reported to have seen Levi riding toward another friend’s residence, with a small black dog following.",
+      "status": "Reported",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P013–P014"
+        }
+      ],
+      "time": "6:50 p.m.",
+      "date": "October 22",
+      "limit": "A newspaper account of a sighting, not an original statement reviewed here. It does not establish what happened next."
+    },
+    {
+      "id": "gap",
+      "title": "The missing sequence",
+      "text": "The reviewed record does not establish how Levi left his bicycle, who he encountered, the route to Dawson Forest, or when he died.",
+      "status": "Unknown",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P014–P015, P032"
+        },
+        {
+          "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+          "locator": "P002–P005"
+        }
+      ],
+      "time": "Time unresolved",
+      "date": "October 22 → 23",
+      "limit": "This is an evidence gap, not evidence of continuous captivity or an immediate killing."
+    },
+    {
+      "id": "bicycle",
+      "title": "The bicycle is seen, then moved",
+      "text": "The later timeline reports morning driveway sightings, movement into a ditch by children, and retrieval by relatives. It records a decision to return it before police arrived.",
+      "status": "Reported",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P022–P027"
+        }
+      ],
+      "time": "5:15–7:50 a.m.",
+      "date": "October 23",
+      "limit": "These are several acts. The return itself has no separate timestamp in the held timeline."
+    },
+    {
+      "id": "discovery",
+      "title": "Hunters find Levi",
+      "text": "The GBI places the recovery in Dawson Forest on October 23. The later timeline gives 2 p.m.; contemporary reporting separately places the call to authorities around 2:30 p.m.",
+      "status": "Official account",
+      "refs": [
+        {
+          "sourceId": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+          "locator": "Opening paragraph"
+        },
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P032"
+        },
+        {
+          "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+          "locator": "P018–P020"
+        }
+      ],
+      "time": "Afternoon",
+      "date": "October 23",
+      "limit": "Finding the body and notifying police are distinct events. Neither gives a medical time of death."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "bike",
+      "title": "The bicycle",
+      "text": "A physical object described in the sources; the archive does not hold it. The later handling sequence limits what can safely be inferred from its final position.",
+      "status": "Reported physical evidence",
+      "refs": [
+        {
+          "sourceId": "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+          "locator": "P009"
+        },
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P022–P027"
+        }
+      ],
+      "recordId": "EVD-8d990af5-ad98-5b12-a27d-70aefa5505c9",
+      "held": "Reporting held · physical item not held",
+      "question": "Does the final position identify the encounter site?",
+      "limit": "No scene inventory, recovery diagram or original handling statements held."
+    },
+    {
+      "id": "autopsy",
+      "title": "The autopsy reference",
+      "text": "The October 26 article attributes death from gunshot wounds to a state crime lab autopsy. The underlying medical report is not in this archive.",
+      "status": "Document referenced",
+      "refs": [
+        {
+          "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+          "locator": "P005"
+        }
+      ],
+      "recordId": "EVD-3d924ffc-ccd4-5b72-855c-013d0e94f14a",
+      "held": "Reference held · report not acquired",
+      "question": "Where and when did the fatal injuries occur?",
+      "limit": "A newspaper summary cannot establish wound sequence, exact death time or the medical basis of a reconstruction."
+    },
+    {
+      "id": "casings",
+      "title": "The shell-casing reports",
+      "text": "A 2002 article quotes a sheriff describing casings without a location. A 2007 article places casings with the bicycle. These are separate assertions, not a verified ballistic link.",
+      "status": "Location unresolved",
+      "refs": [
+        {
+          "sourceId": "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+          "locator": "P007–P009"
+        },
+        {
+          "sourceId": "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+          "locator": "P008"
+        }
+      ],
+      "recordId": "EVD-0145b4b0-88f6-5d0f-975e-7a242211c834",
+      "held": "Two accounts held · inventory not acquired",
+      "question": "Were any casings linked to the homicide?",
+      "limit": "Recovery location, item identity, chain of custody and comparison results need primary records."
+    },
+    {
+      "id": "witnesses",
+      "title": "The possible-witness appeal",
+      "text": "The GBI asks for help identifying two possible witnesses: one seen on Little Mill Road and another in Dawson Forest. An appeal for information does not establish involvement in the crime.",
+      "status": "Official appeal",
+      "refs": [
+        {
+          "sourceId": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+          "locator": "Witness 1 and Witness 2"
+        }
+      ],
+      "recordId": "EVD-891bdfb1-121b-5757-9492-1555fb2f3b16",
+      "held": "Official appeal held",
+      "question": "What might those observations establish?",
+      "limit": "The public appeal does not disclose the full interviews or what investigators may have learned privately."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "found",
+      "title": "What does “found” mean?",
+      "question": "Do these accounts describe the same moment?",
+      "left": {
+        "id": "early",
+        "title": "The early report",
+        "text": "The October 26, 1997 newspaper reports Levi’s sister finding the bicycle in a ditch during the Thursday search.",
+        "status": "Contemporary reporting",
+        "refs": [
+          {
+            "sourceId": "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+            "locator": "P008–P009"
+          }
+        ]
+      },
+      "right": {
+        "id": "later",
+        "title": "The later timeline",
+        "text": "The 2004 timeline separates an evening possible sighting, morning sightings, movement by children and retrieval by relatives.",
+        "status": "Later reporting",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P017, P022–P027"
+          }
+        ]
+      },
+      "assessment": "The later account may describe additional stages that the early report compressed. It does not authenticate each stage or resolve every difference. Keep the existing conflict open; obtain the original statements and recovery log.",
+      "test": "Compare the first recorded account from each observer, the location diagram and police recovery time."
+    },
+    {
+      "id": "where",
+      "title": "Where were the shots fired?",
+      "question": "How much weight can each statement carry?",
+      "left": {
+        "id": "forest",
+        "title": "The official position, reported in 1997",
+        "text": "Sheriff Carlisle told the newspaper that the killing occurred in Dawson County. The article does not disclose the forensic basis.",
+        "status": "Attributed official statement",
+        "refs": [
+          {
+            "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+            "locator": "P002–P005"
+          }
+        ]
+      },
+      "right": {
+        "id": "ditch",
+        "title": "The casing location, reported in 2007",
+        "text": "A later newspaper places casings in the ditch with the bicycle. It does not supply an evidence number or ballistic comparison.",
+        "status": "Later reporting",
+        "refs": [
+          {
+            "sourceId": "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+            "locator": "P008"
+          },
+          {
+            "sourceId": "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+            "locator": "P008"
+          }
+        ]
+      },
+      "assessment": "The accounts create a question worth testing, but not a proven forensic contradiction: the casings might be unrelated, the location might be misreported, or the reconstruction might be incomplete. None of those possibilities is established.",
+      "test": "Match scene inventory item numbers to recovery locations and laboratory comparisons."
+    },
+    {
+      "id": "clock",
+      "title": "A printed time is not a verified clock",
+      "question": "Can a narrow encounter window be established?",
+      "left": {
+        "id": "exact",
+        "title": "6:50 p.m. sighting",
+        "text": "The later timeline prints a precise time for a resident’s observation of Levi.",
+        "status": "Reported",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P014"
+          }
+        ]
+      },
+      "right": {
+        "id": "negative",
+        "title": "6:52–7 p.m. non-sighting",
+        "text": "A motorist reportedly did not see a bicycle in the area. A later family observation describes a bicycle resembling Levi’s.",
+        "status": "Reported",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P015, P017"
+          }
+        ]
+      },
+      "assessment": "Combining these entries into a hard 25-minute abduction window overstates them. The motorist’s non-observation is not proof of absence, and the family sighting was qualified. The original clock bases and observation conditions are missing.",
+      "test": "Recover first interviews, recording dates, viewing positions and any documented clock anchors."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "forest",
+      "title": "Transported alive; killed in the forest",
+      "fit": "Closest fit to the reported 1997 official position",
+      "support": "Carlisle’s attributed statement places the killing in Dawson County. The official GBI account places Levi on Little Mill Road the day before his body was found in Dawson Forest.",
+      "against": "The reviewed archive does not contain the forensic basis for the sheriff’s conclusion. The later casing-location report needs checking.",
+      "assumptions": "Transport while alive, route, encounter location and timing are not directly established here.",
+      "test": "Autopsy, scene reconstruction and item-level ballistic records could support or overturn this explanation.",
+      "refs": [
+        {
+          "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+          "locator": "P002–P005"
+        },
+        {
+          "sourceId": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+          "locator": "Opening paragraph"
+        },
+        {
+          "sourceId": "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+          "locator": "P008"
+        }
+      ]
+    },
+    {
+      "id": "elsewhere",
+      "title": "Fatal injury elsewhere; body taken to the forest",
+      "fit": "Alternative requiring evidence that is not yet held",
+      "support": "The 2007 casing-location statement gives a reason to examine another shooting location, if the casings are correctly located and linked.",
+      "against": "The 1997 attributed official position says the killing occurred in Dawson County. No reviewed primary record demonstrates transport after death.",
+      "assumptions": "Requires evidence of an earlier injury site and post-injury movement; neither follows from a bicycle in a ditch.",
+      "test": "Recovery photographs, biological traces and autopsy/ballistic findings would discriminate between locations.",
+      "refs": [
+        {
+          "sourceId": "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+          "locator": "P008"
+        },
+        {
+          "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+          "locator": "P002–P005"
+        }
+      ]
+    },
+    {
+      "id": "interval",
+      "title": "A longer unobserved interval before the killing",
+      "fit": "Timing variant; can overlap either location scenario",
+      "support": "The reviewed public records do not establish a medical time of death or account for the intervening movements.",
+      "against": "Lack of a time of death is not positive evidence that Levi survived overnight. No confirmed later sighting is established in the sources reviewed.",
+      "assumptions": "Any holding location, duration or intermediate journey remains hypothetical.",
+      "test": "An authenticated later observation or medical/scene interval could narrow or reject this variant.",
+      "refs": [
+        {
+          "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+          "locator": "P014, P032–P033"
+        },
+        {
+          "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+          "locator": "P005, P018"
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "road",
+      "title": "Little Mill Road · Forsyth County",
+      "text": "The GBI identifies this as the road where Levi was last seen. It runs between Highways 306 and 369.",
+      "status": "Official account",
+      "refs": [
+        {
+          "sourceId": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "limit": "The encounter point is not established. No private driveway is pinned."
+    },
+    {
+      "id": "forest",
+      "title": "Dawson Forest · Dawson County",
+      "text": "The GBI identifies the wildlife management area as the body-recovery location.",
+      "status": "Official account",
+      "refs": [
+        {
+          "sourceId": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+          "locator": "Opening paragraph"
+        }
+      ],
+      "limit": "Recovery location does not by itself establish every movement or the firing location."
+    }
+  ],
+  "briefing": {
+    "title": "The gap is real. A precise story is not yet justified.",
+    "assessment": "The most defensible working reconstruction follows the reported official position: Levi was last seen in Forsyth County and was killed in Dawson County. Transport alive to the forest fits that position best, but the archive does not independently establish it. The route, encounter, time of death and offender remain unresolved.",
+    "refs": [
+      {
+        "sourceId": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+        "locator": "Opening paragraph"
+      },
+      {
+        "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+        "locator": "P002–P005"
+      },
+      {
+        "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+        "locator": "P014, P032"
+      }
+    ],
+    "findings": [
+      {
+        "id": "precision",
+        "title": "Remove the false precision",
+        "text": "A 6:50 p.m. entry and a possible later bicycle sighting do not establish a hard abduction window.",
+        "status": "AI assessment",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P014–P017"
+          }
+        ]
+      },
+      {
+        "id": "custody",
+        "title": "Separate observation from handling",
+        "text": "The bicycle’s final position may follow several reported movements. A decision to return it is not a timestamped record of its return.",
+        "status": "AI assessment",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P022–P027"
+          }
+        ]
+      },
+      {
+        "id": "lineage",
+        "title": "Count origins, not pages",
+        "text": "Several renditions of a released chronology can repeat the same underlying account. More pages do not necessarily add independent witnesses.",
+        "status": "AI assessment",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "Published timeline"
+          },
+          {
+            "sourceId": "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
+            "locator": "Opening attribution to released law-enforcement timeline"
+          }
+        ]
+      },
+      {
+        "id": "revision",
+        "title": "Challenge the inherited analysis",
+        "text": "The prior AI review withdraws a narrow window in its revised observations, yet retains the old 25-minute claim in its critique. This briefing does not adopt that stale claim.",
+        "status": "Analysis audit",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P014–P017"
+          }
+        ],
+        "analysisBasis": "Analysis audit: preserved 11_ANALYSIS/independent_review/case_review.json, projectCritique.understated compared with revised observations and secondaryReview. This is a review of AI reasoning, not crime evidence."
+      }
+    ],
+    "priorities": [
+      {
+        "title": "Establish what evidence still exists",
+        "why": "Inventory, custody, condition and prior testing must come before proposing new forensic tests.",
+        "request": "Ask the case custodian for the retained-item inventory and testing history, subject to authorization and disclosure limits.",
+        "refs": [
+          {
+            "sourceId": "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+            "locator": "P007–P009"
+          },
+          {
+            "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+            "locator": "P005, P016–P017"
+          }
+        ]
+      },
+      {
+        "title": "Recover the first timeline accounts",
+        "why": "The printed minutes and bicycle handling are central, but their original recording basis is missing.",
+        "request": "Seek the original released chronology, first witness statements, dispatch record and bicycle recovery documentation.",
+        "refs": [
+          {
+            "sourceId": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+            "locator": "P014–P027"
+          }
+        ]
+      },
+      {
+        "title": "Test the shooting-location claim",
+        "why": "This can distinguish the two main geographic reconstructions.",
+        "request": "Seek the scene inventory, recovery diagram, medical findings and item-linked ballistic results.",
+        "refs": [
+          {
+            "sourceId": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+            "locator": "P002–P005"
+          },
+          {
+            "sourceId": "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+            "locator": "P008"
+          }
+        ]
+      }
+    ],
+    "limits": "This is a review of the held public-source archive, not access to the complete police case file. No new physical evidence or identified perpetrator emerged. Nothing here establishes investigative misconduct. Records requests, witness contact and forensic work require separate authorization; none was undertaken."
+  },
+  "sources": [
+    {
+      "id": "SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8",
+      "title": "Levi Frady Case — 20 Years",
+      "publisher": "Georgia Bureau of Investigation",
+      "date": "2017-10-22",
+      "url": "https://gbi.georgia.gov/press-releases/2017-10-22/levi-frady-case-20-years",
+      "limitation": "Official public appeal; not the underlying case file."
+    },
+    {
+      "id": "SRC-c0e0188e-569d-42e8-9231-2001c600b389",
+      "title": "Unsolved Homicide: Levi Frady",
+      "publisher": "Georgia Bureau of Investigation",
+      "date": "Date not established",
+      "url": "https://gbi.georgia.gov/cases/unsolved-homicide/levi-frady",
+      "limitation": "Live page checked November 9, 2026. The displayed incident-date clock is not a medical time of death."
+    },
+    {
+      "id": "SRC-0cfacff9-8400-5741-9234-128bd71c9153",
+      "title": "Timeline: The Levi Frady Mystery",
+      "publisher": "Forsyth County News",
+      "date": "2004-11-07",
+      "url": "",
+      "limitation": "Later newspaper chronology. Original underlying statements and released agency document not held."
+    },
+    {
+      "id": "SRC-4c10aa08-4c99-52d7-84e2-640253c2fe53",
+      "title": "Missing 11-year-old boy found dead",
+      "publisher": "Forsyth County News",
+      "date": "1997-10-26",
+      "url": "",
+      "limitation": "Contemporaneous journalism relaying officials and family accounts."
+    },
+    {
+      "id": "SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3",
+      "title": "GBI, Dawson County investigating murder",
+      "publisher": "Forsyth County News",
+      "date": "1997-10-26",
+      "url": "",
+      "limitation": "Contemporaneous attributed official statements; underlying forensic reports not acquired."
+    },
+    {
+      "id": "SRC-7337040a-80cb-570b-8314-f26051e4b272",
+      "title": "School ‘still reeling, in shock’ after child’s death",
+      "publisher": "Forsyth County News",
+      "date": "1997-10-29",
+      "url": "",
+      "limitation": "Contemporaneous school and community reporting."
+    },
+    {
+      "id": "SRC-5064447d-a9d5-5ce6-93af-92884ff8a051",
+      "title": "FRADY — continuation from 1A (opening headline unavailable)",
+      "publisher": "Forsyth County News",
+      "date": "2002-10-20",
+      "url": "",
+      "limitation": "Later newspaper continuation; opening page missing."
+    },
+    {
+      "id": "SRC-8b0bcda7-0471-54e0-8fca-e61689cbd7c0",
+      "title": "LEGACY — continuation from 1A (opening headline unavailable)",
+      "publisher": "Forsyth County News",
+      "date": "2007-10-21",
+      "url": "",
+      "limitation": "Later newspaper continuation; opening page missing."
+    },
+    {
+      "id": "SRC-6dd4bec9-d313-513b-b4b1-f7b4be7b87e2",
+      "title": "New information released in Frady murder",
+      "publisher": "AccessNorthGa.com / WDUN",
+      "date": "Date not established",
+      "url": "",
+      "limitation": "Archived news rendition of a released chronology; not an independent witness interview."
+    },
+    {
+      "id": "SRC-a9e822bb-6e15-49eb-b4fe-57d587d85acd",
+      "title": "Levi Frady — supplied portrait",
+      "publisher": "Georgia Bureau of Investigation",
+      "date": "Date not established",
+      "url": "https://gbi.georgia.gov/sites/gbi.georgia.gov/files/related_files/press_release/Levi%20Frady.jpg",
+      "limitation": "Supplied portrait matched to official GBI attachment in prior archive verification."
+    }
+  ]
+}
