@@ -120,6 +120,7 @@ function SourceMeta({ sourceId }: { sourceId: string }) {
       <Field label="Prim./second." value={r.primary_or_secondary} />
       <Field label="Knowledge" value={r.knowledge_basis} />
       <Field label="Original URL" value={r.original_url && <a href={r.original_url} target="_blank" rel="noreferrer" className="underline">{r.original_url}</a>} />
+      <Field label="Archived publisher page" value={r.archive_url && <a href={r.archive_url} target="_blank" rel="noreferrer" className="underline">Open archived publisher page</a>} />
       <Field label="Accessed" value={r.date_accessed} />
       <Field label="Acquired" value={[r.acquired_at, r.acquired_by].filter(Boolean).join(" · ")} />
       <Field label="Rights" value={r.rights_notes} />

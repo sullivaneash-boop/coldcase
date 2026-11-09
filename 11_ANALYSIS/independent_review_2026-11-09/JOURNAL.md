@@ -43,3 +43,40 @@ Vercel deployment: NOT REQUIRED
 Production updated: NO
 
 COMMIT next: explicit development/analysis paths only, then preview push and deployment verification. Full task remains pending credential approval; no RUN COMPLETE claim.
+
+## Preview release checkpoint
+
+COMMIT: d13d6363c79c4a85d81fd7337cd0b57e1f09df63. Explicit26-file staged diff reviewed and whitespace/secret/scope checks passed. PUSH: one normal push to codex/levi-guided-investigation. Draft review: https://github.com/sullivaneash-boop/coldcase/pull/1 (GitHub connector lacked PR permission; existing signed-in CLI succeeded).
+
+DEPLOYMENT: Vercel READY dpl_DSCEULfvqpaTjLiFhPsdJyjSKY8v, Git source branch and full SHA match, preview target (target null), alias assigned. https://coldcase-ihkupq7j9-sullivaneash-2433s-projects.vercel.app . Build logs confirm deployed outputs, successful compile and readonly archive sync. Existing >=20 engine range selected Node26 instead of24; dependency/toolchain warnings recorded, no versions altered in this task.
+
+PRODUCTION VERIFICATION: original production dpl_7fi2b1ddiHXAoQnJYhCJHa9d7KrC still READY at main63d637113d44570bc8014038bfac4c98735256d5 after preview completed. No promotion, merge or production env modification.
+
+DEPLOYMENT VERIFICATION LIMIT: browser reaches Vercel sign-in. The authenticated fetch tool was also rejected by automatic approval review because it may create a23-hour share link. No bypass or protection change was attempted. Exact live guide response/dataVersion and hosted authenticated workspace remain unverified pending approved access. Expected guide396d9743a4948897, archive4b2b944f4be9597a validated locally. User approval requested for branch-only sensitive secret plus temporary verification link.
+
+Data changed: YES
+Validation: PASS
+Release check: PASS
+Commit: d13d6363c79c4a85d81fd7337cd0b57e1f09df63
+Push: SUCCESS
+Vercel deployment: SUCCESS
+Production updated: NO
+
+PIPELINE_STOPPED_AT: DEPLOYMENT VERIFICATION
+Reason: platform build/SHA verified; live application verification and hosted workspace login await explicit access approval. RUN COMPLETE is not claimed. This audit-only checkpoint is intentionally local for the next normal commit; no duplicate deployment.
+
+## User-authorized public access revision
+
+User response: “Just keep it all public it doesnt matter.” This supersedes the secret/temporary-share-link proposal. No secret transfer is needed. Implemented public source edition with no application login, retaining the complete original archive locally. Publication manifest pins 101 reviewed records, 10 source renditions and one portrait; omissions are marked in derived public readings. Private notes, queues, unverified allegations, unreviewed full-page PDFs and full prior AI review are not emitted. Source IDs, attribution, locators and precision preserved. Selected unchanged prior-review excerpts remain inspectable. Mutation endpoints remain disabled.
+
+SYNC → VALIDATE → RELEASE CHECK: PASS after fixing one field type guard. 23 tests pass, typecheck/lint/build pass; 0 errors/0 warnings. Public bundle version 4cbc366ba69330aa; guide396d9743a4948897; canonical archive4b2b944f4be9597a unchanged. Anonymous HTTP checks: workspace, public bundle, reviewed source and audit route200; excluded source/raw PDF404; archive mutation403; removed login endpoint404. Browser source deep link highlights P002 and displays omissions at original paragraph markers.
+
+COMMIT/PUSH next: public revision on existing development branch. New immutable preview only will receive a URL-scoped public-access override after deployment. Existing production and older preview protections stay unchanged.
+
+Data changed: YES
+Validation: PASS
+Release check: PASS
+Commit: pending public-access revision
+Push: NOT REQUIRED
+Vercel deployment: NOT REQUIRED
+Production updated: NO

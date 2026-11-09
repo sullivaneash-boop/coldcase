@@ -28,4 +28,13 @@ export function writeGuide(root: string, appRoot: string, sourceIds: Set<string>
   guide.portrait.file = '/guide/levi.jpg';
   guide.dataVersion = createHash('sha256').update(raw).digest('hex').slice(0,16);
   fs.writeFileSync(path.join(dir, 'case.json'), JSON.stringify(guide));
+  const priorFile = '11_ANALYSIS/independent_review/case_review.json';
+  const prior = JSON.parse(fs.readFileSync(path.join(root, priorFile), 'utf8'));
+  const audit = { sourceFile: priorFile, author: prior.meta.author, version: prior.meta.version,
+    stale: prior.projectCritique.understated.slice(0, 2),
+    revisions: prior.observations.filter((o: { id: string }) => ['OBS-01', 'OBS-02'].includes(o.id)).map((o: { id: string; title: string; detail: string }) => ({ id: o.id, title: o.title, detail: o.detail })),
+  };
+  const approval = JSON.parse(fs.readFileSync(path.join(root, '11_ANALYSIS/independent_review_2026-11-09/publication.json'), 'utf8'));
+  if (createHash('sha256').update(JSON.stringify(audit)).digest('hex') !== approval.auditSha256) throw new Error('Prior-review excerpts changed; publication review required');
+  fs.writeFileSync(path.join(dir, 'prior-review-audit.json'), JSON.stringify(audit));
 }

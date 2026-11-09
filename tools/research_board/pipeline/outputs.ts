@@ -8,6 +8,7 @@
 //   generated/sync-state.json        row hashes for "changes since last sync" (local only)
 import fs from "node:fs";
 import { writeGuide } from "./guide";
+import { publicationFor } from "./public-edition";
 import path from "node:path";
 import type { Issue } from "../src/lib/types";
 import type { BuildResult } from "./build";
@@ -39,6 +40,7 @@ export function changesSince(appRoot: string, rowHashes: BuildResult["rowHashes"
 
 export function writeOutputs(result: BuildResult, p: OutputPaths) {
   writeGuide(p.archiveRoot, p.appRoot, new Set(result.bundle.entities.filter(e => e.type === "SOURCE").map(e => e.id)));
+  result = publicationFor(result, p.archiveRoot);
   const dataDir = path.join(p.appRoot, "public", "data");
   const archiveOut = path.join(p.appRoot, "public", "archive");
 
