@@ -282,6 +282,18 @@ export function MobileShell({ idx, onDecide, onAddLink }: {
     } else push({ kind: "entity", id });
   }, [commit, push]);
 
+  const openedDeepLink = useRef(false);
+  useEffect(() => {
+    if (openedDeepLink.current) return;
+    openedDeepLink.current = true;
+    const q = new URLSearchParams(window.location.search);
+    if (q.get("review") === "prior") { push({ kind: "command" }); return; }
+    const id = q.get("record");
+    if (!id || !idx.byId.has(id)) return;
+    if (idx.byId.get(id)?.type === "SOURCE") push({ kind: "source", req: { sourceId: id, locator: q.get("locator") } });
+    else select(id);
+  }, [idx, push, select]);
+
   const focusRelationships = useCallback((id: string) => {
     setFocusId(id);
     setFullBoard(false);

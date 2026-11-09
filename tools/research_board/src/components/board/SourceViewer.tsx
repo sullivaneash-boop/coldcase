@@ -30,6 +30,17 @@ function highlightAnchor(root: HTMLElement, anchor: string): boolean {
   return false;
 }
 
+/** Paragraph markers are navigation labels in the reading derivative, never alterations to originals. */
+function highlightLocator(root: HTMLElement, locator: string): boolean {
+  const id = locator.match(/\bP\d{3,}\b/)?.[0];
+  if (!id) return false;
+  const marker = root.querySelector<HTMLElement>(`[data-paragraph="${id}"]`);
+  if (!marker) return false;
+  marker.parentElement?.nextElementSibling?.classList.add('source-anchor');
+  marker.scrollIntoView({ block: 'center' });
+  return true;
+}
+
 /** Loads the generated per-source payload (public/data/sources/<SRC>.json) once per source. */
 function useSourcePayload(req: SourceViewRequest) {
   const [doc, setDoc] = useState<SourceDoc | null | "missing">(null);
@@ -129,10 +140,13 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
 
   useEffect(() => {
     setAnchorFound(null);
-    if (!req.anchor || !data?.content || !body.current) return;
-    const t = setTimeout(() => setAnchorFound(highlightAnchor(body.current!, req.anchor!)), 80);
+    if ((!req.anchor && !req.locator) || !data?.content || !body.current) return;
+    const t = setTimeout(() => {
+      body.current?.querySelectorAll('.source-anchor').forEach((el) => el.classList.remove('source-anchor'));
+      setAnchorFound(!!body.current && ((!!req.anchor && highlightAnchor(body.current, req.anchor)) || (!!req.locator && highlightLocator(body.current, req.locator))));
+    }, 80);
     return () => clearTimeout(t);
-  }, [data, req.anchor]);
+  }, [data?.content, req.anchor, req.locator]);
 
   if (!src) return <p className="p-4 text-zinc-500">Unknown source {req.sourceId}</p>;
   const r = src.row;
@@ -172,7 +186,7 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
           <Locate className="mt-px size-3 shrink-0" />
           <div className="wrap-anywhere min-w-0">
             <div><b>Locator:</b> {req.locator}</div>
-            {req.anchor && <div className="text-sky-300/80">{anchorFound === false ? "Passage not found automatically in this rendition — use the locator." : anchorFound ? "Matching passage highlighted below." : "Looking for passage…"}</div>}
+            {(req.anchor || /\bP\d{3,}\b/.test(req.locator)) && <div className="text-sky-300/80">{anchorFound === false ? "Passage not found automatically in this rendition — use the locator." : anchorFound ? "Matching passage highlighted below." : "Looking for passage…"}</div>}
             {req.fromClaimId && <div className="mt-1"><EntityChip id={req.fromClaimId} note="opened from claim" /></div>}
           </div>
         </div>
@@ -191,6 +205,7 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
               remarkPlugins={[remarkGfm]}
               urlTransform={(u) => u}
               components={{
+                code: ({ children, ...props }) => /^P\d{3,}$/.test(String(children)) ? <code {...props} data-paragraph={String(children)}>{children}</code> : <code {...props}>{children}</code>,
                 a: ({ href, children }) => <a href={href} target="_blank" rel="noreferrer noopener">{children}</a>,
                 img: ({ src: s, alt }) => {
                   const url = typeof s === "string" ? s : "";
@@ -216,7 +231,7 @@ export function SourceReader({ req, layout }: { req: SourceViewRequest; layout: 
                 },
               }}
             >
-              {data.content}
+              {data.content.replace(/<!--\s*(P\d{3,})\s*-->/g, '\n\n`$1`\n\n')}
             </ReactMarkdown>
           </article>
         )}

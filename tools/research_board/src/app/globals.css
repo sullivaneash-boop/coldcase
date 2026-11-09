@@ -162,3 +162,5 @@
 .wrap-anywhere { overflow-wrap: anywhere; }
 [data-touch] .overflow-x-auto { scrollbar-width: none; }
 [data-touch] .overflow-x-auto::-webkit-scrollbar { display: none; }
+
+.workspace-frame .h-screen, .workspace-frame .h-\[100dvh\] { height: calc(100dvh - 40px); }

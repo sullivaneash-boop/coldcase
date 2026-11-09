@@ -111,6 +111,17 @@ function DesktopWorkspace({ idx, onDecide, onAddLink }: {
     },
   }), [idx, selectedId, select, onAddLink, hist]);
 
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    if (q.get("review") === "prior") setView("command");
+    const id = q.get("record");
+    if (!id || !idx.byId.has(id)) return;
+    select(id);
+    if (idx.byId.get(id)?.type === "SOURCE") setSourceReq({ sourceId: id, locator: q.get("locator") });
+    const target = q.get("view");
+    if (target === "board" || target === "timeline" || target === "sources") setView(target);
+  }, [idx, select]);
+
   const { boardEntities, boardEdges, highlight } = useBoardView(idx, filters, wholeBoard ? null : focusId, selectedId);
   const awaiting = bundle.inbox.filter((i) => !TERMINAL_DECISIONS.has(i.status)).length;
   const focusEntity = focusId ? idx.byId.get(focusId) : null;

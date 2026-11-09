@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Brain, Check, Flag, MessageSquarePlus, ThumbsDown, User } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -236,6 +237,11 @@ function CommandCenterBody({ review: r, api, notes }: { review: CaseReview; api:
       </nav>
 
       <div className="min-w-0 flex-1 space-y-8">
+        <div className="rounded-lg border border-amber-900/60 p-4 text-sm text-zinc-300">
+          <b>Preserved prior analysis</b>
+          <p className="mt-2">This review remains available for comparison. The independent November 9 review flags superseded timing claims still present in its project self-critique.</p>
+          <Link href="/#briefing" className="mt-2 inline-block text-amber-200 underline">Open the current independent briefing and investigative priorities →</Link>
+        </div>
         <div className="rounded-lg border border-violet-900/60 bg-violet-950/10 p-3 text-[12px] text-zinc-400 touchui:text-[14px]">
           <div className="flex flex-wrap items-center gap-2"><LayerTag kind="analysis" /><b className="text-zinc-200">{r.meta.title}</b> <span>v{r.meta.version} · updated {r.meta.updatedAt} · {r.meta.author}</span></div>
           <p className="mt-1">{r.meta.disclaimer}</p>

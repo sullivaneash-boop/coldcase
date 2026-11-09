@@ -45,3 +45,6 @@ next-env.d.ts
 /public/archive/
 /generated/
 /.next-release/
+
+# Generated public editorial projection; canonical JSON lives in the archive.
+/public/guide/

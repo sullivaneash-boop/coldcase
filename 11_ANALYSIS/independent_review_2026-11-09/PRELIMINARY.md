@@ -1,0 +1,13 @@
+# Preliminary independent interpretation — before prior AI theory review
+
+AI analysis, not evidence. Human review pending. Recorded after the official GBI supplied captures, two October 26, 1997 articles, the October 29 school article, and the November 7, 2004 newspaper timeline were read. The live application involuntarily exposed its prior opening assessment; this is a bias limitation, not a blind review. No earlier AI hypothesis files have been read at this checkpoint.
+
+The sound starting reconstruction is an eleven-year-old last seen on Little Mill Road on October 22 and found dead in Dawson Forest on October 23 (SRC-46ddce1d-b0b9-4188-a72b-85d1ff16b7c8, opening paragraph; SRC-c0e0188e-569d-42e8-9231-2001c600b389, case narrative). Contemporary reporting attributes gunshot death to the autopsy and reports the sheriff saying the killing occurred in Dawson County (SRC-7bedfc1d-4828-5a8e-9950-323d00f49cc3 P001–P005). The underlying autopsy and scene records are not held. Therefore the public reconstruction can report the official position without pretending to independently establish the shooting location.
+
+The 6:50 p.m. sighting is a later newspaper timeline entry, not a directly reviewed witness statement (SRC-0cfacff9-8400-5741-9234-128bd71c9153 P014). Its minute precision and clock basis need testing. A motorist not noticing a bicycle (P015) cannot safely establish its absence. The reported family sighting (P017), resident observations (P022–P023), children moving the bicycle (P024) and retrieval/return (P027) are distinct acts. Calling all of these “discovery” creates a false single event. This is presently the most useful source-comparison target.
+
+Working alternatives: transport alive to the forest, death before transport, and a longer unobserved interval before the fatal encounter. The third is a timing variant and can overlap the first two. The reviewed record cannot rank known versus unknown offender, identify an offender, calculate meaningful probabilities, or reconstruct a proven route. Test scene-location evidence, biological traces, bicycle recovery/handling records and original timestamped statements before choosing an explanation. The sheriff’s general statistical comment is explicitly qualified in P014 and cannot establish that Levi knew the offender.
+
+Disconfirmation priorities: find evidence of injury at the bicycle location; find documented forensic basis for the forest as shooting site; verify each bicycle observation and clock; distinguish independent origin from repeated agency summaries. Missing public material is not evidence that police lacked it. Avoid treating vivid secondary accounts or absent forensic detail as proof of concealment.
+
+Timestamp: 2026-11-09T18:23:43.373438+00:00
